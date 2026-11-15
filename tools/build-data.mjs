@@ -15,7 +15,7 @@ const pieces = readdirSync(new URL("data/", root))
 
 if (pieces.length !== 16) console.warn(`warning: expected 16 pieces, found ${pieces.length}`);
 
-const roadmap = buildRoadmap(pieces, { start: concert.start, concert: concert.date, rehearsalWeeks: concert.rehearsalWeeks, polishWeeks: concert.polishWeeks });
+const roadmap = buildRoadmap(pieces, { start: concert.start, concert: concert.date, rehearsalWeeks: concert.rehearsalWeeks, polishWeeks: concert.polishWeeks, bufferWeeks: concert.bufferWeeks, route: concert.route });
 for (const p of pieces) {
   const slot = roadmap.items.find(i => i.id === p.id);
   p.plan = slot;

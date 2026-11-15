@@ -16,7 +16,7 @@ Progress (learned sections, finished lessons, ticked session tasks) is stored in
 
 | File | What it holds |
 |------|---------------|
-| `data/concert.json` | Title, date, start date, description, objectives, rehearsal and polish weeks |
+| `data/concert.json` | Title, date, start date, description, objectives, rehearsal, polish and buffer weeks, and the learning `route` |
 | `data/pieces-*.json` | One analysis per piece: key, meter, sections, theory, chords, technique needs |
 | `data/hanon.json`, `data/czerny.json` | Exercise catalogs used to fill each study session |
 
@@ -26,7 +26,7 @@ After editing, regenerate `assets/data.js`:
 node tools/build-data.mjs
 ```
 
-The build orders pieces from easiest to hardest, schedules them two at a time between the start date and the rehearsal phase, and assigns a warm-up, a Hanon exercise and a Czerny study to each session based on the piece's `techniqueNeeds`. The mapping lives in `tools/plan.mjs` (`NEED_MAP`).
+The build follows the curated `route` in `data/concert.json` (two lanes: a demanding "deep" piece next to a lighter one, each with the reason for its place), stretches each lane to the learning window minus `bufferWeeks`, and assigns a warm-up, a Hanon exercise and a Czerny study to each session based on the piece's `techniqueNeeds`. The mapping lives in `tools/plan.mjs` (`NEED_MAP`).
 
 ## Test
 

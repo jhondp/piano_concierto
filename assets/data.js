@@ -16,7 +16,90 @@ window.DATA = {
    "Llegar al concierto con al menos dos ensayos generales grabados del programa completo."
   ],
   "rehearsalWeeks": 8,
-  "polishWeeks": 3
+  "polishWeeks": 3,
+  "bufferWeeks": 3,
+  "route": [
+   {
+    "id": "04",
+    "lane": 0,
+    "why": "Dos páginas y tempo lento: la mejor obra para armar la rutina diaria y trabajar el pedal legato y el canto de la melodía sin presión técnica."
+   },
+   {
+    "id": "09",
+    "lane": 1,
+    "why": "Corta y accesible. Presenta las terceras legato en la derecha y los acordes quebrados en la izquierda, que reaparecen en casi todo el programa."
+   },
+   {
+    "id": "16",
+    "lane": 0,
+    "why": "Primera obra de fondo: ocho páginas de dificultad media con octavas, notas repetidas y escalas. Construye la resistencia y la técnica de muñeca que pide In the Palace."
+   },
+   {
+    "id": "06",
+    "lane": 1,
+    "why": "Suma arpegios amplios en la izquierda, trinos y síncopas en un contexto todavía accesible. Prepara el terreno para Clair de Lune."
+   },
+   {
+    "id": "15",
+    "lane": 0,
+    "why": "Presenta la polirritmia de 2 contra 3 y el rubato antes de Clair de Lune, que los usa a lo largo de toda la obra."
+   },
+   {
+    "id": "14",
+    "lane": 1,
+    "why": "Consolida acordes quebrados, arpegios y las primeras octavas con una obra lenta y expresiva."
+   },
+   {
+    "id": "08",
+    "lane": 1,
+    "why": "Dos páginas con octavas y terceras a tempo moderado: un entrenamiento corto antes de las obras con octavas más largas."
+   },
+   {
+    "id": "02",
+    "lane": 0,
+    "why": "Llega con las terceras, los arpegios amplios y el 2 contra 3 ya trabajados. Al aprenderla a mitad del plan, tiene meses para madurar antes del concierto."
+   },
+   {
+    "id": "03",
+    "lane": 1,
+    "why": "Trabaja el control del sonido y el equilibrio entre las manos sobre arpegios en la izquierda, cuando ya tienes base de pedal."
+   },
+   {
+    "id": "07",
+    "lane": 1,
+    "why": "Melodía en la voz superior sobre acordes y arpegios, de dificultad media: refina el voicing y el rubato mientras el otro carril sube a las obras más exigentes."
+   },
+   {
+    "id": "12",
+    "lane": 0,
+    "why": "La obra más exigente del programa. Llega después de Battleground y Clair de Lune y termina de aprenderse con meses de margen antes de los ensayos."
+   },
+   {
+    "id": "11",
+    "lane": 1,
+    "why": "Síncopas, octavas y acordes quebrados a nivel medio. Mantiene el carril ligero activo sin competir con In the Palace."
+   },
+   {
+    "id": "01",
+    "lane": 0,
+    "why": "Doce variaciones independientes: se aprenden de a una, así que encaja bien en la parte final del plan. Las escalas y los trinos ya vienen trabajados de In the Palace."
+   },
+   {
+    "id": "10",
+    "lane": 1,
+    "why": "Retoma el 2 contra 3 con más densidad en la izquierda, cuando ya lo dominas por Small Village y Clair de Lune."
+   },
+   {
+    "id": "13",
+    "lane": 1,
+    "why": "Último estreno del carril ligero: todo lo que pide (octavas, síncopas, escalas) ya lo trabajaste en obras anteriores."
+   },
+   {
+    "id": "05",
+    "lane": 0,
+    "why": "Cierra el carril de fondo. Es exigente, pero su material (octavas, notas repetidas, acordes) ya lo trabajaste en Battleground e In the Palace."
+   }
+  ]
  },
  "roadmap": {
   "start": "2026-11-16",
@@ -27,194 +110,210 @@ window.DATA = {
    {
     "id": "04",
     "title": "A Flower Is Not a Flower",
-    "order": 1,
     "lane": 0,
     "learnFrom": 0,
     "learnWeeks": 3,
     "polishFrom": 3,
     "polishWeeks": 3,
     "startDate": "2026-11-16",
-    "learnedBy": "2026-12-07"
+    "learnedBy": "2026-12-07",
+    "why": "Dos páginas y tempo lento: la mejor obra para armar la rutina diaria y trabajar el pedal legato y el canto de la melodía sin presión técnica.",
+    "order": 1
    },
    {
     "id": "09",
     "title": "My Lie",
-    "order": 2,
     "lane": 1,
     "learnFrom": 0,
     "learnWeeks": 3,
     "polishFrom": 3,
     "polishWeeks": 3,
     "startDate": "2026-11-16",
-    "learnedBy": "2026-12-07"
-   },
-   {
-    "id": "06",
-    "title": "The Sixth Station",
-    "order": 3,
-    "lane": 0,
-    "learnFrom": 3,
-    "learnWeeks": 3,
-    "polishFrom": 6,
-    "polishWeeks": 3,
-    "startDate": "2026-12-07",
-    "learnedBy": "2026-12-28"
-   },
-   {
-    "id": "14",
-    "title": "If I Am With You",
-    "order": 4,
-    "lane": 1,
-    "learnFrom": 3,
-    "learnWeeks": 3,
-    "polishFrom": 6,
-    "polishWeeks": 3,
-    "startDate": "2026-12-07",
-    "learnedBy": "2026-12-28"
-   },
-   {
-    "id": "08",
-    "title": "Lit",
-    "order": 5,
-    "lane": 0,
-    "learnFrom": 6,
-    "learnWeeks": 3,
-    "polishFrom": 9,
-    "polishWeeks": 3,
-    "startDate": "2026-12-28",
-    "learnedBy": "2027-01-18"
-   },
-   {
-    "id": "03",
-    "title": "Energy Flow",
-    "order": 6,
-    "lane": 1,
-    "learnFrom": 6,
-    "learnWeeks": 4,
-    "polishFrom": 10,
-    "polishWeeks": 3,
-    "startDate": "2026-12-28",
-    "learnedBy": "2027-01-25"
-   },
-   {
-    "id": "11",
-    "title": "Again",
-    "order": 7,
-    "lane": 0,
-    "learnFrom": 9,
-    "learnWeeks": 4,
-    "polishFrom": 13,
-    "polishWeeks": 3,
-    "startDate": "2027-01-18",
-    "learnedBy": "2027-02-15"
-   },
-   {
-    "id": "07",
-    "title": "Theme of Love (愛のテーマ)",
-    "order": 8,
-    "lane": 1,
-    "learnFrom": 10,
-    "learnWeeks": 5,
-    "polishFrom": 15,
-    "polishWeeks": 3,
-    "startDate": "2027-01-25",
-    "learnedBy": "2027-03-01"
+    "learnedBy": "2026-12-07",
+    "why": "Corta y accesible. Presenta las terceras legato en la derecha y los acordes quebrados en la izquierda, que reaparecen en casi todo el programa.",
+    "order": 2
    },
    {
     "id": "16",
     "title": "Battleground",
-    "order": 9,
     "lane": 0,
-    "learnFrom": 13,
-    "learnWeeks": 7,
-    "polishFrom": 20,
+    "learnFrom": 3,
+    "learnWeeks": 6,
+    "polishFrom": 9,
     "polishWeeks": 3,
-    "startDate": "2027-02-15",
-    "learnedBy": "2027-04-05"
+    "startDate": "2026-12-07",
+    "learnedBy": "2027-01-18",
+    "why": "Primera obra de fondo: ocho páginas de dificultad media con octavas, notas repetidas y escalas. Construye la resistencia y la técnica de muñeca que pide In the Palace.",
+    "order": 3
    },
    {
-    "id": "10",
-    "title": "Lie and Truth",
-    "order": 10,
+    "id": "06",
+    "title": "The Sixth Station",
     "lane": 1,
-    "learnFrom": 15,
-    "learnWeeks": 5,
-    "polishFrom": 20,
+    "learnFrom": 3,
+    "learnWeeks": 4,
+    "polishFrom": 7,
     "polishWeeks": 3,
-    "startDate": "2027-03-01",
-    "learnedBy": "2027-04-05"
+    "startDate": "2026-12-07",
+    "learnedBy": "2027-01-04",
+    "why": "Suma arpegios amplios en la izquierda, trinos y síncopas en un contexto todavía accesible. Prepara el terreno para Clair de Lune.",
+    "order": 4
    },
    {
-    "id": "13",
-    "title": "Vague Reasons (Nanami's Theme)",
-    "order": 11,
-    "lane": 0,
-    "learnFrom": 20,
-    "learnWeeks": 5,
-    "polishFrom": 25,
+    "id": "14",
+    "title": "If I Am With You",
+    "lane": 1,
+    "learnFrom": 7,
+    "learnWeeks": 3,
+    "polishFrom": 10,
     "polishWeeks": 3,
-    "startDate": "2027-04-05",
-    "learnedBy": "2027-05-10"
+    "startDate": "2027-01-04",
+    "learnedBy": "2027-01-25",
+    "why": "Consolida acordes quebrados, arpegios y las primeras octavas con una obra lenta y expresiva.",
+    "order": 5
    },
    {
     "id": "15",
     "title": "Small Village",
-    "order": 12,
-    "lane": 1,
-    "learnFrom": 20,
-    "learnWeeks": 5,
-    "polishFrom": 25,
-    "polishWeeks": 3,
-    "startDate": "2027-04-05",
-    "learnedBy": "2027-05-10"
-   },
-   {
-    "id": "05",
-    "title": "Merry Christmas Mr. Lawrence",
-    "order": 13,
     "lane": 0,
-    "learnFrom": 25,
-    "learnWeeks": 6,
-    "polishFrom": 31,
+    "learnFrom": 9,
+    "learnWeeks": 5,
+    "polishFrom": 14,
     "polishWeeks": 3,
-    "startDate": "2027-05-10",
-    "learnedBy": "2027-06-21"
+    "startDate": "2027-01-18",
+    "learnedBy": "2027-02-22",
+    "why": "Presenta la polirritmia de 2 contra 3 y el rubato antes de Clair de Lune, que los usa a lo largo de toda la obra.",
+    "order": 6
    },
    {
-    "id": "01",
-    "title": "12 Variaciones sobre «Ah, vous dirai-je, Maman» K. 265",
-    "order": 14,
+    "id": "08",
+    "title": "Lit",
     "lane": 1,
-    "learnFrom": 25,
-    "learnWeeks": 8,
-    "polishFrom": 33,
+    "learnFrom": 10,
+    "learnWeeks": 4,
+    "polishFrom": 14,
     "polishWeeks": 3,
-    "startDate": "2027-05-10",
-    "learnedBy": "2027-07-05"
+    "startDate": "2027-01-25",
+    "learnedBy": "2027-02-22",
+    "why": "Dos páginas con octavas y terceras a tempo moderado: un entrenamiento corto antes de las obras con octavas más largas.",
+    "order": 7
    },
    {
     "id": "02",
     "title": "Clair de Lune",
-    "order": 15,
     "lane": 0,
-    "learnFrom": 31,
+    "learnFrom": 14,
     "learnWeeks": 6,
-    "polishFrom": 37,
+    "polishFrom": 20,
     "polishWeeks": 3,
-    "startDate": "2027-06-21",
-    "learnedBy": "2027-08-02"
+    "startDate": "2027-02-22",
+    "learnedBy": "2027-04-05",
+    "why": "Llega con las terceras, los arpegios amplios y el 2 contra 3 ya trabajados. Al aprenderla a mitad del plan, tiene meses para madurar antes del concierto.",
+    "order": 8
+   },
+   {
+    "id": "03",
+    "title": "Energy Flow",
+    "lane": 1,
+    "learnFrom": 14,
+    "learnWeeks": 5,
+    "polishFrom": 19,
+    "polishWeeks": 3,
+    "startDate": "2027-02-22",
+    "learnedBy": "2027-03-29",
+    "why": "Trabaja el control del sonido y el equilibrio entre las manos sobre arpegios en la izquierda, cuando ya tienes base de pedal.",
+    "order": 9
+   },
+   {
+    "id": "07",
+    "title": "Theme of Love (愛のテーマ)",
+    "lane": 1,
+    "learnFrom": 19,
+    "learnWeeks": 5,
+    "polishFrom": 24,
+    "polishWeeks": 3,
+    "startDate": "2027-03-29",
+    "learnedBy": "2027-05-03",
+    "why": "Melodía en la voz superior sobre acordes y arpegios, de dificultad media: refina el voicing y el rubato mientras el otro carril sube a las obras más exigentes.",
+    "order": 10
    },
    {
     "id": "12",
     "title": "In the Palace (Lamentoso – Agitato)",
-    "order": 16,
-    "lane": 1,
-    "learnFrom": 33,
+    "lane": 0,
+    "learnFrom": 20,
     "learnWeeks": 7,
+    "polishFrom": 27,
+    "polishWeeks": 3,
+    "startDate": "2027-04-05",
+    "learnedBy": "2027-05-24",
+    "why": "La obra más exigente del programa. Llega después de Battleground y Clair de Lune y termina de aprenderse con meses de margen antes de los ensayos.",
+    "order": 11
+   },
+   {
+    "id": "11",
+    "title": "Again",
+    "lane": 1,
+    "learnFrom": 24,
+    "learnWeeks": 5,
+    "polishFrom": 29,
+    "polishWeeks": 3,
+    "startDate": "2027-05-03",
+    "learnedBy": "2027-06-07",
+    "why": "Síncopas, octavas y acordes quebrados a nivel medio. Mantiene el carril ligero activo sin competir con In the Palace.",
+    "order": 12
+   },
+   {
+    "id": "01",
+    "title": "12 Variaciones sobre «Ah, vous dirai-je, Maman» K. 265",
+    "lane": 0,
+    "learnFrom": 27,
+    "learnWeeks": 7,
+    "polishFrom": 34,
+    "polishWeeks": 3,
+    "startDate": "2027-05-24",
+    "learnedBy": "2027-07-12",
+    "why": "Doce variaciones independientes: se aprenden de a una, así que encaja bien en la parte final del plan. Las escalas y los trinos ya vienen trabajados de In the Palace.",
+    "order": 13
+   },
+   {
+    "id": "10",
+    "title": "Lie and Truth",
+    "lane": 1,
+    "learnFrom": 29,
+    "learnWeeks": 5,
+    "polishFrom": 34,
+    "polishWeeks": 3,
+    "startDate": "2027-06-07",
+    "learnedBy": "2027-07-12",
+    "why": "Retoma el 2 contra 3 con más densidad en la izquierda, cuando ya lo dominas por Small Village y Clair de Lune.",
+    "order": 14
+   },
+   {
+    "id": "05",
+    "title": "Merry Christmas Mr. Lawrence",
+    "lane": 0,
+    "learnFrom": 34,
+    "learnWeeks": 6,
     "polishFrom": 40,
     "polishWeeks": 3,
-    "startDate": "2027-07-05",
-    "learnedBy": "2027-08-23"
+    "startDate": "2027-07-12",
+    "learnedBy": "2027-08-23",
+    "why": "Cierra el carril de fondo. Es exigente, pero su material (octavas, notas repetidas, acordes) ya lo trabajaste en Battleground e In the Palace.",
+    "order": 15
+   },
+   {
+    "id": "13",
+    "title": "Vague Reasons (Nanami's Theme)",
+    "lane": 1,
+    "learnFrom": 34,
+    "learnWeeks": 6,
+    "polishFrom": 40,
+    "polishWeeks": 3,
+    "startDate": "2027-07-12",
+    "learnedBy": "2027-08-23",
+    "why": "Último estreno del carril ligero: todo lo que pide (octavas, síncopas, escalas) ya lo trabajaste en obras anteriores.",
+    "order": 16
    }
   ]
  },
@@ -427,14 +526,15 @@ window.DATA = {
    "plan": {
     "id": "01",
     "title": "12 Variaciones sobre «Ah, vous dirai-je, Maman» K. 265",
-    "order": 14,
-    "lane": 1,
-    "learnFrom": 25,
-    "learnWeeks": 8,
-    "polishFrom": 33,
+    "lane": 0,
+    "learnFrom": 27,
+    "learnWeeks": 7,
+    "polishFrom": 34,
     "polishWeeks": 3,
-    "startDate": "2027-05-10",
-    "learnedBy": "2027-07-05"
+    "startDate": "2027-05-24",
+    "learnedBy": "2027-07-12",
+    "why": "Doce variaciones independientes: se aprenden de a una, así que encaja bien en la parte final del plan. Las escalas y los trinos ya vienen trabajados de In the Palace.",
+    "order": 13
    },
    "sessions": [
     {
@@ -443,8 +543,8 @@ window.DATA = {
      "bars": "1–24",
      "need": "scales-fast",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 38,
@@ -466,8 +566,8 @@ window.DATA = {
      "bars": "Var. I 1–24 · Var. II 1–24",
      "need": "finger-independence",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 6,
+      "title": "Dedo 5"
      },
      "hanon": {
       "no": 21,
@@ -489,8 +589,8 @@ window.DATA = {
      "bars": "Var. III 1–24 · Var. IV 1–24",
      "need": "trills",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 27,
@@ -512,8 +612,8 @@ window.DATA = {
      "bars": "Var. V 1–24 · Var. VI 1–24 · Var. VII 1–24",
      "need": "hand-crossing",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 31,
@@ -535,8 +635,8 @@ window.DATA = {
      "bars": "Var. VIII 1–24 · Var. IX 1–24",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 41,
@@ -558,8 +658,8 @@ window.DATA = {
      "bars": "Var. X 1–24",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 48,
@@ -581,8 +681,8 @@ window.DATA = {
      "bars": "Var. XI 1–24",
      "need": "staccato",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 44,
@@ -604,8 +704,8 @@ window.DATA = {
      "bars": "Var. XII 1–35",
      "need": "legato-thirds-rh",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 50,
@@ -627,8 +727,8 @@ window.DATA = {
      "bars": "todo",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 22,
@@ -840,14 +940,15 @@ window.DATA = {
    "plan": {
     "id": "02",
     "title": "Clair de Lune",
-    "order": 15,
     "lane": 0,
-    "learnFrom": 31,
+    "learnFrom": 14,
     "learnWeeks": 6,
-    "polishFrom": 37,
+    "polishFrom": 20,
     "polishWeeks": 3,
-    "startDate": "2027-06-21",
-    "learnedBy": "2027-08-02"
+    "startDate": "2027-02-22",
+    "learnedBy": "2027-04-05",
+    "why": "Llega con las terceras, los arpegios amplios y el 2 contra 3 ya trabajados. Al aprenderla a mitad del plan, tiene meses para madurar antes del concierto.",
+    "order": 8
    },
    "sessions": [
     {
@@ -856,8 +957,8 @@ window.DATA = {
      "bars": "1–14",
      "need": "legato-thirds-rh",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 48,
@@ -879,8 +980,8 @@ window.DATA = {
      "bars": "15–26",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 16,
+      "title": "Extensión 3-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 41,
@@ -902,8 +1003,8 @@ window.DATA = {
      "bars": "27–36",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 21,
@@ -925,8 +1026,8 @@ window.DATA = {
      "bars": "37–42",
      "need": "pedal-legato",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 18,
+      "title": "Los cinco dedos (II)"
      },
      "hanon": {
       "no": 32,
@@ -948,8 +1049,8 @@ window.DATA = {
      "bars": "43–50",
      "need": "polyrhythm-2v3",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 19,
+      "title": "Los cinco dedos (III)"
      },
      "hanon": {
       "no": 22,
@@ -971,8 +1072,8 @@ window.DATA = {
      "bars": "51–65",
      "need": "rubato",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 20,
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
      },
      "hanon": {
       "no": 33,
@@ -994,8 +1095,8 @@ window.DATA = {
      "bars": "66–72",
      "need": "dynamics-range",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 1,
+      "title": "Extensión entre los dedos 4 y 5"
      },
      "hanon": {
       "no": 34,
@@ -1017,8 +1118,8 @@ window.DATA = {
      "bars": "todo",
      "need": "chords-blocked",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 2,
+      "title": "Dedos 3 y 4"
      },
      "hanon": {
       "no": 51,
@@ -1241,14 +1342,15 @@ window.DATA = {
    "plan": {
     "id": "03",
     "title": "Energy Flow",
-    "order": 6,
     "lane": 1,
-    "learnFrom": 6,
-    "learnWeeks": 4,
-    "polishFrom": 10,
+    "learnFrom": 14,
+    "learnWeeks": 5,
+    "polishFrom": 19,
     "polishWeeks": 3,
-    "startDate": "2026-12-28",
-    "learnedBy": "2027-01-25"
+    "startDate": "2027-02-22",
+    "learnedBy": "2027-03-29",
+    "why": "Trabaja el control del sonido y el equilibrio entre las manos sobre arpegios en la izquierda, cuando ya tienes base de pedal.",
+    "order": 9
    },
    "sessions": [
     {
@@ -1257,8 +1359,8 @@ window.DATA = {
      "bars": "1–8",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 21,
@@ -1280,8 +1382,8 @@ window.DATA = {
      "bars": "9–19",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 18,
+      "title": "Los cinco dedos (II)"
      },
      "hanon": {
       "no": 41,
@@ -1303,8 +1405,8 @@ window.DATA = {
      "bars": "20–29",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 19,
+      "title": "Los cinco dedos (III)"
      },
      "hanon": {
       "no": 42,
@@ -1326,8 +1428,8 @@ window.DATA = {
      "bars": "30–40",
      "need": "chords-blocked",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 20,
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
      },
      "hanon": {
       "no": 48,
@@ -1349,8 +1451,8 @@ window.DATA = {
      "bars": "41–48",
      "need": "octaves",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 1,
+      "title": "Extensión entre los dedos 4 y 5"
      },
      "hanon": {
       "no": 51,
@@ -1372,8 +1474,8 @@ window.DATA = {
      "bars": "49–56",
      "need": "pedal-legato",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 2,
+      "title": "Dedos 3 y 4"
      },
      "hanon": {
       "no": 32,
@@ -1395,8 +1497,8 @@ window.DATA = {
      "bars": "57–67",
      "need": "dynamics-range",
      "warmup": {
-      "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "no": 3,
+      "title": "Dedos 2, 3 y 4"
      },
      "hanon": {
       "no": 33,
@@ -1418,8 +1520,8 @@ window.DATA = {
      "bars": "68–80",
      "need": "finger-independence",
      "warmup": {
-      "no": 18,
-      "title": "Los cinco dedos (II)"
+      "no": 4,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 22,
@@ -1441,8 +1543,8 @@ window.DATA = {
      "bars": "todo",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 19,
-      "title": "Los cinco dedos (III)"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 53,
@@ -1623,14 +1725,15 @@ window.DATA = {
    "plan": {
     "id": "04",
     "title": "A Flower Is Not a Flower",
-    "order": 1,
     "lane": 0,
     "learnFrom": 0,
     "learnWeeks": 3,
     "polishFrom": 3,
     "polishWeeks": 3,
     "startDate": "2026-11-16",
-    "learnedBy": "2026-12-07"
+    "learnedBy": "2026-12-07",
+    "why": "Dos páginas y tempo lento: la mejor obra para armar la rutina diaria y trabajar el pedal legato y el canto de la melodía sin presión técnica.",
+    "order": 1
    },
    "sessions": [
     {
@@ -1976,14 +2079,15 @@ window.DATA = {
    "plan": {
     "id": "05",
     "title": "Merry Christmas Mr. Lawrence",
-    "order": 13,
     "lane": 0,
-    "learnFrom": 25,
+    "learnFrom": 34,
     "learnWeeks": 6,
-    "polishFrom": 31,
+    "polishFrom": 40,
     "polishWeeks": 3,
-    "startDate": "2027-05-10",
-    "learnedBy": "2027-06-21"
+    "startDate": "2027-07-12",
+    "learnedBy": "2027-08-23",
+    "why": "Cierra el carril de fondo. Es exigente, pero su material (octavas, notas repetidas, acordes) ya lo trabajaste en Battleground e In the Palace.",
+    "order": 15
    },
    "sessions": [
     {
@@ -1992,8 +2096,8 @@ window.DATA = {
      "bars": "1–16",
      "need": "octaves",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 51,
@@ -2015,8 +2119,8 @@ window.DATA = {
      "bars": "17–24",
      "need": "repeated-notes",
      "warmup": {
-      "no": 6,
-      "title": "Dedo 5"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 44,
@@ -2038,8 +2142,8 @@ window.DATA = {
      "bars": "25–32",
      "need": "chords-blocked",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 48,
@@ -2061,8 +2165,8 @@ window.DATA = {
      "bars": "33–40",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 41,
@@ -2084,8 +2188,8 @@ window.DATA = {
      "bars": "41–56",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 21,
@@ -2107,8 +2211,8 @@ window.DATA = {
      "bars": "57–64",
      "need": "pedal-legato",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 32,
@@ -2130,8 +2234,8 @@ window.DATA = {
      "bars": "65–88",
      "need": "syncopation",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 22,
@@ -2153,8 +2257,8 @@ window.DATA = {
      "bars": "89–96",
      "need": "dynamics-range",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 16,
+      "title": "Extensión 3-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 33,
@@ -2176,8 +2280,8 @@ window.DATA = {
      "bars": "todo",
      "need": "staccato",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 45,
@@ -2381,14 +2485,15 @@ window.DATA = {
    "plan": {
     "id": "06",
     "title": "The Sixth Station",
-    "order": 3,
-    "lane": 0,
+    "lane": 1,
     "learnFrom": 3,
-    "learnWeeks": 3,
-    "polishFrom": 6,
+    "learnWeeks": 4,
+    "polishFrom": 7,
     "polishWeeks": 3,
     "startDate": "2026-12-07",
-    "learnedBy": "2026-12-28"
+    "learnedBy": "2027-01-04",
+    "why": "Suma arpegios amplios en la izquierda, trinos y síncopas en un contexto todavía accesible. Prepara el terreno para Clair de Lune.",
+    "order": 4
    },
    "sessions": [
     {
@@ -2397,8 +2502,8 @@ window.DATA = {
      "bars": "1–7",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 41,
@@ -2420,8 +2525,8 @@ window.DATA = {
      "bars": "8–17",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 6,
-      "title": "Dedo 5"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 42,
@@ -2443,8 +2548,8 @@ window.DATA = {
      "bars": "18–29",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 21,
@@ -2466,8 +2571,8 @@ window.DATA = {
      "bars": "30–38",
      "need": "pedal-legato",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 32,
@@ -2489,8 +2594,8 @@ window.DATA = {
      "bars": "39–50",
      "need": "trills",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 27,
@@ -2512,8 +2617,8 @@ window.DATA = {
      "bars": "51–56",
      "need": "legato-thirds-rh",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 48,
@@ -2535,8 +2640,8 @@ window.DATA = {
      "bars": "57–70",
      "need": "syncopation",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 22,
@@ -2558,8 +2663,8 @@ window.DATA = {
      "bars": "todo",
      "need": "finger-independence",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 23,
@@ -2782,14 +2887,15 @@ window.DATA = {
    "plan": {
     "id": "07",
     "title": "Theme of Love (愛のテーマ)",
-    "order": 8,
     "lane": 1,
-    "learnFrom": 10,
+    "learnFrom": 19,
     "learnWeeks": 5,
-    "polishFrom": 15,
+    "polishFrom": 24,
     "polishWeeks": 3,
-    "startDate": "2027-01-25",
-    "learnedBy": "2027-03-01"
+    "startDate": "2027-03-29",
+    "learnedBy": "2027-05-03",
+    "why": "Melodía en la voz superior sobre acordes y arpegios, de dificultad media: refina el voicing y el rubato mientras el otro carril sube a las obras más exigentes.",
+    "order": 10
    },
    "sessions": [
     {
@@ -2798,8 +2904,8 @@ window.DATA = {
      "bars": "1–15 (con anacrusa)",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 19,
+      "title": "Los cinco dedos (III)"
      },
      "hanon": {
       "no": 21,
@@ -2821,8 +2927,8 @@ window.DATA = {
      "bars": "16–18",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 20,
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
      },
      "hanon": {
       "no": 41,
@@ -2844,8 +2950,8 @@ window.DATA = {
      "bars": "19–35",
      "need": "chords-blocked",
      "warmup": {
-      "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "no": 1,
+      "title": "Extensión entre los dedos 4 y 5"
      },
      "hanon": {
       "no": 48,
@@ -2867,8 +2973,8 @@ window.DATA = {
      "bars": "36–43",
      "need": "pedal-legato",
      "warmup": {
-      "no": 18,
-      "title": "Los cinco dedos (II)"
+      "no": 2,
+      "title": "Dedos 3 y 4"
      },
      "hanon": {
       "no": 32,
@@ -2890,8 +2996,8 @@ window.DATA = {
      "bars": "44–50",
      "need": "rubato",
      "warmup": {
-      "no": 19,
-      "title": "Los cinco dedos (III)"
+      "no": 3,
+      "title": "Dedos 2, 3 y 4"
      },
      "hanon": {
       "no": 33,
@@ -2913,8 +3019,8 @@ window.DATA = {
      "bars": "51–53",
      "need": "dynamics-range",
      "warmup": {
-      "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "no": 4,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 34,
@@ -2936,8 +3042,8 @@ window.DATA = {
      "bars": "54–59",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 51,
@@ -2959,8 +3065,8 @@ window.DATA = {
      "bars": "60–67",
      "need": "finger-independence",
      "warmup": {
-      "no": 2,
-      "title": "Dedos 3 y 4"
+      "no": 6,
+      "title": "Dedo 5"
      },
      "hanon": {
       "no": 22,
@@ -2982,8 +3088,8 @@ window.DATA = {
      "bars": "todo",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 23,
@@ -3193,14 +3299,15 @@ window.DATA = {
    "plan": {
     "id": "08",
     "title": "Lit",
-    "order": 5,
-    "lane": 0,
-    "learnFrom": 6,
-    "learnWeeks": 3,
-    "polishFrom": 9,
+    "lane": 1,
+    "learnFrom": 10,
+    "learnWeeks": 4,
+    "polishFrom": 14,
     "polishWeeks": 3,
-    "startDate": "2026-12-28",
-    "learnedBy": "2027-01-18"
+    "startDate": "2027-01-25",
+    "learnedBy": "2027-02-22",
+    "why": "Dos páginas con octavas y terceras a tempo moderado: un entrenamiento corto antes de las obras con octavas más largas.",
+    "order": 7
    },
    "sessions": [
     {
@@ -3209,8 +3316,8 @@ window.DATA = {
      "bars": "1–8",
      "need": "octaves",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 51,
@@ -3232,8 +3339,8 @@ window.DATA = {
      "bars": "9–17",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 41,
@@ -3255,8 +3362,8 @@ window.DATA = {
      "bars": "18–25",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 42,
@@ -3278,8 +3385,8 @@ window.DATA = {
      "bars": "26–33",
      "need": "legato-thirds-rh",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 16,
+      "title": "Extensión 3-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 48,
@@ -3301,8 +3408,8 @@ window.DATA = {
      "bars": "34–41",
      "need": "chords-blocked",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 53,
@@ -3324,8 +3431,8 @@ window.DATA = {
      "bars": "42–51",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 18,
+      "title": "Los cinco dedos (II)"
      },
      "hanon": {
       "no": 21,
@@ -3347,8 +3454,8 @@ window.DATA = {
      "bars": "52–58",
      "need": "pedal-legato",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 19,
+      "title": "Los cinco dedos (III)"
      },
      "hanon": {
       "no": 32,
@@ -3370,8 +3477,8 @@ window.DATA = {
      "bars": "todo",
      "need": "dynamics-range",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 20,
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
      },
      "hanon": {
       "no": 33,
@@ -3569,14 +3676,15 @@ window.DATA = {
    "plan": {
     "id": "09",
     "title": "My Lie",
-    "order": 2,
     "lane": 1,
     "learnFrom": 0,
     "learnWeeks": 3,
     "polishFrom": 3,
     "polishWeeks": 3,
     "startDate": "2026-11-16",
-    "learnedBy": "2026-12-07"
+    "learnedBy": "2026-12-07",
+    "why": "Corta y accesible. Presenta las terceras legato en la derecha y los acordes quebrados en la izquierda, que reaparecen en casi todo el programa.",
+    "order": 2
    },
    "sessions": [
     {
@@ -3932,14 +4040,15 @@ window.DATA = {
    "plan": {
     "id": "10",
     "title": "Lie and Truth",
-    "order": 10,
     "lane": 1,
-    "learnFrom": 15,
+    "learnFrom": 29,
     "learnWeeks": 5,
-    "polishFrom": 20,
+    "polishFrom": 34,
     "polishWeeks": 3,
-    "startDate": "2027-03-01",
-    "learnedBy": "2027-04-05"
+    "startDate": "2027-06-07",
+    "learnedBy": "2027-07-12",
+    "why": "Retoma el 2 contra 3 con más densidad en la izquierda, cuando ya lo dominas por Small Village y Clair de Lune.",
+    "order": 14
    },
    "sessions": [
     {
@@ -3948,8 +4057,8 @@ window.DATA = {
      "bars": "1–8",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 19,
-      "title": "Los cinco dedos (III)"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 41,
@@ -3971,8 +4080,8 @@ window.DATA = {
      "bars": "9–24",
      "need": "finger-independence",
      "warmup": {
-      "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 21,
@@ -3994,8 +4103,8 @@ window.DATA = {
      "bars": "25–32",
      "need": "polyrhythm-2v3",
      "warmup": {
-      "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 22,
@@ -4017,8 +4126,8 @@ window.DATA = {
      "bars": "33–42",
      "need": "chords-blocked",
      "warmup": {
-      "no": 2,
-      "title": "Dedos 3 y 4"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 48,
@@ -4040,8 +4149,8 @@ window.DATA = {
      "bars": "43–52",
      "need": "octaves",
      "warmup": {
-      "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 51,
@@ -4063,8 +4172,8 @@ window.DATA = {
      "bars": "53–57",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 23,
@@ -4086,8 +4195,8 @@ window.DATA = {
      "bars": "58–69",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 53,
@@ -4109,8 +4218,8 @@ window.DATA = {
      "bars": "todo",
      "need": "dynamics-range",
      "warmup": {
-      "no": 6,
-      "title": "Dedo 5"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 32,
@@ -4319,14 +4428,15 @@ window.DATA = {
    "plan": {
     "id": "11",
     "title": "Again",
-    "order": 7,
-    "lane": 0,
-    "learnFrom": 9,
-    "learnWeeks": 4,
-    "polishFrom": 13,
+    "lane": 1,
+    "learnFrom": 24,
+    "learnWeeks": 5,
+    "polishFrom": 29,
     "polishWeeks": 3,
-    "startDate": "2027-01-18",
-    "learnedBy": "2027-02-15"
+    "startDate": "2027-05-03",
+    "learnedBy": "2027-06-07",
+    "why": "Síncopas, octavas y acordes quebrados a nivel medio. Mantiene el carril ligero activo sin competir con In the Palace.",
+    "order": 12
    },
    "sessions": [
     {
@@ -4335,8 +4445,8 @@ window.DATA = {
      "bars": "1–2",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 3,
+      "title": "Dedos 2, 3 y 4"
      },
      "hanon": {
       "no": 41,
@@ -4358,8 +4468,8 @@ window.DATA = {
      "bars": "3–10",
      "need": "syncopation",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 4,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 21,
@@ -4381,8 +4491,8 @@ window.DATA = {
      "bars": "11–18",
      "need": "octaves",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 51,
@@ -4404,8 +4514,8 @@ window.DATA = {
      "bars": "19–26",
      "need": "chords-blocked",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 6,
+      "title": "Dedo 5"
      },
      "hanon": {
       "no": 48,
@@ -4427,8 +4537,8 @@ window.DATA = {
      "bars": "27–34",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 22,
@@ -4450,8 +4560,8 @@ window.DATA = {
      "bars": "35–42",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 18,
-      "title": "Los cinco dedos (II)"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 53,
@@ -4473,8 +4583,8 @@ window.DATA = {
      "bars": "43–50",
      "need": "finger-independence",
      "warmup": {
-      "no": 19,
-      "title": "Los cinco dedos (III)"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 23,
@@ -4496,8 +4606,8 @@ window.DATA = {
      "bars": "51–58",
      "need": "dynamics-range",
      "warmup": {
-      "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 32,
@@ -4519,8 +4629,8 @@ window.DATA = {
      "bars": "todo",
      "need": "pedal-legato",
      "warmup": {
-      "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 33,
@@ -4736,14 +4846,15 @@ window.DATA = {
    "plan": {
     "id": "12",
     "title": "In the Palace (Lamentoso – Agitato)",
-    "order": 16,
-    "lane": 1,
-    "learnFrom": 33,
+    "lane": 0,
+    "learnFrom": 20,
     "learnWeeks": 7,
-    "polishFrom": 40,
+    "polishFrom": 27,
     "polishWeeks": 3,
-    "startDate": "2027-07-05",
-    "learnedBy": "2027-08-23"
+    "startDate": "2027-04-05",
+    "learnedBy": "2027-05-24",
+    "why": "La obra más exigente del programa. Llega después de Battleground y Clair de Lune y termina de aprenderse con meses de margen antes de los ensayos.",
+    "order": 11
    },
    "sessions": [
     {
@@ -4752,8 +4863,8 @@ window.DATA = {
      "bars": "1–12",
      "need": "scales-fast",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 1,
+      "title": "Extensión entre los dedos 4 y 5"
      },
      "hanon": {
       "no": 38,
@@ -4775,8 +4886,8 @@ window.DATA = {
      "bars": "13–32",
      "need": "repeated-notes",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 2,
+      "title": "Dedos 3 y 4"
      },
      "hanon": {
       "no": 44,
@@ -4798,8 +4909,8 @@ window.DATA = {
      "bars": "33–50",
      "need": "octaves",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 3,
+      "title": "Dedos 2, 3 y 4"
      },
      "hanon": {
       "no": 51,
@@ -4821,8 +4932,8 @@ window.DATA = {
      "bars": "51–72",
      "need": "trills",
      "warmup": {
-      "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "no": 4,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 27,
@@ -4844,8 +4955,8 @@ window.DATA = {
      "bars": "73–95",
      "need": "polyrhythm-2v3",
      "warmup": {
-      "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 21,
@@ -4867,8 +4978,8 @@ window.DATA = {
      "bars": "96–115",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "no": 6,
+      "title": "Dedo 5"
      },
      "hanon": {
       "no": 41,
@@ -4890,8 +5001,8 @@ window.DATA = {
      "bars": "116–132",
      "need": "chords-blocked",
      "warmup": {
-      "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 48,
@@ -4913,8 +5024,8 @@ window.DATA = {
      "bars": "todo",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 18,
-      "title": "Los cinco dedos (II)"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 53,
@@ -5127,14 +5238,15 @@ window.DATA = {
    "plan": {
     "id": "13",
     "title": "Vague Reasons (Nanami's Theme)",
-    "order": 11,
-    "lane": 0,
-    "learnFrom": 20,
-    "learnWeeks": 5,
-    "polishFrom": 25,
+    "lane": 1,
+    "learnFrom": 34,
+    "learnWeeks": 6,
+    "polishFrom": 40,
     "polishWeeks": 3,
-    "startDate": "2027-04-05",
-    "learnedBy": "2027-05-10"
+    "startDate": "2027-07-12",
+    "learnedBy": "2027-08-23",
+    "why": "Último estreno del carril ligero: todo lo que pide (octavas, síncopas, escalas) ya lo trabajaste en obras anteriores.",
+    "order": 16
    },
    "sessions": [
     {
@@ -5143,8 +5255,8 @@ window.DATA = {
      "bars": "1–2",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 21,
@@ -5166,8 +5278,8 @@ window.DATA = {
      "bars": "3–18",
      "need": "pedal-legato",
      "warmup": {
-      "no": 2,
-      "title": "Dedos 3 y 4"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 32,
@@ -5189,8 +5301,8 @@ window.DATA = {
      "bars": "19–26",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 41,
@@ -5212,8 +5324,8 @@ window.DATA = {
      "bars": "27–28",
      "need": "chords-blocked",
      "warmup": {
-      "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 48,
@@ -5235,8 +5347,8 @@ window.DATA = {
      "bars": "29–36",
      "need": "octaves",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 51,
@@ -5258,8 +5370,8 @@ window.DATA = {
      "bars": "37–44",
      "need": "syncopation",
      "warmup": {
-      "no": 6,
-      "title": "Dedo 5"
+      "no": 16,
+      "title": "Extensión 3-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 22,
@@ -5281,8 +5393,8 @@ window.DATA = {
      "bars": "45–60",
      "need": "finger-independence",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 23,
@@ -5304,8 +5416,8 @@ window.DATA = {
      "bars": "61–69",
      "need": "dynamics-range",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 18,
+      "title": "Los cinco dedos (II)"
      },
      "hanon": {
       "no": 33,
@@ -5327,8 +5439,8 @@ window.DATA = {
      "bars": "todo",
      "need": "scales-fast",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 19,
+      "title": "Los cinco dedos (III)"
      },
      "hanon": {
       "no": 38,
@@ -5517,14 +5629,15 @@ window.DATA = {
    "plan": {
     "id": "14",
     "title": "If I Am With You",
-    "order": 4,
     "lane": 1,
-    "learnFrom": 3,
+    "learnFrom": 7,
     "learnWeeks": 3,
-    "polishFrom": 6,
+    "polishFrom": 10,
     "polishWeeks": 3,
-    "startDate": "2026-12-07",
-    "learnedBy": "2026-12-28"
+    "startDate": "2027-01-04",
+    "learnedBy": "2027-01-25",
+    "why": "Consolida acordes quebrados, arpegios y las primeras octavas con una obra lenta y expresiva.",
+    "order": 5
    },
    "sessions": [
     {
@@ -5533,8 +5646,8 @@ window.DATA = {
      "bars": "1–16",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 41,
@@ -5556,8 +5669,8 @@ window.DATA = {
      "bars": "17–32",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 21,
@@ -5579,8 +5692,8 @@ window.DATA = {
      "bars": "33–48",
      "need": "pedal-legato",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 32,
@@ -5602,8 +5715,8 @@ window.DATA = {
      "bars": "49–58",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 42,
@@ -5625,8 +5738,8 @@ window.DATA = {
      "bars": "59–87",
      "need": "octaves",
      "warmup": {
-      "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 51,
@@ -5648,8 +5761,8 @@ window.DATA = {
      "bars": "88–104",
      "need": "finger-independence",
      "warmup": {
-      "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 22,
@@ -5671,8 +5784,8 @@ window.DATA = {
      "bars": "todo",
      "need": "rubato",
      "warmup": {
-      "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 33,
@@ -5887,14 +6000,15 @@ window.DATA = {
    "plan": {
     "id": "15",
     "title": "Small Village",
-    "order": 12,
-    "lane": 1,
-    "learnFrom": 20,
+    "lane": 0,
+    "learnFrom": 9,
     "learnWeeks": 5,
-    "polishFrom": 25,
+    "polishFrom": 14,
     "polishWeeks": 3,
-    "startDate": "2027-04-05",
-    "learnedBy": "2027-05-10"
+    "startDate": "2027-01-18",
+    "learnedBy": "2027-02-22",
+    "why": "Presenta la polirritmia de 2 contra 3 y el rubato antes de Clair de Lune, que los usa a lo largo de toda la obra.",
+    "order": 6
    },
    "sessions": [
     {
@@ -5903,8 +6017,8 @@ window.DATA = {
      "bars": "1–8",
      "need": "rubato",
      "warmup": {
-      "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 32,
@@ -5926,8 +6040,8 @@ window.DATA = {
      "bars": "9–32",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 41,
@@ -5949,8 +6063,8 @@ window.DATA = {
      "bars": "33–40",
      "need": "lh-broken-chords",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 42,
@@ -5972,8 +6086,8 @@ window.DATA = {
      "bars": "41–59",
      "need": "polyrhythm-2v3",
      "warmup": {
-      "no": 6,
-      "title": "Dedo 5"
+      "no": 14,
+      "title": "Preparación del trino con 3 y 4 (II)"
      },
      "hanon": {
       "no": 21,
@@ -5995,8 +6109,8 @@ window.DATA = {
      "bars": "60–67",
      "need": "pedal-legato",
      "warmup": {
-      "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "no": 15,
+      "title": "Extensión 1-2 y los cinco dedos"
      },
      "hanon": {
       "no": 33,
@@ -6018,8 +6132,8 @@ window.DATA = {
      "bars": "68–83",
      "need": "voicing-melody-top",
      "warmup": {
-      "no": 8,
-      "title": "Los cinco dedos"
+      "no": 16,
+      "title": "Extensión 3-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 22,
@@ -6041,8 +6155,8 @@ window.DATA = {
      "bars": "84–95",
      "need": "scales-fast",
      "warmup": {
-      "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "no": 17,
+      "title": "Extensiones 1-2, 2-4 y 4-5"
      },
      "hanon": {
       "no": 38,
@@ -6064,8 +6178,8 @@ window.DATA = {
      "bars": "todo",
      "need": "chords-blocked",
      "warmup": {
-      "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "no": 18,
+      "title": "Los cinco dedos (II)"
      },
      "hanon": {
       "no": 48,
@@ -6283,14 +6397,15 @@ window.DATA = {
    "plan": {
     "id": "16",
     "title": "Battleground",
-    "order": 9,
     "lane": 0,
-    "learnFrom": 13,
-    "learnWeeks": 7,
-    "polishFrom": 20,
+    "learnFrom": 3,
+    "learnWeeks": 6,
+    "polishFrom": 9,
     "polishWeeks": 3,
-    "startDate": "2027-02-15",
-    "learnedBy": "2027-04-05"
+    "startDate": "2026-12-07",
+    "learnedBy": "2027-01-18",
+    "why": "Primera obra de fondo: ocho páginas de dificultad media con octavas, notas repetidas y escalas. Construye la resistencia y la técnica de muñeca que pide In the Palace.",
+    "order": 3
    },
    "sessions": [
     {
@@ -6299,8 +6414,8 @@ window.DATA = {
      "bars": "1–17",
      "need": "wrist-rotation",
      "warmup": {
-      "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "no": 5,
+      "title": "Los cinco dedos, articulación alta"
      },
      "hanon": {
       "no": 48,
@@ -6322,8 +6437,8 @@ window.DATA = {
      "bars": "18–34",
      "need": "octaves",
      "warmup": {
-      "no": 18,
-      "title": "Los cinco dedos (II)"
+      "no": 6,
+      "title": "Dedo 5"
      },
      "hanon": {
       "no": 51,
@@ -6345,8 +6460,8 @@ window.DATA = {
      "bars": "35–51",
      "need": "chords-blocked",
      "warmup": {
-      "no": 19,
-      "title": "Los cinco dedos (III)"
+      "no": 7,
+      "title": "Dedos 3, 4 y 5 (muy importante)"
      },
      "hanon": {
       "no": 53,
@@ -6368,8 +6483,8 @@ window.DATA = {
      "bars": "52–67",
      "need": "lh-arpeggios-wide",
      "warmup": {
-      "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "no": 8,
+      "title": "Los cinco dedos"
      },
      "hanon": {
       "no": 41,
@@ -6391,8 +6506,8 @@ window.DATA = {
      "bars": "68–97",
      "need": "repeated-notes",
      "warmup": {
-      "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "no": 9,
+      "title": "Extensión de los dedos 4 y 5"
      },
      "hanon": {
       "no": 44,
@@ -6414,8 +6529,8 @@ window.DATA = {
      "bars": "98–129",
      "need": "scales-fast",
      "warmup": {
-      "no": 2,
-      "title": "Dedos 3 y 4"
+      "no": 10,
+      "title": "Preparación del trino con 3 y 4"
      },
      "hanon": {
       "no": 38,
@@ -6437,8 +6552,8 @@ window.DATA = {
      "bars": "130–153",
      "need": "dynamics-range",
      "warmup": {
-      "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "no": 11,
+      "title": "Preparación del trino con 4 y 5"
      },
      "hanon": {
       "no": 32,
@@ -6460,8 +6575,8 @@ window.DATA = {
      "bars": "154–165",
      "need": "pedal-legato",
      "warmup": {
-      "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "no": 12,
+      "title": "Extensión 1-5 y dedos 3-4-5"
      },
      "hanon": {
       "no": 33,
@@ -6483,8 +6598,8 @@ window.DATA = {
      "bars": "todo",
      "need": "syncopation",
      "warmup": {
-      "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "no": 13,
+      "title": "Dedos 3, 4 y 5"
      },
      "hanon": {
       "no": 21,

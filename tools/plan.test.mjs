@@ -46,3 +46,51 @@ test("every session gets a warm-up, a Hanon and a Czerny exercise matched to the
 test("czerny level follows piece difficulty", () => {
   assert.deepEqual([1, 4, 5, 7, 8, 10].map(czernyLevel), [1, 1, 2, 2, 3, 3]);
 });
+
+const route = [
+  { id: "01", lane: 0 }, { id: "02", lane: 1 }, { id: "16", lane: 0 }, { id: "03", lane: 1 }, { id: "15", lane: 0 }, { id: "04", lane: 1 },
+  { id: "14", lane: 0 }, { id: "05", lane: 1 }, { id: "13", lane: 0 }, { id: "06", lane: 1 }, { id: "12", lane: 0 }, { id: "07", lane: 1 },
+  { id: "11", lane: 0 }, { id: "08", lane: 1 }, { id: "10", lane: 0 }, { id: "09", lane: 1 },
+].map((r, k) => ({ ...r, why: "razón " + k }));
+
+test("a curated route sets each lane's order and keeps every piece inside the learning window", () => {
+  const r = buildRoadmap(pieces, { start: "2026-11-16", concert: "2027-12-01", route });
+  assert.equal(r.items.length, 16);
+  for (const lane of [0, 1]) {
+    const its = r.items.filter(i => i.lane === lane).sort((a, b) => a.learnFrom - b.learnFrom);
+    assert.deepEqual(its.map(i => i.id), route.filter(x => x.lane === lane).map(x => x.id));
+    assert.equal(its[0].learnFrom, 0);
+    its.slice(1).forEach((it, k) => assert.equal(it.learnFrom, its[k].learnFrom + its[k].learnWeeks));
+    for (const it of its) { assert.ok(it.learnWeeks >= 2); assert.ok(it.polishFrom + it.polishWeeks <= r.rehearsalFrom); }
+  }
+  assert.equal(r.items.find(i => i.id === "16").why, "razón 2");
+  assert.deepEqual([...r.items].sort((a, b) => a.order - b.order).map(i => i.order), Array.from({ length: 16 }, (_, k) => k + 1));
+});
+
+test("a route that misses or repeats a piece is rejected", () => {
+  assert.throws(() => buildRoadmap(pieces, { start: "2026-11-16", concert: "2027-12-01", route: route.slice(1) }), /route/);
+  assert.throws(() => buildRoadmap(pieces, { start: "2026-11-16", concert: "2027-12-01", route: [...route.slice(1), route[1]] }), /route/);
+});
+
+test("buffer weeks stay free before the rehearsal phase", () => {
+  const r = buildRoadmap(pieces, { start: "2026-11-16", concert: "2027-12-01", route, bufferWeeks: 3 });
+  const lastPolishEnd = Math.max(...r.items.map(i => i.polishFrom + i.polishWeeks));
+  assert.equal(r.rehearsalFrom - lastPolishEnd, 3);
+});
+
+test("the real route starts easy, never pairs two heavy pieces and lets the hardest one mature", async () => {
+  const { readFileSync } = await import("node:fs");
+  const read = f => JSON.parse(readFileSync(new URL("../data/" + f, import.meta.url), "utf8"));
+  const concert = read("concert.json");
+  const real = ["A", "B", "C", "D"].flatMap(x => read(`pieces-${x}.json`));
+  const r = buildRoadmap(real, { start: concert.start, concert: concert.date, rehearsalWeeks: concert.rehearsalWeeks,
+    polishWeeks: concert.polishWeeks, bufferWeeks: concert.bufferWeeks, route: concert.route });
+  const diff = Object.fromEntries(real.map(p => [p.id, p.difficulty]));
+  const minD = Math.min(...real.map(p => p.difficulty));
+  r.items.filter(i => i.learnFrom === 0).forEach(i => assert.equal(diff[i.id], minD, `${i.id} is not among the easiest`));
+  for (const a of r.items) for (const b of r.items)
+    if (a.lane !== b.lane && a.learnFrom < b.polishFrom && b.learnFrom < a.polishFrom)
+      assert.ok(diff[a.id] + diff[b.id] <= 15, `${a.id} and ${b.id} overlap with combined difficulty ${diff[a.id] + diff[b.id]}`);
+  const hardest = r.items.find(i => diff[i.id] === Math.max(...real.map(p => p.difficulty)));
+  assert.ok(r.rehearsalFrom - hardest.polishFrom >= 12, `hardest piece only has ${r.rehearsalFrom - hardest.polishFrom} weeks to mature`);
+});

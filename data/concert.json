@@ -14,5 +14,88 @@
     "Llegar al concierto con al menos dos ensayos generales grabados del programa completo."
   ],
   "rehearsalWeeks": 8,
-  "polishWeeks": 3
+  "polishWeeks": 3,
+  "bufferWeeks": 3,
+  "route": [
+    {
+      "id": "04",
+      "lane": 0,
+      "why": "Dos páginas y tempo lento: la mejor obra para armar la rutina diaria y trabajar el pedal legato y el canto de la melodía sin presión técnica."
+    },
+    {
+      "id": "09",
+      "lane": 1,
+      "why": "Corta y accesible. Presenta las terceras legato en la derecha y los acordes quebrados en la izquierda, que reaparecen en casi todo el programa."
+    },
+    {
+      "id": "16",
+      "lane": 0,
+      "why": "Primera obra de fondo: ocho páginas de dificultad media con octavas, notas repetidas y escalas. Construye la resistencia y la técnica de muñeca que pide In the Palace."
+    },
+    {
+      "id": "06",
+      "lane": 1,
+      "why": "Suma arpegios amplios en la izquierda, trinos y síncopas en un contexto todavía accesible. Prepara el terreno para Clair de Lune."
+    },
+    {
+      "id": "15",
+      "lane": 0,
+      "why": "Presenta la polirritmia de 2 contra 3 y el rubato antes de Clair de Lune, que los usa a lo largo de toda la obra."
+    },
+    {
+      "id": "14",
+      "lane": 1,
+      "why": "Consolida acordes quebrados, arpegios y las primeras octavas con una obra lenta y expresiva."
+    },
+    {
+      "id": "08",
+      "lane": 1,
+      "why": "Dos páginas con octavas y terceras a tempo moderado: un entrenamiento corto antes de las obras con octavas más largas."
+    },
+    {
+      "id": "02",
+      "lane": 0,
+      "why": "Llega con las terceras, los arpegios amplios y el 2 contra 3 ya trabajados. Al aprenderla a mitad del plan, tiene meses para madurar antes del concierto."
+    },
+    {
+      "id": "03",
+      "lane": 1,
+      "why": "Trabaja el control del sonido y el equilibrio entre las manos sobre arpegios en la izquierda, cuando ya tienes base de pedal."
+    },
+    {
+      "id": "07",
+      "lane": 1,
+      "why": "Melodía en la voz superior sobre acordes y arpegios, de dificultad media: refina el voicing y el rubato mientras el otro carril sube a las obras más exigentes."
+    },
+    {
+      "id": "12",
+      "lane": 0,
+      "why": "La obra más exigente del programa. Llega después de Battleground y Clair de Lune y termina de aprenderse con meses de margen antes de los ensayos."
+    },
+    {
+      "id": "11",
+      "lane": 1,
+      "why": "Síncopas, octavas y acordes quebrados a nivel medio. Mantiene el carril ligero activo sin competir con In the Palace."
+    },
+    {
+      "id": "01",
+      "lane": 0,
+      "why": "Doce variaciones independientes: se aprenden de a una, así que encaja bien en la parte final del plan. Las escalas y los trinos ya vienen trabajados de In the Palace."
+    },
+    {
+      "id": "10",
+      "lane": 1,
+      "why": "Retoma el 2 contra 3 con más densidad en la izquierda, cuando ya lo dominas por Small Village y Clair de Lune."
+    },
+    {
+      "id": "13",
+      "lane": 1,
+      "why": "Último estreno del carril ligero: todo lo que pide (octavas, síncopas, escalas) ya lo trabajaste en obras anteriores."
+    },
+    {
+      "id": "05",
+      "lane": 0,
+      "why": "Cierra el carril de fondo. Es exigente, pero su material (octavas, notas repetidas, acordes) ya lo trabajaste en Battleground e In the Palace."
+    }
+  ]
 }
