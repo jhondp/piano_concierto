@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Piano concierto</title>
+<meta name="description" content="Recital de piano solo: dieciséis obras, plan de estudio y hoja de ruta hasta el 1 de diciembre de 2027.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar"><nav>
+  <a class="brand" href="index.html">Piano concierto</a>
+  <a href="#repertorio">Repertorio</a>
+  <a href="#ruta">Hoja de ruta</a>
+  <a href="teoria.html">Teoría</a>
+</nav></header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow" id="when"></span>
+    <h1>Piano concierto</h1>
+    <p class="sub" id="tagline"></p>
+    <div class="count" id="count"></div>
+    <div class="progress"><div class="bar"><i id="pbar"></i></div><span class="mono" id="ptext"></span></div>
+  </section>
+
+  <section id="now" class="card" hidden></section>
+
+  <section class="two">
+    <div class="lead" style="gap:12px">
+      <span class="eyebrow">El concierto</span>
+      <h2>De qué se trata</h2>
+      <div id="about" style="display:grid;gap:10px"></div>
+    </div>
+    <div class="lead" style="gap:12px">
+      <span class="eyebrow">La meta</span>
+      <h2>Objetivo</h2>
+      <ul class="goals" id="goals"></ul>
+    </div>
+  </section>
+
+  <section id="repertorio">
+    <div class="lead">
+      <span class="eyebrow">Programa en orden de concierto</span>
+      <h2>Repertorio</h2>
+      <p class="muted">Cada obra tiene su mapa por secciones, su teoría y sesiones de estudio con Hanon y Czerny. Las barras indican la dificultad de 1 a 10.</p>
+    </div>
+    <div class="rep" id="rep"></div>
+  </section>
+
+  <section id="ruta">
+    <div class="lead">
+      <span class="eyebrow">Hoja de ruta</span>
+      <h2>Del primer día al escenario</h2>
+      <p class="muted">Las obras se aprenden de la más accesible a la más exigente, de a dos en paralelo. Cada obra aprendida pasa tres semanas de pulido y después queda en repaso.</p>
+    </div>
+    <div class="phases" id="phases"></div>
+    <div class="legend"><span><i style="background:#284B63"></i>Aprendizaje</span><span><i style="background:#3C6E71"></i>Pulido</span><span><i style="background:var(--bad)"></i>Hoy</span></div>
+    <div class="scroll"><div class="gantt" id="gantt"></div></div>
+  </section>
+
+  <footer>
+    <p>El progreso que marcas se guarda solo en este navegador. Los análisis de las obras se generaron a partir de las partituras y pueden tener errores en números de compás y acordes: confírmalos con tu partitura.</p>
+  </footer>
+</main>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/home.js"></script>
+</body>
+</html>

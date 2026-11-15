@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Obra · Piano concierto</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="topbar"><nav>
+  <a class="brand" href="index.html">Piano concierto</a>
+  <a href="index.html#repertorio">Repertorio</a>
+  <a href="index.html#ruta">Hoja de ruta</a>
+  <a href="teoria.html">Teoría</a>
+</nav></header>
+
+<main class="wrap">
+  <section class="hero" id="head"></section>
+
+  <section>
+    <div class="lead">
+      <span class="eyebrow">Mapa de la partitura</span>
+      <h2>Apréndela por secciones</h2>
+      <p class="muted">Toca una sección para ver qué trabajar. Márcala como aprendida cuando la toques tres veces seguidas sin parar.</p>
+    </div>
+    <div class="map"><div class="timeline" id="timeline"></div></div>
+    <div class="card detail" id="detail" aria-live="polite"></div>
+  </section>
+
+  <section>
+    <div class="lead">
+      <span class="eyebrow">Plan de estudio</span>
+      <h2>Sesiones sugeridas</h2>
+      <p class="muted">Una sesión de unos 45 minutos por sección, en orden. Repite cada sesión los días que necesites antes de pasar a la siguiente. Hanon y Czerny se eligieron según la técnica que pide esa obra.</p>
+    </div>
+    <div class="sessions" id="sessions"></div>
+  </section>
+
+  <section>
+    <div class="lead">
+      <span class="eyebrow">Teoría de esta obra</span>
+      <h2>Por qué suena así</h2>
+    </div>
+    <div class="concepts" id="concepts"></div>
+    <h3>Acordes principales</h3>
+    <div class="chords" id="chords"></div>
+    <div id="harmony" style="display:grid;gap:8px"></div>
+    <p><a class="btn" href="teoria.html">Repasar la teoría básica →</a></p>
+  </section>
+
+  <nav class="row" id="pager"></nav>
+  <footer><p id="confidence"></p></footer>
+</main>
+
+<script src="assets/data.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/piece.js"></script>
+</body>
+</html>
