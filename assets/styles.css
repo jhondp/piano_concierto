@@ -303,12 +303,21 @@ input[type=range] { accent-color: var(--tint); width: 160px; }
 .techs .tech { border: 0; background: var(--surface); border-radius: var(--r); padding: 0 18px; }
 .techs .tech summary { padding: 16px 0; }
 
-/* About: a pull quote with no side bar, set large and light */
-.about-quote { font-size: clamp(1.25rem, 3.6vw, 1.65rem); font-weight: 300;  line-height: 1.45; letter-spacing: -.02em; max-width: 30ch; }
-.legs { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0; background: var(--surface); border-radius: var(--r); }
-.legs div { padding: 16px 18px 18px; display: grid; gap: 4px; align-content: start; }
-.legs div + div { box-shadow: inset 1px 0 0 var(--sep); }
-.legs b { font-size: .98rem; }
-.legs small { color: var(--muted); font-size: .8rem; }
-.legs p { font-size: .9rem; color: var(--muted); }
-@media (max-width: 720px) { .legs div + div { box-shadow: inset 0 1px 0 var(--sep); } }
+/* Synopsis: press-style text, first paragraph set larger */
+.synopsis { display: grid; gap: 14px; max-width: 64ch; }
+.synopsis p:first-child { font-size: clamp(1.1rem, 2.6vw, 1.3rem); line-height: 1.6; color: var(--fg); }
+.synopsis p { color: var(--muted); }
+.synopsis p:last-child { color: var(--fg); }
+.synopsis i { font-style: italic; color: var(--fg); }
+
+/* Theory curriculum */
+.lnav { max-height: calc(100vh - 88px); overflow-y: auto; overscroll-behavior: contain; }
+.lvl { padding: 14px 14px 6px; font-size: .75rem; font-weight: 600; color: var(--muted); background: var(--surface-2); }
+.lbtn + .lvl { border-top: 1px solid var(--sep); }
+@media (max-width: 720px) {
+  .lnav { max-height: none; overflow-y: visible; position: relative; }
+  .lvl { flex: none; display: flex; align-items: center; white-space: nowrap; padding: 0 4px 0 10px; background: none; }
+  .lvl:first-child { padding-left: 0; }
+  .lvl-t { display: none; }
+  .lbtn + .lvl { border-top: 0; }
+}

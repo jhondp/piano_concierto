@@ -19,6 +19,8 @@ Branch: feat/study-site · Delivery: ask-on-risk · Test runner: `node --test` (
 - T5 [S5] Theory lessons page — inline — done, 7ef0bc5
 - T6 [S1] README + local run instructions — inline — done (docs commit)
 - T7 [S6] iOS-style redesign: tab bar on phones, grouped lists, keyboard hero — inline — done (style commit)
+- T9 Poppins, practice strategies per session, deeper story — inline — done 6436a76
+- T10 Press synopsis replaces "De qué se trata"; 25-lesson theory curriculum (delegated, parallel); practica.html trainers + guides (delegated, parallel) — done (this commit)
 - T8 [S7] Curated two-lane route with per-piece reasons and buffer weeks, with tests — inline — done (route commit, 8/8 tests)
 
 ## Log
@@ -32,3 +34,6 @@ Branch: feat/study-site · Delivery: ask-on-risk · Test runner: `node --test` (
 - L8 (2026-11-15) "pensé que habías organizado el aprendizaje para que sea dese lo maś difícil a lo más fácil ¿cambiaste el orden?" — verified: tools/plan.mjs sorted easy to hard since 4c9cc13; order unchanged.
 - L9 (2026-11-15) "rediseña con la mejor ruta de aprendizaje"
 - L10 Route design: lane 0 "obra de fondo" (demanding), lane 1 "obra ligera"; start with the two easiest; technique prerequisites before each hard piece; hardest (In the Palace) learned by 2027-05-24, 19 weeks before rehearsals; 3 buffer weeks. Test guards the real route: easiest first, overlapping pairs sum difficulty <= 15, hardest matures >= 12 weeks. Verified with phone/desktop headless screenshots; not verified: dark mode, real iPhone.
+- L11 (2026-11-15) "Puedes hacer que toda la fuente sea en popins, que si vas a resaltar un cuadro no tenga una barra de color al lado..." + practice techniques per session (ghosting).
+- L12 (2026-11-15) "puedes dotar de más contenido la sección de teoría... conservatorio intermedio... desde lo más fácil a lo más difícil"; "consejos y tips para mejorar la técnica... lectura... ejercicios de intervalos" → approved "los tres ejercicios y las guías"; "no me gusta el De qué se trata" → approved press synopsis "reemplázalo y saca los tramos".
+- L13 Two writers ran in parallel with disjoint surfaces (theory: lessons.js/teoria.html/styles.css; trainers: practica.html/trainer.js/guides.js/trainer.css). Parent added the Entrenar tab, synopsis CSS, Noto Music for clef glyphs, fixed bass clef offset. Theory progress keys changed (pc-theory-*), so old lesson progress resets.

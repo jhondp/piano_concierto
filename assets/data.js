@@ -4,39 +4,12 @@ window.DATA = {
   "title": "Piano concierto",
   "date": "2027-12-01",
   "start": "2026-11-16",
-  "tagline": "De una canción infantil a un campo de batalla: dieciséis obras, más de dos siglos de música y un solo piano.",
-  "quote": "Es el camino de crecer, y también el de aprender: empezar por la melodía que cualquiera sabe tararear y terminar en la obra que más cuesta tocar.",
+  "tagline": "Dieciséis obras para piano solo, de Mozart al anime contemporáneo.",
   "about": [
-   "Piano concierto es un recital de piano solo con dieciséis obras escritas a lo largo de más de dos siglos: de las variaciones de Mozart a las bandas sonoras de anime de los últimos años, pasando por Debussy, Sakamoto, Hisaishi y Uematsu.",
-   "Casi todas nacieron para acompañar una historia, ya sea una película, una serie o un videojuego. Aquí tienen que contarla solas, sin imágenes ni orquesta: solo un piano y las manos de quien lo toca.",
-   "Debajo hay otra historia: la de aprender a tocarlas. El programa se prepara de forma autodidacta, obra por obra, durante un año. El concierto es el final del viaje, pero el viaje es el estudio."
-  ],
-  "legs": [
-   {
-    "title": "Infancia",
-    "range": "Obras 1 y 2",
-    "text": "Empieza con «Estrellita», la primera melodía que aprende casi cualquier niño, transformada doce veces por Mozart. Después cae la noche con Clair de Lune."
-   },
-   {
-    "title": "Memoria",
-    "range": "Obras 3 a 7",
-    "text": "Piano que respira: tres obras de Sakamoto, el tren silencioso de El viaje de Chihiro y la nana de Final Fantasy IV. Música que llegó a través de una pantalla y se quedó."
-   },
-   {
-    "title": "Lo que no se dice",
-    "range": "Obras 8 a 11",
-    "text": "A Silent Voice y Your Lie in April: culpa, perdón y la historia de un pianista que deja de oír su propio piano y vuelve a tocar."
-   },
-   {
-    "title": "Lo que pesa",
-    "range": "Obras 12 a 14",
-    "text": "Un lamento que se convierte en furia en Hunter × Hunter, y dos temas de Jujutsu Kaisen sobre el cansancio y la ternura de seguir adelante."
-   },
-   {
-    "title": "La batalla",
-    "range": "Obras 15 y 16",
-    "text": "Un pueblo pequeño y un campo de batalla. Vinland Saga es la historia de un guerrero que aprende a dejar de pelear: la obra más ruidosa del programa es también la que más control pide."
-   }
+   "Hay melodías que se aprenden antes de saber leer. Con una de ellas, la que en español conocemos como «Estrellita, ¿dónde estás?», abre *Piano concierto*, en las doce variaciones que Mozart escribió sobre ella hacia 1781. Desde ahí, el programa recorre más de dos siglos de memoria pianística: la luz suspendida de *Clair de Lune*, la sobriedad de Ryuichi Sakamoto, el tren silencioso de *El viaje de Chihiro* y la nana de *Final Fantasy IV*.",
+   "La segunda mitad reúne páginas nacidas en el anime japonés de los últimos quince años: *Your Lie in April*, *A Silent Voice*, *Hunter × Hunter*, *Jujutsu Kaisen* y *Vinland Saga*. Es música que suele quedar detrás de la imagen y que aquí ocupa el centro, sin orquesta ni pantalla.",
+   "El recital culmina en *Battleground*, de Yutaka Yamada. Así se cierra un programa que va de la canción infantil al campo de batalla y dibuja el arco de toda una vida de escucha.",
+   "*Piano concierto* es también el fruto de un año de estudio autodidacta: dieciséis obras aprendidas una a una para interpretarse en una sola noche."
   ],
   "objectives": [
    "Tocar en vivo el programa completo de dieciséis obras el 1 de diciembre de 2027.",

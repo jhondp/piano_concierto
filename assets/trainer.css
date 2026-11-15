@@ -1,0 +1,49 @@
+/* Daily trainers and guides (practica.html only). */
+.trainers { display: grid; gap: 16px; }
+.trainer { gap: 16px; padding: 22px; }
+.t-head { display: grid; gap: 4px; }
+.t-head .muted { font-size: .9rem; }
+.t-controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.t-controls .tags[hidden] { display: none; }
+.t-clefs .tag { font-weight: 500; }
+.t-check { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; cursor: pointer; }
+.t-check input { accent-color: var(--tint); width: 18px; height: 18px; margin: 0; }
+
+.t-stage { background: var(--surface-2); border-radius: var(--r-sm); padding: 18px 16px; min-height: 190px;
+  display: grid; place-content: center; justify-items: center; gap: 10px; text-align: center; transition: background-color .25s; }
+.t-stage[data-fb="ok"] { background: color-mix(in srgb, var(--ok) 18%, var(--surface-2)); }
+.t-stage[data-fb="bad"] { background: color-mix(in srgb, var(--bad) 16%, var(--surface-2)); }
+.staff { width: min(100%, 340px); height: auto; color: var(--fg); }
+.staff .lines line { stroke: currentColor; stroke-width: 1.2; opacity: .75; }
+.staff ellipse, .staff text { fill: currentColor; }
+.staff .clef, .staff .acc { font-family: "Noto Music", "Bravura", "Segoe UI Symbol", "Apple Symbols", "DejaVu Sans", serif; }
+.t-clef { font-size: .8rem; }
+.t-plays { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.t-play svg { width: 16px; height: 16px; fill: currentColor; }
+
+.t-opts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 116px), 1fr)); gap: 8px; }
+.t-opts:empty { display: none; }
+.t-opts .opt { min-height: 48px; padding: 10px 12px; border-radius: var(--r-sm); display: flex; align-items: center;
+  justify-content: center; gap: 8px; text-align: center; line-height: 1.2; transition: background-color .2s, transform .15s; }
+.t-opts .opt:hover:not(:disabled) { background: var(--accent-soft); }
+.t-opts .opt:active:not(:disabled) { transform: scale(.97); }
+.t-opts .opt:disabled { opacity: .5; cursor: default; }
+.t-opts .opt kbd { font: 500 .7rem var(--body); color: var(--muted); }
+.t-opts .opt.wrong { background: color-mix(in srgb, var(--bad) 12%, var(--surface-2)); }
+
+.t-msg { min-height: 1.7em; font-size: .92rem; }
+.t-msg.ok { color: var(--ok); }
+.t-msg.bad { color: var(--bad); }
+.t-foot { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.t-foot .progress { flex: 1; min-width: 180px; }
+.trainer .stats { grid-template-columns: repeat(4, 1fr); background: var(--surface-2); margin: 0; }
+.trainer .stats b { font-size: clamp(1.35rem, 4.5vw, 1.9rem); }
+@media (max-width: 560px) {
+  .trainer { padding: 18px 16px; }
+  .trainer .stats { grid-template-columns: repeat(2, 1fr); }
+  .trainer .stats div:nth-child(3) { box-shadow: inset 0 1px 0 var(--sep); }
+  .trainer .stats div:nth-child(4) { box-shadow: inset 1px 0 0 var(--sep), inset 0 1px 0 var(--sep); }
+}
+
+.g-list { margin: 0 0 14px; padding-left: 1.1em; display: grid; gap: 6px; font-size: .92rem; }
+.g-list li::marker { color: var(--tint); }
