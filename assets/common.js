@@ -63,7 +63,25 @@ function nearestSample(m) {
   return best !== null && Math.abs(best - m) <= 3 ? best : null;
 }
 
-function tone(m, t0, dur = 1.6, vol = 0.16) {
+// Scheduled voices by group, so a sequence can be cancelled (Stop, or replaying before it ends).
+const voices = new Set();
+function track(src, g, group) {
+  if (!group) return;
+  const v = { src, g, group };
+  voices.add(v);
+  src.onended = () => voices.delete(v);
+}
+function stopSounds(group = "seq") {
+  if (!ctx) return;
+  const now = ctx.currentTime;
+  for (const v of [...voices]) {
+    if (v.group !== group) continue;
+    try { v.g.gain.cancelScheduledValues(now); v.g.gain.setTargetAtTime(0, now, 0.02); v.src.stop(now + 0.12); } catch (e) { /* already stopped */ }
+    voices.delete(v);
+  }
+}
+
+function tone(m, t0, dur = 1.6, vol = 0.16, group = null) {
   const c = ac(), k = nearestSample(m);
   if (k !== null) {
     const src = c.createBufferSource(), g = c.createGain();
@@ -72,11 +90,12 @@ function tone(m, t0, dur = 1.6, vol = 0.16) {
     g.gain.setValueAtTime(level, t0);
     g.gain.setTargetAtTime(0, t0 + dur, 0.15); // damper: release after the written length
     src.connect(g).connect(out); src.start(t0); src.stop(t0 + dur + 1);
+    track(src, g, group);
     return;
   }
-  return synthTone(m, t0, dur, vol);
+  return synthTone(m, t0, dur, vol, group);
 }
-function synthTone(m, t0, dur = 1.6, vol = 0.16) {
+function synthTone(m, t0, dur = 1.6, vol = 0.16, group = null) {
   const c = ac(), o = c.createOscillator(), f = c.createBiquadFilter(), g = c.createGain();
   const hz = 440 * 2 ** ((m - 69) / 12);
   o.setPeriodicWave(wave); o.frequency.value = hz;
@@ -90,19 +109,22 @@ function synthTone(m, t0, dur = 1.6, vol = 0.16) {
   g.gain.exponentialRampToValueAtTime(vol * 0.35, t0 + Math.min(dur * 0.6, 0.35));
   g.gain.exponentialRampToValueAtTime(0.0008, t0 + dur);
   o.connect(f).connect(g).connect(out); o.start(t0); o.stop(t0 + dur + 0.05);
+  track(o, g, group);
 }
 // seq: array of chords (arrays of MIDI notes), each played `gap` seconds after the previous one.
 function playSeq(seq, gap = 1.1, arp = 0, dur = 1.6) {
+  stopSounds("seq"); // replaying replaces the previous sequence instead of layering on it
   whenRunning(c => {
     const t = c.currentTime + 0.06;
-    seq.forEach((ch, i) => ch.forEach((m, k) => tone(m, t + i * gap + k * arp, dur, 0.16 / Math.sqrt(Math.max(1, ch.length)))));
+    seq.forEach((ch, i) => ch.forEach((m, k) => tone(m, t + i * gap + k * arp, dur, 0.16 / Math.sqrt(Math.max(1, ch.length)), "seq")));
   });
 }
-function click(t, strong) {
+function click(t, strong, group = null) {
   const c = ac(), o = c.createOscillator(), g = c.createGain();
   o.frequency.value = strong ? 1320 : 760;
   g.gain.setValueAtTime(strong ? 0.3 : 0.14, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.07);
   o.connect(g).connect(out); o.start(t); o.stop(t + 0.08);
+  track(o, g, group);
 }
 
 const PC = ["Do", "Re♭", "Re", "Mi♭", "Mi", "Fa", "Sol♭", "Sol", "La♭", "La", "Si♭", "Si"];

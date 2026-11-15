@@ -394,6 +394,7 @@
     if (!st.run) return;
     const was = st.run;
     st.run = null; cancelAnimationFrame(st.raf);
+    stopSounds("seq"); // scheduled melody and count-in clicks
     scoreEl.querySelectorAll(".cursor").forEach(c => c.setAttribute("x", -20));
     startBtn.textContent = "Empezar";
     if (was !== "listen") { tried = true; showBest(); }
@@ -402,7 +403,15 @@
 
   function stepPress(m) {
     const e = st.events[st.idx];
-    if (m !== e.midi) { st.errors++; markEvent(e, "cur bad"); return; }
+    if (m !== e.midi) {
+      st.errors++; markEvent(e, "cur bad");
+      // Same letter in another octave is the most common slip: say which way to go.
+      setMsg(m % 12 === e.midi % 12
+        ? `Es la nota correcta, pero en otra octava: tocaste ${noteName(m)} y la nota es ${noteName(e.midi)}, una octava más ${e.midi > m ? "arriba" : "abajo"}.`
+        : `Tocaste ${noteName(m)}. Mira la nota resaltada e inténtalo de nuevo.`, "bad");
+      return;
+    }
+    setMsg("");
     markEvent(e, "ok");
     st.idx++;
     if (st.idx >= st.events.length) {
@@ -424,7 +433,7 @@
     whenRunning(c => {
       if (st.run !== "tempo") return;
       const t0 = c.currentTime + 0.15;
-      for (let k = 0; k < beats; k++) click(t0 + k * beatSec, k === 0);
+      for (let k = 0; k < beats; k++) click(t0 + k * beatSec, k === 0, "seq");
       st.T = t0 + beats * beatSec;
       st.events.forEach((e, k) => {
         const nxt = st.events[k + 1], gap = ((nxt ? nxt.on : timeline(ex.notes).total) - e.on) * q;
@@ -482,13 +491,14 @@
   }
   function listen() {
     stop(true);
+    stopSounds("seq");
     marks = []; draw();
     const q = spq();
     st.run = "listen";
     startBtn.textContent = "Detener";
     whenRunning(c => {
       st.T = c.currentTime + 0.12;
-      timeline(ex.notes).events.forEach(e => tone(e.midi, st.T + e.on * q, Math.max(0.35, e.dur * q * 1.15)));
+      timeline(ex.notes).events.forEach(e => tone(e.midi, st.T + e.on * q, Math.max(0.35, e.dur * q * 1.15), 0.16, "seq"));
       st.end = st.T + timeline(ex.notes).total * q;
       tick();
     });

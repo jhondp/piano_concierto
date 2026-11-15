@@ -590,19 +590,19 @@ lessonEl.addEventListener("click", e => {
     const k = lessonEl.querySelector("[data-kbd]"); if (k) k.innerHTML = kbd(JSON.parse(p.dataset.show));
   }
   const rh = e.target.closest("[data-rh]");
-  if (rh) whenRunning(c => { // durations are in beats at data-bpm; each voice starts together
+  if (rh) { stopSounds("seq"); } if (rh) whenRunning(c => { // durations are in beats at data-bpm; each voice starts together
     const b = 60 / +rh.dataset.bpm, t0 = c.currentTime + 0.06;
     JSON.parse(rh.dataset.rh).forEach(v => {
       let t = t0;
-      v.forEach(([m, d, s = 1, vol = 0.16]) => { if (m) tone(m, t, Math.max(0.12, d * b * s), vol); t += d * b; });
+      v.forEach(([m, d, s = 1, vol = 0.16]) => { if (m) tone(m, t, Math.max(0.12, d * b * s), vol, "seq"); t += d * b; });
     });
-    for (let i = 0; i < +rh.dataset.beats; i++) click(t0 + i * b, i % +rh.dataset.bar === 0);
+    for (let i = 0; i < +rh.dataset.beats; i++) click(t0 + i * b, i % +rh.dataset.bar === 0, "seq");
   });
   const r = e.target.closest("[data-rhythm]");
-  if (r) whenRunning(c => { // one dotted-quarter beat at 40 bpm, plus the next downbeat
+  if (r) { stopSounds("seq"); } if (r) whenRunning(c => { // one dotted-quarter beat at 40 bpm, plus the next downbeat
     const n = +r.dataset.rhythm, beat = 60 / 40, t = c.currentTime + 0.06;
-    for (let i = 0; i < n; i++) { click(t + (i * beat) / n, i === 0); tone(r.dataset.rhythm === "3" ? 73 : 77, t + (i * beat) / n, 0.4, 0.08); }
-    click(t + beat, true);
+    for (let i = 0; i < n; i++) { click(t + (i * beat) / n, i === 0, "seq"); tone(r.dataset.rhythm === "3" ? 73 : 77, t + (i * beat) / n, 0.4, 0.08, "seq"); }
+    click(t + beat, true, "seq");
   });
 });
 
