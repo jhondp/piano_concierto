@@ -8,19 +8,20 @@ document.title = `${p.title} · Piano concierto`;
 // Header
 const dots = Array.from({ length: 10 }, (_, k) => `<i class="${k < p.difficulty ? "f" : ""}"></i>`).join("");
 $("head").innerHTML = `
-  <span class="eyebrow">${p.id} del programa · se aprende en el puesto ${p.plan.order}</span>
+  <span class="eyebrow">Obra ${+p.id} del programa. Se aprende en el puesto ${p.plan.order} de ${pieces.length}.</span>
   <h1>${esc(p.title)}</h1>
-  <p class="sub">${esc(p.composer)}${p.source ? " · " + esc(p.source) : ""}</p>
-  <div class="facts">
-    <span class="fact">Tonalidad <b>${esc(p.key)}</b> · ${esc(p.keySignature)}</span>
-    <span class="fact">Compás <b>${esc(p.meter)}</b></span>
-    ${p.tempo ? `<span class="fact"><b>${esc(p.tempo)}</b></span>` : ""}
-    <span class="fact"><b>${p.bars ?? "?"}</b> compases · ${p.pages} páginas</span>
-    <span class="fact">Dificultad <b>${p.difficulty}/10</b> <span class="dots" style="display:inline-flex;vertical-align:-2px">${dots}</span></span>
-  </div>
+  <p class="sub">${esc(p.composer)}${p.source ? ", " + esc(p.source) : ""}</p>
+  <dl class="info">
+    <div><dt>Tonalidad</dt><dd>${esc(p.key)}</dd></div>
+    <div><dt>Armadura</dt><dd>${esc(p.keySignature)}</dd></div>
+    <div><dt>Compás</dt><dd>${esc(p.meter)}</dd></div>
+    ${p.tempo ? `<div><dt>Tempo</dt><dd>${esc(p.tempo)}</dd></div>` : ""}
+    <div><dt>Extensión</dt><dd>${p.bars ?? "?"} compases, ${p.pages} pág.</dd></div>
+    <div><dt>Dificultad</dt><dd>${p.difficulty}/10<span class="dots">${dots}</span></dd></div>
+  </dl>
   <p>${esc(p.character)}</p>
   <p class="muted">${esc(p.difficultyNote)}</p>
-  <p class="note">Plan: aprenderla del <b>${fmtDate(p.plan.startDate)}</b> al <b>${fmtDate(p.plan.learnedBy)}</b> (${p.plan.learnWeeks} semanas) y pulirla las ${p.plan.polishWeeks} semanas siguientes.</p>
+  <p class="note">Plan: aprenderla del <b>${fmtDate(p.plan.startDate)}</b> al <b>${fmtDate(p.plan.learnedBy)}</b> (${p.plan.learnWeeks} semanas) y pulirla las ${p.plan.polishWeeks} semanas siguientes, como ${p.plan.lane ? "obra ligera" : "obra de fondo"}.${p.plan.why ? `<br><b>Por qué en este momento:</b> ${esc(p.plan.why)}` : ""}</p>
   <div class="progress"><div class="bar"><i id="pbar"></i></div><span class="mono" id="ptext"></span></div>`;
 
 // Section map
@@ -66,12 +67,12 @@ $("sessions").innerHTML = p.sessions.map((s, i) => {
     ["Obra", `${s.section} (c. ${s.bars})`, sec ? (sec.focus || [])[0] : "Toca la obra completa.", "18 min"],
     s.theory && ["Teoría", s.theory, "Búscalo en la partitura (ver Teoría de esta obra).", "4 min"],
   ].filter(Boolean);
-  return `<article class="session"><header><h3>Sesión ${s.n} · ${esc(s.section)}</h3><span class="eyebrow">Foco técnico: ${esc(NEED_ES[s.need] || s.need)}</span></header>
-    ${tasks.map(([kind, what, detail, t], k) => {
+  return `<article class="session"><header><h3>Sesión ${s.n}: ${esc(s.section)}</h3><span class="eyebrow">Foco técnico: ${esc(NEED_ES[s.need] || s.need)}</span></header>
+    <div class="list">${tasks.map(([kind, what, detail, t], k) => {
       const key = `${i}-${k}`;
       return `<div class="task"><input type="checkbox" id="t${key}" data-k="${key}" ${checks[key] ? "checked" : ""}><span class="kind">${kind}</span>
         <label for="t${key}">${esc(what)}<small>${esc(detail)}</small></label><span class="mono">${t}</span></div>`;
-    }).join("")}</article>`;
+    }).join("")}</div></article>`;
 }).join("");
 $("sessions").onchange = e => { const k = e.target.dataset.k; if (k) { checks[k] = e.target.checked; store.set("pc-ses-" + p.id, checks); } };
 

@@ -7,6 +7,8 @@ Branch: feat/study-site · Delivery: ask-on-risk · Test runner: `node --test` (
 - S2. "si quieres usar fable, usalo hasta las 14:59, para analizar las piezas y generar el conocimiento necesario" — score analysis delegated to Fable agents before 14:59; their outputs feed the site data.
 - S3. "Ojalá puedas sugerir ejercicios de hanon y czerny por sesión sugerida de estudio decada pieza." — every piece has suggested study sessions, each with Hanon and Czerny exercises.
 - S4. "La página debe tener un inicio que diga "Piano concierto" Una explicación de qué se trata el concierto, cual es el objetivo del concierto, cuál es el repertorio y la hoja de ruta de aprendizaje, teniendo como meta que el concierto pdoría ser el 1 de diciembre del año que viene, etc" — home page titled "Piano concierto" with: what the concert is, its objective, the repertoire, and a learning roadmap ending 2027-12-01.
+- S6. "puedes mejorar el diseño de la página web, que se vea responsiva en teléfono, bien bonita, como si fuese uan app hecha por apple pero elegante"
+- S7. "rediseña con la mejor ruta de aprendizaje" — after the user asked "pensé que habías organizado el aprendizaje para que sea dese lo maś difícil a lo más fácil ¿cambiaste el orden?" (it was always easy to hard).
 - S5 (carried from the Clair de Lune sample artifact): user palette #333333, #3C6E71, #FFFFFF, #D9D9D9, #284B63; theory lessons (8) with audio and quizzes; per-piece section map. Assumption: UI copy in neutral Spanish.
 
 ## Tasks
@@ -16,6 +18,8 @@ Branch: feat/study-site · Delivery: ask-on-risk · Test runner: `node --test` (
 - T4 [S3,S5] Piece page: sections, theory, chords, sessions — inline — done, 7ef0bc5
 - T5 [S5] Theory lessons page — inline — done, 7ef0bc5
 - T6 [S1] README + local run instructions — inline — done (docs commit)
+- T7 [S6] iOS-style redesign: tab bar on phones, grouped lists, keyboard hero — inline — done (style commit)
+- T8 [S7] Curated two-lane route with per-piece reasons and buffer weeks, with tests — inline — done (route commit, 8/8 tests)
 
 ## Log
 - L1 (2026-11-15) "Genera la pagina web en ese repo, si quieres usar fable, usalo hasta las 14:59, para analizar las piezas y generar el conocimiento necesario. Ojalá puedas sugerir ejercicios de hanon y czerny por sesión sugerida de estudio decada pieza."
@@ -24,3 +28,7 @@ Branch: feat/study-site · Delivery: ask-on-risk · Test runner: `node --test` (
 - L4 Analyses done 14:41-14:43: 16 pieces, Hanon 60 (scan is English text despite filename), Czerny Op.599 100 (Peters 2402). Chords/roman numerals inferred; bar numbers mostly read from page (Theme of Love and Mozart counted manually).
 - L5 Verification: `node --test tools/*.test.mjs` 4 pass; `node --check` on all assets/*.js; headless Firefox screenshots of index, pieza?id=02, teoria rendered without visible breakage. Not verified: audio playback, mobile width, dark mode.
 - L6 Next: user reviews drafted concert description/objectives in data/concert.json; push/PR is the user's decision.
+- L7 (2026-11-15) "puedes mejorar el diseño de la página web, que se vea responsiva en teléfono, bien bonita, como si fuese uan app hecha por apple pero elegante"
+- L8 (2026-11-15) "pensé que habías organizado el aprendizaje para que sea dese lo maś difícil a lo más fácil ¿cambiaste el orden?" — verified: tools/plan.mjs sorted easy to hard since 4c9cc13; order unchanged.
+- L9 (2026-11-15) "rediseña con la mejor ruta de aprendizaje"
+- L10 Route design: lane 0 "obra de fondo" (demanding), lane 1 "obra ligera"; start with the two easiest; technique prerequisites before each hard piece; hardest (In the Palace) learned by 2027-05-24, 19 weeks before rehearsals; 3 buffer weeks. Test guards the real route: easiest first, overlapping pairs sum difficulty <= 15, hardest matures >= 12 weeks. Verified with phone/desktop headless screenshots; not verified: dark mode, real iPhone.
