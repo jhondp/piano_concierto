@@ -26,6 +26,7 @@ function ac() {
     const h = [0, 1, 0.7, 0.5, 0.38, 0.3, 0.24, 0.19, 0.15, 0.12, 0.1, 0.08, 0.065, 0.05, 0.04, 0.032, 0.025];
     wave = ctx.createPeriodicWave(new Float32Array(h.length), new Float32Array(h));
     try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch (e) { /* older browsers */ }
+    decodeSamples(ctx);
   }
   if (ctx.state !== "running") ctx.resume();
   return ctx;
@@ -41,7 +42,41 @@ function whenRunning(fn) {
   try { const c = ac(), s = c.createBufferSource(); s.buffer = c.createBuffer(1, 1, 22050); s.connect(c.destination); s.start(0); } catch (e) { /* no audio */ }
 }, { once: true, capture: true }));
 
+// Real piano samples (Salamander Grand Piano, Alexander Holm, CC BY 3.0): one every minor third,
+// pitch-shifted for the notes in between. Fetched at page load, decoded once audio exists.
+const SAMPLE_NOTES = [];
+for (let o = 1; o <= 7; o++) ["C", "Ds", "Fs", "A"].forEach((n, i) => SAMPLE_NOTES.push([n + o, 12 * (o + 1) + i * 3]));
+SAMPLE_NOTES.push(["C8", 108]);
+const samples = new Map(); // midi -> AudioBuffer
+const sampleFiles = SAMPLE_NOTES.map(([name, midi]) =>
+  fetch(`assets/audio/piano/${name}.mp3`).then(r => (r.ok ? r.arrayBuffer() : null)).catch(() => null).then(data => ({ midi, data })));
+function decodeSamples(c) {
+  sampleFiles.forEach(p => p.then(({ midi, data }) => {
+    if (!data) return;
+    // Callback form also works on older Safari, which lacks the promise version.
+    try { c.decodeAudioData(data, b => samples.set(midi, b), () => {}); } catch (e) { /* keep the synth for this note */ }
+  }));
+}
+function nearestSample(m) {
+  let best = null;
+  for (const k of samples.keys()) if (best === null || Math.abs(k - m) < Math.abs(best - m)) best = k;
+  return best !== null && Math.abs(best - m) <= 3 ? best : null;
+}
+
 function tone(m, t0, dur = 1.6, vol = 0.16) {
+  const c = ac(), k = nearestSample(m);
+  if (k !== null) {
+    const src = c.createBufferSource(), g = c.createGain();
+    src.buffer = samples.get(k); src.playbackRate.value = 2 ** ((m - k) / 12);
+    const level = vol * 6.4;
+    g.gain.setValueAtTime(level, t0);
+    g.gain.setTargetAtTime(0, t0 + dur, 0.15); // damper: release after the written length
+    src.connect(g).connect(out); src.start(t0); src.stop(t0 + dur + 1);
+    return;
+  }
+  return synthTone(m, t0, dur, vol);
+}
+function synthTone(m, t0, dur = 1.6, vol = 0.16) {
   const c = ac(), o = c.createOscillator(), f = c.createBiquadFilter(), g = c.createGain();
   const hz = 440 * 2 ** ((m - 69) / 12);
   o.setPeriodicWave(wave); o.frequency.value = hz;

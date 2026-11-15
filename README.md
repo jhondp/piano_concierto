@@ -37,3 +37,7 @@ node --test tools/*.test.mjs
 ## About the analyses
 
 The piece analyses were generated from the scanned scores. Keys, meters and markings were read from the page; chord names, roman numerals and some bar numbers are inferred. Each piece's `confidence` field says which is which. Check bar numbers against your own score.
+
+## Credits
+
+Piano sounds: [Salamander Grand Piano](https://archive.org/details/SalamanderGrandPianoV3) by Alexander Holm, licensed [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/). The site uses 29 of its notes (MP3 versions from the Tone.js audio repository) in `assets/audio/piano/`, pitch-shifted for the notes in between. When the samples cannot load (for example when opening the pages straight from disk in some browsers), a built-in synthesizer plays instead.
