@@ -1,0 +1,689 @@
+{
+ "edition_note": "Pese al nombre del archivo (edición portuguesa), el escaneo contiene el texto en INGLÉS de 'The Virtuoso-Pianist' (edición tipo Schirmer), 116 páginas sin portada ni prólogo: el n.º 1 empieza en la página 1 del PDF. 'page' es la página del PDF (base 1) donde empieza cada ejercicio. Numeración y contenido coinciden con el Hanon estándar (I: 1-20, II: 21-43, III: 44-60). Los n.º 36 y 37 comparten la página 46; el 32 empieza a mitad de la 42, el 43 a mitad de la 69, el 55 al pie de la 96 y el 56 al pie de la 98. Páginas duplicadas en el escaneo: 99 es idéntica a 98, y 88 parece repetir la 87 (n.º 52). Las descripciones de 2-8, 13, 18-19 y 22-28 sin título impreso se basan en los dedos indicados entre paréntesis en la partitura.",
+ "exercises": [
+  {
+   "no": 1,
+   "page": 1,
+   "title": "Extensión entre los dedos 4 y 5",
+   "skill": "Abre la mano entre los dedos 5 y 4 de la izquierda al subir y de la derecha al bajar, igualando los cinco dedos.",
+   "tags": [
+    "finger-independence",
+    "stretch",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 2,
+   "page": 2,
+   "title": "Dedos 3 y 4",
+   "skill": "Fortalece los dedos 3 y 4 con un patrón continuo de semicorcheas.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 3,
+   "page": 3,
+   "title": "Dedos 2, 3 y 4",
+   "skill": "Trabaja la agilidad e igualdad de los dedos 2, 3 y 4.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 4,
+   "page": 4,
+   "title": "Dedos 3, 4 y 5",
+   "skill": "Ejercicio especial para los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 5,
+   "page": 5,
+   "title": "Los cinco dedos, articulación alta",
+   "skill": "Trabaja los cinco dedos levantándolos alto y con precisión.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 1
+  },
+  {
+   "no": 6,
+   "page": 6,
+   "title": "Dedo 5",
+   "skill": "Refuerza el dedo 5 con notas repetidas en el extremo de la mano dentro del patrón.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 7,
+   "page": 7,
+   "title": "Dedos 3, 4 y 5 (muy importante)",
+   "skill": "Ejercicio de máxima importancia para la independencia de los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 8,
+   "page": 8,
+   "title": "Los cinco dedos",
+   "skill": "Ejercicio muy importante para la igualdad de los cinco dedos.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 1
+  },
+  {
+   "no": 9,
+   "page": 9,
+   "title": "Extensión de los dedos 4 y 5",
+   "skill": "Extiende los dedos 4 y 5 y sirve como ejercicio general de dedos.",
+   "tags": [
+    "finger-independence",
+    "stretch",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 10,
+   "page": 10,
+   "title": "Preparación del trino con 3 y 4",
+   "skill": "Prepara el trino con los dedos 3 y 4 (izquierda al subir, derecha al bajar).",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5",
+    "trills"
+   ],
+   "part": 1
+  },
+  {
+   "no": 11,
+   "page": 11,
+   "title": "Preparación del trino con 4 y 5",
+   "skill": "Otra preparación del trino, para los dedos 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5",
+    "trills"
+   ],
+   "part": 1
+  },
+  {
+   "no": 12,
+   "page": 12,
+   "title": "Extensión 1-5 y dedos 3-4-5",
+   "skill": "Extiende la mano entre los dedos 1 y 5 y ejercita los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "stretch",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 13,
+   "page": 13,
+   "title": "Dedos 3, 4 y 5",
+   "skill": "Refuerza la independencia de los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 14,
+   "page": 14,
+   "title": "Preparación del trino con 3 y 4 (II)",
+   "skill": "Otra preparación del trino para los dedos 3 y 4.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5",
+    "trills"
+   ],
+   "part": 1
+  },
+  {
+   "no": 15,
+   "page": 15,
+   "title": "Extensión 1-2 y los cinco dedos",
+   "skill": "Extiende los dedos 1 y 2 y ejercita los cinco dedos.",
+   "tags": [
+    "finger-independence",
+    "stretch"
+   ],
+   "part": 1
+  },
+  {
+   "no": 16,
+   "page": 16,
+   "title": "Extensión 3-5 y dedos 3-4-5",
+   "skill": "Extiende los dedos 3 y 5 y ejercita los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "stretch",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 17,
+   "page": 17,
+   "title": "Extensiones 1-2, 2-4 y 4-5",
+   "skill": "Extiende los dedos 1-2, 2-4 y 4-5 y ejercita los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "stretch",
+    "fingers-3-4-5"
+   ],
+   "part": 1
+  },
+  {
+   "no": 18,
+   "page": 18,
+   "title": "Los cinco dedos (II)",
+   "skill": "Ejercicio de igualdad y agilidad para los cinco dedos.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 1
+  },
+  {
+   "no": 19,
+   "page": 19,
+   "title": "Los cinco dedos (III)",
+   "skill": "Ejercicio de igualdad y agilidad para los cinco dedos.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 1
+  },
+  {
+   "no": 20,
+   "page": 20,
+   "title": "Extensiones 2-4 y 4-5, dedos 2-3-4",
+   "skill": "Extiende los dedos 2-4 y 4-5 y ejercita los dedos 2, 3 y 4; cierra la Parte I.",
+   "tags": [
+    "finger-independence",
+    "stretch"
+   ],
+   "part": 1
+  },
+  {
+   "no": 21,
+   "page": 21,
+   "title": "Ejercicio trascendente: dedos 3, 4 y 5",
+   "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 22,
+   "page": 23,
+   "title": "Dedos 3, 4 y 5 (como el n.º 21)",
+   "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 23,
+   "page": 25,
+   "title": "Dedos 3, 4 y 5",
+   "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 24,
+   "page": 27,
+   "title": "Dedos 3, 4 y 5",
+   "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 25,
+   "page": 29,
+   "title": "Los cinco dedos",
+   "skill": "Patrón largo para la igualdad de los cinco dedos.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 2
+  },
+  {
+   "no": 26,
+   "page": 31,
+   "title": "Los cinco dedos",
+   "skill": "Patrón largo para la igualdad de los cinco dedos.",
+   "tags": [
+    "finger-independence"
+   ],
+   "part": 2
+  },
+  {
+   "no": 27,
+   "page": 33,
+   "title": "Preparación del trino con 4 y 5",
+   "skill": "Prepara los dedos 4 y 5 para el trino que aparece más adelante.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5",
+    "trills"
+   ],
+   "part": 2
+  },
+  {
+   "no": 28,
+   "page": 35,
+   "title": "Dedos 3, 4 y 5",
+   "skill": "Patrón para la independencia de los dedos 3, 4 y 5.",
+   "tags": [
+    "finger-independence",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 29,
+   "page": 37,
+   "title": "Preparación del trino, cinco dedos",
+   "skill": "Prepara el trino con los cinco dedos.",
+   "tags": [
+    "finger-independence",
+    "trills"
+   ],
+   "part": 2
+  },
+  {
+   "no": 30,
+   "page": 39,
+   "title": "Trino alternando 1-2 y 4-5",
+   "skill": "Trino que alterna los pares de dedos 1-2 y 4-5.",
+   "tags": [
+    "finger-independence",
+    "trills",
+    "fingers-3-4-5"
+   ],
+   "part": 2
+  },
+  {
+   "no": 31,
+   "page": 41,
+   "title": "Cinco dedos y extensiones",
+   "skill": "Ejercita los cinco dedos con extensiones de la mano.",
+   "tags": [
+    "finger-independence",
+    "stretch"
+   ],
+   "part": 2
+  },
+  {
+   "no": 32,
+   "page": 42,
+   "title": "Paso del pulgar bajo el dedo 2",
+   "skill": "Pasa el pulgar por debajo del dedo 2.",
+   "tags": [
+    "thumb-under",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 33,
+   "page": 43,
+   "title": "Paso del pulgar bajo el dedo 3",
+   "skill": "Pasa el pulgar por debajo del dedo 3.",
+   "tags": [
+    "thumb-under",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 34,
+   "page": 44,
+   "title": "Paso del pulgar bajo el dedo 4",
+   "skill": "Pasa el pulgar por debajo del dedo 4.",
+   "tags": [
+    "thumb-under",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 35,
+   "page": 45,
+   "title": "Paso del pulgar bajo el dedo 5",
+   "skill": "Pasa el pulgar por debajo del dedo 5; ejercicio de máxima importancia.",
+   "tags": [
+    "thumb-under",
+    "stretch",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 36,
+   "page": 46,
+   "title": "Paso del pulgar (otro ejemplo)",
+   "skill": "Otro patrón para practicar el paso del pulgar.",
+   "tags": [
+    "thumb-under",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 37,
+   "page": 46,
+   "title": "Paso del pulgar con notas tenidas",
+   "skill": "Ejercicio especial: solo se tocan los pulgares mientras se mantienen tres notas pulsadas en cada mano.",
+   "tags": [
+    "thumb-under",
+    "finger-independence"
+   ],
+   "part": 2
+  },
+  {
+   "no": 38,
+   "page": 47,
+   "title": "Preparación para las escalas",
+   "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
+   "tags": [
+    "thumb-under",
+    "scales"
+   ],
+   "part": 2
+  },
+  {
+   "no": 39,
+   "page": 49,
+   "title": "Las 12 escalas mayores y 12 menores",
+   "skill": "Todas las escalas mayores con su relativa menor (armónica y melódica), cada una cerrada con una cadencia.",
+   "tags": [
+    "scales",
+    "thumb-under",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 40,
+   "page": 61,
+   "title": "Escalas cromáticas",
+   "skill": "Escala cromática a la octava, a la tercera menor, a la sexta mayor y menor, y en movimiento contrario.",
+   "tags": [
+    "chromatic",
+    "scales",
+    "legato"
+   ],
+   "part": 2
+  },
+  {
+   "no": 41,
+   "page": 64,
+   "title": "Arpegios de tríadas en las 24 tonalidades",
+   "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
+   "tags": [
+    "arpeggios",
+    "thumb-under",
+    "stretch"
+   ],
+   "part": 2
+  },
+  {
+   "no": 42,
+   "page": 68,
+   "title": "Arpegios de séptima disminuida",
+   "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
+   "tags": [
+    "arpeggios",
+    "stretch",
+    "thumb-under"
+   ],
+   "part": 2
+  },
+  {
+   "no": 43,
+   "page": 69,
+   "title": "Arpegios de séptima de dominante",
+   "skill": "Extensión de los dedos en arpegios de acordes de séptima de dominante; cierra la Parte II.",
+   "tags": [
+    "arpeggios",
+    "stretch",
+    "thumb-under"
+   ],
+   "part": 2
+  },
+  {
+   "no": 44,
+   "page": 71,
+   "title": "Notas repetidas en grupos de tres",
+   "skill": "Repite cada nota tres veces cambiando de dedo, sin levantar mano ni muñeca.",
+   "tags": [
+    "repeated-notes",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 45,
+   "page": 73,
+   "title": "Notas repetidas en grupos de dos",
+   "skill": "Repite cada nota dos veces con seis digitaciones distintas, usando los cinco dedos.",
+   "tags": [
+    "repeated-notes",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 46,
+   "page": 75,
+   "title": "El trino",
+   "skill": "Trino para los cinco dedos con cambios de digitación; incluye el trino de Thalberg.",
+   "tags": [
+    "trills",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 47,
+   "page": 77,
+   "title": "Notas repetidas en grupos de cuatro",
+   "skill": "Repite cada nota cuatro veces cambiando de dedo, sin levantar mano ni muñeca.",
+   "tags": [
+    "repeated-notes",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 48,
+   "page": 78,
+   "title": "Ejercicio de muñeca: terceras y sextas sueltas",
+   "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
+   "tags": [
+    "wrist",
+    "thirds",
+    "sixths",
+    "staccato"
+   ],
+   "part": 3
+  },
+  {
+   "no": 49,
+   "page": 80,
+   "title": "Extensión 1-4 y 2-5",
+   "skill": "Aumenta la apertura entre los dedos 1-4 y 2-5 de cada mano.",
+   "tags": [
+    "stretch",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 50,
+   "page": 81,
+   "title": "Terceras ligadas",
+   "skill": "Terceras ligadas, escalas en terceras ligadas y escalas cromáticas en terceras menores.",
+   "tags": [
+    "thirds",
+    "legato",
+    "scales",
+    "chromatic"
+   ],
+   "part": 3
+  },
+  {
+   "no": 51,
+   "page": 83,
+   "title": "Preparación para escalas en octavas",
+   "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
+   "tags": [
+    "octaves",
+    "wrist",
+    "staccato"
+   ],
+   "part": 3
+  },
+  {
+   "no": 52,
+   "page": 86,
+   "title": "Escalas en terceras",
+   "skill": "Escalas en terceras ligadas en las tonalidades más usadas.",
+   "tags": [
+    "thirds",
+    "scales",
+    "legato"
+   ],
+   "part": 3
+  },
+  {
+   "no": 53,
+   "page": 91,
+   "title": "Escalas en octavas en las 24 tonalidades",
+   "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
+   "tags": [
+    "octaves",
+    "scales",
+    "wrist"
+   ],
+   "part": 3
+  },
+  {
+   "no": 54,
+   "page": 95,
+   "title": "Trino cuádruple en terceras",
+   "skill": "Trino en terceras simultáneo en ambas manos, para los cinco dedos.",
+   "tags": [
+    "trills",
+    "thirds",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 55,
+   "page": 96,
+   "title": "Trino triple",
+   "skill": "Trino a tres voces; incluye digitaciones especiales para el trino cuádruple.",
+   "tags": [
+    "trills",
+    "thirds",
+    "finger-independence"
+   ],
+   "part": 3
+  },
+  {
+   "no": 56,
+   "page": 98,
+   "title": "Escalas en octavas quebradas",
+   "skill": "Escalas en octavas quebradas en las 24 tonalidades; prepara la muñeca para el trémolo.",
+   "tags": [
+    "octaves",
+    "scales",
+    "wrist",
+    "tremolo"
+   ],
+   "part": 3
+  },
+  {
+   "no": 57,
+   "page": 104,
+   "title": "Arpegios quebrados en octavas",
+   "skill": "Arpegios en octavas quebradas en las 24 tonalidades con buen movimiento de muñeca.",
+   "tags": [
+    "octaves",
+    "arpeggios",
+    "wrist"
+   ],
+   "part": 3
+  },
+  {
+   "no": 58,
+   "page": 107,
+   "title": "Octavas sostenidas",
+   "skill": "Octavas mantenidas mientras los dedos interiores tocan notas sueltas.",
+   "tags": [
+    "octaves",
+    "finger-independence",
+    "stretch"
+   ],
+   "part": 3
+  },
+  {
+   "no": 59,
+   "page": 109,
+   "title": "Trino cuádruple en sextas",
+   "skill": "Trino en sextas combinando los dedos 1-4 y 2-5, sin mover mano ni muñeca.",
+   "tags": [
+    "trills",
+    "sixths",
+    "stretch"
+   ],
+   "part": 3
+  },
+  {
+   "no": 60,
+   "page": 111,
+   "title": "El trémolo",
+   "skill": "Trémolo rápido y parejo con oscilación de muñeca, con matices dinámicos; estudio largo que cierra el libro.",
+   "tags": [
+    "tremolo",
+    "wrist"
+   ],
+   "part": 3
+  }
+ ]
+}

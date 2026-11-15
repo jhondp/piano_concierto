@@ -1,0 +1,150 @@
+[
+ {
+  "id": "09", "title": "My Lie", "composer": "Masaru Yokoyama (arr. Torby Brand)", "source": "Your Lie in April (Shigatsu wa Kimi no Uso), anime",
+  "key": "Do mayor (con color de La menor)", "keySignature": "sin alteraciones", "meter": "6/8", "tempo": "♩ = 48",
+  "pages": 2, "bars": 45,
+  "difficulty": 4, "difficultyNote": "Es corta y muy lenta, pero pide control del sonido, lectura con 8va, figuraciones de semicorcheas repartidas y acordes amplios en el clímax.",
+  "character": "Una miniatura íntima y nostálgica, casi una caja de música, que crece hasta un clímax breve y se apaga sin resolver del todo. Lo especial es el final suspendido sobre un Si♭ grave que deja la pregunta abierta.",
+  "sections": [
+   {"name": "Introducción", "bars": "1–4", "marking": "♩ = 48, p, 8va en la mano derecha, calderón en el compás 4", "focus": ["Melodía sola en el registro agudo (octava alta)", "Acordes largos de blanca con puntillo en la mano izquierda, escrita en clave de sol", "Adorno rápido de fusas Mi–Re–Do♯–Re en el compás 2"], "tip": "Cuenta en dos pulsos lentos por compás (1-2-3, 4-5-6) y deja que el calderón respire antes de seguir."},
+   {"name": "Figuración ondulante", "bars": "5–12", "marking": "mf, doble barra en el compás 5; regulador y calderón hacia el compás 12", "focus": ["Semicorcheas descendentes Fa–Mi–Do–Sol repetidas", "Notas de melodía con plica hacia arriba por encima de la figuración (compases 6–9)", "Bajo de Fa mantenido; compases 10–11 en el agudo con el mismo patrón"], "tip": "Toca primero solo las notas con plica hacia arriba para oír la melodía y luego añade el relleno mucho más suave."},
+   {"name": "Tema tranquilo", "bars": "13–20", "marking": "mp, doble barra en el compás 13", "focus": ["Bajo en negras con puntillo Fa–Sol–La–Mi", "Mano derecha con intervalos y acordes pequeños en el registro medio", "Arpegio ascendente de enlace en los compases 16 y 20 (crescendo)"], "tip": "Canta la voz superior mientras tocas: es una sección para frasear, no para correr."},
+   {"name": "Tema principal", "bars": "21–28", "marking": "mf; poco cresc. en el compás 25; f al final del compás 28", "focus": ["Melodía en sextas y octavas en la mano derecha", "Mano izquierda en acordes rotos de corcheas (Fa–Do–Fa, Sol–Re–Sol, Mi–Re–Sol, La–Sol–Do)", "Sol♯ en el compás 26: aparece el acorde de Mi mayor que empuja hacia La menor", "Terceras paralelas ascendentes al final de los compases 26 y 28"], "tip": "Practica la mano izquierda sola con pedal por medio compás hasta que los saltos del bajo salgan sin mirar."},
+   {"name": "Clímax", "bars": "29–36", "marking": "f, 8va; baja a mp en el compás 33; calderón en el compás 36", "focus": ["Acordes llenos de la mano derecha en la octava alta", "Mano izquierda con acordes rotos más amplios y notas dobles", "Escala descendente de semicorcheas en el compás 34 para relajar la tensión"], "tip": "Coloca la mano sobre cada acorde antes de tocarlo (práctica de 'preparar y soltar') para no golpear el teclado."},
+   {"name": "Coda", "bars": "37–45", "marking": "maestoso en el compás 38; barra final en el compás 45", "focus": ["Vuelve la figuración Fa–Mi–Do de semicorcheas (compases 40–41) sobre un acorde de Si♭", "Si♭ grave mantenido con ligaduras del compás 42 al 45", "Final sobre Do con Si♭ en el bajo: no hay cadencia conclusiva"], "tip": "Escucha cómo se apaga el sonido y no levantes el pedal hasta que el último acorde casi haya desaparecido."}
+  ],
+  "theory": [
+   {"concept": "Compás compuesto 6/8", "explanation": "Cada compás tiene seis corcheas agrupadas en dos pulsos de tres. Se siente como un balanceo lento, no como tres tiempos de vals.", "inScore": "Toda la pieza; se ve muy claro en el bajo de negras con puntillo de los compases 13–15."},
+   {"concept": "Ambigüedad entre Do mayor y La menor", "explanation": "Las dos tonalidades comparten las mismas notas (son relativas). La pieza empieza con color de La menor y la melodía termina en Do, por eso suena a la vez triste y luminosa.", "inScore": "Acorde de La menor en el compás 1; melodía que reposa en Do en los compases 36 y 44–45."},
+   {"concept": "Dominante secundaria (V de vi)", "explanation": "Un acorde ajeno a la tonalidad que sirve para 'apuntar' a otro acorde. Aquí Mi mayor, con Sol♯, prepara la llegada a La menor.", "inScore": "Compás 26 (Sol♯ en ambas manos) que resuelve en La menor en el compás 27."},
+   {"concept": "Acorde prestado ♭VII (Si♭ mayor)", "explanation": "Si♭ no pertenece a Do mayor; se toma prestado del modo menor (o mixolidio). Da un color cálido y abierto, muy típico de bandas sonoras.", "inScore": "Compases 40–41 (Si♭–Fa–Si♭ en la mano izquierda) y el Si♭ grave de los compases 42–45."},
+   {"concept": "Nota pedal", "explanation": "Una nota grave que se mantiene mientras lo de arriba cambia. Crea estabilidad o, como aquí, suspensión.", "inScore": "Fa grave en los compases 7–9 y Si♭ grave ligado en los compases 42–45."},
+   {"concept": "Adorno escrito (grupeto en fusas)", "explanation": "Un giro rápido alrededor de una nota que funciona como decoración de la melodía. El Do♯ es una nota de paso cromática que no cambia la tonalidad.", "inScore": "Mi–Re–Do♯–Re en los compases 2, 22 y 30."},
+   {"concept": "Signo de 8va", "explanation": "Indica que lo escrito suena una octava más aguda (encima del pentagrama) o más grave (debajo). Evita llenar la partitura de líneas adicionales.", "inScore": "Mano derecha en los compases 1–4 y 29–32; bajo en los compases 8–9 y 19."}
+  ],
+  "chords": [
+   {"roman": "I", "name": "Do", "notes": "Do · Mi · Sol", "role": "Reposo de la melodía"},
+   {"roman": "IV", "name": "Fa (Fa maj7)", "notes": "Fa · La · Do · (Mi)", "role": "Punto de partida de casi todas las frases"},
+   {"roman": "V", "name": "Sol", "notes": "Sol · Si · Re", "role": "Enlace entre Fa y La menor"},
+   {"roman": "vi", "name": "Lam", "notes": "La · Do · Mi", "role": "Color melancólico; acorde inicial"},
+   {"roman": "iii", "name": "Mim", "notes": "Mi · Sol · Si", "role": "Paso suave en el bajo"},
+   {"roman": "V/vi", "name": "Mi", "notes": "Mi · Sol♯ · Si", "role": "Dominante secundaria hacia La menor (compás 26)"},
+   {"roman": "♭VII", "name": "Si♭", "notes": "Si♭ · Re · Fa", "role": "Acorde prestado de la coda"}
+  ],
+  "progression": "IV – V – vi – iii (Fa – Sol – Lam – Mim), con V/vi → vi en el clímax y ♭VII en la coda",
+  "keyChanges": [],
+  "techniqueNeeds": ["voicing-melody-top", "lh-broken-chords", "pedal-legato", "chords-blocked", "legato-thirds-rh", "rubato", "dynamics-range", "finger-independence"],
+  "confidence": "Verificado en la página: compás 6/8, ♩ = 48, sin armadura, 45 compases, dinámicas, 8va, calderones, 'poco cresc.' (c. 25), 'maestoso' (c. 38), Sol♯ en c. 26, Si♭ en cc. 40–45. Inferido: la lectura armónica en números romanos y la tonalidad (Do mayor/La menor es ambigua); algunas notas interiores de los acordes se leyeron a baja resolución."
+ },
+ {
+  "id": "10", "title": "Lie and Truth", "composer": "Masaru Yokoyama (arr. Torby Brand)", "source": "Your Lie in April (Shigatsu wa Kimi no Uso), anime",
+  "key": "Fa♯ mayor (con una sección central centrada en Re♯ menor)", "keySignature": "6♯", "meter": "3/4", "tempo": "♩ = 75",
+  "pages": 4, "bars": 69,
+  "difficulty": 7, "difficultyNote": "Seis sostenidos, semicorcheas continuas en la mano izquierda durante toda la pieza y un clímax ff con acordes de cuatro notas y octavas en ambas manos.",
+  "character": "Empieza como un murmullo hipnótico sobre un ostinato que no se detiene y crece hasta un clímax orquestal antes de volver al murmullo. Lo especial es el choque rítmico entre la melodía en dos pulsos y el acompañamiento en tres.",
+  "sections": [
+   {"name": "Introducción: ostinato", "bars": "1–8", "marking": "♩ = 75, mp", "focus": ["Ostinato de semicorcheas La♯–Si–Do♯–Fa♯–Do♯–Si en la mano izquierda", "Acorde de apoyo solo al inicio de cada dos compases (Si–Fa♯–La♯ y La♯–Mi♯–La♯)", "Melodía de negras con puntillo: dos notas por compás contra tres grupos de la izquierda", "Nota aguda aislada con 8va en los compases 3 y 7"], "tip": "Aprende el ostinato de memoria con la mano izquierda sola hasta que sea automático; es el motor de toda la pieza."},
+   {"name": "Melodía en semicorcheas", "bars": "9–24", "marking": "doble barra en el compás 9", "focus": ["Melodía aguda en semicorcheas por grados conjuntos", "Notas extra con plica hacia arriba dentro del ostinato de la izquierda", "Figura oscilante La♯–Sol♯ repetida en los compases 17–18 y 21–22", "Negras con puntillo agudas de respuesta (compases 11, 15, 19, 23)"], "tip": "Junta las manos muy despacio alineando cada semicorchea: aquí las dos manos van a la misma velocidad y cualquier desajuste se oye."},
+   {"name": "Transición con acordes", "bars": "25–32", "marking": "mf, doble barra en el compás 25", "focus": ["Terceras y acordes en la mano derecha", "La izquierda añade acordes de apoyo dos veces por compás", "Arpegio ascendente de la izquierda en el compás 32 que prepara el cambio"], "tip": "Marca con lápiz qué dedo lleva la nota superior de cada acorde de la derecha para mantener la línea ligada."},
+   {"name": "Tema fuerte", "bars": "33–42", "marking": "f, doble barra en el compás 33", "focus": ["Nuevo patrón de la izquierda: octava grave + acorde roto que vuelve siempre a Re♯", "Ritmo con puntillo (corchea con puntillo + semicorchea) en la melodía", "Melodía en terceras y sextas", "Saltos del bajo en cada medio compás"], "tip": "Practica los saltos de la izquierda en 'bloques': toca la octava grave y coloca la mano encima del acorde siguiente sin tocarlo."},
+   {"name": "Clímax", "bars": "43–52", "marking": "ff; acorde arpegiado en el compás 51; octavas descendentes en el bajo en el compás 52", "focus": ["Acordes de cuatro y cinco notas con la melodía en octavas", "Bajo en octavas con quintas, muy grave", "Acorde largo en el compás 50 y arpegiado en el 51", "Compás 52: la derecha baja en semicorcheas mientras el bajo marcha en octavas"], "tip": "Usa el peso del brazo, no la fuerza de los dedos, y practica solo la voz superior con el meñique para que cante por encima del acorde."},
+   {"name": "Disolución", "bars": "53–57", "marking": "doble barra en el compás 53; acordes largos ligados", "focus": ["Caída brusca de densidad", "Acordes tenidos en la izquierda durante dos compases", "Melodía que baja al registro medio"], "tip": "Cuenta los tres tiempos en voz alta en los acordes largos para no acortarlos."},
+   {"name": "Coda", "bars": "58–69", "marking": "vuelve el ostinato; barra final en el compás 69", "focus": ["Regreso del ostinato inicial", "Fragmentos sueltos de melodía con silencios largos", "Acordes finales tenidos (compases 66–69) con un Si muy grave"], "tip": "Toca el ostinato cada vez más suave sin perder la regularidad; el efecto es de alejamiento."}
+  ],
+  "theory": [
+   {"concept": "Armadura de seis sostenidos", "explanation": "En Fa♯ mayor todas las notas son sostenidas menos Si. Aparece Mi♯, que en el teclado es la tecla blanca de Fa: se escribe así para que cada nota de la escala tenga un nombre distinto.", "inScore": "Armadura de toda la pieza; el Mi♯ aparece en el acorde La♯–Mi♯–La♯ de los compases 3, 7, 11, etc."},
+   {"concept": "Ostinato", "explanation": "Un patrón corto que se repite sin parar mientras lo demás cambia. Da continuidad y deja libre la atención para la melodía.", "inScore": "Mano izquierda en los compases 1–32 y 58–65."},
+   {"concept": "Hemiolia (2 contra 3)", "explanation": "El compás de 3/4 tiene tres tiempos, pero la melodía lo divide en dos mitades iguales. El oído percibe dos compases distintos a la vez.", "inScore": "Compases 1–8: dos negras con puntillo en la derecha contra tres grupos de cuatro semicorcheas en la izquierda."},
+   {"concept": "Alternancia IV – iii", "explanation": "En vez de la típica tensión dominante–tónica, la armonía se balancea entre dos acordes vecinos que comparten notas. El resultado es flotante, sin sensación de llegada.", "inScore": "Acorde de Si (Si–Fa♯–La♯) en los compases 1–2 y de La♯ menor (La♯–Mi♯–La♯) en los compases 3–4, y así sucesivamente."},
+   {"concept": "Relativo menor", "explanation": "Cada tonalidad mayor tiene una menor con la misma armadura, situada una tercera menor por debajo. Pasar a ella oscurece el color sin cambiar de armadura.", "inScore": "Compases 33–52: el bajo se asienta en Re♯ (relativo menor de Fa♯ mayor)."},
+   {"concept": "Acorde con séptima mayor (maj7)", "explanation": "Un acorde mayor al que se añade la nota situada un semitono por debajo de la fundamental en la octava superior. Suena dulce y un poco nostálgico.", "inScore": "Si–Fa♯–La♯ del compás 1: Si mayor con séptima mayor (La♯)."},
+   {"concept": "Ritmo con puntillo", "explanation": "Una nota larga seguida de una muy corta; da impulso y carácter decidido a la melodía.", "inScore": "Corchea con puntillo + semicorchea al inicio de los compases 33, 36, 37, 43, 46 y 47."}
+  ],
+  "chords": [
+   {"roman": "IV", "name": "Si maj7", "notes": "Si · Re♯ · Fa♯ · La♯", "role": "Acorde principal del ostinato"},
+   {"roman": "iii", "name": "La♯m", "notes": "La♯ · Do♯ · Mi♯", "role": "Pareja del anterior en el balanceo"},
+   {"roman": "I", "name": "Fa♯", "notes": "Fa♯ · La♯ · Do♯", "role": "Tónica, casi siempre evitada"},
+   {"roman": "vi", "name": "Re♯m", "notes": "Re♯ · Fa♯ · La♯", "role": "Centro de la sección fuerte"},
+   {"roman": "V", "name": "Do♯", "notes": "Do♯ · Mi♯ · Sol♯", "role": "Paso en el bajo del tema fuerte"},
+   {"roman": "ii", "name": "Sol♯m", "notes": "Sol♯ · Si · Re♯", "role": "Color de paso"}
+  ],
+  "progression": "IV – iii (Si maj7 – La♯m) en el ostinato; vi – V – IV en el tema fuerte",
+  "keyChanges": [],
+  "techniqueNeeds": ["lh-broken-chords", "finger-independence", "polyrhythm-2v3", "chords-blocked", "octaves", "voicing-melody-top", "wrist-rotation", "dynamics-range", "pedal-legato", "lh-arpeggios-wide"],
+  "confidence": "Verificado en la página: 6♯, 3/4, ♩ = 75, 69 compases, dinámicas mp/mf/f/ff y sus compases, dobles barras (cc. 9, 25, 33, 43, 53), ostinato de la izquierda (también anotado a mano en la copia con nombres de notas), 2 contra 3 en cc. 1–8. Inferido: tonalidad (Fa♯ mayor frente a Re♯ menor es interpretable), análisis en números romanos y notas exactas de los acordes densos del clímax y del final, leídos a baja resolución."
+ },
+ {
+  "id": "11", "title": "Again", "composer": "Masaru Yokoyama (arr. Torby Brand)", "source": "Your Lie in April (Shigatsu wa Kimi no Uso), anime",
+  "key": "Fa mayor", "keySignature": "1♭", "meter": "4/4", "tempo": "♩ = 94",
+  "pages": 3, "bars": 58,
+  "difficulty": 6, "difficultyNote": "El patrón de semicorcheas de la mano izquierda es constante y la melodía pasa a octavas y acordes llenos con síncopas, aunque la armonía y la tonalidad son sencillas.",
+  "character": "Una pieza luminosa y esperanzada construida sobre un único motivo que se repite y crece capa a capa. Lo especial es cómo la misma melodía pasa de una sola voz a octavas y acordes, y al final las manos intercambian papeles.",
+  "sections": [
+   {"name": "Introducción", "bars": "1–2", "marking": "♩ = 94, p; la partitura indica 'Orig. Key: G♭ major'", "focus": ["Mano derecha sola en corcheas", "Ligadura que anticipa el tercer tiempo (síncopa)", "Mano izquierda en silencio"], "tip": "Cuenta '1 y 2 y 3 y 4 y' en voz alta y siente la nota ligada que cae sobre el 3."},
+   {"name": "Tema con notas largas", "bars": "3–10", "marking": "doble barra en el compás 3; 8va desde el compás 8", "focus": ["Motivo La–Sol–La–Re con la nota aguda ligada sobre el tercer tiempo", "Mano izquierda en clave de sol con redondas y blancas", "Terceras en el primer tiempo de la derecha"], "tip": "Aprende el motivo de un compás y obsérvalo bajar por grados: es siempre la misma forma de mano."},
+   {"name": "Tema con acompañamiento", "bars": "11–18", "marking": "mp; la izquierda pasa a clave de fa", "focus": ["Figuración de semicorcheas en la izquierda sobre bajos Si♭ – Do – La – Re", "Corcheas de la derecha contra semicorcheas de la izquierda (2 notas por cada 1)", "8va en la derecha en los compases 16–18"], "tip": "Practica la izquierda en bloque (todas las notas del patrón a la vez como acorde) antes de desplegarla."},
+   {"name": "Coral", "bars": "19–26", "marking": "poco cresc.; doble barra en el compás 19", "focus": ["Acordes en redondas y blancas en ambas manos", "Bajos en octava grave en los compases 23–24", "Crescendo gradual sin movimiento rítmico"], "tip": "Toca cada acorde escuchando que la nota superior suene más que las demás; es un ejercicio puro de equilibrio."},
+   {"name": "Acordes sobre figuración", "bars": "27–34", "marking": "mf; izquierda en clave de sol; 8va desde el compás 31", "focus": ["Acordes largos en la derecha", "Figuración de semicorcheas de la izquierda una octava más arriba", "Los mismos bajos Si♭ – Do – La – Re"], "tip": "Aprovecha que la derecha casi no se mueve para mirar y afianzar la izquierda."},
+   {"name": "Tema en octavas", "bars": "35–42", "marking": "8va; regulador creciente al final del compás 42", "focus": ["Melodía completa en octavas con la mano derecha", "Síncopas ligadas en octavas", "Bajada final en el compás 42 que conduce al clímax"], "tip": "Mantén la mano abierta en forma de octava y mueve el antebrazo, no los dedos, de una octava a la siguiente."},
+   {"name": "Clímax", "bars": "43–50", "marking": "ff; bajos con 8va baja", "focus": ["Acordes llenos en los tiempos fuertes y octavas en el resto", "Bajo en octavas graves al inicio de cada compás seguido de la figuración", "Acordes repetidos en semicorcheas al final del compás 50"], "tip": "Trabaja el salto de la izquierda (octava grave → figuración) con los ojos en el teclado y la derecha de memoria."},
+   {"name": "Coda con manos intercambiadas", "bars": "51–58", "marking": "mp; doble barra en los compases 51 y 55", "focus": ["La derecha toca ahora la figuración de semicorcheas", "La izquierda toca notas largas (Si♭, Do, La, Re)", "Final suspendido sobre Re, sin acorde de tónica"], "tip": "Usa la misma digitación que aprendiste en la izquierda, pero en espejo, y deja que la pieza se desvanezca sin ritardando exagerado."}
+  ],
+  "theory": [
+   {"concept": "Progresión IV – V – iii – vi", "explanation": "Es una de las progresiones más usadas en la música japonesa de anime y pop. Empieza en la subdominante en vez de la tónica, lo que crea una sensación de movimiento continuo y emoción contenida.", "inScore": "Bajos Si♭ – Do – La – Re en los compases 11–14, repetidos en 15–18, 27–34, 35–42 y 43–50."},
+   {"concept": "Síncopa por ligadura (anticipación)", "explanation": "La nota importante llega medio tiempo antes del pulso fuerte y se mantiene ligada. Eso da el empuje hacia delante tan característico del tema.", "inScore": "Nota aguda ligada sobre el tercer tiempo en casi todos los compases del tema (por ejemplo 3–5, 11–13, 35–37)."},
+   {"concept": "Secuencia melódica", "explanation": "Un mismo dibujo melódico se repite empezando cada vez un grado más abajo. Ayuda a memorizar: aprendes una forma y la desplazas.", "inScore": "Compases 3–5 y 11–13: el motivo baja de La a Sol manteniendo el mismo contorno."},
+   {"concept": "Acordes con notas añadidas (add9/sus2)", "explanation": "La figuración de la izquierda incluye la segunda (o novena) del acorde además de las notas básicas. Eso da un sonido abierto y moderno, menos 'de manual' que una tríada simple.", "inScore": "Patrón de semicorcheas de la izquierda desde el compás 11 (Fa–Sol–Do–Mi sobre cada bajo)."},
+   {"concept": "Transporte", "explanation": "Tocar una pieza en otra tonalidad manteniendo las mismas relaciones entre notas. Aquí el arreglo se bajó un semitono para tener un solo bemol en vez de seis.", "inScore": "Indicación impresa 'Orig. Key: G♭ major' sobre el primer sistema; la partitura está en Fa mayor."},
+   {"concept": "Textura acumulativa", "explanation": "La melodía no cambia, pero cada vuelta suma algo: acompañamiento, octavas, acordes llenos. La intensidad viene de la densidad y no de notas nuevas.", "inScore": "Una voz (c. 3), con figuración (c. 11), en octavas (c. 35), con acordes ff (c. 43)."},
+   {"concept": "Final abierto sobre el vi", "explanation": "En lugar de cerrar en el acorde de tónica, la pieza se detiene en el relativo menor. El oído se queda esperando, como una frase sin punto final.", "inScore": "Compás 58: Re en el bajo como última nota larga."}
+  ],
+  "chords": [
+   {"roman": "IV", "name": "Si♭ (Si♭ maj7)", "notes": "Si♭ · Re · Fa · (La)", "role": "Inicio de cada ciclo"},
+   {"roman": "V", "name": "Do", "notes": "Do · Mi · Sol", "role": "Tensión que empuja"},
+   {"roman": "iii", "name": "Lam (Lam7)", "notes": "La · Do · Mi · (Sol)", "role": "Giro melancólico"},
+   {"roman": "vi", "name": "Rem (Rem7)", "notes": "Re · Fa · La · (Do)", "role": "Reposo provisional y acorde final"},
+   {"roman": "I", "name": "Fa", "notes": "Fa · La · Do", "role": "Tónica, presente en el coral"}
+  ],
+  "progression": "IV – V – iii – vi (Si♭ – Do – Lam – Rem)",
+  "keyChanges": [],
+  "techniqueNeeds": ["lh-broken-chords", "syncopation", "octaves", "chords-blocked", "voicing-melody-top", "wrist-rotation", "finger-independence", "dynamics-range", "pedal-legato", "lh-arpeggios-wide"],
+  "confidence": "Verificado en la página: 1♭, 4/4, ♩ = 94, 'Orig. Key: G♭ major', 58 compases, dinámicas p/mp/mf/ff y sus compases, 'poco cresc.' (c. 19), cambios de clave de la izquierda, 8va, bajos Si♭–Do–La–Re, intercambio de manos en cc. 51–58. Inferido: calidades exactas de los acordes (maj7/7) y la lectura del final como vi."
+ },
+ {
+  "id": "12", "title": "In the Palace (Lamentoso – Agitato)", "composer": "Yoshihisa Hirano (arr. «DH»)", "source": "Hunter × Hunter (2011), anime (atribución por conocimiento general; no figura impresa en la partitura)",
+  "key": "Re menor (sección central en Sol menor)", "keySignature": "1♭ (2♭ en los compases 33–72)", "meter": "2/4 (3/4 desde el compás 73)", "tempo": "♩ = 74; Agitato desde el compás 73",
+  "pages": 6, "bars": 132,
+  "difficulty": 9, "difficultyNote": "Combina un lamento con adornos, tresillos y escalas irregulares con un Agitato de semicorcheas continuas, acordes repetidos, octavas rotas y saltos en ambas manos.",
+  "character": "Dos piezas en una: un lamento desnudo y casi improvisado, y un Agitato implacable que no da respiro. Lo especial es el contraste entre el silencio expresivo del principio y la energía motórica del final.",
+  "sections": [
+   {"name": "Lamentoso: melodía sola", "bars": "1–12", "marking": "♩ = 74, mp (derecha), pp (izquierda)", "focus": ["Melodía aguda sin acompañamiento: la izquierda solo toca un arpegio en el compás 1", "Notas largas ligadas y silencios", "Escala ascendente con tresillo hacia el compás 11"], "tip": "Cuenta los silencios con rigor: el vacío forma parte de la música."},
+   {"name": "Lamentoso: respuesta en acordes", "bars": "13–32", "marking": "p; calderón en el compás 30; cambio de armadura al final del 32", "focus": ["Acordes arpegiados (línea ondulada) en ambas manos", "Arpegio con Do♯ en el compás 24 (sensible de Re menor)", "Escala descendente con quintillo y bemoles accidentales en el compás 26", "Acordes graves que se apagan"], "tip": "Arpegia de abajo arriba haciendo coincidir la nota más aguda con el pulso."},
+   {"name": "Tema en Sol menor", "bars": "33–50", "marking": "armadura de 2♭; mp y p; trino en el compás 49; poco accel.", "focus": ["Melodía con apoyaturas (notas pequeñas)", "Izquierda en acordes rotos de corcheas, con cambios de clave", "Melodía en acordes y octavas desde el compás 41", "Tresillo de enlace en los compases 39–40"], "tip": "Toca primero sin las apoyaturas, asegura el ritmo y añádelas después muy ligeras."},
+   {"name": "Desarrollo y cadencia", "bars": "51–72", "marking": "mf; f en el compás 61; 8va y calderón en el compás 64; p; mp en el compás 65", "focus": ["Tresillos de semicorcheas en la derecha contra corcheas en la izquierda", "Escalas y arpegios rápidos entre las dos manos (compases 60–63, con tresillos y quintillo)", "Muchas alteraciones accidentales (cromatismo) en los compases 57–59 y 65–69", "Bajos largos ligados"], "tip": "Divide los pasajes rápidos en grupos por posición de mano y practica cada grupo como un acorde."},
+   {"name": "Agitato: acordes repetidos", "bars": "73–95", "marking": "Agitato, 3/4, mf; vuelve la armadura de 1♭", "focus": ["Acordes repetidos en semicorcheas alternados entre las dos manos", "Escalas rápidas en fusas con alteraciones en el compás 78", "Semicorcheas a manos alternas y en octavas (compases 87–91)", "Trémolo de octavas rotas con crescendo en el compás 94"], "tip": "Practica los acordes repetidos con la muñeca suelta y a poco volumen; la tensión acumulada aquí arruina el resto de la pieza."},
+   {"name": "Agitato: movimiento perpetuo", "bars": "96–115", "marking": "f; alternancia constante f / mf con reguladores", "focus": ["Semicorcheas continuas en la derecha", "Izquierda con octavas y acordes en corcheas y saltos al bajo", "Derecha a dos voces desde el compás 105: nota repetida arriba y melodía interior", "Arpegios rotos en la izquierda en los compases 113–115"], "tip": "Trabaja con metrónomo a la mitad de velocidad y sube solo cuando salga tres veces seguidas sin errores."},
+   {"name": "Clímax y final", "bars": "116–132", "marking": "mf → f; f en los compases 121 y 128; barra final en el compás 132", "focus": ["Octavas rotas en semicorcheas en la derecha (compases 116–120)", "Izquierda con acordes cromáticos (bemoles y becuadros accidentales)", "Pedal de La en el bajo y notas repetidas en los compases 121–124", "Arpegio en seisillos que sube y baja (compases 127–128) y octavas graves de Re tenidas al final"], "tip": "En las octavas rotas, gira el antebrazo (rotación) en lugar de articular con el pulgar y el meñique."}
+  ],
+  "theory": [
+   {"concept": "Modulación a la subdominante menor", "explanation": "Modular es cambiar de tonalidad. Aquí se pasa de Re menor a Sol menor, que solo añade un bemol (Mi♭), por lo que el cambio suena natural pero más oscuro.", "inScore": "Cambio de armadura a 2♭ al final del compás 32; vuelta a 1♭ antes del compás 73."},
+   {"concept": "Cambio de compás", "explanation": "La unidad de medida pasa de dos a tres tiempos por compás. Junto con la nueva indicación de carácter, marca el inicio de una pieza distinta dentro de la obra.", "inScore": "2/4 en los compases 1–72; 3/4 desde el compás 73 (Agitato)."},
+   {"concept": "Escala menor armónica y sensible", "explanation": "En modo menor se sube el séptimo grado medio tono para que 'tire' hacia la tónica. En Re menor esa nota es Do♯; en Sol menor, Fa♯.", "inScore": "Do♯ en el arpegio del compás 24 y en los compases 99–103; Fa♯ en los compases 42 y 57–58."},
+   {"concept": "Indicaciones de carácter: Lamentoso y Agitato", "explanation": "Son palabras italianas que describen cómo debe sonar la música, más allá de la velocidad. Lamentoso es 'como un lamento'; Agitato es 'agitado, inquieto'.", "inScore": "Título de la pieza y la indicación 'Agitato' impresa sobre el compás 73."},
+   {"concept": "Grupos irregulares (tresillo, quintillo, seisillo)", "explanation": "Son grupos de notas que no encajan en la división normal del pulso: tres, cinco o seis notas en el espacio de dos o cuatro. Dan una sensación libre, casi hablada.", "inScore": "Tresillos en los compases 11, 39, 52–57; quintillo en los compases 26 y 62; seisillos en los compases 67 y 127–128."},
+   {"concept": "Adornos: apoyatura, trino y acorde arpegiado", "explanation": "La apoyatura es una nota pequeña que se toca justo antes de la principal; el trino alterna rápido dos notas vecinas; el arpegiado despliega el acorde de abajo arriba.", "inScore": "Apoyaturas en los compases 34–37; trino en el compás 49; acordes arpegiados en los compases 16–20, 59–61 y 127–128."},
+   {"concept": "Pedal de dominante", "explanation": "El bajo mantiene la quinta nota de la escala mientras arriba cambia la armonía. Acumula tensión que solo se libera al llegar a la tónica.", "inScore": "La grave tenido en los compases 121–123, antes del final en Re."}
+  ],
+  "chords": [
+   {"roman": "i", "name": "Rem", "notes": "Re · Fa · La", "role": "Tónica del Lamentoso y del Agitato"},
+   {"roman": "V", "name": "La (La7)", "notes": "La · Do♯ · Mi · (Sol)", "role": "Dominante con la sensible Do♯"},
+   {"roman": "iv", "name": "Solm", "notes": "Sol · Si♭ · Re", "role": "Subdominante; tónica de la sección central"},
+   {"roman": "VI", "name": "Si♭", "notes": "Si♭ · Re · Fa", "role": "Color mayor dentro del modo menor"},
+   {"roman": "III", "name": "Fa", "notes": "Fa · La · Do", "role": "Relativo mayor"},
+   {"roman": "V/iv", "name": "Re (Re7)", "notes": "Re · Fa♯ · La · (Do)", "role": "Dominante de Sol menor en la sección central"}
+  ],
+  "progression": "i – iv – V – i (Rem – Solm – La – Rem), con abundante cromatismo de paso",
+  "keyChanges": ["compás 33: de Re menor (1♭) a Sol menor (2♭)", "compás 73: vuelta a Re menor (1♭) con cambio de compás a 3/4 y carácter Agitato"],
+  "techniqueNeeds": ["scales-fast", "repeated-notes", "octaves", "trills", "polyrhythm-2v3", "lh-arpeggios-wide", "chords-blocked", "wrist-rotation", "finger-independence", "voicing-melody-top", "dynamics-range", "rubato", "pedal-legato"],
+  "confidence": "Verificado en la página: armaduras y sus cambios (cc. 33 y 72/73), 2/4 → 3/4, ♩ = 74, 'Agitato' en c. 73, dinámicas, calderones (cc. 30 y 64), trino (c. 49), 'poco accel.', grupos irregulares y texturas por sección. La partitura es densa y se leyó a baja resolución: el total de 132 compases, los números exactos de compás de detalles puntuales y las alteraciones accidentales concretas son aproximados. Inferido: obra de origen (Hunter × Hunter 2011), tonalidades (Re menor/Sol menor) y toda la armonía en números romanos."
+ }
+]

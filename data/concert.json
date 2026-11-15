@@ -1,0 +1,18 @@
+{
+  "title": "Piano concierto",
+  "date": "2027-12-01",
+  "start": "2026-11-16",
+  "tagline": "Dieciséis obras para piano solo, de Mozart y Debussy a la música de cine, anime y videojuegos.",
+  "about": [
+    "Piano concierto es un recital de piano solo con dieciséis obras. Empieza en el clasicismo, con las variaciones de Mozart sobre «Ah, vous dirai-je, Maman», pasa por el impresionismo de Debussy y llega a la música de Ryuichi Sakamoto, Joe Hisaishi, Nobuo Uematsu y a bandas sonoras de anime.",
+    "El hilo del programa son las historias: casi todas las obras nacieron para acompañar una película, una serie o un videojuego, y aquí se cuentan con un solo instrumento."
+  ],
+  "objectives": [
+    "Tocar en vivo el programa completo de dieciséis obras el 1 de diciembre de 2027.",
+    "Aprender de forma autodidacta, con una base técnica sólida (Hanon y Czerny Op. 599) y entendiendo la teoría de cada obra.",
+    "Desarrollar sonido, pedal y control dinámico en estilos muy distintos.",
+    "Llegar al concierto con al menos dos ensayos generales grabados del programa completo."
+  ],
+  "rehearsalWeeks": 8,
+  "polishWeeks": 3
+}

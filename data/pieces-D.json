@@ -1,0 +1,180 @@
+[
+ {
+  "id": "13",
+  "title": "Vague Reasons (Nanami's Theme)",
+  "composer": "Yoshimasa Terui",
+  "source": "Jujutsu Kaisen, temporada 2 (episodio 18), banda sonora",
+  "key": "Do mayor (con color de Fa lidio)",
+  "keySignature": "sin alteraciones",
+  "meter": "4/4",
+  "tempo": "♩ = 80",
+  "pages": 4,
+  "bars": 69,
+  "difficulty": 7,
+  "difficultyNote": "El inicio es sencillo, pero las secciones B, D y F piden acordes arpegiados amplios, semicorcheas sincopadas y melodía en octavas sobre un acompañamiento de acordes con puntillo.",
+  "character": "Tema contemplativo y melancólico que nace de un ostinato cristalino en el registro agudo y crece hasta un clímax amplio antes de volver al silencio. Lo especial es la sensación de quietud: la armonía casi no se mueve y todo el color viene de las notas añadidas.",
+  "sections": [
+   {"name": "Introducción", "bars": "1–2", "marking": "pp, ♩ = 80, con pedal", "focus": ["Sol repetido en blancas y negras con la mano derecha sola", "Sonido muy suave y parejo", "Establecer el pulso lento sin correr"], "tip": "Cuenta los cuatro tiempos en voz alta: estos dos compases fijan el tempo de toda la pieza."},
+   {"name": "A – Ostinato", "bars": "3–18", "marking": "pp, pedal largo por cada dos compases", "focus": ["Ostinato de corcheas en la mano derecha (Do agudo – Re – Sol – Si) con el 5.º dedo marcando la nota alta", "Acordes arpegiados en blancas en la mano izquierda, escritos en registro medio-agudo", "Pequeñas variaciones melódicas al final de los compases 4, 6, 8, 10, 12, 14 y 16", "Compás 18: enlace en semicorcheas hacia la sección B"], "tip": "Practica el ostinato sin pedal hasta que las cuatro corcheas suenen iguales; luego destaca solo la nota superior."},
+   {"name": "B – Acordes rotos y síncopas", "bars": "19–26", "marking": "mp", "focus": ["Acordes con puntillo y acordes arpegiados grandes en la mano derecha", "Bajo en blancas (Fa, Sol, Do, La) con respuestas en semicorcheas a contratiempo", "Silencios de semicorchea: precisión rítmica", "Compás 26: escala ascendente con Do♯ de paso y regulador"], "tip": "Palmea primero el ritmo de cada mano por separado; los silencios de semicorchea son lo que más cuesta leer."},
+   {"name": "C – Puente agudo", "bars": "27–28", "marking": "p, 8va, tenuto sobre las notas melódicas", "focus": ["Semicorcheas continuas una octava más arriba de lo escrito", "Notas con tenuto que forman la melodía dentro del dibujo", "Acorde tenido en redondas en la mano izquierda"], "tip": "Toca solo las notas con tenuto para oír la melodía y después rellena el resto mucho más suave."},
+   {"name": "D – Tema en octavas", "bars": "29–36", "marking": "mf", "focus": ["Melodía en octavas en la mano derecha con ligaduras a través de la barra de compás", "Mano izquierda: bajo en octava grave y acordes con puntillo en ritmo 3+3+2", "Salto del bajo al acorde en cada compás", "Compás 36: arpegio ascendente con 8va hasta la sección E"], "tip": "Estudia la mano izquierda sola con metrónomo hasta automatizar el salto bajo-acorde; es el motor de la sección."},
+   {"name": "E – Interludio libre", "bars": "37–44", "marking": "regulador decreciente hasta mp y p, pedal", "focus": ["Motivo La–Sol–Fa en ambas manos con notas tenidas", "Mordentes en el registro agudo (compases 38 y 40)", "Pasajes de semicorcheas en los compases 41–44 con Sol♯ de paso", "Crescendo largo hacia la sección F"], "tip": "Trabaja los compases 41–44 en grupos de cuatro semicorcheas, deteniéndote en la primera de cada grupo."},
+   {"name": "F y G – Clímax", "bars": "45–60", "marking": "f (45), mf (53), reguladores hasta f (56 y 59)", "focus": ["F: acordes arpegiados amplios sobre bajos graves en octava", "G: bajo y acorde repetido en negras en la mano izquierda (patrón «um-pa-pa-pa»)", "G: melodía muy ornamentada en semicorcheas, con pasajes en 8va", "Control del volumen para que el acompañamiento no tape la melodía"], "tip": "En G, toca la izquierda en bloque y canta la melodía; después súmale la derecha a la mitad del tempo."},
+   {"name": "H – Coda", "bars": "61–69", "marking": "pp, con pedal", "focus": ["Regreso del ostinato inicial", "Variante con Sol♯ en los compases 62 y 66", "Final que se disuelve en el agudo con silencios"], "tip": "Baja el volumen de golpe en el compás 61: el contraste con el clímax es el efecto que buscas."}
+  ],
+  "theory": [
+   {"concept": "Ostinato", "explanation": "Un ostinato es un dibujo corto que se repite muchas veces mientras otras cosas cambian a su alrededor. Aquí la mano derecha repite las mismas cuatro notas y es la mano izquierda la que cambia el color del acorde.", "inScore": "Compases 3–17 y de nuevo 61–67."},
+   {"concept": "Acordes con notas añadidas (maj7, 9, ♯11)", "explanation": "Son acordes mayores a los que se suman notas extra que les dan un sonido abierto y flotante. Sobre el bajo Fa, las notas Mi, Sol y Si funcionan como 7.ª mayor, 9.ª y 11.ª aumentada.", "inScore": "Compás 3 en adelante (la anotación manuscrita de la partitura indica Fmaj9(♯11) y Cmaj7/6)."},
+   {"concept": "Modo lidio", "explanation": "El modo lidio es una escala mayor con el cuarto grado elevado. Tocar las notas blancas partiendo de Fa da Fa lidio: el Si natural sobre el bajo Fa crea ese brillo soñador.", "inScore": "Secciones A y H (compases 3–17, 61–67), donde el Si suena sobre acordes de Fa."},
+   {"concept": "Acorde arpegiado", "explanation": "La línea ondulada delante de un acorde indica que las notas se tocan una tras otra, muy rápido, de abajo arriba. Permite tocar acordes más anchos que la mano.", "inScore": "Mano izquierda en 3, 5 y 15; mano derecha en 19–25, 29 y 45–49."},
+   {"concept": "Dominante secundaria (V de vi)", "explanation": "Es un acorde mayor «prestado» que empuja hacia un acorde distinto de la tónica. El Sol♯ convierte Mi menor en Mi mayor, que tira con fuerza hacia La menor.", "inScore": "Compases 30 y 34 (Sol♯ en ambas manos), que resuelven en La menor en 31 y 35."},
+   {"concept": "Síncopa y ritmo 3+3+2", "explanation": "La síncopa acentúa donde no se espera. Agrupar las ocho corcheas del compás como 3+3+2 da un impulso hacia adelante sin cambiar el compás.", "inScore": "Mano izquierda de la sección D (compases 29–36)."},
+   {"concept": "8va (octava alta)", "explanation": "La línea punteada con un 8 indica tocar una octava más arriba de lo escrito. Evita llenar el pentagrama de líneas adicionales.", "inScore": "Compases 26–28, 36, 39–40, 56 y 58–60."}
+  ],
+  "chords": [
+   {"roman": "IV", "name": "Fa maj9(♯11)", "notes": "Fa · La · Do · Mi · Sol · Si", "role": "Color principal, punto de reposo flotante"},
+   {"roman": "I", "name": "Do maj7", "notes": "Do · Mi · Sol · Si", "role": "Tónica, estable pero sin cerrar del todo"},
+   {"roman": "V", "name": "Sol", "notes": "Sol · Si · Re", "role": "Tensión suave hacia Do o La menor"},
+   {"roman": "vi", "name": "La menor", "notes": "La · Do · Mi", "role": "Lado melancólico de la tonalidad"},
+   {"roman": "V/vi", "name": "Mi mayor", "notes": "Mi · Sol♯ · Si", "role": "Dominante secundaria hacia La menor"}
+  ],
+  "progression": "IV – V – vi – I (sección G); IV – V/vi – vi – V (sección D)",
+  "keyChanges": [],
+  "techniqueNeeds": ["voicing-melody-top", "pedal-legato", "lh-arpeggios-wide", "chords-blocked", "octaves", "syncopation", "finger-independence", "dynamics-range", "scales-fast"],
+  "confidence": "Verificado en la página: título, tempo, compás, armadura, 69 compases, letras de ensayo A–H y sus compases, dinámicas, 8va, alteraciones (Do♯ en 26, Sol♯ en 30, 34, 44, 62 y 66) y texturas. Inferido: nombres exactos de acordes y cifrado romano (leídos a baja resolución; la anotación manuscrita confirma Fmaj9(♯11) y Cmaj7/6 al inicio)."
+ },
+ {
+  "id": "14",
+  "title": "If I Am With You",
+  "composer": "Yoshimasa Terui",
+  "source": "Jujutsu Kaisen, temporada 2, banda sonora (arreglo de sook)",
+  "key": "Do mayor (con inicio en Fa lidio)",
+  "keySignature": "sin alteraciones",
+  "meter": "3/4",
+  "tempo": "♩ = 130 (♩ = 110 hacia el compás 59, ♩ = 140 desde el 61)",
+  "pages": 3,
+  "bars": 104,
+  "difficulty": 4,
+  "difficultyNote": "Los extremos son un vals sencillo de corcheas con melodía en negras; la parte central añade arpegios más amplios, acordes arpegiados y cambios de tempo.",
+  "character": "Vals delicado, como de caja de música, con las dos manos en el registro agudo. Transmite ternura y nostalgia, y se abre en una sección central más amplia y emotiva.",
+  "sections": [
+   {"name": "Introducción", "bars": "1–16", "marking": "♩ = 130, ambas manos en clave de sol", "focus": ["Figura de seis corcheas (Fa–La–Si–Do–Si–La) primero en la mano derecha (1–4) y luego en la izquierda", "Notas sueltas agudas a contratiempo en la mano derecha", "El patrón desciende por grados: Fa (1–4), Mi (5–8), Re (9–12), Do (13–16)"], "tip": "Aprende la figura de corcheas como una posición fija de la mano para cada grupo de cuatro compases."},
+   {"name": "Tema principal", "bars": "17–32", "marking": "melodía en negras y blancas sobre el ostinato", "focus": ["Melodía cantada con el 5.º dedo en el agudo", "Izquierda en corcheas continuas, siempre más suave", "Negra con puntillo + corchea en los compases 20, 24 y 28", "Acordes de cierre en 31–32"], "tip": "Toca la melodía sola y cántala; luego añade la izquierda casi sin peso."},
+   {"name": "Sección central", "bars": "33–48", "marking": "la mano izquierda pasa a clave de fa", "focus": ["Arpegios más amplios en corcheas en la mano izquierda", "Si♭ en los compases 41–42 (acorde prestado)", "Acordes arpegiados y dobles notas en la mano derecha", "Fraseo de cuatro compases"], "tip": "Marca con lápiz cada cambio de clave de la mano izquierda antes de empezar a tocar."},
+   {"name": "Episodio agudo", "bars": "49–58", "marking": "8va, textura muy ligera", "focus": ["Mano derecha una octava más alta de lo escrito", "Acordes arpegiados en la mano izquierda (en clave de sol)", "Silencios que dejan respirar la música"], "tip": "Mueve el cuerpo hacia la derecha del teclado antes del compás 49 para llegar sin tensión."},
+   {"name": "Transición y clímax", "bars": "59–87", "marking": "♩ = 110, luego ♩ = 140", "focus": ["Grupos irregulares (cinquillo y cuatrillo) en 59–60", "Melodía en octavas y acordes con la mano derecha", "Tresillos en 66 con Sol♯ de paso", "Arpegios de corcheas de registro amplio en la izquierda"], "tip": "Estudia 59–61 por separado: los cambios de tempo se preparan respirando, no acelerando de golpe."},
+   {"name": "Reexposición y final", "bars": "88–104", "marking": "rit. desde el compás 102", "focus": ["Vuelta del tema con el ostinato de corcheas", "Mismo descenso Fa–Mi–Re–Do en la izquierda", "Ritardando final y Do grave de cierre"], "tip": "Empieza el rit. poco a poco; guarda la mayor parte del freno para los dos últimos compases."}
+  ],
+  "theory": [
+   {"concept": "Compás de 3/4 (vals)", "explanation": "Cada compás tiene tres tiempos de negra, con el primero un poco más pesado. Aquí cada negra se divide en dos corcheas, así que la izquierda toca seis notas por compás.", "inScore": "Toda la pieza; el patrón se ve claro en los compases 1–8."},
+   {"concept": "Modo lidio", "explanation": "Es una escala mayor con el cuarto grado elevado. Sobre el bajo Fa, el Si natural (en lugar de Si♭) da un sonido luminoso y algo irreal.", "inScore": "Compases 1–4 y 17–20 (figura Fa–La–Si–Do)."},
+   {"concept": "Bajo descendente por grados", "explanation": "La nota más grave baja un escalón cada cierto tiempo y arrastra la armonía con ella. Crea una sensación de caída suave muy típica de la música nostálgica.", "inScore": "Fa (1–4) → Mi (5–8) → Mi/Re (9–12) → Do (13–16); se repite en 17–32 y 88–103."},
+   {"concept": "Acorde prestado (♭VII)", "explanation": "Es un acorde que no pertenece a la tonalidad y se toma de la tonalidad menor paralela. El Si♭ en Do mayor oscurece el color por un momento.", "inScore": "Compases 41–42 (Si♭ en la mano izquierda)."},
+   {"concept": "Cambios de tempo", "explanation": "La cifra junto a la negra indica cuántas negras caben en un minuto. Bajar a 110 y subir a 140 da a la sección central un efecto de tomar aire y lanzarse.", "inScore": "♩ = 110 hacia el compás 59 y ♩ = 140 en el 61; rit. en 102–104."},
+   {"concept": "Grupos irregulares", "explanation": "Un cinquillo reparte cinco notas en el espacio de cuatro, y un tresillo tres en el de dos. Se tocan repartiéndolas por igual, sin acentos intermedios.", "inScore": "Cinquillo y cuatrillo en 59–60; tresillos en 66."}
+  ],
+  "chords": [
+   {"roman": "IV", "name": "Fa maj7(♯11)", "notes": "Fa · La · Do · Mi (+ Si)", "role": "Acorde de apertura, color lidio"},
+   {"roman": "iii", "name": "Mi menor", "notes": "Mi · Sol · Si", "role": "Segundo escalón del bajo descendente"},
+   {"roman": "ii", "name": "Re menor 7", "notes": "Re · Fa · La · Do", "role": "Prepara la llegada a la tónica"},
+   {"roman": "I", "name": "Do", "notes": "Do · Mi · Sol", "role": "Tónica, reposo"},
+   {"roman": "♭VII", "name": "Si♭", "notes": "Si♭ · Re · Fa", "role": "Acorde prestado en la sección central"},
+   {"roman": "V", "name": "Sol", "notes": "Sol · Si · Re", "role": "Tensión hacia Do en la sección central"}
+  ],
+  "progression": "IV – iii – ii – I (cuatro compases cada acorde)",
+  "keyChanges": [],
+  "techniqueNeeds": ["lh-broken-chords", "voicing-melody-top", "pedal-legato", "lh-arpeggios-wide", "octaves", "finger-independence", "rubato", "dynamics-range"],
+  "confidence": "Verificado en la página: título, arreglista, 3/4, ♩ = 130/110/140, 104 compases, sin armadura, claves, 8va en 49–57, Si♭ en 41–42, rit. final y la figura inicial Fa–La–Si–Do. Inferido: cifrado romano, nombres de acordes y el compás exacto de ♩ = 110 (59, con margen de un compás); la partitura no trae dinámicas impresas y el pedal lo decides tú."
+ },
+ {
+  "id": "15",
+  "title": "Small Village",
+  "composer": "Yutaka Yamada",
+  "source": "Vinland Saga, banda sonora (arreglo de Zak Parks)",
+  "key": "Re mayor / Si menor (relativos)",
+  "keySignature": "2♯",
+  "meter": "3/4 (con compases de 4/4 y 6/4)",
+  "tempo": "Freely; ♩ = 120 (A); più mosso (B); ♩ = 80 (D y F)",
+  "pages": 4,
+  "bars": 95,
+  "difficulty": 7,
+  "difficultyNote": "Las notas no son muy rápidas en general, pero el tempo libre, los cambios de compás, los tresillos contra corcheas, la cadenza y los registros extremos (8va y 15ma) exigen mucha madurez rítmica.",
+  "character": "Pieza pastoral y nostálgica de aire nórdico, que respira con mucha libertad. Alterna momentos casi improvisados con un vals luminoso y un clímax breve e intenso.",
+  "sections": [
+   {"name": "Introducción libre", "bars": "1–8", "marking": "Freely, mf; accel.; cadenza; calderones", "focus": ["Tempo libre con calderones (compases 5 y 8)", "Cambio de 3/4 a 4/4 en los compases 6–8", "Cadenza en semicorcheas en el compás 7", "Bajos muy graves con 8vb y pedal largo"], "tip": "Canta la frase antes de tocarla: el ritmo aquí sigue la respiración, no el metrónomo."},
+   {"name": "A – Tema", "bars": "9–32", "marking": "♩ = 120, mp; rit. (16), accel. (17), Lightly (20)", "focus": ["Melodía sencilla en blancas y negras", "Arpegios de corcheas en la mano izquierda que suben hasta la clave de sol", "Tresillos de enlace en 15–17", "Acordes arpegiados en 26, 31 y 32"], "tip": "Fija primero un 3/4 estable con metrónomo y añade los rit. y accel. solo cuando ya salga de memoria."},
+   {"name": "B – Più mosso", "bars": "33–40", "marking": "più mosso, mp, 8va", "focus": ["Melodía una octava alta", "Ambas manos en clave de sol al inicio", "Corcheas oscilantes en 37–38", "Compás 40 en 4/4 con rit."], "tip": "Cuenta en voz alta «un-dos-tres-cuatro» en el compás 40 para no recortar el tiempo extra."},
+   {"name": "C – A tempo y descenso", "bars": "41–59", "marking": "a tempo; rit.; calderones en 45 y 49", "focus": ["Bajo con saltos marcados con 8va en la mano izquierda (41–43)", "Acordes arpegiados tenidos (46, 50, 51)", "Escalas descendentes en semicorcheas (52 y 55)", "Diluir el sonido hasta el Si grave de 58–59"], "tip": "Practica las escalas de 52 y 55 lentas y con digitación escrita; siempre la misma."},
+   {"name": "D – Building", "bars": "60–67", "marking": "♩ = 80, mf, «Building», cresc.", "focus": ["Tresillos de corchea continuos en la mano izquierda", "Melodía en negras y blancas contra los tresillos (2 contra 3 puntual)", "Crescendo sostenido durante ocho compases", "Calderón al final del compás 67"], "tip": "Toca la izquierda sola hasta que los tresillos fluyan; después añade la melodía contando solo los tiempos fuertes."},
+   {"name": "E – Clímax", "bars": "68–83", "marking": "più mosso, ff; molto rit.; accel.; pp", "focus": ["Acordes llenos en ambas manos (68–70)", "Cambios de compás: 4/4 (73), 3/4 (74), 4/4 (76), 6/4 (77), 3/4 (78)", "Figuras rápidas en 8va y 15ma (77–81)", "Bajada de ff a pp"], "tip": "Marca con colores cada cambio de compás y estudia 73–78 contando en voz alta."},
+   {"name": "F – Coda", "bars": "84–95", "marking": "♩ = 80, p → mp → pp; rit.; calderón final", "focus": ["Recuerdo del tema en registro grave", "Tresillos suaves que pasan de una mano a otra (92–94)", "Bajo de Si muy grave (8vb) tenido con pedal", "Última nota aguda en 15ma con calderón"], "tip": "Deja que el último acorde se apague solo antes de levantar el pedal."}
+  ],
+  "theory": [
+   {"concept": "Tonalidades relativas", "explanation": "Re mayor y Si menor comparten la misma armadura de dos sostenidos (Fa♯ y Do♯). La música puede pasar de un color luminoso a otro más melancólico sin cambiar ninguna alteración.", "inScore": "Toda la pieza; el final descansa sobre un Si grave (compases 91–95)."},
+   {"concept": "Tempo libre y rubato", "explanation": "«Freely» indica que el pulso no es estricto: puedes estirar y recoger el tiempo como al hablar. Los rit. y accel. escritos te dicen dónde frenar y dónde avanzar.", "inScore": "Compases 1–8 (Freely, accel.), 16–17, 27, 40, 43–45, 51–57, 70–72 y 93–95."},
+   {"concept": "Cambios de compás", "explanation": "El número de tiempos por compás cambia para acomodar una frase más larga o más corta. Solo hay que contar más o menos tiempos; la duración de la negra no cambia.", "inScore": "4/4 en 6–8, 40, 73 y 76; 6/4 en 77; el resto en 3/4."},
+   {"concept": "Tresillos y dos contra tres", "explanation": "Un tresillo divide el tiempo en tres partes iguales en lugar de dos. Cuando una mano toca tresillos y la otra corcheas normales, aparece el polirritmo «dos contra tres».", "inScore": "Sección D (60–67) y coda (90–94)."},
+   {"concept": "Calderón", "explanation": "El calderón (un arco con un punto) permite alargar una nota o un silencio a tu gusto. Sirve para marcar el final de una idea musical.", "inScore": "Compases 5, 8, 32, 45, 49, 53, 67, 72, 73 y 95."},
+   {"concept": "Sol♯ y color dórico", "explanation": "El Sol♯ no pertenece a la armadura. En el contexto de Si menor equivale al sexto grado elevado del modo dórico, que suena más abierto y «folclórico» que el menor normal.", "inScore": "Compases 19, 34, 42, 48, 61 y 69."},
+   {"concept": "8va, 15ma y 8vb", "explanation": "Indican tocar una octava arriba (8va), dos octavas arriba (15ma) o una octava abajo (8vb) de lo escrito. La pieza los usa para abarcar casi todo el teclado.", "inScore": "8va en 33–36 y 49–53; 15ma en 77–80 y 94–95; 8vb en 1–2, 88 y 92."}
+  ],
+  "chords": [
+   {"roman": "I", "name": "Re", "notes": "Re · Fa♯ · La", "role": "Tónica mayor, luz del tema"},
+   {"roman": "vi", "name": "Si menor", "notes": "Si · Re · Fa♯", "role": "Relativo menor, reposo final"},
+   {"roman": "IV", "name": "Sol", "notes": "Sol · Si · Re", "role": "Apertura cálida"},
+   {"roman": "V", "name": "La", "notes": "La · Do♯ · Mi", "role": "Tensión hacia Re"},
+   {"roman": "II (V/V)", "name": "Mi mayor", "notes": "Mi · Sol♯ · Si", "role": "Aporta el Sol♯ de color dórico"},
+   {"roman": "iii", "name": "Fa♯ menor", "notes": "Fa♯ · La · Do♯", "role": "Enlace suave entre Re y Si menor"}
+  ],
+  "progression": "IV – I – V – vi (aproximada; la armonía es libre y cambia en cada sección)",
+  "keyChanges": ["compases 6–8: 4/4; compás 9: vuelve a 3/4", "compás 40: 4/4; compás 41: 3/4", "compás 73: 4/4; compás 74: 3/4; compás 76: 4/4; compás 77: 6/4; compás 78: 3/4", "sin cambio de armadura en toda la pieza"],
+  "techniqueNeeds": ["rubato", "lh-arpeggios-wide", "lh-broken-chords", "polyrhythm-2v3", "pedal-legato", "voicing-melody-top", "scales-fast", "chords-blocked", "dynamics-range"],
+  "confidence": "Verificado en la página: título, arreglista, armadura de 2♯, marcas de tempo y expresión, letras de ensayo A–F con sus compases, 95 compases, cambios de compás, calderones, 8va/15ma/8vb y texturas. Inferido con confianza baja: el centro tonal exacto (Re mayor frente a Si menor), los acordes y la progresión; los Sol♯ y algunos compases de cambio de métrica (6 y 76) se leyeron a baja resolución."
+ },
+ {
+  "id": "16",
+  "title": "Battleground",
+  "composer": "Yutaka Yamada",
+  "source": "Vinland Saga, banda sonora (arreglo para piano de Torby Brand)",
+  "key": "Re menor",
+  "keySignature": "1♭",
+  "meter": "4/4",
+  "tempo": "♩ = 172; «Slow, freely» en la sección final",
+  "pages": 8,
+  "bars": 165,
+  "difficulty": 6,
+  "difficultyNote": "La lectura es sencilla (muchos acordes en redondas y blancas), pero a ♩ = 172 los tresillos continuos, las octavas de la mano izquierda y la duración piden resistencia y una muñeca relajada.",
+  "character": "Música épica de batalla: empieza con un pedal oscuro y amenazante, estalla en cascadas de tresillos y crece hasta un final majestuoso. Termina con un epílogo lento y desolado.",
+  "sections": [
+   {"name": "«Troll» – Pedal y motivo", "bars": "1–17", "marking": "♩ = 172, f, mano izquierda con 8vb", "focus": ["Pedal de Re en octavas graves en redondas y blancas ligadas", "Mano derecha en silencio hasta el compás 9", "Motivo en negras en registro grave (clave de fa) en 9–17", "Contar bien los compases de espera"], "tip": "Cuenta los ocho compases iniciales en voz alta; a 172 pasan muy deprisa."},
+   {"name": "«Troll» – Acordes que suben", "bars": "18–34", "marking": "mp (18), ff con 8va (26)", "focus": ["Acordes en blancas ligadas que ascienden por grados (18–25)", "Bajo en blancas con ritmo sincopado por ligaduras", "ff con acordes amplios en ambas manos (26–34)", "Si natural de paso en 27 y 31"], "tip": "Toca los acordes en bloque sin ritmo para memorizar las posiciones; luego añade las ligaduras."},
+   {"name": "«Battleground» – Cascadas de tresillos", "bars": "35–51", "marking": "con fuoco, ff, acentos", "focus": ["Tresillos de corchea descendentes en la mano derecha, dos compases por cascada", "Acorde acentuado al inicio de cada cascada", "Mano izquierda con acordes tenidos y cruces a la clave de sol (40, 41, 48, 49)", "Igualdad de los tresillos a tempo rápido"], "tip": "Estudia cada cascada en grupos de tres notas como posiciones de mano y empieza a ♩ = 90."},
+   {"name": "Tresillos en zigzag", "bars": "52–67", "marking": "acentos, cresc. (66)", "focus": ["Tresillos que suben y bajan en la mano derecha con acordes acentuados", "Izquierda en octavas y acordes con ritmo de negra–corchea atresillado", "Saltos de la mano izquierda entre bajo y acorde", "Crescendo hacia el compás 68"], "tip": "Trabaja manos separadas; el ritmo atresillado de la izquierda debe sonar como un galope constante."},
+   {"name": "Ostinato en la izquierda y calma", "bars": "68–97", "marking": "ff (68), mf (70 y 76), mp (82)", "focus": ["Tresillos ostinato en la mano izquierda (68–75) bajo acordes tenidos", "Terceras y acordes en tresillos en la derecha (74–75)", "Nota repetida atresillada en la izquierda (76–81)", "Coral de acordes en blancas, registro agudo con 8va (82–97); La mayor con Do♯ en 97"], "tip": "En 68–75 gira ligeramente la muñeca en cada grupo de tres para no cansar el antebrazo."},
+   {"name": "«With growing conviction»", "bars": "98–129", "marking": "With growing conviction, mf; f (114); 8va (126)", "focus": ["Melodía coral en acordes de blancas y redondas en la derecha", "Izquierda en octavas con ritmo de galope atresillado", "Crecimiento gradual durante 32 compases", "Acordes arpegiados en 126–128"], "tip": "Planifica el volumen: empieza en un mf real para tener margen hasta el ff del compás 130."},
+   {"name": "Maestoso", "bars": "130–153", "marking": "maestoso, ff; dim. (144); f (149)", "focus": ["Acordes amplios tenidos en la derecha", "Arpegios en tresillos de gran recorrido en la izquierda, con bajos en 8vb", "Diminuendo y descenso en 144–148", "Acordes repetidos en tresillo de negras (149–153)"], "tip": "Aprende los arpegios de la izquierda por posiciones de acorde antes de tocarlos en tresillos."},
+   {"name": "«Dagger» – Epílogo", "bars": "154–165", "marking": "Slow, freely; 8va", "focus": ["Pedal de Re grave ligado durante varios compases", "Melodía sola en el agudo, con tempo libre", "Acordes arpegiados suaves", "Silencios expresivos"], "tip": "Toca esta parte como si hablaras despacio: deja que cada nota larga se apague antes de seguir."}
+  ],
+  "theory": [
+   {"concept": "Pedal de tónica", "explanation": "Un pedal es una nota grave que se mantiene o se repite mientras la armonía cambia por encima. Aquí el Re grave crea una sensación de amenaza y de suelo firme.", "inScore": "Compases 1–17 (Re en octavas con 8vb) y de nuevo en 149–165."},
+   {"concept": "Tresillos de corchea", "explanation": "Un tresillo reparte tres notas iguales en el espacio de dos. Con tresillos constantes, el 4/4 suena como un 12/8 galopante.", "inScore": "Mano derecha en 35–67; mano izquierda en 68–81 y 98–148."},
+   {"concept": "Escala menor natural y modo eólico", "explanation": "Re menor natural usa Re–Mi–Fa–Sol–La–Si♭–Do. Al no elevar el Do, los acordes suenan modales y épicos, típicos de la música de cine.", "inScore": "Cascadas descendentes de los compases 35–51."},
+   {"concept": "Dominante con sensible (Do♯)", "explanation": "Al elevar el Do a Do♯ aparece el acorde de La mayor, la dominante de Re menor. Esa nota tira con fuerza hacia Re y anuncia una nueva sección.", "inScore": "Compás 97, justo antes de «With growing conviction»."},
+   {"concept": "Síncopa por ligadura", "explanation": "Cuando una nota se liga por encima del tiempo fuerte, el acento se desplaza y la música parece adelantarse. Da empuje incluso con notas largas.", "inScore": "Blancas ligadas de los compases 3–4, 7–8 y 18–34."},
+   {"concept": "Indicaciones de carácter", "explanation": "Palabras italianas o inglesas que dicen cómo tocar: «con fuoco» (con fuego), «maestoso» (majestuoso), «freely» (con libertad). Cambian el gesto más que las notas.", "inScore": "con fuoco (35), With growing conviction (98), maestoso (130), Slow, freely (154)."}
+  ],
+  "chords": [
+   {"roman": "i", "name": "Re menor", "notes": "Re · Fa · La", "role": "Tónica, centro oscuro de la pieza"},
+   {"roman": "VI", "name": "Si♭", "notes": "Si♭ · Re · Fa", "role": "Color épico, alivio momentáneo"},
+   {"roman": "III", "name": "Fa", "notes": "Fa · La · Do", "role": "Relativo mayor, luz"},
+   {"roman": "VII", "name": "Do", "notes": "Do · Mi · Sol", "role": "Paso modal hacia Re menor"},
+   {"roman": "iv", "name": "Sol menor", "notes": "Sol · Si♭ · Re", "role": "Subdominante, tensión suave"},
+   {"roman": "V", "name": "La", "notes": "La · Do♯ · Mi", "role": "Dominante con sensible (compás 97)"}
+  ],
+  "progression": "i – VI – III – VII (inferida)",
+  "keyChanges": [],
+  "techniqueNeeds": ["wrist-rotation", "octaves", "chords-blocked", "lh-arpeggios-wide", "repeated-notes", "scales-fast", "dynamics-range", "pedal-legato", "syncopation", "rubato"],
+  "confidence": "Verificado en la página: título, arreglista, 1♭, 4/4, ♩ = 172, 165 compases, nombres de sección («Troll», «Battleground», «Dagger»), marcas de carácter y dinámica con sus compases, texturas de tresillos y octavas, alteraciones en 97. Inferido: la progresión armónica y el cifrado de acordes (no leídos nota a nota); el compás exacto de inicio de «With growing conviction» (98) y de «Dagger» (154) puede variar en uno."
+ }
+]

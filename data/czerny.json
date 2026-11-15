@@ -1,0 +1,1308 @@
+{
+ "edition_note": "Edición Peters n.º 2402 (plancha 7901), 'Erster Lehrmeister' op. 599, ed. Adolf Ruthardt. PDF escaneado de 56 páginas; la página del PDF coincide con la página impresa (p.1 portada, p.2 en blanco, música pp.3-56). Contiene los 100 ejercicios, sin huecos. Secciones impresas: lectura de notas (1-10), cinco dedos con mano quieta (11-18), paso del pulgar (19-26), más de una octava (27-31), clave de fa (32-35; los n.º 1-31 usan clave de sol en ambas manos), sostenidos y bemoles (36-38), otras tonalidades fáciles (39-42), silencios (43-57), velocidad (58-70), melodías con y sin adornos (71-100). Catalogado a partir de imágenes a 60 ppp: tonalidad, compás y página son fiables; la descripción técnica y las etiquetas son una estimación visual. 'page' indica la página donde empieza el ejercicio.",
+ "exercises": [
+  {
+   "no": 1,
+   "page": 3,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
+   "tags": [
+    "five-finger",
+    "legato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 2,
+   "page": 3,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Lectura de notas en registro agudo, blancas y redondas",
+   "tags": [
+    "five-finger",
+    "position-shifts"
+   ],
+   "level": 1
+  },
+  {
+   "no": 3,
+   "page": 4,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Lectura de notas con líneas adicionales graves en la mano izquierda",
+   "tags": [
+    "five-finger"
+   ],
+   "level": 1
+  },
+  {
+   "no": 4,
+   "page": 4,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Lectura de notas en el registro sobreagudo",
+   "tags": [
+    "five-finger",
+    "position-shifts"
+   ],
+   "level": 1
+  },
+  {
+   "no": 5,
+   "page": 4,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
+   "tags": [
+    "five-finger",
+    "legato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 6,
+   "page": 5,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Negras alternadas entre ambas manos, diálogo de cinco dedos",
+   "tags": [
+    "five-finger",
+    "lh-melody"
+   ],
+   "level": 1
+  },
+  {
+   "no": 7,
+   "page": 5,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Negras en registro agudo con acompañamiento de blancas",
+   "tags": [
+    "five-finger"
+   ],
+   "level": 1
+  },
+  {
+   "no": 8,
+   "page": 5,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Acordes de tríada en la derecha con izquierda en blancas",
+   "tags": [
+    "chords-blocked"
+   ],
+   "level": 1
+  },
+  {
+   "no": 9,
+   "page": 5,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Melodía en negras sobre terceras y acordes tenidos de la izquierda",
+   "tags": [
+    "five-finger",
+    "chords-blocked",
+    "thirds"
+   ],
+   "level": 1
+  },
+  {
+   "no": 10,
+   "page": 5,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Acordes llenos en ambas manos",
+   "tags": [
+    "chords-blocked"
+   ],
+   "level": 1
+  },
+  {
+   "no": 11,
+   "page": 6,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Cinco dedos con mano quieta: negras ligadas sobre acordes tenidos",
+   "tags": [
+    "five-finger",
+    "legato",
+    "chords-blocked"
+   ],
+   "level": 1
+  },
+  {
+   "no": 12,
+   "page": 6,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Cinco dedos con mano quieta en corcheas sobre acordes tenidos",
+   "tags": [
+    "five-finger",
+    "legato",
+    "finger-independence"
+   ],
+   "level": 1
+  },
+  {
+   "no": 13,
+   "page": 7,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Corcheas de cinco dedos con acompañamiento de bajo y acordes repetidos",
+   "tags": [
+    "five-finger",
+    "chords-blocked"
+   ],
+   "level": 1
+  },
+  {
+   "no": 14,
+   "page": 7,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
+   "tags": [
+    "thirds",
+    "alberti-bass"
+   ],
+   "level": 1
+  },
+  {
+   "no": 15,
+   "page": 8,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
+   "tags": [
+    "five-finger",
+    "broken-chords",
+    "finger-independence"
+   ],
+   "level": 1
+  },
+  {
+   "no": 16,
+   "page": 8,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Semicorcheas de cinco dedos con final staccato",
+   "tags": [
+    "five-finger",
+    "legato",
+    "staccato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 17,
+   "page": 9,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Notas repetidas y terceras staccato sobre acordes tenidos",
+   "tags": [
+    "repeated-notes",
+    "staccato",
+    "thirds"
+   ],
+   "level": 1
+  },
+  {
+   "no": 18,
+   "page": 10,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Semicorcheas continuas de cinco dedos, igualdad e independencia",
+   "tags": [
+    "five-finger",
+    "finger-independence"
+   ],
+   "level": 2
+  },
+  {
+   "no": 19,
+   "page": 11,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Primer paso del pulgar: escala de Do en corcheas",
+   "tags": [
+    "scales",
+    "hand-crossing",
+    "legato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 20,
+   "page": 11,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Escalas con paso del pulgar sobre bajo Alberti",
+   "tags": [
+    "scales",
+    "hand-crossing",
+    "alberti-bass"
+   ],
+   "level": 1
+  },
+  {
+   "no": 21,
+   "page": 12,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Terceras y sextas ligadas con acompañamiento de vals",
+   "tags": [
+    "thirds",
+    "sixths",
+    "legato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 22,
+   "page": 12,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Escalas en semicorcheas con paso del pulgar sobre notas repetidas",
+   "tags": [
+    "scales",
+    "hand-crossing",
+    "repeated-notes"
+   ],
+   "level": 2
+  },
+  {
+   "no": 23,
+   "page": 12,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Melodía en 6/8 sobre acordes quebrados ligados de la izquierda",
+   "tags": [
+    "broken-chords",
+    "legato"
+   ],
+   "level": 1
+  },
+  {
+   "no": 24,
+   "page": 13,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Terceras ligadas y staccato en 6/8 sobre acordes tenidos",
+   "tags": [
+    "thirds",
+    "staccato",
+    "legato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 25,
+   "page": 13,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Acordes y dobles notas en la derecha sobre bajo Alberti legato",
+   "tags": [
+    "chords-blocked",
+    "alberti-bass",
+    "legato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 26,
+   "page": 14,
+   "key": "Do mayor",
+   "meter": "3/8",
+   "skill": "Escalas rápidas en fusas/semicorcheas con paso del pulgar",
+   "tags": [
+    "scales",
+    "hand-crossing"
+   ],
+   "level": 2
+  },
+  {
+   "no": 27,
+   "page": 14,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Pasajes que superan la octava: escalas y terceras con desplazamiento",
+   "tags": [
+    "scales",
+    "thirds",
+    "position-shifts"
+   ],
+   "level": 2
+  },
+  {
+   "no": 28,
+   "page": 14,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Saltos y extensiones melódicas sobre bajo Alberti",
+   "tags": [
+    "position-shifts",
+    "alberti-bass",
+    "legato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 29,
+   "page": 15,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Melodía de amplio registro con octava alta y notas repetidas",
+   "tags": [
+    "position-shifts",
+    "repeated-notes",
+    "broken-chords"
+   ],
+   "level": 2
+  },
+  {
+   "no": 30,
+   "page": 16,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Melodía dolce con grupos rápidos de adorno y matices",
+   "tags": [
+    "ornaments",
+    "dynamics",
+    "alberti-bass",
+    "legato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 31,
+   "page": 16,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Terceras y sextas en la derecha sobre bajo Alberti legato",
+   "tags": [
+    "thirds",
+    "sixths",
+    "alberti-bass",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 32,
+   "page": 17,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Introducción de la clave de fa: acordes repetidos y bajo en negras",
+   "tags": [
+    "chords-blocked",
+    "repeated-notes",
+    "lh-melody"
+   ],
+   "level": 1
+  },
+  {
+   "no": 33,
+   "page": 17,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Semicorcheas paralelas en ambas manos y melodía de la izquierda en clave de fa",
+   "tags": [
+    "five-finger",
+    "lh-melody",
+    "scales"
+   ],
+   "level": 2
+  },
+  {
+   "no": 34,
+   "page": 18,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Dobles notas en la derecha sobre acordes quebrados en clave de fa",
+   "tags": [
+    "thirds",
+    "broken-chords",
+    "legato",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 35,
+   "page": 18,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Acordes repetidos con saltos de bajo en la izquierda",
+   "tags": [
+    "chords-blocked",
+    "repeated-notes",
+    "position-shifts",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 36,
+   "page": 18,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Introducción de sostenidos y bemoles: cromatismos de paso en la melodía",
+   "tags": [
+    "five-finger",
+    "legato",
+    "broken-chords"
+   ],
+   "level": 2
+  },
+  {
+   "no": 37,
+   "page": 19,
+   "key": "Do mayor",
+   "meter": "3/8",
+   "skill": "Terceras cromáticas ligadas con alteraciones accidentales",
+   "tags": [
+    "thirds",
+    "legato",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 38,
+   "page": 19,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Notas repetidas staccato y alteraciones, con cambios de clave",
+   "tags": [
+    "repeated-notes",
+    "staccato",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 39,
+   "page": 20,
+   "key": "Sol mayor",
+   "meter": "4/4",
+   "skill": "Melodía ligada en Sol mayor sobre acompañamiento quebrado",
+   "tags": [
+    "legato",
+    "broken-chords",
+    "dynamics",
+    "scales"
+   ],
+   "level": 2
+  },
+  {
+   "no": 40,
+   "page": 20,
+   "key": "Fa mayor",
+   "meter": "2/4",
+   "skill": "Motivos cortos de semicorcheas con final staccato en Fa mayor",
+   "tags": [
+    "five-finger",
+    "staccato",
+    "broken-chords"
+   ],
+   "level": 2
+  },
+  {
+   "no": 41,
+   "page": 21,
+   "key": "Sol mayor",
+   "meter": "3/8",
+   "skill": "Melodía cantada sobre bajo Alberti en semicorcheas",
+   "tags": [
+    "alberti-bass",
+    "legato",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 42,
+   "page": 21,
+   "key": "Fa mayor",
+   "meter": "3/4",
+   "skill": "Dobles notas y terceras expresivas con matices",
+   "tags": [
+    "thirds",
+    "sixths",
+    "dynamics",
+    "legato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 43,
+   "page": 22,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Estudio de silencios: acordes cortos y escalas entre pausas",
+   "tags": [
+    "chords-blocked",
+    "scales",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 44,
+   "page": 22,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Corcheas sueltas con silencios y ráfagas de semicorcheas",
+   "tags": [
+    "staccato",
+    "scales",
+    "repeated-notes"
+   ],
+   "level": 2
+  },
+  {
+   "no": 45,
+   "page": 23,
+   "key": "Sol mayor",
+   "meter": "2/4",
+   "skill": "Silencios y entradas a contratiempo, escalas en semicorcheas en ambas manos",
+   "tags": [
+    "scales",
+    "lh-melody",
+    "staccato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 46,
+   "page": 24,
+   "key": "Do mayor",
+   "meter": "3/8",
+   "skill": "Staccato continuo en dobles notas y acordes",
+   "tags": [
+    "staccato",
+    "thirds",
+    "chords-blocked",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 47,
+   "page": 24,
+   "key": "Fa mayor",
+   "meter": "3/4",
+   "skill": "Melodía dolce con puntillos y fraseo expresivo",
+   "tags": [
+    "legato",
+    "dynamics",
+    "ornaments"
+   ],
+   "level": 2
+  },
+  {
+   "no": 48,
+   "page": 25,
+   "key": "Si bemol mayor",
+   "meter": "2/4",
+   "skill": "Terceras y sextas staccato en Si bemol mayor",
+   "tags": [
+    "thirds",
+    "sixths",
+    "staccato"
+   ],
+   "level": 2
+  },
+  {
+   "no": 49,
+   "page": 25,
+   "key": "Si bemol mayor",
+   "meter": "4/4",
+   "skill": "Escalas ascendentes rápidas sobre acordes staccato repetidos",
+   "tags": [
+    "scales",
+    "staccato",
+    "repeated-notes",
+    "hand-crossing"
+   ],
+   "level": 2
+  },
+  {
+   "no": 50,
+   "page": 26,
+   "key": "Re mayor",
+   "meter": "3/4",
+   "skill": "Melodía de escala en la izquierda bajo dobles notas tenidas",
+   "tags": [
+    "lh-melody",
+    "scales",
+    "thirds"
+   ],
+   "level": 2
+  },
+  {
+   "no": 51,
+   "page": 26,
+   "key": "Re mayor",
+   "meter": "4/4",
+   "skill": "Figuras quebradas y escalas con diálogo entre manos",
+   "tags": [
+    "broken-chords",
+    "scales",
+    "lh-melody",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 52,
+   "page": 27,
+   "key": "Re mayor",
+   "meter": "2/4",
+   "skill": "Andante de dobles notas con arpegios de la izquierda",
+   "tags": [
+    "thirds",
+    "sixths",
+    "arpeggios",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 53,
+   "page": 27,
+   "key": "Si bemol mayor",
+   "meter": "2/4",
+   "skill": "Vivace con apoyaturas y corcheas staccato",
+   "tags": [
+    "ornaments",
+    "staccato",
+    "chords-blocked"
+   ],
+   "level": 2
+  },
+  {
+   "no": 54,
+   "page": 27,
+   "key": "Si bemol mayor",
+   "meter": "3/4",
+   "skill": "Melodía con notas tenidas (tenuto) sobre acompañamiento ligado",
+   "tags": [
+    "legato",
+    "finger-independence",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 55,
+   "page": 28,
+   "key": "Sol mayor",
+   "meter": "2/4",
+   "skill": "Melodía ligada de amplio registro con octava alta",
+   "tags": [
+    "legato",
+    "position-shifts",
+    "scales",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 56,
+   "page": 28,
+   "key": "Fa mayor",
+   "meter": "3/8",
+   "skill": "Figuras de semicorcheas con notas vecinas en el registro agudo",
+   "tags": [
+    "five-finger",
+    "scales",
+    "position-shifts"
+   ],
+   "level": 2
+  },
+  {
+   "no": 57,
+   "page": 29,
+   "key": "Do mayor",
+   "meter": "6/8",
+   "skill": "Acordes y dobles notas staccato alternando las manos",
+   "tags": [
+    "staccato",
+    "chords-blocked",
+    "hand-crossing",
+    "scales"
+   ],
+   "level": 2
+  },
+  {
+   "no": 58,
+   "page": 30,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Velocidad: semicorcheas continuas de la derecha",
+   "tags": [
+    "scales",
+    "five-finger",
+    "finger-independence"
+   ],
+   "level": 2
+  },
+  {
+   "no": 59,
+   "page": 30,
+   "key": "Sol mayor",
+   "meter": "2/4",
+   "skill": "Velocidad de la mano izquierda en semicorcheas bajo terceras",
+   "tags": [
+    "lh-melody",
+    "scales",
+    "thirds"
+   ],
+   "level": 2
+  },
+  {
+   "no": 60,
+   "page": 31,
+   "key": "Fa mayor",
+   "meter": "6/8",
+   "skill": "Semicorcheas simultáneas en ambas manos, figuras quebradas legato",
+   "tags": [
+    "broken-chords",
+    "finger-independence",
+    "legato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 61,
+   "page": 32,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Escalas y arpegios extensos en legato, también en la izquierda",
+   "tags": [
+    "scales",
+    "arpeggios",
+    "hand-crossing",
+    "lh-melody"
+   ],
+   "level": 3
+  },
+  {
+   "no": 62,
+   "page": 33,
+   "key": "Sol mayor",
+   "meter": "3/8",
+   "skill": "Acordes quebrados en tresillos de la izquierda bajo terceras",
+   "tags": [
+    "broken-chords",
+    "thirds",
+    "lh-melody"
+   ],
+   "level": 3
+  },
+  {
+   "no": 63,
+   "page": 34,
+   "key": "Re mayor",
+   "meter": "4/4",
+   "skill": "Corcheas ligadas de escala en la octava alta con matices graduales",
+   "tags": [
+    "scales",
+    "legato",
+    "dynamics"
+   ],
+   "level": 2
+  },
+  {
+   "no": 64,
+   "page": 34,
+   "key": "Si bemol mayor",
+   "meter": "2/4",
+   "skill": "Scherzando: notas y acordes repetidos staccato con escalas",
+   "tags": [
+    "repeated-notes",
+    "staccato",
+    "scales",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 65,
+   "page": 35,
+   "key": "Re mayor",
+   "meter": "3/4",
+   "skill": "Batidos tipo trino en semicorcheas legato",
+   "tags": [
+    "ornaments",
+    "finger-independence",
+    "legato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 66,
+   "page": 36,
+   "key": "La mayor",
+   "meter": "3/4",
+   "skill": "Escalas y figuras rápidas en La mayor",
+   "tags": [
+    "scales",
+    "hand-crossing",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 67,
+   "page": 36,
+   "key": "Fa mayor",
+   "meter": "3/4",
+   "skill": "Batido continuo en la mano izquierda bajo dobles notas",
+   "tags": [
+    "lh-melody",
+    "finger-independence",
+    "thirds"
+   ],
+   "level": 3
+  },
+  {
+   "no": 68,
+   "page": 37,
+   "key": "Do mayor",
+   "meter": "3/8",
+   "skill": "Notas repetidas con cambio de dedos (4-3-2-1)",
+   "tags": [
+    "repeated-notes",
+    "staccato",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 69,
+   "page": 38,
+   "key": "Re mayor",
+   "meter": "2/4",
+   "skill": "Escalas rápidas en la mano izquierda bajo notas tenidas",
+   "tags": [
+    "lh-melody",
+    "scales",
+    "hand-crossing"
+   ],
+   "level": 3
+  },
+  {
+   "no": 70,
+   "page": 38,
+   "key": "Mi bemol mayor",
+   "meter": "4/4",
+   "skill": "Tresillos legato alternados entre ambas manos",
+   "tags": [
+    "legato",
+    "scales",
+    "lh-melody",
+    "arpeggios"
+   ],
+   "level": 3
+  },
+  {
+   "no": 71,
+   "page": 39,
+   "key": "Fa mayor",
+   "meter": "4/4",
+   "skill": "Melodía cantabile con grupetos y adornos",
+   "tags": [
+    "ornaments",
+    "legato",
+    "dynamics",
+    "broken-chords"
+   ],
+   "level": 3
+  },
+  {
+   "no": 72,
+   "page": 40,
+   "key": "Si bemol mayor",
+   "meter": "3/4",
+   "skill": "Melodía dolce adornada sobre notas repetidas de la izquierda",
+   "tags": [
+    "ornaments",
+    "repeated-notes",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 73,
+   "page": 40,
+   "key": "Re mayor",
+   "meter": "9/8",
+   "skill": "Melodía en 9/8 con apoyaturas sobre arpegios legato",
+   "tags": [
+    "ornaments",
+    "arpeggios",
+    "legato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 74,
+   "page": 41,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Trinos largos y pasajes ornamentados",
+   "tags": [
+    "ornaments",
+    "finger-independence",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 75,
+   "page": 41,
+   "key": "Mi bemol mayor",
+   "meter": "3/4",
+   "skill": "Melodía con trinos y pasaje delicado final en el agudo",
+   "tags": [
+    "ornaments",
+    "legato",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 76,
+   "page": 42,
+   "key": "Sol mayor",
+   "meter": "4/4",
+   "skill": "Melodía con apoyaturas y grupetos sobre acompañamiento quebrado",
+   "tags": [
+    "ornaments",
+    "broken-chords",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 77,
+   "page": 42,
+   "key": "La mayor",
+   "meter": "6/8",
+   "skill": "Melodía dolce con escalas rápidas y adornos, leggiero",
+   "tags": [
+    "ornaments",
+    "scales",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 78,
+   "page": 43,
+   "key": "Fa mayor",
+   "meter": "4/4",
+   "skill": "Estilo ligado a varias voces con notas tenidas",
+   "tags": [
+    "legato",
+    "finger-independence",
+    "chords-blocked"
+   ],
+   "level": 3
+  },
+  {
+   "no": 79,
+   "page": 43,
+   "key": "Si bemol mayor",
+   "meter": "3/8",
+   "skill": "Melodía ligada, acordes repetidos y trino final",
+   "tags": [
+    "legato",
+    "repeated-notes",
+    "ornaments",
+    "arpeggios"
+   ],
+   "level": 3
+  },
+  {
+   "no": 80,
+   "page": 44,
+   "key": "Do mayor",
+   "meter": "2/4",
+   "skill": "Tresillos, cromatismos y crescendos largos",
+   "tags": [
+    "dynamics",
+    "scales",
+    "ornaments",
+    "staccato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 81,
+   "page": 45,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Apoyaturas y mordentes breves sobre bajo Alberti",
+   "tags": [
+    "ornaments",
+    "alberti-bass",
+    "staccato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 82,
+   "page": 46,
+   "key": "Fa mayor",
+   "meter": "2/4",
+   "skill": "A la húngara: tresillos y apoyaturas con acentos",
+   "tags": [
+    "ornaments",
+    "staccato",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 83,
+   "page": 46,
+   "key": "Si bemol mayor",
+   "meter": "6/8",
+   "skill": "Apoyaturas breves staccato con acordes repetidos",
+   "tags": [
+    "ornaments",
+    "staccato",
+    "repeated-notes"
+   ],
+   "level": 3
+  },
+  {
+   "no": 84,
+   "page": 47,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Arpegios amplios en ambas manos con paso del pulgar",
+   "tags": [
+    "arpeggios",
+    "hand-crossing",
+    "lh-melody"
+   ],
+   "level": 3
+  },
+  {
+   "no": 85,
+   "page": 48,
+   "key": "Re mayor",
+   "meter": "4/4",
+   "skill": "Figuras quebradas a contratiempo con silencios, manos alternadas",
+   "tags": [
+    "broken-chords",
+    "finger-independence",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 86,
+   "page": 48,
+   "key": "Do mayor",
+   "meter": "4/4",
+   "skill": "Cruce de manos: una mano salta entre grave y agudo sobre acordes quebrados",
+   "tags": [
+    "hand-crossing",
+    "broken-chords",
+    "position-shifts"
+   ],
+   "level": 3
+  },
+  {
+   "no": 87,
+   "page": 49,
+   "key": "Fa mayor",
+   "meter": "6/8",
+   "skill": "Arpegios ascendentes y descendentes de amplio registro",
+   "tags": [
+    "arpeggios",
+    "position-shifts",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 88,
+   "page": 50,
+   "key": "Si bemol mayor",
+   "meter": "6/8",
+   "skill": "Terceras y dobles notas en staccato continuo",
+   "tags": [
+    "thirds",
+    "staccato",
+    "repeated-notes"
+   ],
+   "level": 3
+  },
+  {
+   "no": 89,
+   "page": 50,
+   "key": "Sol mayor",
+   "meter": "2/4",
+   "skill": "Galop: semicorcheas brillantes sobre acompañamiento staccato",
+   "tags": [
+    "scales",
+    "staccato",
+    "position-shifts"
+   ],
+   "level": 3
+  },
+  {
+   "no": 90,
+   "page": 51,
+   "key": "Do mayor",
+   "meter": "2/4",
+   "skill": "Galop: figuras descendentes rápidas y arpegios",
+   "tags": [
+    "scales",
+    "arpeggios",
+    "staccato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 91,
+   "page": 51,
+   "key": "Sol mayor",
+   "meter": "3/4",
+   "skill": "Terceras y sextas siempre legato",
+   "tags": [
+    "thirds",
+    "sixths",
+    "legato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 92,
+   "page": 52,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Velocidad de la izquierda: escalas y arpegios en semicorcheas",
+   "tags": [
+    "lh-melody",
+    "scales",
+    "arpeggios",
+    "hand-crossing"
+   ],
+   "level": 3
+  },
+  {
+   "no": 93,
+   "page": 52,
+   "key": "La bemol mayor",
+   "meter": "2/4",
+   "skill": "Escalas y arpegios en La bemol mayor",
+   "tags": [
+    "scales",
+    "arpeggios",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 94,
+   "page": 53,
+   "key": "Mi mayor",
+   "meter": "2/4",
+   "skill": "Arpegios y escalas en Mi mayor sobre acordes staccato",
+   "tags": [
+    "arpeggios",
+    "scales",
+    "staccato"
+   ],
+   "level": 3
+  },
+  {
+   "no": 95,
+   "page": 53,
+   "key": "La mayor",
+   "meter": "3/4",
+   "skill": "Vals con apoyaturas y grupetos",
+   "tags": [
+    "ornaments",
+    "staccato",
+    "position-shifts"
+   ],
+   "level": 3
+  },
+  {
+   "no": 96,
+   "page": 54,
+   "key": "Re mayor",
+   "meter": "3/4",
+   "skill": "Acordes quebrados melódicos con matices",
+   "tags": [
+    "broken-chords",
+    "arpeggios",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 97,
+   "page": 54,
+   "key": "Sol mayor",
+   "meter": "2/4",
+   "skill": "Vivace con apoyaturas, tresillos y staccato",
+   "tags": [
+    "ornaments",
+    "staccato",
+    "scales"
+   ],
+   "level": 3
+  },
+  {
+   "no": 98,
+   "page": 55,
+   "key": "Do mayor",
+   "meter": "3/4",
+   "skill": "Batidos y notas vecinas rápidas, siempre legato",
+   "tags": [
+    "finger-independence",
+    "legato",
+    "ornaments"
+   ],
+   "level": 3
+  },
+  {
+   "no": 99,
+   "page": 56,
+   "key": "Si mayor",
+   "meter": "2/4",
+   "skill": "Arpegios y escalas en Si mayor en ambas manos",
+   "tags": [
+    "arpeggios",
+    "scales",
+    "lh-melody",
+    "dynamics"
+   ],
+   "level": 3
+  },
+  {
+   "no": 100,
+   "page": 56,
+   "key": "Re bemol mayor",
+   "meter": "3/4",
+   "skill": "Dobles notas, acordes y arpegios en Re bemol mayor",
+   "tags": [
+    "thirds",
+    "chords-blocked",
+    "arpeggios",
+    "dynamics"
+   ],
+   "level": 3
+  }
+ ]
+}
