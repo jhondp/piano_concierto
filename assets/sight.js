@@ -266,10 +266,13 @@
 
   el.innerHTML = `
     <div class="t-head"><h3>Lectura a primera vista</h3>
-      <p class="muted">Elige un fragmento, léelo sin escucharlo antes y tócalo en el teclado de la pantalla, en el del ordenador o en tu piano MIDI.</p></div>
-    <div class="sx-list" role="group" aria-label="Fragmentos">${SIGHT.map(e => `
-      <button type="button" class="tag sx-pill" data-id="${esc(e.id)}"><span class="sx-pt">${esc(e.title)}</span>
-        <small>${esc(e.piece)} · c. ${esc(e.bars)} · nivel ${e.level}</small></button>`).join("")}</div>
+      <p class="muted">Elige un nivel y te tocará un fragmento al azar. Léelo sin escucharlo antes y tócalo en el teclado de la pantalla, en el del ordenador o en tu piano MIDI.</p></div>
+    <div class="sx-pick">
+      <div class="tags" role="group" aria-label="Nivel">${[1, 2, 3].map(lv => `
+        <button type="button" class="tag" data-lv="${lv}">Nivel ${lv}<small>${SIGHT.filter(e => e.level === lv).length} fragmentos</small></button>`).join("")}</div>
+      <button type="button" class="btn sx-next"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3.5c2 0 3.2 1 4.3 2.6l1.4 2.1c1.1 1.6 2.3 2.6 4.3 2.6H20M17 4l3 3-3 3M4 17h3.5c1.2 0 2.1-.4 2.9-1.1M14.1 8.1c.8-.7 1.7-1.1 2.9-1.1H20M17 14l3 3-3 3"/></svg>Otro fragmento</button>
+    </div>
+    <p class="sx-info"></p>
     <div class="t-controls">
       <div class="tags" role="group" aria-label="Modo">
         <button type="button" class="tag" data-mode="step">Paso a paso</button>
@@ -280,6 +283,7 @@
     </div>
     <div class="sx-score" aria-live="off"></div>
     <p class="muted sx-note"></p>
+    <div class="sx-dock">
     <div class="t-foot sx-foot">
       <p class="t-msg sx-msg" aria-live="polite"></p>
       <div class="t-plays">
@@ -289,6 +293,7 @@
     </div>
     <div class="sx-piano" aria-label="Teclado de piano"><div class="sx-keys"></div></div>
     <p class="muted sx-help"></p>
+    </div>
     <p class="muted sx-midi"><button type="button" class="btn sx-midib" hidden>Conectar piano MIDI</button> <span class="sx-midis"></span></p>
     <p class="muted sx-best"></p>`;
   const $ = s => el.querySelector(s);
@@ -303,7 +308,23 @@
     const g = scoreEl.querySelector(`.sx-n[data-i="${i}"]`);
     if (g) g.setAttribute("class", "sx-n" + (ex.notes[i][0] == null ? " sx-r" : "") + (cls ? " " + cls : ""));
   }
-  function markEvent(e, cls) { e.idx.forEach(i => mark(i, cls)); }
+  function markEvent(e, cls) { e.idx.forEach(i => mark(i, cls)); if (/\bcur\b/.test(cls)) followSystem(score.geo[e.idx[0]]?.sys); }
+  // Keep the line being played visible inside the (phone-height-limited) score box.
+  let followed = -1;
+  function followSystem(sys) {
+    if (sys == null || sys === followed) return;
+    followed = sys;
+    const svg = scoreEl.querySelectorAll(".cursor")[sys]?.closest("svg");
+    if (!svg || scoreEl.scrollHeight <= scoreEl.clientHeight) return;
+    const top = svg.getBoundingClientRect().top - scoreEl.getBoundingClientRect().top + scoreEl.scrollTop - 6;
+    scoreEl.scrollTo({ top, behavior: reduceMotion() ? "auto" : "smooth" });
+  }
+  function setRunning(on) {
+    el.classList.toggle("sx-running", on);
+    followed = -1;
+    if (on && matchMedia("(max-width: 720px)").matches) scoreEl.scrollIntoView({ block: "start", behavior: reduceMotion() ? "auto" : "smooth" });
+    if (!on) scoreEl.scrollTop = 0;
+  }
 
   function draw() {
     score = renderScore(ex, scoreEl.clientWidth - 24 || 320);
@@ -348,12 +369,29 @@
       pianoEl.scrollTo({ left: l - pianoEl.clientWidth / 2, behavior: reduceMotion() ? "auto" : "smooth" });
   }
 
+  // Random excerpt of the chosen level, avoiding the last few so it stays a first-sight read.
+  let level = Math.min(3, Math.max(1, store.get("pc-sight-level", ex.level || 1)));
+  let recent = store.get("pc-sight-recent", []);
+  function randomId() {
+    const pool = SIGHT.filter(e => e.level === level);
+    const fresh = pool.filter(e => e.id !== ex.id && !recent.includes(e.id));
+    const from = fresh.length ? fresh : pool.filter(e => e.id !== ex.id).length ? pool.filter(e => e.id !== ex.id) : pool;
+    const pick = from[Math.floor(Math.random() * from.length)];
+    recent = [pick.id, ...recent.filter(id => id !== pick.id)].slice(0, Math.max(0, Math.floor(pool.length / 2)));
+    store.set("pc-sight-recent", recent);
+    return pick.id;
+  }
+  function setLevel(lv, keepId = null) {
+    level = lv; store.set("pc-sight-level", lv);
+    el.querySelectorAll("[data-lv]").forEach(b => { const on = +b.dataset.lv === lv; b.classList.toggle("sel", on); b.setAttribute("aria-pressed", on); });
+    select(keepId || randomId());
+  }
   function select(id) {
     stop();
     ex = SIGHT.find(e => e.id === id) || SIGHT[0];
     store.set("pc-sight-last", ex.id);
     tried = false; marks = [];
-    el.querySelectorAll(".sx-pill").forEach(b => { const on = b.dataset.id === ex.id; b.classList.toggle("sel", on); b.setAttribute("aria-pressed", on); });
+    $(".sx-info").innerHTML = `<b>${esc(ex.title)}</b> <span class="muted">${esc(ex.piece)}, c. ${esc(ex.bars)}</span>`;
     bpmR.value = ex.bpm; $(".sx-bpmv").textContent = ex.bpm + " ppm";
     $(".sx-note").textContent = ex.note || "";
     setMsg("");
@@ -383,6 +421,7 @@
     st.events = timeline(ex.notes).events;
     st.idx = 0; st.errors = 0; st.T = null;
     startBtn.textContent = "Detener";
+    setRunning(true);
     if (mode === "step") {
       st.run = "step";
       markEvent(st.events[0], "cur");
@@ -394,6 +433,7 @@
     if (!st.run) return;
     const was = st.run;
     st.run = null; cancelAnimationFrame(st.raf);
+    setRunning(false);
     stopSounds("seq"); // scheduled melody and count-in clicks
     scoreEl.querySelectorAll(".cursor").forEach(c => c.setAttribute("x", -20));
     startBtn.textContent = "Empezar";
@@ -458,6 +498,7 @@
       x = g.x + (tx - g.x) * frac;
     }
     scoreEl.querySelectorAll(".cursor").forEach((c, i) => c.setAttribute("x", i === g.sys ? x - 1.5 : -20));
+    followSystem(g.sys);
   }
   function tick() {
     const run = st.run;
@@ -506,8 +547,9 @@
 
   // ---------- Inputs ----------
   el.addEventListener("click", e => {
-    const p = e.target.closest(".sx-pill");
-    if (p) return select(p.dataset.id);
+    const lvB = e.target.closest("[data-lv]");
+    if (lvB) return setLevel(+lvB.dataset.lv);
+    if (e.target.closest(".sx-next")) return select(randomId());
     const m = e.target.closest("[data-mode]");
     if (m) return setMode(m.dataset.mode);
   });
@@ -523,6 +565,7 @@
   // Keyboard activation (Enter/Space on a focused key) arrives as a click with detail 0.
   keysEl.addEventListener("click", e => { const k = e.target.closest(".sx-k"); if (k && e.detail === 0) press(+k.dataset.m); });
   document.addEventListener("keydown", e => {
+    if (el.closest("[hidden]")) return; // only while its own view is open
     if (e.repeat || e.altKey || e.ctrlKey || e.metaKey || /^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName) && e.target.type !== "range") return;
     const key = e.key.toLowerCase();
     if (key === "z" || key === "x") {
@@ -560,7 +603,7 @@
     if (Math.abs(w - lastW) < 24) return;
     lastW = w; draw();
   });
-  select(ex.id);
+  setLevel(level, ex.level === level ? ex.id : null);
   setMode(mode);
   lastW = scoreEl.clientWidth;
 })();

@@ -1,0 +1,103 @@
+/* Rhythm trainer (practica.html). Reuses .trainer, .t-controls, .t-check, .sx-bpm and .tag from trainer.css / styles.css. */
+.rhythm { --rx-warn: #b7791f; }
+@media (prefers-color-scheme: dark) { .rhythm { --rx-warn: #e0b057; } }
+
+.rx-levels .tag { min-width: 96px; }
+@media (max-width: 720px) {
+  .rx-levels { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 2px 16px; -webkit-overflow-scrolling: touch; }
+  .rx-levels::-webkit-scrollbar { display: none; }
+  .rx-levels .tag { flex: 0 0 auto; }
+}
+
+/* Study block */
+.rx-study { background: var(--surface-2); border-radius: var(--r-sm); padding: 0 14px; }
+.rx-study summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto; column-gap: 12px; padding: 12px 0; }
+.rx-study summary::-webkit-details-marker { display: none; }
+.rx-study summary::after { content: ""; grid-column: 2; grid-row: 1 / 3; align-self: center; width: 7px; height: 7px;
+  border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform .2s; }
+.rx-study[open] summary::after { transform: rotate(225deg); }
+.rx-st { font-weight: 500; }
+.rx-sl { font-size: .82rem; grid-column: 1; }
+.rx-sylhelp { font-size: .85rem; margin-bottom: 10px; }
+.rx-cells { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr)); gap: 10px; padding-bottom: 14px; }
+.rx-cell { background: var(--surface); border-radius: var(--r-sm); padding: 12px; display: grid; gap: 8px; align-content: start; color: var(--fg); }
+.rx-cell .rx-sys { margin: 0 auto; }
+.rx-ct { display: grid; gap: 4px; justify-items: start; }
+.rx-ct p { font-size: .85rem; margin: 0; }
+.rx-cs { color: var(--tint); font-weight: 500; }
+.rx-ct .btn { margin-top: 4px; }
+.rx-ct .btn svg, .rx-listen svg { width: 16px; height: 16px; fill: currentColor; }
+.rx-next svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Score */
+.rx-info { font-size: .92rem; margin: 0; }
+.rx-info:empty { display: none; }
+.rx-info b { font-weight: 500; }
+.rx-score { background: var(--surface-2); border-radius: var(--r-sm); padding: 12px; display: grid; gap: 6px; justify-items: center; color: var(--fg); min-height: 96px; align-content: center; touch-action: manipulation; }
+.rx-hint { margin: 0; font-size: .92rem; text-align: center; }
+.rx-sys { display: block; max-width: 100%; height: auto; }
+.rx-sys .ln line { stroke: currentColor; stroke-width: 1.2; opacity: .75; }
+.rx-sys .fin, .rx-sys .beam, .rx-sys .hd, .rx-sys .dot { fill: currentColor; }
+.rx-sys .hd.open { fill: none; stroke: currentColor; stroke-width: 1.7; }
+.rx-sys .stem { stroke: currentColor; stroke-width: 1.3; }
+.rx-sys .flag, .rx-sys .tie, .rx-sys .rl, .rx-sys .tup { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; }
+.rx-sys .rq { fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; }
+.rx-sys .tup { stroke-width: 1; }
+.rx-sys .rx-ts { font: 700 19px Georgia, "Times New Roman", serif; text-anchor: middle; dominant-baseline: central; fill: currentColor; }
+.rx-sys .rx-tn { font: italic 600 11px var(--body); text-anchor: middle; fill: currentColor; }
+.rx-sys .rx-hl { font: 500 10px var(--body); fill: var(--muted); }
+.rx-sys .rx-syl { font: 400 10px var(--body); text-anchor: middle; fill: var(--muted); }
+.rx-sys .rx-ms { font: 500 9.5px var(--body); text-anchor: middle; fill: currentColor; font-variant-numeric: tabular-nums; }
+.rx-sys .hi { fill: transparent; }
+.rx-n { color: var(--fg); }
+.rx-n.ok { color: var(--ok); }
+.rx-n.ok .hi { fill: color-mix(in srgb, var(--ok) 16%, transparent); }
+.rx-n.off { color: var(--rx-warn); }
+.rx-n.off .hi { fill: color-mix(in srgb, var(--rx-warn) 18%, transparent); }
+.rx-n.bad { color: var(--bad); }
+.rx-n.bad .hi { fill: color-mix(in srgb, var(--bad) 16%, transparent); }
+
+/* Dictation options */
+.rx-choices { display: grid; gap: 8px; }
+.rx-choices:empty { display: none; }
+.rx-opt { appearance: none; border: 0; font: inherit; color: var(--fg); background: var(--surface-2); border-radius: var(--r-sm);
+  padding: 10px 12px; display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 10px; cursor: pointer; text-align: left; transition: background-color .2s, transform .15s; }
+.rx-opt .rx-sys { margin: 0 auto; }
+.rx-opt:hover:not(:disabled) { background: var(--accent-soft); }
+.rx-opt:active:not(:disabled) { transform: scale(.99); }
+.rx-opt:disabled { cursor: default; }
+.rx-on { font: 600 .85rem var(--body); color: var(--muted); width: 26px; height: 26px; border-radius: 50%; display: grid; place-content: center; background: var(--surface); }
+.rx-opt.right { background: color-mix(in srgb, var(--ok) 18%, var(--surface-2)); }
+.rx-opt.wrong { background: color-mix(in srgb, var(--bad) 14%, var(--surface-2)); }
+.rx-opt.right .rx-on { color: var(--ok); }
+.rx-opt.wrong .rx-on { color: var(--bad); }
+
+/* Tap pads */
+.rx-dock { display: grid; gap: 10px; }
+.rx-dock .t-msg { margin: 0; }
+.rx-dock .t-plays { justify-content: flex-end; }
+.rx-pads { display: grid; gap: 10px; }
+.rx-pads:empty { display: none; }
+.rx-pads.two { grid-template-columns: 1fr 1fr; }
+.rx-pad { appearance: none; border: 0; min-height: 96px; border-radius: var(--r); background: var(--accent-soft); color: var(--tint);
+  font: 600 1.05rem var(--body); display: grid; place-content: center; gap: 2px; cursor: pointer; touch-action: manipulation;
+  user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.rx-pad kbd { font: 500 .72rem var(--body); color: var(--muted); }
+.rx-pad.down { background: var(--tint); color: #ffffff; }
+.rx-pad.down kbd { color: rgba(255, 255, 255, .8); }
+.rx-best { margin: 0; font-size: .85rem; }
+.rx-best:empty { display: none; }
+.rx-calhelp { font-size: .82rem; }
+@media (prefers-reduced-motion: no-preference) { .rx-pad { transition: background-color .1s; } .rx-pad:active { transform: scale(.985); } }
+
+/* Phones: while running, the pads and Detener stay docked above the tab bar with the rhythm visible above */
+@media (max-width: 720px) {
+  .rx-score { scroll-margin-top: 52px; }
+  .rx-running .rx-dock { position: sticky; bottom: calc(64px + env(safe-area-inset-bottom, 0px)); z-index: 6;
+    margin: 0 -22px -22px; padding: 10px 14px 12px; gap: 8px; background: var(--surface);
+    border-radius: var(--r) var(--r) 0 0; box-shadow: 0 -12px 24px -18px rgba(0, 0, 0, .45); }
+  .rx-running .rx-pad { min-height: 84px; }
+  .rx-running .t-controls, .rx-running .rx-levels, .rx-running .rx-study, .rx-running .t-head p, .rx-running .rx-best { display: none; }
+  .rx-running .rx-msg { font-size: .85rem; }
+}
+@media (max-width: 560px) { .rx-running .rx-dock { margin: 0 -16px -18px; } }

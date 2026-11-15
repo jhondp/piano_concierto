@@ -103,3 +103,39 @@
 .sx-k:focus-visible { outline-offset: -3px; }
 @media (prefers-reduced-motion: no-preference) { .sx-k { transition: background-color .12s; } }
 @media (max-width: 560px) { .sight { --kw: 44px; --kb: 28px; } }
+
+/* Sight reading on phones: while playing, the score scrolls in a box and the keyboard stays docked above the tab bar */
+.sx-dock { display: grid; gap: 12px; }
+@media (max-width: 720px) {
+  .sx-score { scroll-margin-top: 52px; }
+  .sx-running .sx-score { max-height: 34vh; overflow-y: auto; overscroll-behavior: contain; grid-auto-rows: max-content; align-content: start; }
+  .sx-running .sx-dock { position: sticky; bottom: calc(64px + env(safe-area-inset-bottom, 0px)); z-index: 6;
+    margin: 0 -22px -22px; padding: 10px 14px 12px; gap: 8px; background: var(--surface);
+    border-radius: var(--r) var(--r) 0 0; box-shadow: 0 -12px 24px -18px rgba(0, 0, 0, .45); }
+  .sx-running .sx-keys { height: 120px; }
+  .sx-running .sx-piano { padding: 6px; }
+  .sx-running .sx-help, .sx-running .sx-note, .sx-running .sx-list, .sx-running .t-controls, .sx-running .t-head p { display: none; }
+  .sx-running .sx-foot { gap: 8px; }
+  .sx-running .sx-msg { font-size: .85rem; margin: 0; }
+}
+/* Sight reading: random by level */
+.sx-pick { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.sx-next svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sx-info { font-size: .92rem; }
+.sx-info b { font-weight: 500; }
+@media (max-width: 720px) { .sx-running .sx-pick, .sx-running .sx-info { display: none; } }
+
+/* Practice hub: tiles, one exercise per view */
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.tile { display: grid; grid-template-columns: 44px 1fr; grid-template-rows: auto auto auto; column-gap: 14px; row-gap: 2px; align-items: start;
+  padding: 18px; background: var(--surface); border-radius: var(--r); color: var(--fg); transition: transform .15s, background .2s; }
+.tile:hover { text-decoration: none; background: var(--surface-2); }
+.tile:active { transform: scale(.985); }
+.tile svg { grid-row: 1 / 4; width: 44px; height: 44px; padding: 10px; border-radius: 12px; background: var(--accent-soft); color: var(--tint);
+  fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.tile-t { font-weight: 500; font-size: 1.05rem; }
+.tile-d { color: var(--muted); font-size: .88rem; }
+.tile-s { color: var(--tint); font-size: .8rem; font-weight: 500; margin-top: 4px; }
+.back { justify-self: start; font-size: .92rem; font-weight: 500; padding: 6px 0; }
+.view { display: grid; gap: 18px; }
+.view .trainer > .t-head h3 { display: none; } /* the view's own heading already names the exercise */
