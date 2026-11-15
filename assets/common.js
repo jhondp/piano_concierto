@@ -16,7 +16,8 @@ let ctx, out, wave;
 // suspended), and the "playback" audio session so the iPhone silent switch does not mute it.
 function ac() {
   if (!ctx) {
-    ctx = new (window.AudioContext || window.webkitAudioContext)({ latencyHint: "interactive" });
+    const AC = window.AudioContext || window.webkitAudioContext;
+    try { ctx = new AC({ latencyHint: "interactive" }); } catch (e) { ctx = new AC(); } // old Safari rejects options
     const comp = ctx.createDynamicsCompressor();
     comp.threshold.value = -18; comp.knee.value = 12; comp.ratio.value = 6; comp.attack.value = 0.003; comp.release.value = 0.25;
     out = ctx.createGain(); out.gain.value = 0.85;
@@ -56,10 +57,10 @@ function tone(m, t0, dur = 1.6, vol = 0.16) {
   o.connect(f).connect(g).connect(out); o.start(t0); o.stop(t0 + dur + 0.05);
 }
 // seq: array of chords (arrays of MIDI notes), each played `gap` seconds after the previous one.
-function playSeq(seq, gap = 1.1, arp = 0) {
+function playSeq(seq, gap = 1.1, arp = 0, dur = 1.6) {
   whenRunning(c => {
     const t = c.currentTime + 0.06;
-    seq.forEach((ch, i) => ch.forEach((m, k) => tone(m, t + i * gap + k * arp, 1.6, 0.16 / Math.sqrt(Math.max(1, ch.length)))));
+    seq.forEach((ch, i) => ch.forEach((m, k) => tone(m, t + i * gap + k * arp, dur, 0.16 / Math.sqrt(Math.max(1, ch.length)))));
   });
 }
 function click(t, strong) {

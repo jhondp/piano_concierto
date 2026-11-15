@@ -279,12 +279,12 @@ if (typeof document !== "undefined") {
       const pool = LEVEL_POOL[level - 1];
       const idx = pick(pool), semi = INTERVALS[idx][1];
       const mode = level <= 2 ? "asc" : pick(level === 3 ? ["asc", "desc"] : ["asc", "desc", "harm"]);
-      const low = 53 + rnd(12), notes = mode === "desc" ? [low + semi, low] : [low, low + semi];
+      const low = 57 + rnd(10), notes = mode === "desc" ? [low + semi, low] : [low, low + semi];
       const modeTxt = { asc: "Melódico ascendente", desc: "Melódico descendente", harm: "Armónico" }[mode];
       return {
         modeTxt, answers: pool.map(i => INTERVALS[i][0]), correct: pool.indexOf(idx),
         detail: `${nm(notes[0])} → ${nm(notes[1])}.`,
-        play: () => (mode === "harm" ? playSeq([notes]) : playSeq(notes.map(n => [n]), 0.75)),
+        play: () => (mode === "harm" ? playSeq([notes]) : playSeq(notes.map(n => [n]), 0.8, 0, 0.75)),
       };
     },
     stage: q => `<p class="muted">${q.modeTxt}</p>

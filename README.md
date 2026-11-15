@@ -20,7 +20,7 @@ Progress (learned sections, finished lessons, ticked session tasks) is stored in
 | `data/pieces-*.json` | One analysis per piece: key, meter, sections, theory, chords, technique needs |
 | `data/hanon.json`, `data/czerny.json` | Exercise catalogs used to fill each study session |
 
-After editing, regenerate `assets/data.js`:
+After editing any data or asset, regenerate `assets/data.js` and the `?v=` version stamps on the pages (so phones skip stale caches):
 
 ```sh
 node tools/build-data.mjs
