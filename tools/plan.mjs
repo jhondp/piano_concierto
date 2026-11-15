@@ -41,7 +41,21 @@ function pick(list, tags, used, filter = () => true) {
     || pool[0] || null;
 }
 
-export function buildSessions(piece, hanon, czerny, warmupOffset = 0) {
+// Practice strategies for a session: one per technique need (this session's, then the piece's next), plus a rotating general one.
+function pickPractice(practice, need, nextNeed, rot) {
+  const out = [];
+  const add = (p, why) => { if (p && !out.some(x => x.id === p.id)) out.push({ id: p.id, for: why }); };
+  // The most specific strategy (fewest needs) wins, so a broad one like the tempo ladder does not hide a targeted one.
+  const fits = n => practice.filter(p => (p.needs || []).includes(n)).sort((a, b) => a.general - b.general || a.needs.length - b.needs.length);
+  const forNeed = n => fits(n)[0];
+  add(forNeed(need), need);
+  add(forNeed(nextNeed), nextNeed);
+  const general = practice.filter(p => p.general);
+  for (let k = 0; k < general.length && out.length < 3; k++) add(general[(rot + k) % general.length], null);
+  return out;
+}
+
+export function buildSessions(piece, hanon, czerny, warmupOffset = 0, practice = []) {
   const needs = (piece.techniqueNeeds || []).filter(n => NEED_MAP[n]);
   if (!needs.length) needs.push("finger-independence");
   const warmups = hanon.filter(e => e.no >= 1 && e.no <= 20);
@@ -62,6 +76,7 @@ export function buildSessions(piece, hanon, czerny, warmupOffset = 0) {
       hanon: h && { no: h.no, title: h.title, skill: h.skill, inKey: /scales|arpeggios/.test((h.tags || []).join()) ? piece.key : null },
       czerny: c && { no: c.no, skill: c.skill, key: c.key, page: c.page },
       theory: theory ? theory.concept : null,
+      practice: pickPractice(practice, need, needs[(i + 1) % needs.length], warmupOffset + i),
     };
   });
 }

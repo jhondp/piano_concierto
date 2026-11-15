@@ -4,10 +4,39 @@ window.DATA = {
   "title": "Piano concierto",
   "date": "2027-12-01",
   "start": "2026-11-16",
-  "tagline": "Dieciséis obras para piano solo, de Mozart y Debussy a la música de cine, anime y videojuegos.",
+  "tagline": "De una canción infantil a un campo de batalla: dieciséis obras, más de dos siglos de música y un solo piano.",
+  "quote": "Es el camino de crecer, y también el de aprender: empezar por la melodía que cualquiera sabe tararear y terminar en la obra que más cuesta tocar.",
   "about": [
-   "Piano concierto es un recital de piano solo con dieciséis obras. Empieza en el clasicismo, con las variaciones de Mozart sobre «Ah, vous dirai-je, Maman», pasa por el impresionismo de Debussy y llega a la música de Ryuichi Sakamoto, Joe Hisaishi, Nobuo Uematsu y a bandas sonoras de anime.",
-   "El hilo del programa son las historias: casi todas las obras nacieron para acompañar una película, una serie o un videojuego, y aquí se cuentan con un solo instrumento."
+   "Piano concierto es un recital de piano solo con dieciséis obras escritas a lo largo de más de dos siglos: de las variaciones de Mozart a las bandas sonoras de anime de los últimos años, pasando por Debussy, Sakamoto, Hisaishi y Uematsu.",
+   "Casi todas nacieron para acompañar una historia, ya sea una película, una serie o un videojuego. Aquí tienen que contarla solas, sin imágenes ni orquesta: solo un piano y las manos de quien lo toca.",
+   "Debajo hay otra historia: la de aprender a tocarlas. El programa se prepara de forma autodidacta, obra por obra, durante un año. El concierto es el final del viaje, pero el viaje es el estudio."
+  ],
+  "legs": [
+   {
+    "title": "Infancia",
+    "range": "Obras 1 y 2",
+    "text": "Empieza con «Estrellita», la primera melodía que aprende casi cualquier niño, transformada doce veces por Mozart. Después cae la noche con Clair de Lune."
+   },
+   {
+    "title": "Memoria",
+    "range": "Obras 3 a 7",
+    "text": "Piano que respira: tres obras de Sakamoto, el tren silencioso de El viaje de Chihiro y la nana de Final Fantasy IV. Música que llegó a través de una pantalla y se quedó."
+   },
+   {
+    "title": "Lo que no se dice",
+    "range": "Obras 8 a 11",
+    "text": "A Silent Voice y Your Lie in April: culpa, perdón y la historia de un pianista que deja de oír su propio piano y vuelve a tocar."
+   },
+   {
+    "title": "Lo que pesa",
+    "range": "Obras 12 a 14",
+    "text": "Un lamento que se convierte en furia en Hunter × Hunter, y dos temas de Jujutsu Kaisen sobre el cansancio y la ternura de seguir adelante."
+   },
+   {
+    "title": "La batalla",
+    "range": "Obras 15 y 16",
+    "text": "Un pueblo pequeño y un campo de batalla. Vinland Saga es la historia de un guerrero que aprende a dejar de pelear: la obra más ruidosa del programa es también la que más control pide."
+   }
   ],
   "objectives": [
    "Tocar en vivo el programa completo de dieciséis obras el 1 de diciembre de 2027.",
@@ -558,7 +587,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 11
      },
-     "theory": "Tema con variaciones"
+     "theory": "Tema con variaciones",
+     "practice": [
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -581,7 +624,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Forma binaria con repeticiones"
+     "theory": "Forma binaria con repeticiones",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -604,7 +661,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Cambio de modo (tonalidad homónima)"
+     "theory": "Cambio de modo (tonalidad homónima)",
+     "practice": [
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "ghost",
+       "for": "hand-crossing"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -627,7 +698,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Disminución rítmica"
+     "theory": "Disminución rítmica",
+     "practice": [
+      {
+       "id": "ghost",
+       "for": "hand-crossing"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -650,7 +735,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Imitación"
+     "theory": "Imitación",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -673,7 +772,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Dominante secundaria y cromatismo"
+     "theory": "Dominante secundaria y cromatismo",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "fingers",
+       "for": "staccato"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -696,7 +809,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Cambio de compás"
+     "theory": "Cambio de compás",
+     "practice": [
+      {
+       "id": "fingers",
+       "for": "staccato"
+      },
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -719,7 +846,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Tema con variaciones"
+     "theory": "Tema con variaciones",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -742,7 +883,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Forma binaria con repeticiones"
+     "theory": "Forma binaria con repeticiones",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -972,7 +1127,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 13
      },
-     "theory": "Compás compuesto 9/8"
+     "theory": "Compás compuesto 9/8",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -995,7 +1164,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 15
      },
-     "theory": "Dosillo"
+     "theory": "Dosillo",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -1018,7 +1201,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 13
      },
-     "theory": "Terceras paralelas"
+     "theory": "Terceras paralelas",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -1041,7 +1238,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 14
      },
-     "theory": "Cambio de armadura enharmónico"
+     "theory": "Cambio de armadura enharmónico",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -1064,7 +1275,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 10
      },
-     "theory": "Acordes con séptima y novena"
+     "theory": "Acordes con séptima y novena",
+     "practice": [
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -1087,7 +1312,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Pedal de resonancia y arpegio"
+     "theory": "Pedal de resonancia y arpegio",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -1110,7 +1349,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Rubato"
+     "theory": "Rubato",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -1133,7 +1386,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 18
      },
-     "theory": "Compás compuesto 9/8"
+     "theory": "Compás compuesto 9/8",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -1374,7 +1641,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Progresión IV–V–iii–vi"
+     "theory": "Progresión IV–V–iii–vi",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -1397,7 +1678,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Acorde maj7"
+     "theory": "Acorde maj7",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -1420,7 +1715,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Dominante del relativo menor"
+     "theory": "Dominante del relativo menor",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -1443,7 +1752,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Bajo cromático descendente"
+     "theory": "Bajo cromático descendente",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -1466,7 +1789,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Cambio de registro (8va)"
+     "theory": "Cambio de registro (8va)",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -1489,7 +1826,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Cambio de compás puntual"
+     "theory": "Cambio de compás puntual",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -1512,7 +1863,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Acorde arpegiado"
+     "theory": "Acorde arpegiado",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -1535,7 +1900,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Progresión IV–V–iii–vi"
+     "theory": "Progresión IV–V–iii–vi",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -1558,7 +1937,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 11
      },
-     "theory": "Acorde maj7"
+     "theory": "Acorde maj7",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -1757,7 +2150,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Acordes con segundas (clusters suaves)"
+     "theory": "Acordes con segundas (clusters suaves)",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -1780,7 +2187,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Rubato"
+     "theory": "Rubato",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -1803,7 +2224,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Cambio de compás"
+     "theory": "Cambio de compás",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -1826,7 +2261,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Dosillo de corcheas"
+     "theory": "Dosillo de corcheas",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -1849,7 +2298,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Tonalidad menor y su relativo mayor"
+     "theory": "Tonalidad menor y su relativo mayor",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -1872,7 +2335,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Sensible y acorde de dominante"
+     "theory": "Sensible y acorde de dominante",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "mental",
+       "for": null
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -2111,7 +2588,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Escala pentatónica"
+     "theory": "Escala pentatónica",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -2134,7 +2625,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 9
      },
-     "theory": "Ostinato"
+     "theory": "Ostinato",
+     "practice": [
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -2157,7 +2662,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Cambio de compás (12/8 a 4/4)"
+     "theory": "Cambio de compás (12/8 a 4/4)",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -2180,7 +2699,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Progresión IV–V–vi (cadencia que no reposa)"
+     "theory": "Progresión IV–V–vi (cadencia que no reposa)",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -2203,7 +2736,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Melodía doblada en octavas y cuartas"
+     "theory": "Melodía doblada en octavas y cuartas",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -2226,7 +2773,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Trémolo"
+     "theory": "Trémolo",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -2249,7 +2810,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Dinámica en terrazas y crescendo largo"
+     "theory": "Dinámica en terrazas y crescendo largo",
+     "practice": [
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -2272,7 +2847,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Escala pentatónica"
+     "theory": "Escala pentatónica",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "fingers",
+       "for": "staccato"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -2295,7 +2884,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 13
      },
-     "theory": "Ostinato"
+     "theory": "Ostinato",
+     "practice": [
+      {
+       "id": "fingers",
+       "for": "staccato"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -2517,7 +3120,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Ostinato de acompañamiento"
+     "theory": "Ostinato de acompañamiento",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -2540,7 +3157,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Modulación por cambio de armadura"
+     "theory": "Modulación por cambio de armadura",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -2563,7 +3194,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Cadencia eólica VI–VII–i"
+     "theory": "Cadencia eólica VI–VII–i",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -2586,7 +3231,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Cambio de compás"
+     "theory": "Cambio de compás",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -2609,7 +3268,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Trémolo"
+     "theory": "Trémolo",
+     "practice": [
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -2632,7 +3305,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Entrada a contratiempo"
+     "theory": "Entrada a contratiempo",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -2655,7 +3342,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Ostinato de acompañamiento"
+     "theory": "Ostinato de acompañamiento",
+     "practice": [
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -2678,7 +3379,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Modulación por cambio de armadura"
+     "theory": "Modulación por cambio de armadura",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -2919,7 +3634,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Progresión IV–V–iii–vi"
+     "theory": "Progresión IV–V–iii–vi",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -2942,7 +3671,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Anacrusa"
+     "theory": "Anacrusa",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -2965,7 +3708,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Sextas paralelas"
+     "theory": "Sextas paralelas",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -2988,7 +3745,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Tresillo de negras"
+     "theory": "Tresillo de negras",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -3011,7 +3782,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Acordes prestados (intercambio modal)"
+     "theory": "Acordes prestados (intercambio modal)",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -3034,7 +3819,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Bajo cromático"
+     "theory": "Bajo cromático",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -3057,7 +3856,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Acorde arpegiado"
+     "theory": "Acorde arpegiado",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -3080,7 +3893,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Progresión IV–V–iii–vi"
+     "theory": "Progresión IV–V–iii–vi",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -3103,7 +3930,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Anacrusa"
+     "theory": "Anacrusa",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -3331,7 +4172,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Bajo cromático descendente (cliché de línea)"
+     "theory": "Bajo cromático descendente (cliché de línea)",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -3354,7 +4209,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Compás de 3/4"
+     "theory": "Compás de 3/4",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -3377,7 +4246,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Ostinato melódico"
+     "theory": "Ostinato melódico",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -3400,7 +4283,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Ritmo con puntillo"
+     "theory": "Ritmo con puntillo",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -3423,7 +4320,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Cambios de tempo con carácter"
+     "theory": "Cambios de tempo con carácter",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -3446,7 +4357,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Forma ternaria (A–B–A)"
+     "theory": "Forma ternaria (A–B–A)",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -3469,7 +4394,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Bajo cromático descendente (cliché de línea)"
+     "theory": "Bajo cromático descendente (cliché de línea)",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -3492,7 +4431,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Compás de 3/4"
+     "theory": "Compás de 3/4",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -3708,7 +4661,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Compás compuesto 6/8"
+     "theory": "Compás compuesto 6/8",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -3731,7 +4698,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Ambigüedad entre Do mayor y La menor"
+     "theory": "Ambigüedad entre Do mayor y La menor",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -3754,7 +4735,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Dominante secundaria (V de vi)"
+     "theory": "Dominante secundaria (V de vi)",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -3777,7 +4772,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Acorde prestado ♭VII (Si♭ mayor)"
+     "theory": "Acorde prestado ♭VII (Si♭ mayor)",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -3800,7 +4809,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Nota pedal"
+     "theory": "Nota pedal",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "legato-thirds-rh"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -3823,7 +4846,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Adorno escrito (grupeto en fusas)"
+     "theory": "Adorno escrito (grupeto en fusas)",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -3846,7 +4883,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Signo de 8va"
+     "theory": "Signo de 8va",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -4072,7 +5123,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Armadura de seis sostenidos"
+     "theory": "Armadura de seis sostenidos",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -4095,7 +5160,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Ostinato"
+     "theory": "Ostinato",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -4118,7 +5197,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Hemiolia (2 contra 3)"
+     "theory": "Hemiolia (2 contra 3)",
+     "practice": [
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -4141,7 +5234,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Alternancia IV – iii"
+     "theory": "Alternancia IV – iii",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -4164,7 +5271,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Relativo menor"
+     "theory": "Relativo menor",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -4187,7 +5308,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Acorde con séptima mayor (maj7)"
+     "theory": "Acorde con séptima mayor (maj7)",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -4210,7 +5345,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Ritmo con puntillo"
+     "theory": "Ritmo con puntillo",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -4233,7 +5382,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Armadura de seis sostenidos"
+     "theory": "Armadura de seis sostenidos",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -4460,7 +5623,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Progresión IV – V – iii – vi"
+     "theory": "Progresión IV – V – iii – vi",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -4483,7 +5660,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Síncopa por ligadura (anticipación)"
+     "theory": "Síncopa por ligadura (anticipación)",
+     "practice": [
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -4506,7 +5697,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Secuencia melódica"
+     "theory": "Secuencia melódica",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -4529,7 +5734,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Acordes con notas añadidas (add9/sus2)"
+     "theory": "Acordes con notas añadidas (add9/sus2)",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -4552,7 +5771,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Transporte"
+     "theory": "Transporte",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -4575,7 +5808,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Textura acumulativa"
+     "theory": "Textura acumulativa",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -4598,7 +5845,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Final abierto sobre el vi"
+     "theory": "Final abierto sobre el vi",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -4621,7 +5882,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Progresión IV – V – iii – vi"
+     "theory": "Progresión IV – V – iii – vi",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -4644,7 +5919,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Síncopa por ligadura (anticipación)"
+     "theory": "Síncopa por ligadura (anticipación)",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -4878,7 +6167,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Modulación a la subdominante menor"
+     "theory": "Modulación a la subdominante menor",
+     "practice": [
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -4901,7 +6204,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 15
      },
-     "theory": "Cambio de compás"
+     "theory": "Cambio de compás",
+     "practice": [
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -4924,7 +6241,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Escala menor armónica y sensible"
+     "theory": "Escala menor armónica y sensible",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -4947,7 +6278,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Indicaciones de carácter: Lamentoso y Agitato"
+     "theory": "Indicaciones de carácter: Lamentoso y Agitato",
+     "practice": [
+      {
+       "id": "trill",
+       "for": "trills"
+      },
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -4970,7 +6315,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 10
      },
-     "theory": "Grupos irregulares (tresillo, quintillo, seisillo)"
+     "theory": "Grupos irregulares (tresillo, quintillo, seisillo)",
+     "practice": [
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -4993,7 +6352,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 18
      },
-     "theory": "Adornos: apoyatura, trino y acorde arpegiado"
+     "theory": "Adornos: apoyatura, trino y acorde arpegiado",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -5016,7 +6389,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 13
      },
-     "theory": "Pedal de dominante"
+     "theory": "Pedal de dominante",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -5039,7 +6426,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 14
      },
-     "theory": "Modulación a la subdominante menor"
+     "theory": "Modulación a la subdominante menor",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -5270,7 +6671,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Ostinato"
+     "theory": "Ostinato",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -5293,7 +6708,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Acordes con notas añadidas (maj7, 9, ♯11)"
+     "theory": "Acordes con notas añadidas (maj7, 9, ♯11)",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -5316,7 +6745,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Modo lidio"
+     "theory": "Modo lidio",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -5339,7 +6782,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Acorde arpegiado"
+     "theory": "Acorde arpegiado",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -5362,7 +6819,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Dominante secundaria (V de vi)"
+     "theory": "Dominante secundaria (V de vi)",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -5385,7 +6856,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Síncopa y ritmo 3+3+2"
+     "theory": "Síncopa y ritmo 3+3+2",
+     "practice": [
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -5408,7 +6893,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "8va (octava alta)"
+     "theory": "8va (octava alta)",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -5431,7 +6930,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Ostinato"
+     "theory": "Ostinato",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -5454,7 +6967,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 11
      },
-     "theory": "Acordes con notas añadidas (maj7, 9, ♯11)"
+     "theory": "Acordes con notas añadidas (maj7, 9, ♯11)",
+     "practice": [
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -5661,7 +7188,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Compás de 3/4 (vals)"
+     "theory": "Compás de 3/4 (vals)",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -5684,7 +7225,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Modo lidio"
+     "theory": "Modo lidio",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -5707,7 +7262,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Bajo descendente por grados"
+     "theory": "Bajo descendente por grados",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -5730,7 +7299,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Acorde prestado (♭VII)"
+     "theory": "Acorde prestado (♭VII)",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -5753,7 +7336,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Cambios de tempo"
+     "theory": "Cambios de tempo",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -5776,7 +7373,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Grupos irregulares"
+     "theory": "Grupos irregulares",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "finger-independence"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -5799,7 +7410,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Compás de 3/4 (vals)"
+     "theory": "Compás de 3/4 (vals)",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -6032,7 +7657,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Tonalidades relativas"
+     "theory": "Tonalidades relativas",
+     "practice": [
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -6055,7 +7694,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Tempo libre y rubato"
+     "theory": "Tempo libre y rubato",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -6078,7 +7731,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Cambios de compás"
+     "theory": "Cambios de compás",
+     "practice": [
+      {
+       "id": "rhythms",
+       "for": "lh-broken-chords"
+      },
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -6101,7 +7768,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 6
      },
-     "theory": "Tresillos y dos contra tres"
+     "theory": "Tresillos y dos contra tres",
+     "practice": [
+      {
+       "id": "poly",
+       "for": "polyrhythm-2v3"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -6124,7 +7805,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 4
      },
-     "theory": "Calderón"
+     "theory": "Calderón",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -6147,7 +7842,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Sol♯ y color dórico"
+     "theory": "Sol♯ y color dórico",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "voicing-melody-top"
+      },
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -6170,7 +7879,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 11
      },
-     "theory": "8va, 15ma y 8vb"
+     "theory": "8va, 15ma y 8vb",
+     "practice": [
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -6193,7 +7916,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Tonalidades relativas"
+     "theory": "Tonalidades relativas",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     }
    ]
   },
@@ -6429,7 +8166,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 7
      },
-     "theory": "Pedal de tónica"
+     "theory": "Pedal de tónica",
+     "practice": [
+      {
+       "id": "block",
+       "for": "wrist-rotation"
+      },
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 2,
@@ -6452,7 +8203,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 12
      },
-     "theory": "Tresillos de corchea"
+     "theory": "Tresillos de corchea",
+     "practice": [
+      {
+       "id": "octaves",
+       "for": "octaves"
+      },
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 3,
@@ -6475,7 +8240,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 5
      },
-     "theory": "Escala menor natural y modo eólico"
+     "theory": "Escala menor natural y modo eólico",
+     "practice": [
+      {
+       "id": "skeleton",
+       "for": "chords-blocked"
+      },
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     },
     {
      "n": 4,
@@ -6498,7 +8277,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Dominante con sensible (Do♯)"
+     "theory": "Dominante con sensible (Do♯)",
+     "practice": [
+      {
+       "id": "block",
+       "for": "lh-arpeggios-wide"
+      },
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "chunk",
+       "for": null
+      }
+     ]
     },
     {
      "n": 5,
@@ -6521,7 +8314,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 9
      },
-     "theory": "Síncopa por ligadura"
+     "theory": "Síncopa por ligadura",
+     "practice": [
+      {
+       "id": "fingers",
+       "for": "repeated-notes"
+      },
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "bridge",
+       "for": null
+      }
+     ]
     },
     {
      "n": 6,
@@ -6544,7 +8351,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 11
      },
-     "theory": "Indicaciones de carácter"
+     "theory": "Indicaciones de carácter",
+     "practice": [
+      {
+       "id": "ladder",
+       "for": "scales-fast"
+      },
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "backward",
+       "for": null
+      }
+     ]
     },
     {
      "n": 7,
@@ -6567,7 +8388,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 16
      },
-     "theory": "Pedal de tónica"
+     "theory": "Pedal de tónica",
+     "practice": [
+      {
+       "id": "melody",
+       "for": "dynamics-range"
+      },
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "hands",
+       "for": null
+      }
+     ]
     },
     {
      "n": 8,
@@ -6590,7 +8425,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 3
      },
-     "theory": "Tresillos de corchea"
+     "theory": "Tresillos de corchea",
+     "practice": [
+      {
+       "id": "nopedal",
+       "for": "pedal-legato"
+      },
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "mental",
+       "for": null
+      }
+     ]
     },
     {
      "n": 9,
@@ -6613,7 +8462,21 @@ window.DATA = {
       "key": "Do mayor",
       "page": 8
      },
-     "theory": "Escala menor natural y modo eólico"
+     "theory": "Escala menor natural y modo eólico",
+     "practice": [
+      {
+       "id": "count",
+       "for": "syncopation"
+      },
+      {
+       "id": "pulse",
+       "for": "rubato"
+      },
+      {
+       "id": "ghost",
+       "for": null
+      }
+     ]
     }
    ]
   }
@@ -8607,6 +10470,288 @@ window.DATA = {
     "dynamics"
    ],
    "level": 3
+  }
+ ],
+ "practice": [
+  {
+   "id": "ghost",
+   "name": "Pausa y preparación",
+   "aka": "ghosting, stop and prepare",
+   "general": true,
+   "needs": [
+    "hand-crossing",
+    "octaves",
+    "lh-arpeggios-wide",
+    "chords-blocked"
+   ],
+   "why": "El cerebro aprende el movimiento y la ubicación de la siguiente nota sin la presión de acertar a tempo.",
+   "steps": [
+    "Toca un grupo corto, de dos a cuatro notas, y detente.",
+    "Sin tocar, apoya los dedos sobre las teclas del grupo siguiente: solo colocados encima, sin hundirlas.",
+    "Comprueba digitación y posición. Recién entonces toca ese grupo y vuelve a detenerte.",
+    "Cuando el cambio salga solo, acorta la pausa hasta que desaparezca."
+   ]
+  },
+  {
+   "id": "chunk",
+   "name": "Fragmentos cortos",
+   "aka": "chunking",
+   "general": true,
+   "needs": [
+    "finger-independence"
+   ],
+   "why": "Un fragmento pequeño cabe entero en la memoria de trabajo y se automatiza mucho antes que un pasaje largo.",
+   "steps": [
+    "Divide el pasaje en grupos de un pulso o de medio compás.",
+    "Repite cada grupo hasta tocarlo tres veces seguidas sin error.",
+    "Une dos grupos, después tres, hasta completar el compás."
+   ]
+  },
+  {
+   "id": "bridge",
+   "name": "Unión de compases",
+   "aka": "overlap",
+   "general": true,
+   "needs": [],
+   "why": "La mayoría de los tropiezos están en el paso de un compás al siguiente, no dentro de cada compás.",
+   "steps": [
+    "Toma el último pulso de un compás y el primero del siguiente.",
+    "Repite solo esa unión, lento, hasta que no haya pausa entre ambos.",
+    "Después tócala dentro del pasaje completo."
+   ]
+  },
+  {
+   "id": "backward",
+   "name": "De atrás hacia adelante",
+   "aka": "backward chaining",
+   "general": true,
+   "needs": [],
+   "why": "Siempre avanzas hacia material que ya dominas, así que el final de la sección queda tan seguro como el principio.",
+   "steps": [
+    "Aprende primero el último compás de la sección.",
+    "Agrega el compás anterior y toca los dos hasta el final.",
+    "Sigue sumando un compás hacia atrás cada vez."
+   ]
+  },
+  {
+   "id": "hands",
+   "name": "Manos separadas, luego juntas",
+   "aka": "hands separate",
+   "general": true,
+   "needs": [],
+   "why": "Cada mano resuelve su digitación sola; al juntarlas, la atención queda libre para coordinar.",
+   "steps": [
+    "Toca la mano derecha sola hasta que salga fluida.",
+    "Haz lo mismo con la izquierda.",
+    "Júntalas a la mitad del tempo, aunque cada mano sola ya vaya más rápido."
+   ]
+  },
+  {
+   "id": "mental",
+   "name": "Práctica mental",
+   "aka": "mental practice",
+   "general": true,
+   "needs": [],
+   "why": "Imaginar el pasaje activa las mismas zonas del cerebro que tocarlo y fija la memoria sin cansar las manos.",
+   "steps": [
+    "Lejos del piano, lee el pasaje e imagina cómo suena y qué dedo toca cada nota.",
+    "Marca la digitación sobre la tapa cerrada o sobre una mesa, sin sonido.",
+    "Tócalo una sola vez en el piano y compara con lo que imaginaste."
+   ]
+  },
+  {
+   "id": "ladder",
+   "name": "Escalera de tempo",
+   "aka": "tempo ladder",
+   "general": false,
+   "needs": [
+    "scales-fast",
+    "repeated-notes",
+    "trills",
+    "staccato"
+   ],
+   "why": "La velocidad se construye sobre precisión: subir de a poco evita automatizar errores.",
+   "steps": [
+    "Busca el tempo en que tocas el pasaje tres veces seguidas sin error.",
+    "Sube el metrónomo 4 pulsos y repite.",
+    "Si fallas dos veces, baja 8 pulsos y vuelve a subir."
+   ]
+  },
+  {
+   "id": "rhythms",
+   "name": "Ritmos alterados",
+   "aka": "rhythmic variants",
+   "general": false,
+   "needs": [
+    "scales-fast",
+    "finger-independence",
+    "alberti-bass",
+    "lh-broken-chords"
+   ],
+   "why": "Cambiar el ritmo obliga a cada dedo a llegar a tiempo y empareja los pasajes rápidos.",
+   "steps": [
+    "Toca el pasaje con ritmo largo-corto (corchea con puntillo y semicorchea).",
+    "Después con ritmo corto-largo.",
+    "Por último en grupos de cuatro notas con una pausa en la primera. Vuelve al ritmo escrito."
+   ]
+  },
+  {
+   "id": "block",
+   "name": "Acordes en bloque",
+   "aka": "blocking",
+   "general": false,
+   "needs": [
+    "lh-broken-chords",
+    "lh-arpeggios-wide",
+    "alberti-bass",
+    "wrist-rotation"
+   ],
+   "why": "Ver cada arpegio como un acorde enseña la forma de la mano y el desplazamiento antes que las notas sueltas.",
+   "steps": [
+    "Toca juntas, como un acorde, todas las notas de cada grupo del arpegio.",
+    "Pasa de un acorde al siguiente buscando el camino más corto para la mano.",
+    "Vuelve a desplegarlo como está escrito, manteniendo la forma de la mano."
+   ]
+  },
+  {
+   "id": "melody",
+   "name": "Melodía forte, acompañamiento susurrado",
+   "aka": "voicing exaggeration",
+   "general": false,
+   "needs": [
+    "voicing-melody-top",
+    "dynamics-range"
+   ],
+   "why": "Exagerar la diferencia entrena a cada dedo a pesar distinto dentro de la misma mano.",
+   "steps": [
+    "Toca la melodía forte y todo lo demás casi sin sonido.",
+    "Toca solo las notas de la melodía, cantándolas.",
+    "Reduce el contraste poco a poco hasta el equilibrio que pide la partitura."
+   ]
+  },
+  {
+   "id": "skeleton",
+   "name": "Esqueleto",
+   "aka": "melody and bass",
+   "general": false,
+   "needs": [
+    "voicing-melody-top",
+    "chords-blocked",
+    "pedal-legato"
+   ],
+   "why": "La melodía y el bajo son la estructura de la obra; las voces internas se apoyan sobre ellos.",
+   "steps": [
+    "Toca solo la melodía y el bajo.",
+    "Agrega las voces internas más suaves.",
+    "Comprueba que la melodía sigue siendo lo que más se oye."
+   ]
+  },
+  {
+   "id": "nopedal",
+   "name": "Primero sin pedal",
+   "aka": "dry practice",
+   "general": false,
+   "needs": [
+    "pedal-legato",
+    "legato-thirds-rh"
+   ],
+   "why": "El pedal tapa los cortes del legato; sin él, oyes lo que hacen realmente tus dedos.",
+   "steps": [
+    "Toca el pasaje sin pedal, uniendo las notas solo con los dedos.",
+    "Agrega el pedal cambiándolo justo después de cada cambio de acorde.",
+    "Escucha que no queden armonías mezcladas."
+   ]
+  },
+  {
+   "id": "poly",
+   "name": "2 contra 3 en la mesa",
+   "aka": "polyrhythm tapping",
+   "general": false,
+   "needs": [
+    "polyrhythm-2v3"
+   ],
+   "why": "Separar el ritmo de las notas permite que las manos aprendan la combinación antes de sumar la dificultad del teclado.",
+   "steps": [
+    "Cuenta en voz alta 1-2-3-4-5-6.",
+    "Golpea la mesa con la mano de los tresillos en 1, 3 y 5, y con la de los dosillos en 1 y 4.",
+    "Pásalo a una nota por mano y después al pasaje real."
+   ]
+  },
+  {
+   "id": "pulse",
+   "name": "Pulso fijo antes del rubato",
+   "aka": "metronome first",
+   "general": false,
+   "needs": [
+    "rubato"
+   ],
+   "why": "El rubato solo suena libre si debajo hay un pulso claro al que volver.",
+   "steps": [
+    "Toca la sección con metrónomo, estricta, hasta que sea estable.",
+    "Quita el metrónomo y decide dónde estirar y dónde recuperar.",
+    "Grábate y comprueba que el pulso se sigue sintiendo."
+   ]
+  },
+  {
+   "id": "count",
+   "name": "Contar y marcar el ritmo",
+   "aka": "subdivision",
+   "general": false,
+   "needs": [
+    "syncopation"
+   ],
+   "why": "Las síncopas se desordenan cuando se tocan a oído; subdividir las ubica en el pulso exacto.",
+   "steps": [
+    "Aplaude el ritmo de la derecha contando las subdivisiones en voz alta.",
+    "Toca la izquierda sola con metrónomo.",
+    "Junta las manos sin dejar de contar."
+   ]
+  },
+  {
+   "id": "octaves",
+   "name": "Pulgar solo, meñique solo",
+   "aka": "octave lines",
+   "general": false,
+   "needs": [
+    "octaves"
+   ],
+   "why": "Cada línea de la octava tiene su propio camino; aprenderlas por separado da precisión sin tensar la mano.",
+   "steps": [
+    "Toca el pasaje solo con el pulgar.",
+    "Después solo con el quinto dedo, o con 4 y 5 si lo indica la digitación.",
+    "Junta la octava con la muñeca suelta, dejando caer el peso del brazo."
+   ]
+  },
+  {
+   "id": "fingers",
+   "name": "Cambio de dedos",
+   "aka": "finger rotation",
+   "general": false,
+   "needs": [
+    "repeated-notes",
+    "staccato"
+   ],
+   "why": "Rotar los dedos en notas repetidas evita la fatiga y da un sonido parejo.",
+   "steps": [
+    "Toca las notas repetidas con 4-3-2-1 o 3-2-1, según la digitación.",
+    "Hazlo en grupos de cuatro, con el dedo cerca de la tecla.",
+    "Sube el tempo solo cuando todas suenen iguales."
+   ]
+  },
+  {
+   "id": "trill",
+   "name": "Trino medido",
+   "aka": "measured trill",
+   "general": false,
+   "needs": [
+    "trills"
+   ],
+   "why": "Un trino que se toca medido antes de acelerarlo queda parejo y termina a tiempo.",
+   "steps": [
+    "Toca el trino en semicorcheas exactas con metrónomo.",
+    "Pasa a fusas sin perder la igualdad.",
+    "Practica la terminación del trino aparte y únela al final."
+   ]
   }
  ]
 };

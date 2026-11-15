@@ -17,10 +17,10 @@ function circleSvg() {
     const a = (i / 12) * 2 * Math.PI - Math.PI / 2, x = 150 + 104 * Math.cos(a), y = 150 + 104 * Math.sin(a);
     const c = hi[k];
     out += `<circle cx="${x}" cy="${y}" r="22" fill="${c || "var(--surface)"}" stroke="${c || "var(--line)"}"/>`;
-    out += `<text x="${x}" y="${y - 1}" text-anchor="middle" font-size="${k.length > 4 ? 7.5 : 11}" font-weight="600" font-family="IBM Plex Sans,sans-serif" fill="${c ? "#ffffff" : "var(--fg)"}">${k}</text>`;
-    out += `<text x="${x}" y="${y + 11}" text-anchor="middle" font-size="8" font-family="IBM Plex Mono,monospace" fill="${c ? "#ffffff" : "var(--muted)"}">${acc[i]}</text>`;
+    out += `<text x="${x}" y="${y - 1}" text-anchor="middle" font-size="${k.length > 4 ? 7.5 : 11}" font-weight="600" font-family="Poppins,sans-serif" fill="${c ? "#ffffff" : "var(--fg)"}">${k}</text>`;
+    out += `<text x="${x}" y="${y + 11}" text-anchor="middle" font-size="8" font-family="Poppins,sans-serif" fill="${c ? "#ffffff" : "var(--muted)"}">${acc[i]}</text>`;
   });
-  out += `<text x="150" y="146" text-anchor="middle" font-size="12" font-family="IBM Plex Sans,sans-serif" fill="var(--muted)">Círculo</text><text x="150" y="162" text-anchor="middle" font-size="12" font-family="IBM Plex Sans,sans-serif" fill="var(--muted)">de quintas</text>`;
+  out += `<text x="150" y="146" text-anchor="middle" font-size="12" font-family="Poppins,sans-serif" fill="var(--muted)">Círculo</text><text x="150" y="162" text-anchor="middle" font-size="12" font-family="Poppins,sans-serif" fill="var(--muted)">de quintas</text>`;
   return `<svg class="circle" viewBox="0 0 300 300" role="img" aria-label="Círculo de quintas con Re bemol, La bemol y Sol bemol resaltados">${out}</svg>`;
 }
 
@@ -250,3 +250,8 @@ function stopMetro() {
   if (play) { play.textContent = "▶ Metrónomo 9/8"; play.classList.remove("on"); }
 }
 renderLessons();
+
+// Practice strategies catalog
+if (window.DATA && document.getElementById("techs"))
+  document.getElementById("techs").innerHTML = window.DATA.practice.map(st => `<details class="tech"><summary><span class="tn">${esc(st.name)}</span><span class="tf">${esc(st.aka)}</span></summary>
+    <p>${esc(st.why)}</p><ol>${st.steps.map(t => `<li>${esc(t)}</li>`).join("")}</ol></details>`).join("");

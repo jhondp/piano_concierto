@@ -6,6 +6,8 @@ const weekDate = w => new Date(Date.parse(roadmap.start + "T12:00:00") + w * 7 *
 $("when").textContent = `Recital de piano solo · ${fmtDate(concert.date)}`;
 $("tagline").textContent = concert.tagline;
 $("about").innerHTML = concert.about.map(p => `<p>${esc(p)}</p>`).join("");
+$("quote").textContent = concert.quote || "";
+$("legs").innerHTML = (concert.legs || []).map(l => `<div><small>${esc(l.range)}</small><b>${esc(l.title)}</b><p>${esc(l.text)}</p></div>`).join("");
 $("goals").innerHTML = concert.objectives.map(o => `<li>${esc(o)}</li>`).join("");
 
 // Countdown + overall progress (learned sections over all sections)

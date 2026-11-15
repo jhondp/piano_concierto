@@ -58,6 +58,17 @@ const NEED_ES = {
   "polyrhythm-2v3": "polirritmia 2 contra 3", "wrist-rotation": "rotación de muñeca", "finger-independence": "independencia de dedos",
   "alberti-bass": "bajo Alberti", "staccato": "staccato", "dynamics-range": "rango dinámico", "rubato": "rubato",
 };
+const PR = Object.fromEntries((window.DATA.practice || []).map(x => [x.id, x]));
+function practiceHtml(s, sec) {
+  if (!(s.practice || []).length) return "";
+  const focus = sec ? (sec.focus || []).find(f => /comp[áa]s|compases|\(\d/.test(f)) || (sec.focus || [])[0] : null;
+  return `<div class="practice"><h4>Cómo abordar los compases difíciles${s.bars && s.bars !== "todo" ? ` (c. ${esc(s.bars)})` : ""}</h4>
+    ${focus ? `<p class="muted">Empieza por: ${esc(focus)}.</p>` : `<p class="muted">Empieza por los pasajes donde te detuviste en la última pasada.</p>`}
+    ${s.practice.map(x => { const st = PR[x.id]; if (!st) return "";
+      return `<details class="tech"><summary><span class="tn">${esc(st.name)}</span><span class="tf">${x.for ? "Para " + esc(NEED_ES[x.for] || x.for) : "Para cualquier pasaje que se resista"}</span></summary>
+        <p>${esc(st.why)}</p><ol>${st.steps.map(t => `<li>${esc(t)}</li>`).join("")}</ol><p class="aka">También se conoce como <i>${esc(st.aka)}</i>.</p></details>`; }).join("")}
+  </div>`;
+}
 $("sessions").innerHTML = p.sessions.map((s, i) => {
   const sec = p.sections[i];
   const tasks = [
@@ -72,7 +83,7 @@ $("sessions").innerHTML = p.sessions.map((s, i) => {
       const key = `${i}-${k}`;
       return `<div class="task"><input type="checkbox" id="t${key}" data-k="${key}" ${checks[key] ? "checked" : ""}><span class="kind">${kind}</span>
         <label for="t${key}">${esc(what)}<small>${esc(detail)}</small></label><span class="mono">${t}</span></div>`;
-    }).join("")}</div></article>`;
+    }).join("")}</div>${practiceHtml(s, sec)}</article>`;
 }).join("");
 $("sessions").onchange = e => { const k = e.target.dataset.k; if (k) { checks[k] = e.target.checked; store.set("pc-ses-" + p.id, checks); } };
 

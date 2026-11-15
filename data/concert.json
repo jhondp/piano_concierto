@@ -2,10 +2,39 @@
   "title": "Piano concierto",
   "date": "2027-12-01",
   "start": "2026-11-16",
-  "tagline": "Dieciséis obras para piano solo, de Mozart y Debussy a la música de cine, anime y videojuegos.",
+  "tagline": "De una canción infantil a un campo de batalla: dieciséis obras, más de dos siglos de música y un solo piano.",
+  "quote": "Es el camino de crecer, y también el de aprender: empezar por la melodía que cualquiera sabe tararear y terminar en la obra que más cuesta tocar.",
   "about": [
-    "Piano concierto es un recital de piano solo con dieciséis obras. Empieza en el clasicismo, con las variaciones de Mozart sobre «Ah, vous dirai-je, Maman», pasa por el impresionismo de Debussy y llega a la música de Ryuichi Sakamoto, Joe Hisaishi, Nobuo Uematsu y a bandas sonoras de anime.",
-    "El hilo del programa son las historias: casi todas las obras nacieron para acompañar una película, una serie o un videojuego, y aquí se cuentan con un solo instrumento."
+    "Piano concierto es un recital de piano solo con dieciséis obras escritas a lo largo de más de dos siglos: de las variaciones de Mozart a las bandas sonoras de anime de los últimos años, pasando por Debussy, Sakamoto, Hisaishi y Uematsu.",
+    "Casi todas nacieron para acompañar una historia, ya sea una película, una serie o un videojuego. Aquí tienen que contarla solas, sin imágenes ni orquesta: solo un piano y las manos de quien lo toca.",
+    "Debajo hay otra historia: la de aprender a tocarlas. El programa se prepara de forma autodidacta, obra por obra, durante un año. El concierto es el final del viaje, pero el viaje es el estudio."
+  ],
+  "legs": [
+    {
+      "title": "Infancia",
+      "range": "Obras 1 y 2",
+      "text": "Empieza con «Estrellita», la primera melodía que aprende casi cualquier niño, transformada doce veces por Mozart. Después cae la noche con Clair de Lune."
+    },
+    {
+      "title": "Memoria",
+      "range": "Obras 3 a 7",
+      "text": "Piano que respira: tres obras de Sakamoto, el tren silencioso de El viaje de Chihiro y la nana de Final Fantasy IV. Música que llegó a través de una pantalla y se quedó."
+    },
+    {
+      "title": "Lo que no se dice",
+      "range": "Obras 8 a 11",
+      "text": "A Silent Voice y Your Lie in April: culpa, perdón y la historia de un pianista que deja de oír su propio piano y vuelve a tocar."
+    },
+    {
+      "title": "Lo que pesa",
+      "range": "Obras 12 a 14",
+      "text": "Un lamento que se convierte en furia en Hunter × Hunter, y dos temas de Jujutsu Kaisen sobre el cansancio y la ternura de seguir adelante."
+    },
+    {
+      "title": "La batalla",
+      "range": "Obras 15 y 16",
+      "text": "Un pueblo pequeño y un campo de batalla. Vinland Saga es la historia de un guerrero que aprende a dejar de pelear: la obra más ruidosa del programa es también la que más control pide."
+    }
   ],
   "objectives": [
     "Tocar en vivo el programa completo de dieciséis obras el 1 de diciembre de 2027.",

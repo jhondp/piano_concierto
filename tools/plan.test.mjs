@@ -94,3 +94,18 @@ test("the real route starts easy, never pairs two heavy pieces and lets the hard
   const hardest = r.items.find(i => diff[i.id] === Math.max(...real.map(p => p.difficulty)));
   assert.ok(r.rehearsalFrom - hardest.polishFrom >= 12, `hardest piece only has ${r.rehearsalFrom - hardest.polishFrom} weeks to mature`);
 });
+
+const practice = [
+  { id: "g1", general: true, needs: ["octaves"] }, { id: "g2", general: true, needs: [] }, { id: "g3", general: true, needs: [] },
+  { id: "thirds", general: false, needs: ["legato-thirds-rh"] }, { id: "arps", general: false, needs: ["lh-arpeggios-wide"] },
+];
+
+test("every session gets three distinct practice strategies: its need first, then the piece's next need, then a rotating general one", () => {
+  const piece = { id: "02", key: "Re♭ mayor", difficulty: 6, techniqueNeeds: ["legato-thirds-rh", "lh-arpeggios-wide"],
+    sections: [{ name: "A", bars: "1–8" }, { name: "B", bars: "9–16" }], theory: [] };
+  const s = buildSessions(piece, hanon, czerny, 1, practice);
+  assert.deepEqual(s.map(x => x.practice.map(p => p.id)), [["thirds", "arps", "g2"], ["arps", "thirds", "g3"], ["thirds", "arps", "g1"]]);
+  assert.deepEqual(s[0].practice[0], { id: "thirds", for: "legato-thirds-rh" });
+  assert.deepEqual(s[0].practice[2], { id: "g2", for: null });
+  assert.deepEqual(buildSessions(piece, hanon, czerny, 0).map(x => x.practice), [[], [], []]);
+});

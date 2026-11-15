@@ -40,7 +40,7 @@ function kbd(lit = []) {
     if (!blackPc.includes(m % 12)) {
       const on = s.has(m);
       w += `<rect x="${x * W + 1}" y="1" width="${W - 1}" height="${H}" rx="3" fill="${on ? "var(--teal)" : "var(--key)"}" stroke="var(--line)"/>`;
-      if (on) w += `<text x="${x * W + W / 2 + 1}" y="${H - 8}" text-anchor="middle" font-size="8.5" font-family="IBM Plex Sans,sans-serif" fill="#ffffff">${nm(m)}</text>`;
+      if (on) w += `<text x="${x * W + W / 2 + 1}" y="${H - 8}" text-anchor="middle" font-size="8.5" font-family="Poppins,sans-serif" fill="#ffffff">${nm(m)}</text>`;
       x++;
     } else {
       b += `<rect x="${x * W - W * 0.32}" y="1" width="${W * 0.64}" height="${H * 0.6}" rx="2" fill="${s.has(m) ? "var(--teal)" : "var(--keyb)"}" stroke="var(--keyb)"/>`;
