@@ -47,3 +47,10 @@
 
 .g-list { margin: 0 0 14px; padding-left: 1.1em; display: grid; gap: 6px; font-size: .92rem; }
 .g-list li::marker { color: var(--tint); }
+/* Reading tips with landmark maps */
+.tips { margin-top: 8px; }
+.lm-maps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px; margin-bottom: 12px; }
+.staff.lm { width: 100%; height: auto; }
+.staff.lm .lm-do { fill: var(--tint); }
+.staff.lm .lm-t { font: 500 11px Poppins, sans-serif; fill: var(--muted); }
+.tips ol li b { font-weight: 500; color: var(--fg); }

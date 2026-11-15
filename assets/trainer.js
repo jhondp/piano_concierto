@@ -40,7 +40,26 @@ const ledgerPositions = pos => {
   return out;
 };
 
-if (typeof module !== "undefined") module.exports = { LETTERS, INTERVALS, CHORDS, diaMidi, staffMidi, staffDia, noteLabel, invert, dayStreak, ledgerPositions };
+// Reading landmarks: the five Do of the grand staff plus the note each clef names.
+const LANDMARKS = {
+  sol: [{ pos: -2, name: "Do4", where: "Do central, primera línea adicional debajo del pentagrama" },
+        { pos: 2, name: "Sol4", where: "segunda línea, donde se enrosca la clave de sol" },
+        { pos: 5, name: "Do5", where: "tercer espacio" },
+        { pos: 12, name: "Do6", where: "segunda línea adicional encima del pentagrama" }],
+  fa: [{ pos: -4, name: "Do2", where: "segunda línea adicional debajo del pentagrama" },
+       { pos: 3, name: "Do3", where: "segundo espacio" },
+       { pos: 6, name: "Fa3", where: "cuarta línea, entre los dos puntos de la clave de fa" },
+       { pos: 10, name: "Do4", where: "Do central, primera línea adicional encima del pentagrama" }],
+};
+// Nearest landmark; on a tie, the one closer to the middle of the staff.
+function landmarkHint(clef, pos) {
+  const l = [...LANDMARKS[clef]].sort((a, b) => Math.abs(pos - a.pos) - Math.abs(pos - b.pos) || Math.abs(a.pos - 4) - Math.abs(b.pos - 4))[0];
+  const d = pos - l.pos;
+  if (!d) return `Es el ${l.name}: ${l.where}.`;
+  return `Está una ${Math.abs(d) + 1}ª ${d > 0 ? "arriba" : "abajo"} del ${l.name} (${l.where}).`;
+}
+
+if (typeof module !== "undefined") module.exports = { LETTERS, INTERVALS, CHORDS, LANDMARKS, diaMidi, staffMidi, staffDia, noteLabel, invert, dayStreak, ledgerPositions, landmarkHint };
 
 if (typeof document !== "undefined") {
   const rnd = n => Math.floor(Math.random() * n);
@@ -242,7 +261,7 @@ if (typeof document !== "undefined") {
         for (const dl of [-1, 0, 1]) for (const a of [-1, 0, 1]) q.answers.push(noteLabel(q.letter + dl, a));
         q.correct = 3 + q.acc + 1;
       }
-      q.detail = "";
+      q.detail = "Pista: " + landmarkHint(q.clef, q.pos);
       q.play = () => { if (document.querySelector("#t-notes .t-sound").checked) playSeq([[q.midi]]); };
       return q;
     },
@@ -298,6 +317,37 @@ if (typeof document !== "undefined") {
         <button type="button" class="btn t-play" data-replay="arp">Arpegiar</button>
       </div>`,
   });
+
+  // Landmark map: one staff per clef with its reference notes labelled.
+  function landmarkSvg(clef) {
+    const y = p => 100 - p * 6;
+    let lines = "", notes = "";
+    for (let i = 0; i < 5; i++) lines += `<line x1="8" x2="292" y1="${y(i * 2)}" y2="${y(i * 2)}" />`;
+    LANDMARKS[clef].forEach((l, i) => {
+      const x = 100 + i * 52;
+      for (const p of ledgerPositions(l.pos)) lines += `<line x1="${x - 13}" x2="${x + 13}" y1="${y(p)}" y2="${y(p)}" />`;
+      notes += `<ellipse cx="${x}" cy="${y(l.pos)}" rx="7.6" ry="5.6" transform="rotate(-20 ${x} ${y(l.pos)})"${l.name.startsWith("Do") ? ' class="lm-do"' : ""} />`
+        + `<text class="lm-t" x="${x}" y="${l.pos > 4 ? y(l.pos) - 14 : y(Math.min(l.pos, -2)) + 22}" text-anchor="middle">${l.name}</text>`;
+    });
+    const glyph = clef === "sol"
+      ? `<text class="clef" x="12" y="${y(0) + 12}" font-size="72">𝄞</text>`
+      : `<text class="clef" x="14" y="${y(8) + 38}" font-size="46">𝄢</text>`;
+    return `<svg class="staff lm" viewBox="0 0 300 150" role="img" aria-label="Notas de referencia en clave de ${clef}: ${LANDMARKS[clef].map(l => l.name).join(", ")}"><g class="lines">${lines}</g>${glyph}${notes}</svg>`;
+  }
+  document.getElementById("t-notes")?.insertAdjacentHTML("beforeend", `
+    <details class="tech tips">
+      <summary><span class="tn">Trucos para leer más rápido</span><span class="tf">Notas de referencia y lectura por distancia</span></summary>
+      <p>No leas cada nota contando desde abajo. Memoriza unas pocas notas de referencia y lee el resto por su distancia a la más cercana. Después de cada respuesta del ejercicio verás esa pista.</p>
+      <div class="lm-maps">${landmarkSvg("sol")}${landmarkSvg("fa")}</div>
+      <ol>
+        <li><b>Los cinco Do.</b> Do2: segunda línea adicional debajo de la clave de fa. Do3: segundo espacio de fa. Do4 (Do central): la línea adicional entre los dos pentagramas. Do5: tercer espacio de sol. Do6: segunda línea adicional encima de sol. Fíjate en la simetría: la segunda línea adicional, arriba en sol y abajo en fa, es siempre un Do.</li>
+        <li><b>Cada clave nombra su nota.</b> La clave de sol se enrosca en la segunda línea: ahí está Sol4. Los dos puntos de la clave de fa rodean la cuarta línea: ahí está Fa3.</li>
+        <li><b>Lee por distancia.</b> De una línea a la línea siguiente hay una 3ª; de una línea al espacio de al lado, una 2ª; saltando una línea, una 5ª. Así lees grupos de notas sin nombrarlas una por una.</li>
+        <li><b>Líneas y espacios.</b> En clave de sol, las líneas son Mi, Sol, Si, Re, Fa y los espacios Fa, La, Do, Mi. En clave de fa, las líneas son Sol, Si, Re, Fa, La y los espacios La, Do, Mi, Sol. Cada serie avanza de tercera en tercera.</li>
+        <li><b>Mismo lugar, otra clave.</b> En la misma posición, la nota en clave de fa se llama dos letras más arriba que en clave de sol: la primera línea es Mi en sol y Sol en fa; el primer espacio, Fa en sol y La en fa.</li>
+        <li><b>Mira lo que viene.</b> Al leer una obra, tus ojos deben ir un pulso por delante de tus manos. Practica primero en este ejercicio y después con obras más fáciles que tu repertorio.</li>
+      </ol>
+    </details>`);
 
   // Number keys 1–9 answer in the running trainer.
   document.addEventListener("keydown", e => {

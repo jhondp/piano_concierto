@@ -315,7 +315,7 @@ input[type=range] { accent-color: var(--tint); width: 160px; }
 .lvl { padding: 14px 14px 6px; font-size: .75rem; font-weight: 600; color: var(--muted); background: var(--surface-2); }
 .lbtn + .lvl { border-top: 1px solid var(--sep); }
 @media (max-width: 720px) {
-  .lnav { max-height: none; overflow-y: visible; position: relative; }
+  .lnav { max-height: none; overflow-y: visible; position: relative; top: auto; }
   .lvl { flex: none; display: flex; align-items: center; white-space: nowrap; padding: 0 4px 0 10px; background: none; }
   .lvl:first-child { padding-left: 0; }
   .lvl-t { display: none; }
