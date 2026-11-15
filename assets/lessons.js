@@ -590,20 +590,20 @@ lessonEl.addEventListener("click", e => {
     const k = lessonEl.querySelector("[data-kbd]"); if (k) k.innerHTML = kbd(JSON.parse(p.dataset.show));
   }
   const rh = e.target.closest("[data-rh]");
-  if (rh) { // durations are in beats at data-bpm; each voice starts together
-    const b = 60 / +rh.dataset.bpm, t0 = ac().currentTime + 0.05;
+  if (rh) whenRunning(c => { // durations are in beats at data-bpm; each voice starts together
+    const b = 60 / +rh.dataset.bpm, t0 = c.currentTime + 0.06;
     JSON.parse(rh.dataset.rh).forEach(v => {
       let t = t0;
       v.forEach(([m, d, s = 1, vol = 0.16]) => { if (m) tone(m, t, Math.max(0.12, d * b * s), vol); t += d * b; });
     });
     for (let i = 0; i < +rh.dataset.beats; i++) click(t0 + i * b, i % +rh.dataset.bar === 0);
-  }
+  });
   const r = e.target.closest("[data-rhythm]");
-  if (r) { // one dotted-quarter beat at 40 bpm, plus the next downbeat
-    const n = +r.dataset.rhythm, beat = 60 / 40, t = ac().currentTime + 0.05;
+  if (r) whenRunning(c => { // one dotted-quarter beat at 40 bpm, plus the next downbeat
+    const n = +r.dataset.rhythm, beat = 60 / 40, t = c.currentTime + 0.06;
     for (let i = 0; i < n; i++) { click(t + (i * beat) / n, i === 0); tone(r.dataset.rhythm === "3" ? 73 : 77, t + (i * beat) / n, 0.4, 0.08); }
     click(t + beat, true);
-  }
+  });
 });
 
 // ---------- 9/8 metronome (compound meter lesson) ----------
