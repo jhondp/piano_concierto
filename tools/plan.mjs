@@ -125,3 +125,11 @@ export function buildRoadmap(pieces, { start, concert, rehearsalWeeks = 8, polis
   items.forEach((it, k) => { it.order = k + 1; });
   return { start, concert, totalWeeks: total, rehearsalFrom: learnWindow, items };
 }
+
+// Practice-guide group for an exercise: its listed group, else a fallback by Hanon part (I: 1-20, II: 21-43, III: 44-60).
+export function guideId(guide, kind, no) {
+  const hit = (guide[kind] || []).find(g => g.nos.includes(no));
+  if (hit) return hit.g;
+  if (kind === "czerny") return "c-default";
+  return no <= 20 ? "h-warm" : no <= 43 ? "h-part2" : "h-part3";
+}

@@ -109,3 +109,22 @@ test("every session gets three distinct practice strategies: its need first, the
   assert.deepEqual(s[0].practice[2], { id: "g2", for: null });
   assert.deepEqual(buildSessions(piece, hanon, czerny, 0).map(x => x.practice), [[], [], []]);
 });
+
+test("every session exercise has a practice guide with tempo and steps", async () => {
+  const { readFileSync, readdirSync } = await import("node:fs");
+  const { guideId } = await import("./plan.mjs");
+  const read = f => JSON.parse(readFileSync(new URL("../data/" + f, import.meta.url), "utf8"));
+  const guide = read("exercise-guide.json");
+  const real = readdirSync(new URL("../data/", import.meta.url)).filter(f => /^pieces-/.test(f)).flatMap(read);
+  const H = read("hanon.json").exercises, C = read("czerny.json").exercises;
+  assert.equal(guideId(guide, "hanon", 33), "h-thumb");
+  assert.equal(guideId(guide, "hanon", 57), "h-part3"); // not in any group -> part fallback
+  assert.equal(guideId(guide, "czerny", 99), "c-default");
+  for (const p of real) for (const s of buildSessions(p, H, C, 0)) {
+    for (const [kind, no] of [["hanon", s.warmup.no], ["hanon", s.hanon.no], ["czerny", s.czerny.no]]) {
+      const g = guide.groups[guideId(guide, kind, no)];
+      assert.ok(g && g.tempo && g.steps.length, `${p.id} ${kind} ${no} has no guide`);
+    }
+    assert.ok(guide.czernyNotes[s.czerny.no], `czerny ${s.czerny.no} has no note`);
+  }
+});

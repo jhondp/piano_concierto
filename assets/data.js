@@ -546,19 +546,22 @@ window.DATA = {
      "need": "scales-fast",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 38,
       "title": "Preparación para las escalas",
       "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
-      "inKey": "Do mayor"
+      "inKey": "Do mayor",
+      "guide": "h-scales"
      },
      "czerny": {
       "no": 19,
       "skill": "Primer paso del pulgar: escala de Do en corcheas",
       "key": "Do mayor",
-      "page": 11
+      "page": 11,
+      "guide": "c-eighth"
      },
      "theory": "Tema con variaciones",
      "practice": [
@@ -583,19 +586,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Forma binaria con repeticiones",
      "practice": [
@@ -620,19 +626,22 @@ window.DATA = {
      "need": "trills",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 27,
       "title": "Preparación del trino con 4 y 5",
       "skill": "Prepara los dedos 4 y 5 para el trino que aparece más adelante.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-trill"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Cambio de modo (tonalidad homónima)",
      "practice": [
@@ -657,19 +666,22 @@ window.DATA = {
      "need": "hand-crossing",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 31,
       "title": "Cinco dedos y extensiones",
       "skill": "Ejercita los cinco dedos con extensiones de la mano.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-stretch"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Disminución rítmica",
      "practice": [
@@ -694,19 +706,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Do mayor"
+      "inKey": "Do mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Imitación",
      "practice": [
@@ -731,19 +746,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Dominante secundaria y cromatismo",
      "practice": [
@@ -768,19 +786,22 @@ window.DATA = {
      "need": "staccato",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 44,
       "title": "Notas repetidas en grupos de tres",
       "skill": "Repite cada nota tres veces cambiando de dedo, sin levantar mano ni muñeca.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-repeated"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Cambio de compás",
      "practice": [
@@ -805,19 +826,22 @@ window.DATA = {
      "need": "legato-thirds-rh",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 50,
       "title": "Terceras ligadas",
       "skill": "Terceras ligadas, escalas en terceras ligadas y escalas cromáticas en terceras menores.",
-      "inKey": "Do mayor"
+      "inKey": "Do mayor",
+      "guide": "h-thirds"
      },
      "czerny": {
       "no": 9,
       "skill": "Melodía en negras sobre terceras y acordes tenidos de la izquierda",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Tema con variaciones",
      "practice": [
@@ -842,19 +866,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Forma binaria con repeticiones",
      "practice": [
@@ -1086,19 +1113,22 @@ window.DATA = {
      "need": "legato-thirds-rh",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 24,
       "skill": "Terceras ligadas y staccato en 6/8 sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 13
+      "page": 13,
+      "guide": "c-68"
      },
      "theory": "Compás compuesto 9/8",
      "practice": [
@@ -1123,19 +1153,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "title": "Extensión 3-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Re♭ mayor"
+      "inKey": "Re♭ mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 29,
       "skill": "Melodía de amplio registro con octava alta y notas repetidas",
       "key": "Do mayor",
-      "page": 15
+      "page": 15,
+      "guide": "c-68"
      },
      "theory": "Dosillo",
      "practice": [
@@ -1160,19 +1193,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 25,
       "skill": "Acordes y dobles notas en la derecha sobre bajo Alberti legato",
       "key": "Do mayor",
-      "page": 13
+      "page": 13,
+      "guide": "c-eighth"
      },
      "theory": "Terceras paralelas",
      "practice": [
@@ -1197,19 +1233,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 18,
-      "title": "Los cinco dedos (II)"
+      "title": "Los cinco dedos (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 28,
       "skill": "Saltos y extensiones melódicas sobre bajo Alberti",
       "key": "Do mayor",
-      "page": 14
+      "page": 14,
+      "guide": "c-eighth"
      },
      "theory": "Cambio de armadura enharmónico",
      "practice": [
@@ -1234,19 +1273,22 @@ window.DATA = {
      "need": "polyrhythm-2v3",
      "warmup": {
       "no": 19,
-      "title": "Los cinco dedos (III)"
+      "title": "Los cinco dedos (III)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 18,
       "skill": "Semicorcheas continuas de cinco dedos, igualdad e independencia",
       "key": "Do mayor",
-      "page": 10
+      "page": 10,
+      "guide": "c-sixteenth"
      },
      "theory": "Acordes con séptima y novena",
      "practice": [
@@ -1271,19 +1313,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Pedal de resonancia y arpegio",
      "practice": [
@@ -1308,19 +1353,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "title": "Extensión entre los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 34,
       "title": "Paso del pulgar bajo el dedo 4",
       "skill": "Pasa el pulgar por debajo del dedo 4.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 31,
       "skill": "Terceras y sextas en la derecha sobre bajo Alberti legato",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Rubato",
      "practice": [
@@ -1345,19 +1393,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 2,
-      "title": "Dedos 3 y 4"
+      "title": "Dedos 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 35,
       "skill": "Acordes repetidos con saltos de bajo en la izquierda",
       "key": "Do mayor",
-      "page": 18
+      "page": 18,
+      "guide": "c-chords"
      },
      "theory": "Compás compuesto 9/8",
      "practice": [
@@ -1600,19 +1651,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Progresión IV–V–iii–vi",
      "practice": [
@@ -1637,19 +1691,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 18,
-      "title": "Los cinco dedos (II)"
+      "title": "Los cinco dedos (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "La menor / Do mayor"
+      "inKey": "La menor / Do mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Acorde maj7",
      "practice": [
@@ -1674,19 +1731,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 19,
-      "title": "Los cinco dedos (III)"
+      "title": "Los cinco dedos (III)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 42,
       "title": "Arpegios de séptima disminuida",
       "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
-      "inKey": "La menor / Do mayor"
+      "inKey": "La menor / Do mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Dominante del relativo menor",
      "practice": [
@@ -1711,19 +1771,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Bajo cromático descendente",
      "practice": [
@@ -1748,19 +1811,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "title": "Extensión entre los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Cambio de registro (8va)",
      "practice": [
@@ -1785,19 +1851,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 2,
-      "title": "Dedos 3 y 4"
+      "title": "Dedos 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Cambio de compás puntual",
      "practice": [
@@ -1822,19 +1891,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Acorde arpegiado",
      "practice": [
@@ -1859,19 +1931,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Progresión IV–V–iii–vi",
      "practice": [
@@ -1896,19 +1971,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "La menor / Do mayor"
+      "inKey": "La menor / Do mayor",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 20,
       "skill": "Escalas con paso del pulgar sobre bajo Alberti",
       "key": "Do mayor",
-      "page": 11
+      "page": 11,
+      "guide": "c-eighth"
      },
      "theory": "Acorde maj7",
      "practice": [
@@ -2109,19 +2187,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "title": "Extensión entre los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Acordes con segundas (clusters suaves)",
      "practice": [
@@ -2146,19 +2227,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 2,
-      "title": "Dedos 3 y 4"
+      "title": "Dedos 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Rubato",
      "practice": [
@@ -2183,19 +2267,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 11,
       "skill": "Cinco dedos con mano quieta: negras ligadas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-quarter"
      },
      "theory": "Cambio de compás",
      "practice": [
@@ -2220,19 +2307,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Dosillo de corcheas",
      "practice": [
@@ -2257,19 +2347,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Tonalidad menor y su relativo mayor",
      "practice": [
@@ -2294,19 +2387,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 34,
       "title": "Paso del pulgar bajo el dedo 4",
       "skill": "Pasa el pulgar por debajo del dedo 4.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 3,
       "skill": "Lectura de notas con líneas adicionales graves en la mano izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Sensible y acorde de dominante",
      "practice": [
@@ -2547,19 +2643,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Escala pentatónica",
      "practice": [
@@ -2584,19 +2683,22 @@ window.DATA = {
      "need": "repeated-notes",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 44,
       "title": "Notas repetidas en grupos de tres",
       "skill": "Repite cada nota tres veces cambiando de dedo, sin levantar mano ni muñeca.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-repeated"
      },
      "czerny": {
       "no": 17,
       "skill": "Notas repetidas y terceras staccato sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 9
+      "page": 9,
+      "guide": "c-sixteenth"
      },
      "theory": "Ostinato",
      "practice": [
@@ -2621,19 +2723,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Cambio de compás (12/8 a 4/4)",
      "practice": [
@@ -2658,19 +2763,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Re♭ mayor / Si♭ menor"
+      "inKey": "Re♭ mayor / Si♭ menor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Progresión IV–V–vi (cadencia que no reposa)",
      "practice": [
@@ -2695,19 +2803,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Melodía doblada en octavas y cuartas",
      "practice": [
@@ -2732,19 +2843,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Trémolo",
      "practice": [
@@ -2769,19 +2883,22 @@ window.DATA = {
      "need": "syncopation",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Dinámica en terrazas y crescendo largo",
      "practice": [
@@ -2806,19 +2923,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "title": "Extensión 3-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Escala pentatónica",
      "practice": [
@@ -2843,19 +2963,22 @@ window.DATA = {
      "need": "staccato",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 45,
       "title": "Notas repetidas en grupos de dos",
       "skill": "Repite cada nota dos veces con seis digitaciones distintas, usando los cinco dedos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-repeated"
      },
      "czerny": {
       "no": 24,
       "skill": "Terceras ligadas y staccato en 6/8 sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 13
+      "page": 13,
+      "guide": "c-68"
      },
      "theory": "Ostinato",
      "practice": [
@@ -3079,19 +3202,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Mi menor"
+      "inKey": "Mi menor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Ostinato de acompañamiento",
      "practice": [
@@ -3116,19 +3242,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 42,
       "title": "Arpegios de séptima disminuida",
       "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
-      "inKey": "Mi menor"
+      "inKey": "Mi menor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Modulación por cambio de armadura",
      "practice": [
@@ -3153,19 +3282,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Cadencia eólica VI–VII–i",
      "practice": [
@@ -3190,19 +3322,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Cambio de compás",
      "practice": [
@@ -3227,19 +3362,22 @@ window.DATA = {
      "need": "trills",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 27,
       "title": "Preparación del trino con 4 y 5",
       "skill": "Prepara los dedos 4 y 5 para el trino que aparece más adelante.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-trill"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Trémolo",
      "practice": [
@@ -3264,19 +3402,22 @@ window.DATA = {
      "need": "legato-thirds-rh",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 9,
       "skill": "Melodía en negras sobre terceras y acordes tenidos de la izquierda",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Entrada a contratiempo",
      "practice": [
@@ -3301,19 +3442,22 @@ window.DATA = {
      "need": "syncopation",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Ostinato de acompañamiento",
      "practice": [
@@ -3338,19 +3482,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 23,
       "title": "Dedos 3, 4 y 5",
       "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 3,
       "skill": "Lectura de notas con líneas adicionales graves en la mano izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Modulación por cambio de armadura",
      "practice": [
@@ -3593,19 +3740,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 19,
-      "title": "Los cinco dedos (III)"
+      "title": "Los cinco dedos (III)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Progresión IV–V–iii–vi",
      "practice": [
@@ -3630,19 +3780,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Do mayor / La menor"
+      "inKey": "Do mayor / La menor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Anacrusa",
      "practice": [
@@ -3667,19 +3820,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "title": "Extensión entre los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Sextas paralelas",
      "practice": [
@@ -3704,19 +3860,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 2,
-      "title": "Dedos 3 y 4"
+      "title": "Dedos 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Tresillo de negras",
      "practice": [
@@ -3741,19 +3900,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 11,
       "skill": "Cinco dedos con mano quieta: negras ligadas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-quarter"
      },
      "theory": "Acordes prestados (intercambio modal)",
      "practice": [
@@ -3778,19 +3940,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 34,
       "title": "Paso del pulgar bajo el dedo 4",
       "skill": "Pasa el pulgar por debajo del dedo 4.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Bajo cromático",
      "practice": [
@@ -3815,19 +3980,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Acorde arpegiado",
      "practice": [
@@ -3852,19 +4020,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Progresión IV–V–iii–vi",
      "practice": [
@@ -3889,19 +4060,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 23,
       "title": "Dedos 3, 4 y 5",
       "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 6,
       "skill": "Negras alternadas entre ambas manos, diálogo de cinco dedos",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Anacrusa",
      "practice": [
@@ -4131,19 +4305,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Bajo cromático descendente (cliché de línea)",
      "practice": [
@@ -4168,19 +4345,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Mi mayor"
+      "inKey": "Mi mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Compás de 3/4",
      "practice": [
@@ -4205,19 +4385,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 42,
       "title": "Arpegios de séptima disminuida",
       "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
-      "inKey": "Mi mayor"
+      "inKey": "Mi mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Ostinato melódico",
      "practice": [
@@ -4242,19 +4425,22 @@ window.DATA = {
      "need": "legato-thirds-rh",
      "warmup": {
       "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "title": "Extensión 3-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 9,
       "skill": "Melodía en negras sobre terceras y acordes tenidos de la izquierda",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Ritmo con puntillo",
      "practice": [
@@ -4279,19 +4465,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "Mi mayor"
+      "inKey": "Mi mayor",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Cambios de tempo con carácter",
      "practice": [
@@ -4316,19 +4505,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 18,
-      "title": "Los cinco dedos (II)"
+      "title": "Los cinco dedos (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Forma ternaria (A–B–A)",
      "practice": [
@@ -4353,19 +4545,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 19,
-      "title": "Los cinco dedos (III)"
+      "title": "Los cinco dedos (III)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Bajo cromático descendente (cliché de línea)",
      "practice": [
@@ -4390,19 +4585,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 20,
-      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4"
+      "title": "Extensiones 2-4 y 4-5, dedos 2-3-4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Compás de 3/4",
      "practice": [
@@ -4620,19 +4818,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Compás compuesto 6/8",
      "practice": [
@@ -4657,19 +4858,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Do mayor (con color de La menor)"
+      "inKey": "Do mayor (con color de La menor)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Ambigüedad entre Do mayor y La menor",
      "practice": [
@@ -4694,19 +4898,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Dominante secundaria (V de vi)",
      "practice": [
@@ -4731,19 +4938,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Acorde prestado ♭VII (Si♭ mayor)",
      "practice": [
@@ -4768,19 +4978,22 @@ window.DATA = {
      "need": "legato-thirds-rh",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 50,
       "title": "Terceras ligadas",
       "skill": "Terceras ligadas, escalas en terceras ligadas y escalas cromáticas en terceras menores.",
-      "inKey": "Do mayor (con color de La menor)"
+      "inKey": "Do mayor (con color de La menor)",
+      "guide": "h-thirds"
      },
      "czerny": {
       "no": 9,
       "skill": "Melodía en negras sobre terceras y acordes tenidos de la izquierda",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Nota pedal",
      "practice": [
@@ -4805,19 +5018,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 11,
       "skill": "Cinco dedos con mano quieta: negras ligadas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-quarter"
      },
      "theory": "Adorno escrito (grupeto en fusas)",
      "practice": [
@@ -4842,19 +5058,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 34,
       "title": "Paso del pulgar bajo el dedo 4",
       "skill": "Pasa el pulgar por debajo del dedo 4.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Signo de 8va",
      "practice": [
@@ -5082,19 +5301,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Fa♯ mayor (con una sección central centrada en Re♯ menor)"
+      "inKey": "Fa♯ mayor (con una sección central centrada en Re♯ menor)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Armadura de seis sostenidos",
      "practice": [
@@ -5119,19 +5341,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Ostinato",
      "practice": [
@@ -5156,19 +5381,22 @@ window.DATA = {
      "need": "polyrhythm-2v3",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 12,
       "skill": "Cinco dedos con mano quieta en corcheas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-eighth"
      },
      "theory": "Hemiolia (2 contra 3)",
      "practice": [
@@ -5193,19 +5421,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Alternancia IV – iii",
      "practice": [
@@ -5230,19 +5461,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Relativo menor",
      "practice": [
@@ -5267,19 +5501,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 23,
       "title": "Dedos 3, 4 y 5",
       "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Acorde con séptima mayor (maj7)",
      "practice": [
@@ -5304,19 +5541,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "Fa♯ mayor (con una sección central centrada en Re♯ menor)"
+      "inKey": "Fa♯ mayor (con una sección central centrada en Re♯ menor)",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Ritmo con puntillo",
      "practice": [
@@ -5341,19 +5581,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Armadura de seis sostenidos",
      "practice": [
@@ -5582,19 +5825,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Fa mayor"
+      "inKey": "Fa mayor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Progresión IV – V – iii – vi",
      "practice": [
@@ -5619,19 +5865,22 @@ window.DATA = {
      "need": "syncopation",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Síncopa por ligadura (anticipación)",
      "practice": [
@@ -5656,19 +5905,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Secuencia melódica",
      "practice": [
@@ -5693,19 +5945,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Acordes con notas añadidas (add9/sus2)",
      "practice": [
@@ -5730,19 +5985,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Transporte",
      "practice": [
@@ -5767,19 +6025,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "Fa mayor"
+      "inKey": "Fa mayor",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Textura acumulativa",
      "practice": [
@@ -5804,19 +6065,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 23,
       "title": "Dedos 3, 4 y 5",
       "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Final abierto sobre el vi",
      "practice": [
@@ -5841,19 +6105,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Progresión IV – V – iii – vi",
      "practice": [
@@ -5878,19 +6145,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Síncopa por ligadura (anticipación)",
      "practice": [
@@ -6126,19 +6396,22 @@ window.DATA = {
      "need": "scales-fast",
      "warmup": {
       "no": 1,
-      "title": "Extensión entre los dedos 4 y 5"
+      "title": "Extensión entre los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 38,
       "title": "Preparación para las escalas",
       "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
-      "inKey": "Re menor (sección central en Sol menor)"
+      "inKey": "Re menor (sección central en Sol menor)",
+      "guide": "h-scales"
      },
      "czerny": {
       "no": 22,
       "skill": "Escalas en semicorcheas con paso del pulgar sobre notas repetidas",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-sixteenth"
      },
      "theory": "Modulación a la subdominante menor",
      "practice": [
@@ -6163,19 +6436,22 @@ window.DATA = {
      "need": "repeated-notes",
      "warmup": {
       "no": 2,
-      "title": "Dedos 3 y 4"
+      "title": "Dedos 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 44,
       "title": "Notas repetidas en grupos de tres",
       "skill": "Repite cada nota tres veces cambiando de dedo, sin levantar mano ni muñeca.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-repeated"
      },
      "czerny": {
       "no": 29,
       "skill": "Melodía de amplio registro con octava alta y notas repetidas",
       "key": "Do mayor",
-      "page": 15
+      "page": 15,
+      "guide": "c-68"
      },
      "theory": "Cambio de compás",
      "practice": [
@@ -6200,19 +6476,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 3,
-      "title": "Dedos 2, 3 y 4"
+      "title": "Dedos 2, 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 31,
       "skill": "Terceras y sextas en la derecha sobre bajo Alberti legato",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Escala menor armónica y sensible",
      "practice": [
@@ -6237,19 +6516,22 @@ window.DATA = {
      "need": "trills",
      "warmup": {
       "no": 4,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 27,
       "title": "Preparación del trino con 4 y 5",
       "skill": "Prepara los dedos 4 y 5 para el trino que aparece más adelante.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-trill"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Indicaciones de carácter: Lamentoso y Agitato",
      "practice": [
@@ -6274,19 +6556,22 @@ window.DATA = {
      "need": "polyrhythm-2v3",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 18,
       "skill": "Semicorcheas continuas de cinco dedos, igualdad e independencia",
       "key": "Do mayor",
-      "page": 10
+      "page": 10,
+      "guide": "c-sixteenth"
      },
      "theory": "Grupos irregulares (tresillo, quintillo, seisillo)",
      "practice": [
@@ -6311,19 +6596,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Re menor (sección central en Sol menor)"
+      "inKey": "Re menor (sección central en Sol menor)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 34,
       "skill": "Dobles notas en la derecha sobre acordes quebrados en clave de fa",
       "key": "Do mayor",
-      "page": 18
+      "page": 18,
+      "guide": "c-68"
      },
      "theory": "Adornos: apoyatura, trino y acorde arpegiado",
      "practice": [
@@ -6348,19 +6636,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 25,
       "skill": "Acordes y dobles notas en la derecha sobre bajo Alberti legato",
       "key": "Do mayor",
-      "page": 13
+      "page": 13,
+      "guide": "c-eighth"
      },
      "theory": "Pedal de dominante",
      "practice": [
@@ -6385,19 +6676,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "Re menor (sección central en Sol menor)"
+      "inKey": "Re menor (sección central en Sol menor)",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 28,
       "skill": "Saltos y extensiones melódicas sobre bajo Alberti",
       "key": "Do mayor",
-      "page": 14
+      "page": 14,
+      "guide": "c-eighth"
      },
      "theory": "Modulación a la subdominante menor",
      "practice": [
@@ -6630,19 +6924,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Ostinato",
      "practice": [
@@ -6667,19 +6964,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Acordes con notas añadidas (maj7, 9, ♯11)",
      "practice": [
@@ -6704,19 +7004,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Do mayor (con color de Fa lidio)"
+      "inKey": "Do mayor (con color de Fa lidio)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Modo lidio",
      "practice": [
@@ -6741,19 +7044,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Acorde arpegiado",
      "practice": [
@@ -6778,19 +7084,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Dominante secundaria (V de vi)",
      "practice": [
@@ -6815,19 +7124,22 @@ window.DATA = {
      "need": "syncopation",
      "warmup": {
       "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "title": "Extensión 3-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Síncopa y ritmo 3+3+2",
      "practice": [
@@ -6852,19 +7164,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 23,
       "title": "Dedos 3, 4 y 5",
       "skill": "Patrón de dos tiempos para los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "8va (octava alta)",
      "practice": [
@@ -6889,19 +7204,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 18,
-      "title": "Los cinco dedos (II)"
+      "title": "Los cinco dedos (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Ostinato",
      "practice": [
@@ -6926,19 +7244,22 @@ window.DATA = {
      "need": "scales-fast",
      "warmup": {
       "no": 19,
-      "title": "Los cinco dedos (III)"
+      "title": "Los cinco dedos (III)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 38,
       "title": "Preparación para las escalas",
       "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
-      "inKey": "Do mayor (con color de Fa lidio)"
+      "inKey": "Do mayor (con color de Fa lidio)",
+      "guide": "h-scales"
      },
      "czerny": {
       "no": 19,
       "skill": "Primer paso del pulgar: escala de Do en corcheas",
       "key": "Do mayor",
-      "page": 11
+      "page": 11,
+      "guide": "c-eighth"
      },
      "theory": "Acordes con notas añadidas (maj7, 9, ♯11)",
      "practice": [
@@ -7147,19 +7468,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Do mayor (con inicio en Fa lidio)"
+      "inKey": "Do mayor (con inicio en Fa lidio)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Compás de 3/4 (vals)",
      "practice": [
@@ -7184,19 +7508,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Modo lidio",
      "practice": [
@@ -7221,19 +7548,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Bajo descendente por grados",
      "practice": [
@@ -7258,19 +7588,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 42,
       "title": "Arpegios de séptima disminuida",
       "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
-      "inKey": "Do mayor (con inicio en Fa lidio)"
+      "inKey": "Do mayor (con inicio en Fa lidio)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Acorde prestado (♭VII)",
      "practice": [
@@ -7295,19 +7628,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Cambios de tempo",
      "practice": [
@@ -7332,19 +7668,22 @@ window.DATA = {
      "need": "finger-independence",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 2,
       "skill": "Lectura de notas en registro agudo, blancas y redondas",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Grupos irregulares",
      "practice": [
@@ -7369,19 +7708,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 11,
       "skill": "Cinco dedos con mano quieta: negras ligadas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-quarter"
      },
      "theory": "Compás de 3/4 (vals)",
      "practice": [
@@ -7616,19 +7958,22 @@ window.DATA = {
      "need": "rubato",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Tonalidades relativas",
      "practice": [
@@ -7653,19 +7998,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Re mayor / Si menor (relativos)"
+      "inKey": "Re mayor / Si menor (relativos)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Tempo libre y rubato",
      "practice": [
@@ -7690,19 +8038,22 @@ window.DATA = {
      "need": "lh-broken-chords",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 42,
       "title": "Arpegios de séptima disminuida",
       "skill": "Extensión de los dedos en arpegios de acordes de séptima disminuida.",
-      "inKey": "Re mayor / Si menor (relativos)"
+      "inKey": "Re mayor / Si menor (relativos)",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Cambios de compás",
      "practice": [
@@ -7727,19 +8078,22 @@ window.DATA = {
      "need": "polyrhythm-2v3",
      "warmup": {
       "no": 14,
-      "title": "Preparación del trino con 3 y 4 (II)"
+      "title": "Preparación del trino con 3 y 4 (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 12,
       "skill": "Cinco dedos con mano quieta en corcheas sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 6
+      "page": 6,
+      "guide": "c-eighth"
      },
      "theory": "Tresillos y dos contra tres",
      "practice": [
@@ -7764,19 +8118,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 15,
-      "title": "Extensión 1-2 y los cinco dedos"
+      "title": "Extensión 1-2 y los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 5,
       "skill": "Negras por grado conjunto en la derecha sobre blancas de la izquierda",
       "key": "Do mayor",
-      "page": 4
+      "page": 4,
+      "guide": "c-quarter"
      },
      "theory": "Calderón",
      "practice": [
@@ -7801,19 +8158,22 @@ window.DATA = {
      "need": "voicing-melody-top",
      "warmup": {
       "no": 16,
-      "title": "Extensión 3-5 y dedos 3-4-5"
+      "title": "Extensión 3-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 22,
       "title": "Dedos 3, 4 y 5 (como el n.º 21)",
       "skill": "Mismo objetivo que el n.º 21: independencia de los dedos 3, 4 y 5.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 6,
       "skill": "Negras alternadas entre ambas manos, diálogo de cinco dedos",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Sol♯ y color dórico",
      "practice": [
@@ -7838,19 +8198,22 @@ window.DATA = {
      "need": "scales-fast",
      "warmup": {
       "no": 17,
-      "title": "Extensiones 1-2, 2-4 y 4-5"
+      "title": "Extensiones 1-2, 2-4 y 4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 38,
       "title": "Preparación para las escalas",
       "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
-      "inKey": "Re mayor / Si menor (relativos)"
+      "inKey": "Re mayor / Si menor (relativos)",
+      "guide": "h-scales"
      },
      "czerny": {
       "no": 19,
       "skill": "Primer paso del pulgar: escala de Do en corcheas",
       "key": "Do mayor",
-      "page": 11
+      "page": 11,
+      "guide": "c-eighth"
      },
      "theory": "8va, 15ma y 8vb",
      "practice": [
@@ -7875,19 +8238,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 18,
-      "title": "Los cinco dedos (II)"
+      "title": "Los cinco dedos (II)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Tonalidades relativas",
      "practice": [
@@ -8125,19 +8491,22 @@ window.DATA = {
      "need": "wrist-rotation",
      "warmup": {
       "no": 5,
-      "title": "Los cinco dedos, articulación alta"
+      "title": "Los cinco dedos, articulación alta",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 48,
       "title": "Ejercicio de muñeca: terceras y sextas sueltas",
       "skill": "Terceras y sextas destacadas con movimiento flexible de muñeca y brazos quietos.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-wrist"
      },
      "czerny": {
       "no": 14,
       "skill": "Terceras en la derecha sobre bajo Alberti en corcheas",
       "key": "Do mayor",
-      "page": 7
+      "page": 7,
+      "guide": "c-eighth"
      },
      "theory": "Pedal de tónica",
      "practice": [
@@ -8162,19 +8531,22 @@ window.DATA = {
      "need": "octaves",
      "warmup": {
       "no": 6,
-      "title": "Dedo 5"
+      "title": "Dedo 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 51,
       "title": "Preparación para escalas en octavas",
       "skill": "Octavas con muñeca flexible, sin rigidez, como preparación para las escalas en octavas.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 21,
       "skill": "Terceras y sextas ligadas con acompañamiento de vals",
       "key": "Do mayor",
-      "page": 12
+      "page": 12,
+      "guide": "c-waltz"
      },
      "theory": "Tresillos de corchea",
      "practice": [
@@ -8199,19 +8571,22 @@ window.DATA = {
      "need": "chords-blocked",
      "warmup": {
       "no": 7,
-      "title": "Dedos 3, 4 y 5 (muy importante)"
+      "title": "Dedos 3, 4 y 5 (muy importante)",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 53,
       "title": "Escalas en octavas en las 24 tonalidades",
       "skill": "Escalas en octavas en todas las tonalidades con movimiento de muñeca.",
-      "inKey": "Re menor"
+      "inKey": "Re menor",
+      "guide": "h-octaves"
      },
      "czerny": {
       "no": 8,
       "skill": "Acordes de tríada en la derecha con izquierda en blancas",
       "key": "Do mayor",
-      "page": 5
+      "page": 5,
+      "guide": "c-quarter"
      },
      "theory": "Escala menor natural y modo eólico",
      "practice": [
@@ -8236,19 +8611,22 @@ window.DATA = {
      "need": "lh-arpeggios-wide",
      "warmup": {
       "no": 8,
-      "title": "Los cinco dedos"
+      "title": "Los cinco dedos",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 41,
       "title": "Arpegios de tríadas en las 24 tonalidades",
       "skill": "Arpegios de acordes perfectos mayores y menores en todas las tonalidades.",
-      "inKey": "Re menor"
+      "inKey": "Re menor",
+      "guide": "h-arp"
      },
      "czerny": {
       "no": 15,
       "skill": "Tresillos y corcheas en figuras quebradas de cinco dedos",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-eighth"
      },
      "theory": "Dominante con sensible (Do♯)",
      "practice": [
@@ -8273,19 +8651,22 @@ window.DATA = {
      "need": "repeated-notes",
      "warmup": {
       "no": 9,
-      "title": "Extensión de los dedos 4 y 5"
+      "title": "Extensión de los dedos 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 44,
       "title": "Notas repetidas en grupos de tres",
       "skill": "Repite cada nota tres veces cambiando de dedo, sin levantar mano ni muñeca.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-repeated"
      },
      "czerny": {
       "no": 17,
       "skill": "Notas repetidas y terceras staccato sobre acordes tenidos",
       "key": "Do mayor",
-      "page": 9
+      "page": 9,
+      "guide": "c-sixteenth"
      },
      "theory": "Síncopa por ligadura",
      "practice": [
@@ -8310,19 +8691,22 @@ window.DATA = {
      "need": "scales-fast",
      "warmup": {
       "no": 10,
-      "title": "Preparación del trino con 3 y 4"
+      "title": "Preparación del trino con 3 y 4",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 38,
       "title": "Preparación para las escalas",
       "skill": "Fragmentos de escala con paso del pulgar como preparación al estudio de las escalas.",
-      "inKey": "Re menor"
+      "inKey": "Re menor",
+      "guide": "h-scales"
      },
      "czerny": {
       "no": 19,
       "skill": "Primer paso del pulgar: escala de Do en corcheas",
       "key": "Do mayor",
-      "page": 11
+      "page": 11,
+      "guide": "c-eighth"
      },
      "theory": "Indicaciones de carácter",
      "practice": [
@@ -8347,19 +8731,22 @@ window.DATA = {
      "need": "dynamics-range",
      "warmup": {
       "no": 11,
-      "title": "Preparación del trino con 4 y 5"
+      "title": "Preparación del trino con 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 32,
       "title": "Paso del pulgar bajo el dedo 2",
       "skill": "Pasa el pulgar por debajo del dedo 2.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 30,
       "skill": "Melodía dolce con grupos rápidos de adorno y matices",
       "key": "Do mayor",
-      "page": 16
+      "page": 16,
+      "guide": "c-waltz"
      },
      "theory": "Pedal de tónica",
      "practice": [
@@ -8384,19 +8771,22 @@ window.DATA = {
      "need": "pedal-legato",
      "warmup": {
       "no": 12,
-      "title": "Extensión 1-5 y dedos 3-4-5"
+      "title": "Extensión 1-5 y dedos 3-4-5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 33,
       "title": "Paso del pulgar bajo el dedo 3",
       "skill": "Pasa el pulgar por debajo del dedo 3.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-thumb"
      },
      "czerny": {
       "no": 1,
       "skill": "Lectura de notas en redondas y blancas, manos alternadas en posición fija",
       "key": "Do mayor",
-      "page": 3
+      "page": 3,
+      "guide": "c-quarter"
      },
      "theory": "Tresillos de corchea",
      "practice": [
@@ -8421,19 +8811,22 @@ window.DATA = {
      "need": "syncopation",
      "warmup": {
       "no": 13,
-      "title": "Dedos 3, 4 y 5"
+      "title": "Dedos 3, 4 y 5",
+      "guide": "h-warm"
      },
      "hanon": {
       "no": 21,
       "title": "Ejercicio trascendente: dedos 3, 4 y 5",
       "skill": "Primer ejercicio de la Parte II: el trabajo de 3-4-5 de una mano se repite invertido en la otra dentro del mismo compás.",
-      "inKey": null
+      "inKey": null,
+      "guide": "h-345"
      },
      "czerny": {
       "no": 16,
       "skill": "Semicorcheas de cinco dedos con final staccato",
       "key": "Do mayor",
-      "page": 8
+      "page": 8,
+      "guide": "c-sixteenth"
      },
      "theory": "Escala menor natural y modo eólico",
      "practice": [
@@ -10726,5 +11119,342 @@ window.DATA = {
     "Practica la terminación del trino aparte y únela al final."
    ]
   }
- ]
+ ],
+ "guide": {
+  "note": "How to practise each Hanon and Czerny exercise. Hanon Parts I-II tempos follow Hanon's own 60-108 marking; Part III and Czerny ranges are recommendations (the Czerny catalog has no printed tempo). Keep in sync with DECISIONES.md section 5.",
+  "method": [
+   "Empieza al tempo inicial, o más lento si hace falta: la velocidad correcta es la que te permite tocar sin errores y sin tensión.",
+   "Cuando lo toques tres veces seguidas limpio y relajado, sube el metrónomo 4 bpm.",
+   "Si fallas dos veces seguidas, baja 8 bpm y vuelve a subir.",
+   "Empieza cada día unos 8 bpm por debajo del máximo del día anterior.",
+   "El tempo objetivo es una meta de meses. Si notas tensión o dolor, para y baja la velocidad."
+  ],
+  "hanon": [
+   {
+    "nos": [
+     21,
+     22,
+     23
+    ],
+    "g": "h-345"
+   },
+   {
+    "nos": [
+     27,
+     46
+    ],
+    "g": "h-trill"
+   },
+   {
+    "nos": [
+     31
+    ],
+    "g": "h-stretch"
+   },
+   {
+    "nos": [
+     32,
+     33,
+     34,
+     35,
+     36,
+     37
+    ],
+    "g": "h-thumb"
+   },
+   {
+    "nos": [
+     38,
+     39
+    ],
+    "g": "h-scales"
+   },
+   {
+    "nos": [
+     41,
+     42,
+     43
+    ],
+    "g": "h-arp"
+   },
+   {
+    "nos": [
+     44,
+     45,
+     47
+    ],
+    "g": "h-repeated"
+   },
+   {
+    "nos": [
+     48
+    ],
+    "g": "h-wrist"
+   },
+   {
+    "nos": [
+     50
+    ],
+    "g": "h-thirds"
+   },
+   {
+    "nos": [
+     51,
+     53
+    ],
+    "g": "h-octaves"
+   }
+  ],
+  "czerny": [
+   {
+    "nos": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "g": "c-quarter"
+   },
+   {
+    "nos": [
+     12,
+     13,
+     14,
+     15,
+     19,
+     20,
+     25,
+     28
+    ],
+    "g": "c-eighth"
+   },
+   {
+    "nos": [
+     16,
+     17,
+     18,
+     22
+    ],
+    "g": "c-sixteenth"
+   },
+   {
+    "nos": [
+     21,
+     30,
+     31
+    ],
+    "g": "c-waltz"
+   },
+   {
+    "nos": [
+     24,
+     29,
+     34
+    ],
+    "g": "c-68"
+   },
+   {
+    "nos": [
+     35
+    ],
+    "g": "c-chords"
+   }
+  ],
+  "groups": {
+   "h-warm": {
+    "title": "Hanon, Parte I",
+    "tempo": "Empieza en ♩ = 60 en semicorcheas (o en corcheas si cuesta). Objetivo: ♩ = 88–92. Hanon indica subir hasta ♩ = 108, pero no hace falta para el concierto.",
+    "steps": [
+     "Manos juntas, a una octava de distancia.",
+     "Dedos curvos, levantándolos con precisión, sin tensión en la muñeca ni en el hombro. Todas las notas igual de fuertes: es un ejercicio de igualdad, no de velocidad.",
+     "Sube dos octavas y baja sin pausa en el cambio de dirección.",
+     "Para variar: un día legato, otro staccato, otro con ritmos alterados (larga-corta), otro piano y otro forte.",
+     "Son 5 minutos para despertar los dedos: no busques el récord de velocidad."
+    ]
+   },
+   "h-part2": {
+    "title": "Hanon, Parte II",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 84–92 (Hanon indica hasta ♩ = 108).",
+    "steps": [
+     "Primero manos separadas, después juntas.",
+     "Busca igualdad de sonido entre todos los dedos.",
+     "Sube el tempo con el método del metrónomo."
+    ]
+   },
+   "h-part3": {
+    "title": "Hanon, Parte III",
+    "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80 (recomendación).",
+    "steps": [
+     "Primero manos separadas y lento.",
+     "Haz pocas repeticiones con descansos: estos ejercicios cansan rápido.",
+     "Si el antebrazo se tensa, para y sacude la mano."
+    ]
+   },
+   "h-345": {
+    "title": "Dedos 3, 4 y 5",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88.",
+    "steps": [
+     "Primero manos separadas: la izquierda suele ser la más débil.",
+     "Exagera un poco la articulación de los dedos 4 y 5 sin levantar la muñeca.",
+     "Haz una pasada con ritmos alterados para igualar los dedos."
+    ]
+   },
+   "h-trill": {
+    "title": "Preparación del trino",
+    "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80.",
+    "steps": [
+     "El trino sale de la soltura, no de la fuerza: levanta poco los dedos.",
+     "Deja que la mano descanse sobre los dedos que tocan.",
+     "Mide el trino con el metrónomo (exactamente 4 notas por pulso) antes de intentar que sea rápido."
+    ]
+   },
+   "h-stretch": {
+    "title": "Cinco dedos y extensiones",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88.",
+    "steps": [
+     "Abre la mano sin forzar.",
+     "Si una extensión tensa la mano, ciérrala después de cada extensión para soltarla."
+    ]
+   },
+   "h-thumb": {
+    "title": "Paso del pulgar",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92.",
+    "steps": [
+     "El pulgar se mueve por debajo de la mano antes de que lo necesites, no en el último momento.",
+     "El codo y la muñeca acompañan hacia el lado, sin girarse bruscamente.",
+     "Escucha que no haya hueco ni acento en la nota del pulgar."
+    ]
+   },
+   "h-scales": {
+    "title": "Escalas",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92.",
+    "steps": [
+     "Tócalo en la tonalidad que indica la sesión, con la digitación de la escala de esa tonalidad.",
+     "Primero manos separadas, después juntas.",
+     "Usa la estrategia «Escalera de tempo» para subir de velocidad."
+    ]
+   },
+   "h-arp": {
+    "title": "Arpegios",
+    "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80.",
+    "steps": [
+     "Muñeca y codo viajan con la mano en una línea horizontal, sin saltos.",
+     "El pulgar pasa con la mano ya en camino.",
+     "Primero toca cada posición como acorde en bloque para aprender la forma; después arpégiala."
+    ]
+   },
+   "h-repeated": {
+    "title": "Notas repetidas",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88.",
+    "steps": [
+     "Cambia de dedo en cada repetición (por ejemplo, 4-3-2-1).",
+     "El dedo tira de la tecla hacia ti, como raspando, con la muñeca suelta.",
+     "Deja que la tecla suba solo hasta la mitad antes de volver a tocar."
+    ]
+   },
+   "h-wrist": {
+    "title": "Muñeca: terceras y sextas sueltas",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92.",
+    "steps": [
+     "El movimiento sale de la muñeca, como si botaras una pelota.",
+     "Dedos firmes pero no rígidos y brazo relajado.",
+     "Si el antebrazo se cansa, para y sacude la mano: el cansancio es señal de tensión."
+    ]
+   },
+   "h-thirds": {
+    "title": "Terceras ligadas",
+    "tempo": "Empieza en ♩ = 40. Objetivo: ♩ = 72.",
+    "steps": [
+     "Las dos notas de cada tercera suenan exactamente juntas.",
+     "Primero lento y en bloque; luego busca el legato en la voz superior, aunque la inferior no pueda ligarse del todo."
+    ]
+   },
+   "h-octaves": {
+    "title": "Octavas",
+    "tempo": "Empieza en ♩ = 40–50. Objetivo: ♩ = 72–80.",
+    "steps": [
+     "La mano es un bloque con forma de octava y el movimiento sale de la muñeca.",
+     "Toca primero solo con el pulgar y después solo con el meñique.",
+     "Usa 1-5 en las teclas blancas y, si tu mano llega, 1-4 en las negras.",
+     "Menos repeticiones y más descanso: las octavas cansan rápido."
+    ]
+   },
+   "c-quarter": {
+    "title": "Estudio en blancas y negras",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108, o el que indique tu partitura.",
+    "steps": "routine"
+   },
+   "c-eighth": {
+    "title": "Estudio en corcheas",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108, o el que indique tu partitura.",
+    "steps": "routine"
+   },
+   "c-sixteenth": {
+    "title": "Estudio en semicorcheas",
+    "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80–92, o el que indique tu partitura.",
+    "steps": "routine"
+   },
+   "c-waltz": {
+    "title": "Estudio en 3/4",
+    "tempo": "Empieza en ♩ = 72. Objetivo: ♩ = 120–132, o el que indique tu partitura.",
+    "steps": "routine"
+   },
+   "c-68": {
+    "title": "Estudio en 6/8",
+    "tempo": "Pulso en negra con puntillo. Empieza en ♩. = 40. Objetivo: ♩. = 60–66.",
+    "steps": "routine"
+   },
+   "c-chords": {
+    "title": "Estudio de acordes repetidos",
+    "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 100, o el que indique tu partitura.",
+    "steps": "routine"
+   },
+   "c-default": {
+    "title": "Estudio de Czerny",
+    "tempo": "Lee la indicación de tu partitura y empieza a unos dos tercios de ese tempo.",
+    "steps": "routine"
+   }
+  },
+  "routine": [
+   "Primer día: léelo completo una vez, lento, aunque salga entrecortado, y marca la digitación.",
+   "Manos separadas hasta que cada una salga fluida; después juntas a la mitad del tempo.",
+   "Respeta ligaduras, staccatos y matices: son parte del ejercicio.",
+   "Está listo cuando lo tocas entero al tempo objetivo, sin parar y con los matices. Si ya te sale bien, pasa al siguiente."
+  ],
+  "czernyNotes": {
+   "1": "Leer sin mirar las manos. Cuenta en voz alta para respetar las duraciones largas.",
+   "2": "Identifica las notas por intervalos desde una nota guía (Do5, Sol5) en lugar de contar líneas.",
+   "3": "Usa Do3 y Do2 como notas guía. Ayuda el entrenador «Notas» en clave de fa.",
+   "5": "Legato perfecto: una tecla sube justo cuando baja la siguiente.",
+   "6": "Que el paso de una mano a la otra no se note: mismo volumen y sin hueco.",
+   "8": "Las tres notas del acorde suenan exactamente juntas. Prepara la forma antes de tocar.",
+   "9": "La melodía más fuerte que el acompañamiento.",
+   "11": "La mano no se mueve, solo los dedos. Notas tenidas hasta su valor completo.",
+   "12": "Igualdad de las corcheas. Haz una pasada con ritmos alterados.",
+   "14": "El bajo Alberti suave y parejo, como un murmullo, con la primera nota apenas marcada.",
+   "15": "No confundas tresillos con corcheas: cuenta «tri-o-la» contra «1-y».",
+   "16": "El staccato final corto y liviano, desde la muñeca, sin cortar el legato anterior.",
+   "17": "Cambia de dedo en las repetidas. Staccato liviano, no golpeado.",
+   "18": "Igualdad e independencia: mismo enfoque que el Hanon de calentamiento.",
+   "19": "El pulgar se prepara antes de llegar, sin acento.",
+   "20": "La escala pareja mientras la izquierda mantiene el bajo suave.",
+   "21": "Siente un pulso por compás: primer tiempo del bajo marcado, los otros dos más suaves.",
+   "22": "El paso del pulgar sin acento a velocidad. Lento al principio.",
+   "24": "Contrasta claramente el legato del staccato. Dos pulsos por compás.",
+   "25": "Acordes justos y juntos; el bajo Alberti legato y suave debajo.",
+   "28": "Mira la nota de destino antes de saltar. Usa «Pausa y preparación».",
+   "29": "Que la melodía cante en la octava alta sin endurecer el sonido.",
+   "30": "El adorno entra a tiempo y suave, sin retrasar la melodía. Matices bien marcados.",
+   "31": "La voz superior de las dobles notas un poco más fuerte. Respeta los matices.",
+   "34": "Lee la izquierda en clave de fa antes de tocar. Equilibrio entre las manos.",
+   "35": "Acordes desde la muñeca, sin golpear. El salto del bajo se prepara durante el silencio."
+  }
+ }
 };

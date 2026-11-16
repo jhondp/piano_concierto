@@ -69,6 +69,22 @@ function practiceHtml(s, sec) {
         <p>${esc(st.why)}</p><ol>${st.steps.map(t => `<li>${esc(t)}</li>`).join("")}</ol><p class="aka">También se conoce como <i>${esc(st.aka)}</i>.</p></details>`; }).join("")}
   </div>`;
 }
+const G = window.DATA.guide || { groups: {} };
+function exercisesHtml(s) {
+  const items = [
+    s.warmup && ["Calentamiento", `Hanon ${s.warmup.no}`, s.warmup.guide, null],
+    s.hanon && ["Técnica", `Hanon ${s.hanon.no}${s.hanon.inKey ? " en " + s.hanon.inKey : ""}`, s.hanon.guide, null],
+    s.czerny && ["Estudio", `Czerny nº ${s.czerny.no}`, s.czerny.guide, (G.czernyNotes || {})[s.czerny.no]],
+  ].filter(x => x && G.groups[x[2]]);
+  if (!items.length) return "";
+  return `<div class="practice"><h4>Cómo practicar los ejercicios</h4>
+    ${items.map(([kind, what, gid, note]) => { const g = G.groups[gid], steps = g.steps === "routine" ? G.routine : g.steps;
+      return `<details class="tech"><summary><span class="tn">${esc(kind)}: ${esc(what)}</span><span class="tf">${esc(g.tempo)}</span></summary>
+        ${note ? `<p><b>En qué fijarte:</b> ${esc(note)}</p>` : ""}<ol>${steps.map(t => `<li>${esc(t)}</li>`).join("")}</ol></details>`; }).join("")}
+    <details class="tech"><summary><span class="tn">Cómo subir el tempo</span><span class="tf">Vale para todos los ejercicios</span></summary>
+      <ol>${(G.method || []).map(t => `<li>${esc(t)}</li>`).join("")}</ol></details>
+  </div>`;
+}
 $("sessions").innerHTML = p.sessions.map((s, i) => {
   const sec = p.sections[i];
   const tasks = [
@@ -83,7 +99,7 @@ $("sessions").innerHTML = p.sessions.map((s, i) => {
       const key = `${i}-${k}`;
       return `<div class="task"><input type="checkbox" id="t${key}" data-k="${key}" ${checks[key] ? "checked" : ""}><span class="kind">${kind}</span>
         <label for="t${key}">${esc(what)}<small>${esc(detail)}</small></label><span class="mono">${t}</span></div>`;
-    }).join("")}</div>${practiceHtml(s, sec)}</article>`;
+    }).join("")}</div>${exercisesHtml(s)}${practiceHtml(s, sec)}</article>`;
 }).join("");
 $("sessions").onchange = e => { const k = e.target.dataset.k; if (k) { checks[k] = e.target.checked; store.set("pc-ses-" + p.id, checks); } };
 

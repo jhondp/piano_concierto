@@ -523,7 +523,7 @@ En el sitio, cada sesión sugiere hasta tres estrategias según el foco técnico
 | Progreso | Se guarda en el `localStorage` del navegador: queda solo en ese dispositivo |
 | Diseño | Estilo app de Apple, elegante y adaptado al teléfono (barra de pestañas abajo en pantallas chicas), fuente Poppins, paleta #333333, #3C6E71, #FFFFFF, #D9D9D9 y #284B63, sin barras de color al costado de los recuadros |
 | Inicio | Título «Piano concierto», sinopsis tipo nota de prensa (reemplazó a «De qué se trata»), objetivos, teclado de 16 teclas (una por obra) como portada, repertorio, ruta y cuenta regresiva |
-| Página de cada obra | Mapa de secciones, teoría, acordes, sesiones con casillas para marcar y estrategias de práctica |
+| Página de cada obra | Mapa de secciones, teoría, acordes, sesiones con casillas para marcar, cómo practicar cada ejercicio con su tempo (los mismos textos de la sección 5, en `data/exercise-guide.json`) y estrategias de práctica |
 | Teoría | Currículo de 25 lecciones en 3 niveles, de lo más fácil a lo más difícil (nivel conservatorio intermedio), con audio y preguntas |
 | Entrenar | Un menú de botones donde cada ejercicio tiene su propia página: Notas, Intervalos, Acordes, Lectura a primera vista, Ritmo y Guías. Al salir de un ejercicio, su sonido se detiene |
 | Lectura a primera vista | Fragmentos aleatorios por nivel de dificultad, **solo de obras de dominio público** (Mozart, Debussy, Bach, Chopin), porque el sitio es público. Se descartaron fragmentos ilegibles o con grupos irregulares |

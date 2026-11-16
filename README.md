@@ -21,6 +21,7 @@ Progress (learned sections, finished lessons, ticked session tasks) is stored in
 | `data/concert.json` | Title, date, start date, description, objectives, rehearsal, polish and buffer weeks, and the learning `route` |
 | `data/pieces-*.json` | One analysis per piece: key, meter, sections, theory, chords, technique needs |
 | `data/hanon.json`, `data/czerny.json` | Exercise catalogs used to fill each study session |
+| `data/exercise-guide.json` | How to practise each Hanon and Czerny exercise and at what tempo, shown in every session (keep in sync with `DECISIONES.md` section 5) |
 
 After editing any data or asset, regenerate `assets/data.js` and the `?v=` version stamps on the pages (so phones skip stale caches):
 
