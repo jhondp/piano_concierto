@@ -1,0 +1,685 @@
+{
+  "note": "Descripciones hechas mirando la partitura de Czerny Op. 599, Edition Peters 2402 (ed. Ruthardt). Esta edición no imprime metrónomo ni palabra de tempo en estos estudios; los tempos son sugerencias para estudiar.",
+  "exercises": [
+    {
+      "no": 1,
+      "what": "Estudio de lectura en Do mayor y 4/4 con redondas y blancas: la mano derecha lee en la zona del Do central hacia arriba y la izquierda, también en clave de sol, toca debajo. Son dos partes de 8 compases, cada una con repetición, y las manos casi siempre se turnan o tocan notas largas a la vez. No hay matices ni palabra de tempo impresos.",
+      "why": "Entrena a leer notas sin mirar las manos y a contar notas largas con pulso firme. Es la base para cualquier obra del recital: leer, contar y mantener la mano quieta en su posición.",
+      "setup": [
+        "Mano derecha en posición de Do: pulgar en el Do central, dedo 5 en Sol.",
+        "Mano izquierda también en clave de sol: dedo 5 en el Do central y pulgar en Sol, una posición por debajo de la derecha.",
+        "Marca con lápiz las notas donde cambia el dedo indicado, por ejemplo el 5 en la mano derecha.",
+        "Recuerda que aquí la mano izquierda se lee en clave de sol, no en clave de fa."
+      ],
+      "steps": [
+        "Día 1: di en voz alta el nombre de cada nota de la mano derecha mientras marcas el pulso con la mano en la mesa.",
+        "Día 1: toca solo la mano derecha contando 1-2-3-4 en voz alta; la redonda dura los cuatro tiempos completos.",
+        "Día 2: toca solo la mano izquierda igual, nombrando las notas; es la que más cuesta porque está en clave de sol.",
+        "Día 3: manos juntas muy lento, sin parar aunque te equivoques, para entrenar la lectura continua.",
+        "Día 4: toca cada parte con su repetición sin mirar el teclado; mantén los ojos en la partitura.",
+        "Día 5: sube el metrónomo de 4 en 4 desde 60, solo si la vuelta anterior salió sin pausas.",
+        "Día 6 en adelante: busca un sonido cantado y parejo en todas las notas, sin golpear."
+      ],
+      "mistakes": [
+        "Acortar las redondas: cuenta en voz alta y no levantes el dedo antes del tiempo 4.",
+        "Mirar las manos y perder el lugar en la partitura: cubre el teclado con un pañuelo o mira solo la hoja.",
+        "Confundir las notas de la izquierda por leerlas como clave de fa: escribe el nombre de las tres o cuatro primeras notas encima."
+      ],
+      "ready": "Tocas las dos partes con sus repeticiones a ♩ = 96 sin mirar las manos y sin detenerte.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 2,
+      "what": "Estudio de lectura en Do mayor y 4/4 con redondas y blancas, ahora con la mano derecha en el registro agudo, con líneas adicionales por encima del pentagrama. La mano izquierda sigue en clave de sol con blancas en la zona central. Es más largo que el nº 1 y tiene varias partes con repetición; no hay matices impresos.",
+      "why": "Entrena a leer notas con líneas adicionales agudas y a mover la mano a una nueva posición. Te ayuda en las obras donde la melodía sube al registro agudo.",
+      "setup": [
+        "Antes de tocar, ubica en el teclado el Do agudo (dos octavas sobre el Do central) y las notas con líneas adicionales.",
+        "Escribe a lápiz el nombre de las notas con dos o más líneas adicionales la primera vez.",
+        "Mano izquierda en posición de Do en clave de sol, alrededor del Do central.",
+        "Marca los compases donde la mano derecha cambia de posición."
+      ],
+      "steps": [
+        "Día 1: lee en voz alta solo las notas agudas de la mano derecha, sin tocar, contando las líneas adicionales.",
+        "Día 1: toca la mano derecha sola, una parte cada vez, contando en voz alta.",
+        "Día 2: toca la mano izquierda sola; fíjate en los dedos 4 y 1 que sueltan la posición fija.",
+        "Día 3: manos juntas lento, parte por parte, sin parar.",
+        "Día 4: une todas las partes respetando las repeticiones.",
+        "Día 5: sube el metrónomo de 4 en 4 desde 60 cuando salga sin pausas.",
+        "Día 6: toca todo sin mirar las manos y con sonido parejo."
+      ],
+      "mistakes": [
+        "Contar mal las líneas adicionales: escribe el nombre de la nota hasta que la reconozcas sin contar.",
+        "Tensar el brazo al subir al agudo: acerca el cuerpo un poco hacia la derecha en lugar de estirar el brazo.",
+        "Detenerte en los cambios de posición: prepara la mano en la nota larga anterior."
+      ],
+      "ready": "Lees y tocas todo el estudio a ♩ = 96 sin escribir nombres de notas y sin pausas.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 3,
+      "what": "Estudio de lectura en Do mayor y 4/4 con blancas y redondas, donde la mano izquierda baja por debajo del pentagrama en clave de sol, con líneas adicionales graves. La mano derecha toca blancas en la zona central. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena a leer las notas graves con líneas adicionales y a conectar la clave de sol con la zona grave del teclado. Prepara la lectura de bajos en las obras del recital.",
+      "setup": [
+        "Ubica en el teclado las notas graves que lee la mano izquierda debajo del Do central.",
+        "Escribe el nombre de las notas con líneas adicionales graves la primera vez.",
+        "Mano derecha en posición de Sol o Do según el compás; marca los dedos que cambian de posición."
+      ],
+      "steps": [
+        "Día 1: nombra en voz alta todas las notas de la mano izquierda sin tocar.",
+        "Día 1: toca la mano izquierda sola primero, porque es la parte nueva de este estudio.",
+        "Día 2: toca la mano derecha sola contando en voz alta.",
+        "Día 3: manos juntas lento, una parte cada vez.",
+        "Día 4: toca las dos partes seguidas con repeticiones, sin mirar las manos.",
+        "Día 5: sube de 4 en 4 desde ♩ = 60 hasta llegar al objetivo.",
+        "Día 6: cuida que las blancas suenen todo su valor y que el paso de una a otra sea ligado."
+      ],
+      "mistakes": [
+        "Leer las notas graves por adivinanza: di siempre el nombre antes de tocar la nota.",
+        "Soltar las blancas antes de tiempo: cuenta 1-2 en cada blanca en voz alta.",
+        "Bajar la vista al teclado para buscar las notas graves: memoriza la distancia desde el Do central."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 leyendo la mano izquierda sin nombres escritos.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 5,
+      "what": "Estudio en Do mayor y 4/4 donde la mano derecha toca negras, muchas en figuras de acorde quebrado (por ejemplo Sol-Do-Mi-Sol) y otras por grado conjunto, sobre blancas y una redonda final en la mano izquierda, también en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena la independencia entre una mano que se mueve en negras y otra que sostiene notas largas, y los primeros saltos pequeños dentro de la mano. Es la base de melodía con acompañamiento de casi todas las obras.",
+      "setup": [
+        "Marca los compases donde la mano derecha abre la mano para un acorde quebrado (dedos 1-2-4-5).",
+        "La mano izquierda sostiene blancas; marca dónde cambia de dedo.",
+        "Fíjate en la digitación del primer compás: 1-2-4-5 ya abre la mano."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola, lento, diciendo los dedos en voz alta.",
+        "Día 1: repite los compases con acorde quebrado hasta que la mano los encuentre sin mirar.",
+        "Día 2: toca la mano izquierda sola, contando 1-2 por blanca.",
+        "Día 3: manos juntas a ♩ = 60, una parte cada vez.",
+        "Día 4: busca un legato real en la mano derecha: un dedo no se levanta hasta que baja el siguiente.",
+        "Día 5: sube de 4 en 4 el metrónomo mientras salga parejo.",
+        "Día 6: toca todo sin parar con repeticiones y sonido redondo."
+      ],
+      "mistakes": [
+        "Negras desiguales cuando la mano se abre: practica el compás lento con metrónomo y escucha que todas duren igual.",
+        "Cortar las blancas de la izquierda al moverse la derecha: mira por un momento la mano izquierda y comprueba que la tecla sigue abajo.",
+        "Tocar con dedos planos y sin fuerza: curva un poco los dedos y toca con la yema."
+      ],
+      "ready": "Tocas las dos partes a ♩ = 96 con negras parejas y legato en la mano derecha.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 6,
+      "what": "Estudio en Do mayor y 4/4 de negras y blancas donde las dos manos se reparten el movimiento: a veces canta la derecha y a veces la izquierda toca negras en clave de sol, bajando con líneas adicionales graves. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena a pasar el protagonismo de una mano a la otra y a dar a la mano izquierda la misma claridad que a la derecha. Sirve para los pasajes del recital donde la izquierda lleva la melodía.",
+      "setup": [
+        "Marca con un color los compases donde la mano izquierda toca negras (por ejemplo los compases 2 y 6 de la primera parte).",
+        "Mano izquierda en clave de sol: ubica las notas graves con líneas adicionales antes de empezar.",
+        "Revisa las digitaciones 5-4-3-2 y 1-2-3-4 de la izquierda en la segunda parte."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola primero, porque es la que tiene la lectura más difícil y las negras nuevas.",
+        "Día 1: luego la mano derecha sola, contando en voz alta.",
+        "Día 2: manos juntas muy lento, escuchando que la mano que tiene negras suene un poco más.",
+        "Día 3: une las dos partes con repeticiones sin detenerte.",
+        "Día 4: trabaja el legato en las negras de ambas manos.",
+        "Día 5: sube el metrónomo de 4 en 4 desde 60.",
+        "Día 6: toca de principio a fin sin mirar las manos."
+      ],
+      "mistakes": [
+        "La mano izquierda suena más débil o desigual: tócala sola con metrónomo hasta que suene igual que la derecha.",
+        "Perder el pulso cuando pasa la melodía de una mano a la otra: cuenta en voz alta en esos compases.",
+        "Leer mal las notas graves: escribe el nombre de las que dudes."
+      ],
+      "ready": "Las negras de ambas manos suenan iguales de claras a ♩ = 96 sin perder el pulso.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 8,
+      "what": "Estudio en Do mayor y 4/4 de acordes de tres notas en la mano derecha, en redondas y blancas, con la mano izquierda en blancas en clave de sol. La primera parte tiene 4 compases y la segunda 8, ambas con repetición.",
+      "why": "Entrena a tocar acordes con las tres notas a la vez y con el mismo volumen. Te prepara para los acordes y finales de frase de las obras del recital.",
+      "setup": [
+        "Lee la digitación de cada acorde (de abajo arriba, por ejemplo 1-3-5 o 1-2-5) y márcala si dudas.",
+        "Prepara la forma de la mano en el aire antes de bajar al acorde.",
+        "Marca los acordes donde cambia la digitación respecto al anterior."
+      ],
+      "steps": [
+        "Día 1: toca solo los acordes de la mano derecha, uno a uno, comprobando que las tres notas bajen juntas.",
+        "Día 1: practica el paso de un acorde al siguiente sin mirar, preparando la mano durante la nota larga.",
+        "Día 2: toca la mano izquierda sola contando en voz alta.",
+        "Día 3: manos juntas lento, una parte cada vez.",
+        "Día 4: escucha que ninguna nota del acorde se escape antes ni suene más fuerte.",
+        "Día 5: sube el metrónomo de 4 en 4 desde 60.",
+        "Día 6: toca todo con sonido lleno pero sin golpear, usando el peso del brazo."
+      ],
+      "mistakes": [
+        "Acordes desparejos, con una nota antes que otra: toca el acorde lento y deja caer la mano entera, no los dedos uno a uno.",
+        "Golpear los acordes: deja caer el peso del brazo relajado y suelta la muñeca después.",
+        "Cortar el acorde antes de tiempo al preparar el siguiente: cuenta la redonda completa."
+      ],
+      "ready": "Todos los acordes suenan juntos y parejos a ♩ = 96 sin mirar el teclado.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 9,
+      "what": "Estudio en Do mayor y 4/4 con una melodía en negras y blancas en la mano derecha sobre acordes tenidos en redonda en la mano izquierda, escritos en clave de sol. Son dos partes de 4 compases, cada una con repetición.",
+      "why": "Entrena a sostener un acorde con una mano mientras la otra canta una melodía ligada. Es el modelo más simple de melodía acompañada, presente en todo el repertorio.",
+      "setup": [
+        "Revisa la digitación de cada acorde de la izquierda (por ejemplo 1-2-4 o 1-3-5) y márcala.",
+        "Mano derecha en posición de Do; marca los dedos 1-3-5 de los arpegios del primer compás.",
+        "Busca dónde la melodía repite notas, en la segunda parte."
+      ],
+      "steps": [
+        "Día 1: toca solo los acordes de la mano izquierda, comprobando que las tres notas bajen juntas y duren cuatro tiempos.",
+        "Día 1: toca la mano derecha sola con legato.",
+        "Día 2: manos juntas lento; deja el acorde abajo mientras la derecha se mueve.",
+        "Día 3: equilibra el volumen: acorde más suave, melodía un poco más presente.",
+        "Día 4: une las dos partes con repeticiones.",
+        "Día 5: sube de 4 en 4 desde ♩ = 60.",
+        "Día 6: toca todo sin parar con la melodía cantando por encima."
+      ],
+      "mistakes": [
+        "Soltar el acorde cuando la derecha toca: mira la izquierda y confirma que las teclas siguen abajo hasta el compás siguiente.",
+        "El acorde tapa la melodía: toca el acorde más suave, con menos peso.",
+        "Notas repetidas cortadas o desiguales: deja subir la tecla a la mitad y vuelve a bajar con el mismo dedo."
+      ],
+      "ready": "La melodía canta clara por encima de acordes tenidos y suaves a ♩ = 96.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 11,
+      "what": "Primer estudio de la sección para los 5 dedos con mano quieta: la mano derecha toca negras ligadas en frases largas, sin mover la mano de su posición, sobre acordes tenidos en redonda de la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición y ligaduras largas.",
+      "why": "Entrena la independencia de los cinco dedos con la mano quieta y el legato de frase larga. Es la base de las melodías ligadas y cantadas del recital.",
+      "setup": [
+        "Mano derecha fija en posición de Do (1 en Do, 5 en Sol): no la muevas en todo el estudio.",
+        "Revisa la digitación de cada acorde de la izquierda; en algunos compases cambia (1-3-5, 1-2-4).",
+        "Marca con lápiz dónde empieza y termina cada ligadura larga: son las frases.",
+        "Nota los compases con dos acordes de blanca en la izquierda."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola, lento, sin levantar ningún dedo antes de que baje el siguiente.",
+        "Día 1: escucha que no haya huecos entre notas y que no se queden dos notas sonando juntas.",
+        "Día 2: toca solo los acordes de la izquierda y practica los cambios de acorde sin mirar.",
+        "Día 3: manos juntas a ♩ = 60, una frase cada vez.",
+        "Día 4: da forma a cada ligadura: crece un poco hacia el centro y termina más suave.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca las dos partes con repeticiones y con la mano derecha quieta."
+      ],
+      "mistakes": [
+        "Mover la muñeca o el brazo para tocar cada nota: apoya una moneda imaginaria sobre el dorso y que no se caiga.",
+        "Dedos 4 y 5 débiles: tócalos un poco más y escucha que suenen igual que el 2 y el 3.",
+        "Huecos en el legato: practica más lento y conecta cada nota con la siguiente."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 con legato continuo y la mano derecha quieta.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 12,
+      "what": "Estudio en Do mayor y 4/4 de corcheas continuas en la mano derecha en posición fija de cinco dedos, con algunas negras y notas repetidas, sobre acordes tenidos de redonda en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena la igualdad de los dedos en corcheas con la mano quieta. Es el paso entre el legato lento y los pasajes rápidos del repertorio.",
+      "setup": [
+        "Mano derecha fija en posición de Do; solo se mueven los dedos.",
+        "Marca la digitación del bajo de cada acorde (4 o 5) en la izquierda.",
+        "Marca los compases con notas repetidas en la derecha, por ejemplo los cuatro Sol con dedo 5 de la segunda parte."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola en negras, como si fueran lentas, para aprender las notas.",
+        "Día 2: tócala ya en corcheas, contando 1-y-2-y en voz alta.",
+        "Día 2: practica el compás con notas repetidas por separado hasta que salgan iguales.",
+        "Día 3: toca solo la mano izquierda con sus cambios de acorde.",
+        "Día 4: manos juntas a ♩ = 60, una parte cada vez.",
+        "Día 5: sube el metrónomo de 4 en 4, sin pasar al siguiente número hasta que las corcheas salgan parejas.",
+        "Día 6: toca todo con legato y sin acentos."
+      ],
+      "mistakes": [
+        "Corcheas apuradas o irregulares: usa el metrónomo y cuenta 1-y-2-y.",
+        "Acento en el pulgar: toca el pulgar más ligero y escucha que no sobresalga.",
+        "Soltar el acorde de la izquierda: comprueba que la redonda dure todo el compás."
+      ],
+      "ready": "Las corcheas salen parejas y ligadas a ♩ = 96 con la mano quieta.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 14,
+      "what": "Estudio en Do mayor y 4/4 con terceras en la mano derecha en negras, blancas y redondas, sobre un bajo Alberti continuo en corcheas en la mano izquierda (por ejemplo Do-Sol-Mi-Sol), escrito en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena el bajo Alberti parejo y suave junto con terceras tocadas a la vez en la derecha. Es el acompañamiento típico del estilo clásico que aparece en el repertorio del recital.",
+      "setup": [
+        "Marca la digitación del bajo Alberti: 5-1-3-1 en la mayoría de los compases, 5-1-2-1 en otros.",
+        "Las terceras de la derecha usan sobre todo 1-3 y 2-4; márcalas.",
+        "Marca los compases donde cambia la nota grave del Alberti."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola primero, porque el Alberti debe salir automático antes de juntar.",
+        "Día 1: busca que la nota grave suene un poco más y las otras tres más suaves.",
+        "Día 2: toca la mano derecha sola, comprobando que las dos notas de cada tercera bajen juntas.",
+        "Día 3: manos juntas a ♩ = 60, una parte cada vez.",
+        "Día 4: escucha el balance: terceras claras, Alberti como un fondo suave.",
+        "Día 5: sube de 4 en 4 el metrónomo.",
+        "Día 6: toca todo sin parar con la muñeca suelta en el Alberti."
+      ],
+      "mistakes": [
+        "El Alberti suena fuerte y golpeado: toca desde la tecla, con una pequeña rotación de muñeca y sin levantar los dedos.",
+        "Terceras desparejas: toca cada tercera lenta y deja caer la mano entera.",
+        "Perder el pulso al juntar manos: vuelve a ♩ = 60 y cuenta en voz alta."
+      ],
+      "ready": "El bajo Alberti fluye suave y parejo bajo terceras claras a ♩ = 96.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 15,
+      "what": "Estudio en Do mayor y 4/4 de tresillos de corchea continuos en la mano derecha, en figuras de acorde quebrado (Do-Mi-Sol) y de cinco dedos, sobre un bajo en redonda y acordes en negra en la mano izquierda, que empieza cada compás con silencio. La segunda parte agrupa los tresillos bajo ligaduras. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena la igualdad en tresillos y los acordes quebrados con la mano quieta. Sirve para pasajes de arpegio y tresillos del recital.",
+      "setup": [
+        "Marca la digitación del primer tresillo (1-3-5) y la de la segunda parte (4-2-5).",
+        "Fíjate que la mano izquierda tiene el bajo en redonda y los acordes en negra tras un silencio.",
+        "Escribe un 3 sobre los primeros grupos si te ayuda a recordar que son tresillos."
+      ],
+      "steps": [
+        "Día 1: di en voz alta 'tri-o-la' por cada tiempo mientras tocas la mano derecha sola y lento.",
+        "Día 2: repite la mano derecha con metrónomo, con una nota por cada sílaba y sin acento salvo la primera.",
+        "Día 2: toca la mano izquierda sola, sosteniendo el bajo mientras tocas los acordes.",
+        "Día 3: manos juntas a ♩ = 60; la primera nota de cada tresillo coincide con el acorde o el silencio.",
+        "Día 4: en la segunda parte, haz ligado cada grupo bajo la ligadura.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo sin parar con tresillos redondos."
+      ],
+      "mistakes": [
+        "Los tresillos se convierten en corchea con dos semicorcheas: cuenta 'tri-o-la' en voz alta y escucha tres notas iguales.",
+        "Mano tensa al abrir para Do-Mi-Sol: deja que la muñeca acompañe un poco el movimiento.",
+        "Bajo de la izquierda soltado: comprueba que la redonda dure el compás completo."
+      ],
+      "ready": "Los tresillos suenan iguales y relajados a ♩ = 96 con el bajo sostenido.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 16,
+      "what": "Estudio en Do mayor y 4/4 de grupos de semicorcheas de cinco dedos en la mano derecha, cada uno bajo una ligadura que termina en una nota staccato con punto, sobre un bajo de redonda y acordes en negra en la mano izquierda que empiezan tras un silencio. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las semicorcheas parejas con la mano quieta y el gesto de ligar y soltar al final de un grupo. Es la articulación clásica de muchos pasajes rápidos del recital.",
+      "setup": [
+        "Mano derecha en posición fija; revisa la digitación del primer grupo (1-2-3-4-5).",
+        "Marca con lápiz la nota con punto al final de cada grupo: ahí la mano se levanta.",
+        "Mano izquierda: bajo en redonda y acordes en negra; marca el dedo 4 o 5 del bajo."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola en corcheas lentas para aprender notas y dedos.",
+        "Día 2: tócala en semicorcheas a ♩ = 50, contando 1-e-y-a.",
+        "Día 2: practica el gesto: ligado dentro del grupo y una pequeña subida de muñeca en la nota staccato.",
+        "Día 3: toca la mano izquierda sola, sosteniendo el bajo.",
+        "Día 4: manos juntas a ♩ = 50, una parte cada vez.",
+        "Día 5: sube de 4 en 4 el metrónomo mientras los grupos salgan parejos.",
+        "Día 6: toca todo sin parar con la articulación clara."
+      ],
+      "mistakes": [
+        "Correr al final del grupo: usa el metrónomo y escucha que cada semicorchea dure igual.",
+        "Hacer staccato golpeando: la nota con punto es corta pero ligera; suelta la muñeca hacia arriba.",
+        "Ligar también la nota staccato con el grupo siguiente: exagera el corte al principio."
+      ],
+      "ready": "Tocas el estudio a ♩ = 80 con semicorcheas parejas y finales staccato claros.",
+      "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80–92."
+    },
+    {
+      "no": 17,
+      "what": "Estudio en Do mayor y 4/4 de corcheas en la mano derecha que alternan notas sueltas y terceras, con ligaduras y grupos de terceras repetidas en staccato, sobre acordes tenidos de redonda en la mano izquierda, en clave de sol. Las figuras son corcheas, no semicorcheas. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las notas repetidas y las terceras en staccato, y el contraste entre ligado y suelto. Te ayuda en los acompañamientos y pasajes con dobles notas del recital.",
+      "setup": [
+        "Revisa la digitación de las terceras: 1-3, 2-4, 3-5; márcala en el primer compás de cada figura.",
+        "Marca con un color las terceras con punto (staccato) y con otro las ligadas.",
+        "La mano izquierda solo sostiene acordes; marca el dedo del bajo."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola, lento, solo para aprender notas y dedos, todo ligado.",
+        "Día 2: añade la articulación: ligado donde hay ligadura, staccato corto donde hay punto.",
+        "Día 2: practica aparte las terceras repetidas en staccato, desde la muñeca y sin tensión.",
+        "Día 3: manos juntas a ♩ = 60 con los acordes tenidos.",
+        "Día 4: escucha que las dos notas de cada tercera suenen juntas.",
+        "Día 5: sube de 4 en 4 el metrónomo.",
+        "Día 6: toca todo sin parar con contraste claro entre ligado y staccato."
+      ],
+      "mistakes": [
+        "Terceras desparejas: practica cada tercera sola y deja caer la mano entera.",
+        "Staccato rígido desde el brazo: usa un pequeño rebote de muñeca.",
+        "No hay diferencia entre ligado y staccato: exagera el contraste al principio."
+      ],
+      "ready": "Las terceras suenan juntas y el contraste ligado/staccato se oye claro a ♩ = 96.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 18,
+      "what": "Estudio en Do mayor y 4/4 de semicorcheas continuas en la mano derecha, en figuras de cinco dedos que suben y bajan sin descanso, sobre acordes en negra y blanca en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición y el último compás de cada parte termina en blanca.",
+      "why": "Entrena la igualdad y la independencia de los dedos en semicorcheas sostenidas. Es la base de los pasajes rápidos y regulares del repertorio.",
+      "setup": [
+        "Revisa la digitación de los primeros grupos (1, 2, 3, 2 en cada tiempo) y márcala donde la mano se desplaza.",
+        "Mano izquierda: lee cada acorde y su digitación de bajo (2-4, 3-5, 5, 4).",
+        "Marca los compases de la segunda parte donde el pulgar toca notas repetidas (Do-Mi-Do)."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola en corcheas, un compás cada vez.",
+        "Día 2: pasa a semicorcheas a ♩ = 50 con metrónomo.",
+        "Día 2: practica en ritmos: largo-corto y corto-largo, para fortalecer cada dedo.",
+        "Día 3: toca la mano izquierda sola, practicando los cambios de acorde.",
+        "Día 4: manos juntas a ♩ = 50, una parte cada vez.",
+        "Día 5: sube el metrónomo de 4 en 4 sin pasar al siguiente hasta que salga parejo dos veces seguidas.",
+        "Día 6: toca todo de corrido con sonido ligero y sin acentos."
+      ],
+      "mistakes": [
+        "Dedos 4 y 5 que se quedan atrás: practica en ritmos y escucha la igualdad.",
+        "Acelerar sin darte cuenta: deja el metrónomo puesto incluso cuando ya salga bien.",
+        "Mano y antebrazo tensos: detente, sacude la mano y vuelve a empezar más lento."
+      ],
+      "ready": "Tocas el estudio completo a ♩ = 80 con semicorcheas parejas y sin tensión.",
+      "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80–92."
+    },
+    {
+      "no": 19,
+      "what": "Primer estudio del paso del pulgar: la mano derecha toca escalas de Do mayor en corcheas, legato (así lo indica la partitura), pasando el pulgar por debajo y los dedos 2-3 por encima, sobre acordes en redonda y blanca en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena el paso del pulgar para tocar escalas ligadas sin cortes. Es indispensable para las escalas y pasajes largos de las obras del recital.",
+      "setup": [
+        "Lee la digitación de escala: 1-2-3, pasa el pulgar en Fa, y sigue 1-2-3-4-5.",
+        "Marca con un círculo cada nota donde pasa el pulgar o donde un dedo pasa por encima.",
+        "Mano izquierda: revisa los acordes y su digitación de bajo."
+      ],
+      "steps": [
+        "Día 1: practica solo el paso del pulgar en Mi-Fa (3-1) y en Fa-Mi (1-3) lento, sin girar el codo.",
+        "Día 1: toca la mano derecha sola, en negras lentas, diciendo los dedos.",
+        "Día 2: toca la mano derecha en corcheas a ♩ = 60, buscando que no se oiga el cruce.",
+        "Día 3: toca la mano izquierda sola con sus cambios de acorde.",
+        "Día 4: manos juntas a ♩ = 60, una parte cada vez.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo legato, sin acento en el pulgar."
+      ],
+      "mistakes": [
+        "Se oye un salto o acento cuando pasa el pulgar: prepara el pulgar debajo de la mano antes de que llegue su nota.",
+        "Codo que se abre para pasar el pulgar: mantén el codo quieto y deja que la muñeca se desplace lateralmente.",
+        "Usar otra digitación: respeta la impresa, porque es la base de todas las escalas."
+      ],
+      "ready": "Las escalas suenan legato y parejas a ♩ = 96 sin que se note el paso del pulgar.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 20,
+      "what": "Estudio en Do mayor y 4/4, marcado legato, con una melodía en negras y blancas que salta y escalas en corcheas con paso del pulgar en la mano derecha, sobre bajo Alberti en corcheas en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena a combinar el paso del pulgar en la derecha con un bajo Alberti estable en la izquierda. Es la textura típica del estilo clásico del recital.",
+      "setup": [
+        "Marca en la derecha cada paso del pulgar y cada dedo que cruza por encima.",
+        "Revisa la digitación del Alberti: 5-1-2-1 y 4-1-2-1 en la izquierda.",
+        "Marca los saltos de la melodía, como el Do agudo con dedo 5 del primer compás."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola hasta que el Alberti salga automático y suave.",
+        "Día 2: toca la mano derecha sola, lento, cuidando el paso del pulgar en las escalas.",
+        "Día 2: repite aparte los compases con escalas en corcheas.",
+        "Día 3: manos juntas a ♩ = 60, una parte cada vez.",
+        "Día 4: busca legato en la melodía y un Alberti más suave que la melodía.",
+        "Día 5: sube de 4 en 4 el metrónomo.",
+        "Día 6: toca todo sin parar con la melodía cantando por encima."
+      ],
+      "mistakes": [
+        "El Alberti tapa la melodía: toca la izquierda más suave y desde la tecla.",
+        "Corte en el paso del pulgar: prepara el pulgar antes de su nota.",
+        "Perder el pulso en los saltos de la melodía: mira la partitura y anticipa la nueva posición."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 con escalas ligadas y Alberti suave.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 21,
+      "what": "Estudio en Do mayor y 3/4 con terceras y sextas ligadas en la mano derecha en blancas y negras, sobre un acompañamiento de vals en la mano izquierda: nota grave en el primer tiempo y dos acordes en los tiempos 2 y 3, en clave de sol. Son dos partes largas de 16 compases, cada una con repetición.",
+      "why": "Entrena el legato en dobles notas y el acompañamiento de vals con el primer tiempo marcado. Te prepara para obras en tres tiempos con melodía en dobles notas.",
+      "setup": [
+        "Marca la digitación de las terceras y sextas (por ejemplo 3-5 a 2-4 a 1-3) para poder ligarlas.",
+        "Mano izquierda: bajo con dedo 5 y acordes con 1-2 o 1-3; marca los cambios de posición.",
+        "Señala los compases donde la mano derecha toca notas simples en vez de dobles."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola: bajo un poco más fuerte, acordes suaves y cortos.",
+        "Día 2: toca la mano derecha sola y lenta, buscando conectar una doble nota con la siguiente con al menos una voz ligada.",
+        "Día 3: manos juntas a ♩ = 72, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: une las dos partes y piensa en un pulso por compás.",
+        "Día 6: sube el metrónomo de 8 en 8.",
+        "Día 7: toca todo con el carácter de vals ligero."
+      ],
+      "mistakes": [
+        "Los tres tiempos del vals suenan iguales: el primero se apoya un poco y los acordes son más ligeros.",
+        "Dobles notas desparejas: deja caer la mano entera y escucha que las dos notas suenen juntas.",
+        "Cortar entre dobles notas: usa la digitación marcada y practica el paso lento."
+      ],
+      "ready": "Tocas el estudio a ♩ = 120 con dobles notas ligadas y un vals ligero en la izquierda.",
+      "tempo": "Empieza en ♩ = 72. Objetivo: ♩ = 120–132."
+    },
+    {
+      "no": 22,
+      "what": "Estudio en Do mayor en 2/4 (no en 3/4) con escalas en semicorcheas en la mano derecha que suben y bajan con paso del pulgar, mezcladas con corcheas y notas repetidas, sobre acordes repetidos en corcheas en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las escalas rápidas con paso del pulgar sobre un acompañamiento de notas repetidas. Es la preparación para pasajes de escala del repertorio.",
+      "setup": [
+        "Marca en la derecha cada paso del pulgar y cada dedo que cruza (por ejemplo 5-3-4-5 al inicio).",
+        "Marca las notas repetidas en corcheas de la segunda parte (cuatro Si con dedo 4).",
+        "Mano izquierda: acordes en corcheas; marca la digitación del bajo."
+      ],
+      "steps": [
+        "Día 1: toca la mano derecha sola en corcheas lentas para aprender la digitación.",
+        "Día 2: practica cada escala de semicorcheas sola, en ritmos largo-corto, a ♩ = 50.",
+        "Día 2: toca la mano izquierda sola con acordes cortos y ligeros.",
+        "Día 3: manos juntas a ♩ = 50, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo con escalas fluidas y acordes suaves."
+      ],
+      "mistakes": [
+        "Escalas que se aceleran: usa metrónomo y cuenta 1-e-y-a.",
+        "Golpe en el pulgar al pasar: prepáralo por debajo de la mano.",
+        "Acordes repetidos fuertes: tócalos ligeros, desde la tecla."
+      ],
+      "ready": "Las escalas suenan parejas y ligadas a ♩ = 80 sobre acordes ligeros.",
+      "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80–92."
+    },
+    {
+      "no": 24,
+      "what": "Estudio en Do mayor y 6/8 con terceras en corcheas en la mano derecha: tres terceras ligadas seguidas de tres en staccato, sobre acordes en blanca con puntillo en la mano izquierda, en clave de sol. En la segunda parte la izquierda toca negras con puntillo. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las terceras en dos articulaciones distintas y el pulso en 6/8. Te ayuda en los pasajes con dobles notas y en las piezas en compás compuesto.",
+      "setup": [
+        "Marca la digitación de las terceras (1-3, 2-4, 3-5) de cada grupo.",
+        "Marca con un color las terceras ligadas y con otro las de staccato.",
+        "Piensa el 6/8 en dos pulsos de negra con puntillo por compás."
+      ],
+      "steps": [
+        "Día 1: cuenta el 6/8 en voz alta (1-2-3-4-5-6) y luego en dos pulsos mientras tocas la mano derecha sola, lenta.",
+        "Día 2: añade la articulación: tres ligadas y tres sueltas, cortas y ligeras.",
+        "Día 2: toca la mano izquierda sola, sosteniendo los acordes todo su valor.",
+        "Día 3: manos juntas a ♩. = 40, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo con un balanceo en dos pulsos por compás."
+      ],
+      "mistakes": [
+        "Terceras desparejas: deja caer la mano entera y escucha.",
+        "Staccato pesado: usa un rebote corto de muñeca.",
+        "6/8 que suena como seis tiempos iguales: apoya un poco la primera y la cuarta corchea."
+      ],
+      "ready": "Tocas el estudio a ♩. = 60 con terceras juntas y contraste claro entre ligado y staccato.",
+      "tempo": "Empieza en ♩. = 40. Objetivo: ♩. = 60–66."
+    },
+    {
+      "no": 25,
+      "what": "Estudio en Do mayor y 4/4, marcado legato, con acordes y dobles notas en la mano derecha en negras y blancas, y algunas corcheas melódicas, sobre un bajo en corcheas de acorde quebrado en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena a tocar acordes en la derecha mientras la izquierda mantiene un acompañamiento ligado. Es útil en obras con acordes sobre acompañamiento continuo.",
+      "setup": [
+        "Revisa la digitación de cada acorde de la derecha (1-3-5, 1-2-5, 2-4) y marca los cambios.",
+        "Mano izquierda: lee la digitación de cada patrón de corcheas (3-5 y 1, 2-4 y 1).",
+        "Marca los compases con silencio de negra al final de la frase."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola, lento y ligado, hasta que salga sin pensar.",
+        "Día 2: toca solo los acordes de la mano derecha, comprobando que bajen juntos.",
+        "Día 3: manos juntas a ♩ = 60, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: respeta los silencios del final de cada frase: levanta las manos a tiempo.",
+        "Día 6: sube el metrónomo de 4 en 4.",
+        "Día 7: toca todo con acordes plenos sin golpear y bajo suave."
+      ],
+      "mistakes": [
+        "Acordes desparejos: toca la mano entera desde el peso del brazo.",
+        "Bajo cortado al cambiar acordes en la derecha: escucha la izquierda en esos compases.",
+        "Ignorar los silencios: cuenta el tiempo de silencio en voz alta."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 con acordes juntos y bajo ligado.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 28,
+      "what": "Estudio en Do mayor y 4/4 de la sección de ejercicios que superan la octava: la mano derecha toca negras y corcheas con saltos amplios al registro agudo, bajo ligaduras, sobre bajo Alberti en corcheas en la mano izquierda, en clave de sol. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena los saltos y extensiones melódicas por encima de la octava sin perder el legato ni el pulso. Prepara los saltos de las obras del recital.",
+      "setup": [
+        "Marca cada salto grande de la derecha y su digitación (por ejemplo 1 a 5).",
+        "Mano izquierda: digitación del Alberti 4-1-2-1 o 5-1-2-1.",
+        "Antes de tocar, ubica en el teclado las notas agudas con líneas adicionales."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola hasta que el Alberti salga parejo.",
+        "Día 2: practica en la derecha solo los saltos: toca la nota de partida, mira la de llegada y salta en un movimiento.",
+        "Día 2: toca la mano derecha completa lenta.",
+        "Día 3: manos juntas a ♩ = 60, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo con la melodía cantada y los saltos seguros."
+      ],
+      "mistakes": [
+        "Llegar tarde al salto: mueve la mano en cuanto sueltas la nota anterior.",
+        "Golpear la nota aguda de llegada: llega cerca de la tecla y tócala con suavidad.",
+        "Detener el Alberti mientras saltas: practica manos juntas lento sin parar la izquierda."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 con saltos seguros y Alberti continuo.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 29,
+      "what": "Estudio en Do mayor y 6/8 con una melodía de amplio registro en la mano derecha, en negras y corcheas bajo ligaduras largas y con notas repetidas, sobre bajo y acordes en corcheas en la mano izquierda, en clave de sol. En la segunda parte la derecha toca una octava más alta, como indica la línea de puntos con 8. Son una parte de 8 compases y otra de 16, ambas con repetición.",
+      "why": "Entrena los cambios de registro, las notas repetidas y el fraseo largo en 6/8. Te ayuda en melodías amplias y ligadas del recital.",
+      "setup": [
+        "Marca dónde empieza y termina la línea de puntos con 8: allí todo suena una octava más arriba.",
+        "Marca las notas repetidas y su digitación (2-1-2-1-2-1 en la segunda parte).",
+        "Piensa el 6/8 en dos pulsos por compás."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola: bajo un poco más presente, acordes suaves.",
+        "Día 2: toca la mano derecha sola, primera parte, cuidando las ligaduras largas.",
+        "Día 3: mano derecha sola, segunda parte, en el registro una octava más alta.",
+        "Día 3: practica las notas repetidas alternando dedos como indica la partitura.",
+        "Día 4: manos juntas a ♩. = 40, una parte cada vez.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo con fraseo largo, pensando en dos pulsos por compás."
+      ],
+      "mistakes": [
+        "Olvidar la octava alta: revisa la línea con 8 antes de empezar cada vez.",
+        "Notas repetidas pesadas: cambia de dedo en cada nota y toca ligero.",
+        "Frases cortadas en cada compás: sigue la ligadura completa sin levantar la mano."
+      ],
+      "ready": "Tocas el estudio a ♩. = 60 con frases largas y notas repetidas ligeras.",
+      "tempo": "Empieza en ♩. = 40. Objetivo: ♩. = 60–66."
+    },
+    {
+      "no": 30,
+      "what": "Estudio en Do mayor y 3/4 marcado p dolce, con una melodía en la mano derecha adornada con grupos rápidos de cuatro notas (fusas), sobre bajo en blanca con puntillo y corcheas quebradas en la mano izquierda, en clave de sol. La segunda parte cambia a f, p, mf, con reguladores, cresc. y vuelta a f. Son una parte de 8 compases y otra de 16, con repetición.",
+      "why": "Entrena los grupos de adorno rápidos y ligeros dentro de una melodía cantada, y los contrastes de matices. Prepara la ornamentación y el fraseo expresivo del recital.",
+      "setup": [
+        "Marca la digitación de cada grupo rápido (por ejemplo 5-4-3-4 o 3-4-3-4).",
+        "Marca en color todos los matices: p dolce, f, p, mf, cresc. y los reguladores.",
+        "Mano izquierda: el bajo en blanca con puntillo se sostiene mientras siguen las corcheas."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola, sosteniendo el bajo y con corcheas suaves.",
+        "Día 2: toca la mano derecha sola sin los grupos rápidos, solo la melodía principal.",
+        "Día 2: practica cada grupo rápido aparte, lento, y luego como un solo gesto ligero de la mano.",
+        "Día 3: mano derecha completa a ♩ = 60.",
+        "Día 4: manos juntas a ♩ = 60, primera parte; luego la segunda.",
+        "Día 5: añade los matices: el f es pleno pero no duro y el p dolce es cantado.",
+        "Día 6: sube el metrónomo de 4 en 4 mientras los grupos salgan claros.",
+        "Día 7: toca todo de principio a fin con los contrastes de matiz."
+      ],
+      "mistakes": [
+        "Los grupos rápidos retrasan el pulso: piénsalos como adorno que cabe dentro de su tiempo, no como notas extra.",
+        "Grupos rápidos fuertes o duros: tócalos más suaves que la melodía.",
+        "Todo suena con el mismo volumen: exagera los matices marcados."
+      ],
+      "ready": "Tocas el estudio a ♩ = 96 con adornos ligeros, pulso estable y matices claros.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 96–108."
+    },
+    {
+      "no": 31,
+      "what": "Estudio en Do mayor y 3/4 marcado p y legato, con terceras, sextas y acordes en la mano derecha en negras y blancas, sobre un acompañamiento en tresillos de corchea de acorde quebrado en la mano izquierda, en clave de sol. Aparecen mf y f. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las dobles notas en la derecha sobre un acompañamiento continuo en tresillos, con cambios de matiz. Te ayuda en obras con melodía en dobles notas y acompañamiento fluido.",
+      "setup": [
+        "Revisa la digitación de las dobles notas y acordes (5-1, 3-1, 4-2-1) y márcala.",
+        "Mano izquierda: digitación del primer tresillo (4 en el bajo) y de los cambios de posición.",
+        "Marca los matices p, mf y f."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola, tresillos parejos y ligados, contando 'tri-o-la'.",
+        "Día 2: toca la mano derecha sola, comprobando que cada doble nota baje junta.",
+        "Día 3: manos juntas a ♩ = 72, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: añade los matices p, mf y f.",
+        "Día 6: sube el metrónomo de 8 en 8.",
+        "Día 7: toca todo con la melodía por encima de tresillos suaves."
+      ],
+      "mistakes": [
+        "Tresillos que se vuelven desiguales: cuenta 'tri-o-la' con metrónomo.",
+        "Dobles notas desparejas: deja caer la mano entera.",
+        "Los tresillos tapan la melodía: toca la izquierda más suave que la derecha."
+      ],
+      "ready": "Tocas el estudio a ♩ = 120 con tresillos parejos y dobles notas juntas.",
+      "tempo": "Empieza en ♩ = 72. Objetivo: ♩ = 120–132."
+    },
+    {
+      "no": 34,
+      "what": "Estudio en Do mayor y 6/8 marcado p y legato, con dobles notas (terceras y sextas) en la mano derecha en negras y corcheas, algunas con línea de tenuto, sobre acordes quebrados en corcheas en la mano izquierda, ahora en clave de fa. La segunda parte tiene mf, p, f, dimin. y p. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena las dobles notas sobre acompañamiento quebrado y la lectura de la mano izquierda en clave de fa. Te ayuda en las obras del recital con la izquierda en clave de fa y acompañamiento continuo.",
+      "setup": [
+        "Fíjate que la mano izquierda está en clave de fa: nombra las primeras notas antes de tocar.",
+        "Marca la digitación de las dobles notas de la derecha (3-1, 5-3, 4-2).",
+        "Marca los matices y las notas con tenuto (línea horizontal): se sostienen todo su valor."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola, leyendo con cuidado la clave de fa, en dos pulsos por compás.",
+        "Día 2: toca la mano derecha sola, cuidando que las dobles notas bajen juntas.",
+        "Día 3: manos juntas a ♩. = 40, primera parte.",
+        "Día 4: manos juntas, segunda parte.",
+        "Día 5: añade los matices y el tenuto.",
+        "Día 6: sube el metrónomo de 4 en 4.",
+        "Día 7: toca todo legato y con los matices marcados."
+      ],
+      "mistakes": [
+        "Leer la clave de fa como si fuera de sol: escribe el nombre de las notas que dudes.",
+        "Dobles notas desparejas: toca cada una sola y escucha.",
+        "No hacer el dimin. hacia el final: practica las últimas frases bajando el volumen poco a poco."
+      ],
+      "ready": "Tocas el estudio a ♩. = 60 leyendo la clave de fa sin dudar y con los matices.",
+      "tempo": "Empieza en ♩. = 40. Objetivo: ♩. = 60–66."
+    },
+    {
+      "no": 35,
+      "what": "Estudio en Do mayor y 4/4 marcado f, con acordes repetidos en negras y blancas en la mano derecha y una mano izquierda en clave de fa que toca una nota grave en el primer tiempo y salta hacia arriba para tres negras. La segunda parte empieza p y vuelve a f. Son dos partes de 8 compases con repetición.",
+      "why": "Entrena los acordes repetidos sin tensión y los saltos de bajo en la izquierda. Prepara los acompañamientos de bajo y acordes del recital.",
+      "setup": [
+        "Lee la mano izquierda en clave de fa y ubica en el teclado las notas graves con líneas adicionales.",
+        "Revisa la digitación de los acordes de la derecha (1-2-5, 1-3-5, 2-4-5).",
+        "Marca los matices f y p de cada parte."
+      ],
+      "steps": [
+        "Día 1: toca la mano izquierda sola, practicando el salto desde la nota grave hasta las negras.",
+        "Día 1: mira la nota de llegada antes de saltar y mueve el brazo entero.",
+        "Día 2: toca solo los acordes de la derecha, repetidos desde la muñeca, sin rigidez.",
+        "Día 3: manos juntas a ♩ = 60, primera parte.",
+        "Día 4: manos juntas, segunda parte, con el contraste p y f.",
+        "Día 5: sube el metrónomo de 4 en 4.",
+        "Día 6: toca todo con acordes plenos y bajo seguro."
+      ],
+      "mistakes": [
+        "Acordes repetidos rígidos que cansan: suelta la muñeca entre cada acorde.",
+        "Fallar el bajo grave: practica solo el salto, con los ojos en la nota de llegada.",
+        "El f se vuelve golpeado: usa el peso del brazo, no la fuerza de los dedos."
+      ],
+      "ready": "Tocas el estudio a ♩ = 100 con acordes relajados y saltos de bajo seguros.",
+      "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 100."
+    }
+  ]
+}

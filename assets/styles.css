@@ -321,3 +321,17 @@ input[type=range] { accent-color: var(--tint); width: 160px; }
   .lvl-t { display: none; }
   .lbtn + .lvl { border-top: 0; }
 }
+
+/* "Cómo estudiarlo" under each session task */
+.how summary { list-style: none; cursor: pointer; padding: 0 16px 12px 54px; color: var(--tint); font-size: .85rem; font-weight: 500; }
+.how summary::-webkit-details-marker { display: none; }
+.how summary::after { content: " ›"; display: inline-block; transition: transform .2s; }
+.how[open] summary::after { transform: rotate(90deg); }
+.how + .task { border-top: 1px solid var(--sep); }
+.how-body { padding: 0 16px 16px 54px; font-size: .92rem; display: grid; gap: 6px; }
+.how-body h5 { margin: 8px 0 0; font-size: .82rem; color: var(--tint); font-weight: 600; }
+.how-body p, .how-body ol, .how-body ul { margin: 0; }
+.how-body ol, .how-body ul { padding-left: 1.2em; display: grid; gap: 4px; }
+.how-body ol li::marker { color: var(--tint); font-weight: 500; }
+.how-intro { border: 0; background: var(--surface); border-radius: var(--r); padding: 0 16px 4px; }
+.how-intro h5 { margin: 4px 0 6px; font-size: .82rem; color: var(--tint); font-weight: 600; }

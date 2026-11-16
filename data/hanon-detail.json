@@ -1,0 +1,981 @@
+{
+ "note": "Guías basadas en el escaneo de 'The Virtuoso-Pianist' (texto inglés, edición tipo Schirmer) que acompaña el proyecto: patrones, digitaciones e indicaciones impresas de Hanon leídos en cada página; tempos adaptados al plan del concierto.",
+ "exercises": [
+  {
+   "no": 1,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-3-4-5-4-3-2, izquierda 5-4-3-2-1-2-3-4. Hanon pide abrir entre el 5 y el 4 de la izquierda al subir y de la derecha al bajar, empezar con el metrónomo a 60 e ir subiendo hasta 108, y levantar los dedos alto y con precisión.",
+   "why": "Iguala los cinco dedos y suelta la apertura entre 4 y 5, la zona más débil de la mano; esa igualdad es la base de cualquier pasaje de semicorcheas en tus obras.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Al subir, la izquierda empieza con 5-4: deja que el 5 se abra hacia fuera soltando la mano, sin estirarla de golpe. En la bajada, lo mismo con la derecha.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-3-4-5-4-3-2), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-3-2-1-2-3-4).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla la apertura 5-4: toca solo las dos primeras notas del compás (izquierda al subir, derecha al bajar) diez veces, lento y con sonido lleno, antes de volver al compás completo.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo las notas del 4 y del 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "El 4 y el 5 suenan más flojos que el resto: escucha solo esas notas; si se pierden, haz un par de pasadas acentuándolas a propósito y luego vuelve a igualar.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 2,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-5-4-3-4-3-2, izquierda 5-3-1-2-3-2-3-4. Los dedos que se trabajan son el 3 y el 4. Hanon pide que, al dominarlo, vuelvas al n.º 1 y toques los dos seguidos cuatro veces sin interrupción.",
+   "why": "Fortalece el 3 y el 4, que comparten tendones y tienden a moverse juntos; ganas control para adornos, trinos cortos y voces interiores parejas.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Después del salto del 2 al 5 la mano queda abierta: ciérrala con suavidad para la parte central sin girar la muñeca.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-5-4-3-4-3-2), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-1-2-3-2-3-4).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla la parte central del compás, donde se alternan el 3 y el 4: tócala como un mini-trino lento, levantando cada dedo desde el nudillo, hasta que los dos suenen iguales.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 3 y el 4.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "El 4 se hunde o se mueve pegado al 3: si notas que no puedes levantarlo solo, baja a ♩ = 50 y piensa en levantar el 4 un poco más que los demás.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3 y el 4 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 3,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-5-4-3-2-3-4, izquierda 5-3-1-2-3-4-3-2. Trabaja los dedos 2, 3 y 4. Hanon pide tocar antes el 1 y el 2 seguidos sin parar y, desde aquí, aprender cada ejercicio y encadenarlo con los siguientes (el 3, el 4 y el 5 al menos cuatro veces sin interrupción), parando solo en la última nota de las páginas 3, 6, 9, 12, 15, 18 y 21.",
+   "why": "Da agilidad e igualdad a los dedos centrales, los que más tocan en melodías y escalas; prepara pasajes donde el 2-3-4 corren sin que ninguno sobresalga.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La figura cambia de dirección dentro del compás: baja 4-3-2 y vuelve a subir 3-4. El codo se queda quieto y solo giran los dedos.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-5-4-3-2-3-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-1-2-3-4-3-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca la segunda mitad del compás en bucle (4-3-2-3-4 en la derecha) escuchando que el cambio de dirección no produzca un acento.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 2, el 3 y el 4.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Acento involuntario donde la figura gira: si oyes un golpe en esa nota, tócala más piano a propósito hasta que la línea suene redonda.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 2, el 3 y el 4 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 4,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-1-2-5-…, izquierda 5-4-5-3-1-…. Hanon lo presenta como ejercicio especial para los dedos 3, 4 y 5: tras alternar dedos vecinos, la mano salta al 5 y baja.",
+   "why": "Refuerza la parte externa de la mano, la que lleva la melodía aguda en la derecha y los bajos en la izquierda.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "El salto hacia el 5 abre la mano: prepara el 5 sobre su tecla mientras tocas las primeras notas, sin torcer la muñeca hacia fuera.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-1-2-5-…), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-5-3-1-…).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Practica aislado el gesto del salto y la bajada desde el 5: abre, toca el 5 con la punta firme y deja que el 4 y el 3 caigan en fila.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 3, el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "El 5 se dobla hacia dentro (la última falange se hunde): míralo; si colapsa, toca más lento y más piano hasta que aguante curvado.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 5,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-5-4-5-3-4-2-3, izquierda 5-1-2-1-3-2-4-3. Hanon insiste aquí en que los dedos se levanten alto y con precisión hasta dominar todo el volumen.",
+   "why": "Trabaja los cinco dedos con un zigzag que exige ataque preciso; da articulación clara para pasajes de estilo clásico y barroco.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La figura salta del pulgar al 5 y baja en zigzag (4-5-3-4-2-3): deja la mano abierta sobre las cinco teclas y mueve solo los dedos.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-5-4-5-3-4-2-3), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-1-2-1-3-2-4-3).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca el zigzag en staccato de dedo muy lento: cada dedo sube alto, cae y sale. Después vuelve al legato manteniendo esa precisión.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Notas que se solapan o se cortan en el zigzag: si el legato se vuelve borroso, levanta el dedo anterior justo cuando cae el siguiente, ni antes ni después.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con los cinco dedos tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 6,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-5-4-5-3-5-2-5, izquierda 5-1-2-1-3-1-4-1. El 5 de la derecha (y el pulgar de la izquierda) se repite como nota pivote mientras los demás dedos tocan en medio. Hanon recuerda que hay que tocar cada día, al menos una vez, los ejercicios ya aprendidos.",
+   "why": "Fortalece el 5, que debe sonar firme cuando lleva la melodía aguda; te sirve para cantar la voz superior sobre un acompañamiento en la misma mano.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "El 5 cae varias veces en la misma tecla: piensa en una punta firme y un nudillo sostenido, sin empujar con el brazo.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-5-4-5-3-5-2-5), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-1-2-1-3-1-4-1).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca solo las notas del 5 repetido, con los dedos de en medio rozando sus teclas sin sonar, para sentir el pivote; luego añade las notas interiores.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 5 repetido.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "El 5 suena más fuerte que el resto porque le metes brazo: grábate y escucha; la nota repetida debe quedar al mismo volumen que las otras.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 7,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-3-2-4-3-5-4-3, izquierda 5-3-4-2-3-1-3-4. Hanon lo marca como ejercicio de la mayor importancia para los dedos 3, 4 y 5; la figura es una cadena de terceras quebradas.",
+   "why": "Independiza el 3, el 4 y el 5 con terceras quebradas, una figura que aparece en acompañamientos y arpegios cortos dentro de la mano.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Las parejas 1-3, 2-4 y 3-5 caben en la posición de cinco dedos: mantén la mano abierta y quieta, sin cerrarla en cada intervalo.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-3-2-4-3-5-4-3), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-4-2-3-1-3-4).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca las terceras como bloques (1+3, 2+4, 3+5) para fijar la posición y después vuelve a quebrarlas, igualando las dos notas de cada pareja.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "El 4 o el 5 llegan tarde en su tercera y la figura cojea: practica con ritmo con puntillo en los dos sentidos y vuelve al ritmo parejo.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 8,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-4-5-3-4-2-3, izquierda 5-4-2-1-3-2-4-3. Hanon lo llama ejercicio muy importante para los cinco dedos.",
+   "why": "Iguala los cinco dedos con un cambio de dirección a mitad del compás; prepara pasajes rápidos en los que la mano no puede moverse.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Sube 1-2-4-5 y vuelve en zigzag 3-4-2-3: la mano se queda en su sitio, sin girar la muñeca.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-4-5-3-4-2-3), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-2-1-3-2-4-3).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca cada mitad del compás por separado en bucle (1-2-4-5 y 3-4-2-3) y después únelas sin pausa, cuidando la nota donde la figura cambia de dirección.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Pequeña pausa entre las dos mitades del compás o entre compases: si oyes un hueco con el metrónomo, practica en bucle la última nota de un compás con la primera del siguiente.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con los cinco dedos tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 9,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-3-2-4-3-5-4, izquierda 5-4-3-4-2-3-1-2. Hanon lo describe como extensión del 4 y el 5 y ejercicio general de dedos: la figura avanza dos pasos y retrocede uno.",
+   "why": "Da agilidad general y suelta la apertura 4-5; te sirve en escalas y líneas que suben por grados con pequeños retrocesos.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Siente la mano quieta y los dedos caminando: dos pasos adelante, uno atrás.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-3-2-4-3-5-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-3-4-2-3-1-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla el final del compás (3-5-4 en la derecha, 3-1-2 en la izquierda) y repítelo diez veces para soltar la extensión entre 4 y 5.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "La última nota del compás suena débil: acentúala en algunas pasadas para despertarla y luego vuelve a igualar.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 10,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-5-4-3-2-3-2-3, izquierda 5-1-2-3-4-3-4-3. Hanon lo plantea como preparación del trino con los dedos 3 y 4 de la mano izquierda al subir y de la derecha al bajar.",
+   "why": "Prepara trinos y mordentes con 3-4, frecuentes en música barroca y clásica, y da independencia a esa pareja de dedos.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Tras el salto 1-5 la mano baja hasta los dedos que se alternan: deja el peso sobre ellos y la muñeca suelta.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-5-4-3-2-3-2-3), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-1-2-3-4-3-4-3).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla la alternancia final del compás (3-4-3-4 en la izquierda al subir, y la de la derecha en la bajada) despacio, con dedos que suben y bajan desde el nudillo; acelera solo si sigue sin tensión.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo la alternancia 3-4.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Endurecer el antebrazo en la alternancia: si notas tensión, para, sacude la mano y toca la alternancia más piano.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3 y el 4 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 11,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-5-4-5-4-3-4, izquierda 5-3-1-2-1-2-3-2. Hanon lo presenta como otra preparación del trino, esta vez para el 4 y el 5.",
+   "why": "Fortalece la pareja 4-5, la más difícil de independizar; prepara trinos con dedos externos y una melodía aguda firme.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Después del salto al 5, el 4 y el 5 se alternan: mantén la muñeca alineada con el antebrazo, sin girarla hacia el meñique.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-5-4-5-4-3-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-1-2-1-2-3-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla la alternancia 5-4-5-4 de la derecha (y su equivalente de la izquierda en la bajada): lenta, igual, sin que el 4 arrastre al 5.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo la alternancia 4-5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Rotar la muñeca hacia el meñique para ayudar al 5: si la ves torcerse, baja el tempo y deja que el trabajo lo hagan los dedos.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 12,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 5-1-3-2-1-2-3-1, izquierda 1-5-3-4-5-4-3-5. Hanon lo describe como extensión de 1-5 y ejercicio para 3-4-5: cada compás arranca con la mano abierta de pulgar a meñique.",
+   "why": "Acostumbra la mano a abrirse de 1 a 5 y cerrarse enseguida; aparece en acompañamientos quebrados y saltos dentro de la mano.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La apertura 1-5 se hace soltando la mano, no estirándola: en cuanto tocas la segunda nota, la mano vuelve a su forma natural.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (5-1-3-2-1-2-3-1), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (1-5-3-4-5-4-3-5).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Practica el gesto inicial (5-1 en la derecha, 1-5 en la izquierda) aislado: abre, toca, relaja; diez veces antes del compás completo.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 3, el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Quedarte con la mano estirada todo el compás: si sientes tirantez entre pulgar y meñique, relaja tras cada apertura y baja el tempo.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 13,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 3-1-4-2-5-3-4-5, izquierda 3-5-2-4-1-3-2-1. Lleva impreso (3-4-5): son terceras quebradas que empiezan por la nota de arriba en la derecha y por la de abajo en la izquierda.",
+   "why": "Afina las terceras quebradas, muy comunes en acompañamientos de estilo clásico, y refuerza el 3, el 4 y el 5.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Cada pareja (3-1, 4-2, 5-3) cabe en la posición de cinco dedos: mano fija, sin saltar entre parejas.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (3-1-4-2-5-3-4-5), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (3-5-2-4-1-3-2-1).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca las terceras como bloques (1+3, 2+4, 3+5) y luego quebradas, cuidando que la segunda nota de cada pareja no salga con golpe.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "La segunda nota de cada pareja suena con golpe: escucha solo esas notas y tócalas más ligeras hasta igualar la pareja.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 14,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-4-3-4-3-5-4, izquierda 5-4-2-3-2-3-1-3. Hanon lo presenta como otra preparación del trino para el 3 y el 4.",
+   "why": "Insiste en la independencia del 3 y el 4 para trinos y adornos, y en mantener la mano quieta mientras dos dedos vecinos se alternan.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La alternancia 4-3-4-3 está en medio del compás: deja la mano apoyada y suelta, sin apretar el pulgar.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-4-3-4-3-5-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-2-3-2-3-1-3).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla la alternancia central (4-3-4-3 en la derecha, 2-3-2-3 en la izquierda) en bucle, lenta y pareja, y luego reintégrala al compás.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 3 y el 4.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Los dos dedos que alternan forman parejas desiguales (uno se adelanta): practica con ritmo con puntillo en ambos sentidos y vuelve al parejo.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3 y el 4 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 15,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-1-3-2-4-3-5, izquierda 5-3-4-2-3-1-2-1. Hanon lo describe como extensión de 1-2 y ejercicio para los cinco dedos; la figura sube en terceras quebradas.",
+   "why": "Abre el espacio entre pulgar e índice, necesario en escalas, arpegios y acordes abiertos, y trabaja la mano entera.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La apertura 1-2 abre el compás: deja el pulgar suelto, sin apretarlo contra la mano.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-1-3-2-4-3-5), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-4-2-3-1-2-1).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca el gesto 1-2-1 en bucle sintiendo la apertura entre pulgar e índice, y luego sigue con la subida en terceras quebradas.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el pulgar y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Pulgar rígido: si notas que se tensa, muévelo en círculos lentos en el aire y vuelve a empezar más piano.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con los cinco dedos tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 16,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-3-2-3-5-4-3-4, izquierda 5-3-4-3-1-2-3-2. Hanon lo describe como extensión de 3-5 y ejercicio para 3-4-5.",
+   "why": "Abre el espacio entre el 3 y el 5 y fortalece el lado externo; útil para intervalos amplios dentro de la mano en melodías.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "El salto del 3 al 5 se hace desde el nudillo: la mano no se desplaza para alcanzar la tecla.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-3-2-3-5-4-3-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-3-4-3-1-2-3-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Aísla el salto 3-5 y la vuelta 4-3-4 (en la derecha) diez veces, lento y con sonido lleno.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Mover la mano entera para llegar al 5: obsérvala; si se desplaza, toca más lento y deja que el 5 se abra solo.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 17,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-4-3-5-4-3-4, izquierda 5-4-2-3-1-2-3-2. Hanon lo describe como extensión de 1-2, 2-4 y 4-5, y ejercicio para 3-4-5.",
+   "why": "Abre varias zonas de la mano en un mismo compás; da flexibilidad para figuras que no caben en posición fija de cinco dedos.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Cada apertura se suelta en cuanto se toca: la mano respira entre una extensión y la siguiente.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-4-3-5-4-3-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-2-3-1-2-3-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca por separado los gestos 1-2-4 y 3-5-4 de la derecha (y los equivalentes de la izquierda) hasta sentir cada apertura cómoda, y luego el compás entero.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "La mano se endurece por las aperturas y el sonido se vuelve seco: baja el tempo y piensa en abrir y cerrar como si respiraras.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 3, el 4 y el 5 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 18,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-4-3-5-4-2-3, izquierda 5-4-2-3-1-2-4-3. Lleva impreso (1-2-3-4-5): ejercicio de igualdad y agilidad para los cinco dedos.",
+   "why": "Refuerza la igualdad de toda la mano con una figura que cambia de dirección varias veces; prepara pasajes irregulares de tus obras.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "La figura zigzaguea dentro de la posición de cinco dedos: mano quieta, dedos activos.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-4-3-5-4-2-3), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-2-3-1-2-4-3).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Haz una pasada acentuando las notas del 4 y otra acentuando las del 5; al volver a tocar sin acentos notarás la mano más pareja.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 5.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Una nota se come a la siguiente en los cambios de dirección: escucha nota por nota a ♩ = 50 y vuelve a subir cuando cada una suene clara.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con los cinco dedos tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 19,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-5-3-4-5-3-2-4, izquierda 5-1-3-2-1-3-4-2. Lleva impreso (1-2-3-4-5): la figura salta del pulgar al 5 y se mueve en saltos dentro de la mano.",
+   "why": "Da precisión en saltos internos entre dedos no vecinos, algo constante en acompañamientos y figuraciones románticas.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Coloca la mano abierta sobre las cinco teclas antes de empezar: los saltos internos se hacen con los dedos, no moviendo la mano.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-5-3-4-5-3-2-4), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-1-3-2-1-3-4-2).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Toca el compás despacio nombrando en voz alta cada dedo para que la digitación se fije, y después sin hablar con metrónomo.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 4 y el 2.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Equivocar la digitación en los saltos y sustituirla por una cómoda: comprueba la digitación impresa compás a compás; cambiarla anula el trabajo del ejercicio.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con los cinco dedos tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 20,
+   "what": "En 2/4 y en semicorcheas continuas, cada compás es una figura de ocho notas que sube un grado por compás desde Do durante dos octavas y luego baja por el mismo camino; las dos manos tocan lo mismo a una octava de distancia. Digitación impresa del primer compás: derecha 1-2-4-5-4-3-4-2, izquierda 5-4-2-1-2-3-2-4. Hanon lo describe como extensión de 2-4 y 4-5 y ejercicio para 2-3-4. Cierra la Parte I y su final tiene unos compases distintos antes de la nota última.",
+   "why": "Combina extensiones con trabajo de los dedos centrales y deja la mano lista para los ejercicios más largos de la Parte II.",
+   "setup": [
+    "Siéntate con los antebrazos a la altura del teclado, los codos un poco separados del cuerpo y los hombros sueltos; colócate frente al Do central, donde empiezan las dos manos.",
+    "Dedos curvos, como si sostuvieras una pelota pequeña: el pulgar toca con su borde y la punta del 5 no se aplasta.",
+    "Las extensiones 2-4 y 4-5 se sueltan en cuanto se tocan: no mantengas la mano abierta todo el compás.",
+    "Hanon pide levantar los dedos alto y con precisión: el movimiento sale del nudillo, mientras la muñeca y el antebrazo se quedan quietos y blandos."
+   ],
+   "steps": [
+    "Lee el primer compás y tócalo solo con la mano derecha (1-2-4-5-4-3-4-2), muy lento y sin metrónomo, hasta que la digitación salga sin dudar; repite con la izquierda (5-4-2-1-2-3-2-4).",
+    "Pon el metrónomo a ♩ = 60 y toca el ejercicio completo, subida y bajada, con cada mano por separado en semicorcheas. Si no sale limpio, tócalo en corcheas (la mitad de velocidad) con el mismo pulso.",
+    "Lee aparte los compases finales, que no siguen el patrón, y apréndelos lentos antes de tocar el ejercicio entero.",
+    "Junta las manos a ♩ = 60. Escucha que las dos manos caigan exactamente juntas y que las ocho notas de cada compás suenen igual de fuertes; vigila sobre todo el 2, el 3 y el 4.",
+    "Variantes: una pasada con ritmo con puntillo (larga-corta), otra al revés (corta-larga) y otra en staccato ligero desde el dedo. Al volver al ritmo parejo notarás más igualdad.",
+    "Toca una vez con crescendo al subir y diminuendo al bajar, y otra todo piano, sin que la igualdad se pierda.",
+    "Sube el metrónomo de 4 en 4 solo cuando dos pasadas seguidas salgan limpias y relajadas; si aparece tensión, vuelve al tempo anterior. Para el concierto basta ♩ = 88–92: el 108 que imprime Hanon no hace falta."
+   ],
+   "mistakes": [
+    "Muñeca que sube y baja en cada nota: obsérvala de reojo o imagina una moneda sobre el dorso de la mano; si se mueve, baja el tempo y deja que trabajen solo los dedos.",
+    "Tropezar en el final porque cambia el patrón: márcalo mentalmente y practícalo aislado unas veces antes de cada pasada completa.",
+    "Acelerar sin darte cuenta, sobre todo en la bajada: graba un minuto con metrónomo; si las semicorcheas se adelantan o se agrupan de dos en dos, baja 8 puntos."
+   ],
+   "ready": "Tocas el ejercicio completo con manos juntas a ♩ = 88–92 dos veces seguidas, con el 2, el 3 y el 4 tan claros como los demás y sin tensión en muñeca ni antebrazo.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88–92."
+  },
+  {
+   "no": 21,
+   "what": "Primero de los ejercicios trascendentes de la Parte II: en compás de 4/4 y semicorcheas continuas, el trabajo que hace la izquierda con 3, 4 y 5 en el primer tiempo (5-4-3-4-5-4-3-2) lo repite la derecha invertido en el tercer tiempo (5-4-3-4-5…), y la figura avanza un grado por compás. Hanon imprime ♩ = 60 a 108.",
+   "why": "Trabaja la independencia de 3-4-5 en las dos manos dentro de una figura más larga y menos repetitiva que la Parte I; te prepara para pasajes donde cada mano tiene un trabajo distinto al mismo tiempo.",
+   "setup": [
+    "Siéntate frente al centro del teclado, con los codos sueltos y los antebrazos a la altura de las teclas.",
+    "Dedos curvos y mano en posición de cinco dedos; la digitación impresa del primer compás empieza con derecha 1-2-3-2-1-2-3-4 y izquierda 5-4-3-4-5-4-3-2.",
+    "Fíjate en las marcas (A) y (B) de la partitura: señalan dónde trabaja 3-4-5 cada mano."
+   ],
+   "steps": [
+    "Toca el primer compás con cada mano por separado, lento y sin metrónomo, hasta conocer la digitación sin mirar.",
+    "Con el metrónomo a ♩ = 60, toca el ejercicio entero con cada mano sola; concéntrate en que los tiempos donde trabaja 3-4-5 suenen iguales a los demás.",
+    "Junta las manos a ♩ = 60 compás a compás, y después en tramos de cuatro compases.",
+    "Escucha la alternancia: en el primer tiempo la izquierda es protagonista y en el tercero la derecha; intenta que esos tiempos no suenen ni más fuertes ni más débiles.",
+    "Variantes: una pasada con ritmo con puntillo y otra en staccato ligero desde el dedo, y una pasada piano con la muñeca muy suelta.",
+    "Sube de 4 en 4 cuando dos pasadas seguidas salgan limpias. Para el concierto basta ♩ = 84–92; no necesitas el 108 impreso."
+   ],
+   "mistakes": [
+    "El 4 y el 5 se debilitan justo en los tiempos de trabajo: escucha solo esos grupos; si se pierden, practícalos aislados con acento y vuelve a igualar.",
+    "Las manos se desincronizan cuando una tiene el trabajo difícil: baja a ♩ = 50 y cuenta los cuatro tiempos en voz alta.",
+    "Mano que se tensa por la longitud del compás: haz una pausa breve cada cuatro compases al principio y sacude la mano antes de seguir."
+   ],
+   "ready": "Tocas el ejercicio entero con manos juntas a ♩ = 84–92, sin paradas, con los grupos de 3-4-5 tan claros como el resto.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 84–92."
+  },
+  {
+   "no": 22,
+   "what": "Hanon indica que tiene el mismo objetivo que el n.º 21 (3-4-5): en 4/4 y semicorcheas continuas, cada compás combina una figura de cinco dedos con otra que trabaja el 3, el 4 y el 5, y avanza un grado por compás. La digitación impresa empieza con derecha 1-2-3-2-1-2-3-4 e izquierda 5-3-4-3-5-4-3-2.",
+   "why": "Consolida la independencia de 3-4-5 con un dibujo distinto al del 21, para que la mano no dependa de un único patrón memorizado.",
+   "setup": [
+    "Siéntate frente al centro del teclado, hombros sueltos y antebrazos a la altura de las teclas.",
+    "Mano en posición de cinco dedos con dedos curvos; lee bien la digitación del primer compás antes de tocar.",
+    "La muñeca acompaña sin subir y bajar: el trabajo sale de los dedos."
+   ],
+   "steps": [
+    "Toca el primer compás con cada mano por separado, lento y sin metrónomo, comparándolo con el n.º 21 para ver qué cambia.",
+    "Metrónomo a ♩ = 60: ejercicio completo con cada mano sola, atento a que el 4 y el 5 suenen firmes.",
+    "Junta las manos a ♩ = 60 en tramos de dos compases y luego de cuatro.",
+    "Escucha que las semicorcheas sean regulares en todo el compás, sin precipitarte en la mitad fácil.",
+    "Variantes: ritmo con puntillo en los dos sentidos, y una pasada con crescendo al subir y diminuendo al bajar.",
+    "Sube de 4 en 4 cuando salga limpio dos veces; el objetivo para el plan es ♩ = 84–92."
+   ],
+   "mistakes": [
+    "Confundirlo con el n.º 21 y mezclar digitaciones: mira la partitura en las primeras sesiones y nombra los dedos del primer tiempo antes de empezar.",
+    "Grupos de 3-4-5 más débiles: practícalos aislados y acentuados unas veces, y vuelve al toque parejo.",
+    "Acelerar en la bajada: graba una pasada con metrónomo y comprueba que la bajada mantiene el pulso."
+   ],
+   "ready": "Lo tocas completo con manos juntas a ♩ = 84–92 sin confundirlo con el n.º 21 y con semicorcheas regulares.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 84–92."
+  },
+  {
+   "no": 23,
+   "what": "Lleva impreso (3-4-5): en 4/4 y semicorcheas, cada compás tiene dos mitades; la primera es una figura de cinco dedos (derecha 1-2-3-2-1…, izquierda 5-4-3-4-5) y la segunda salta y trabaja 3-4-5 (derecha 1-5-4-3-2-3-4-3). La figura avanza un grado por compás.",
+   "why": "Trabaja el 3, el 4 y el 5 después de un cambio de posición de la mano, algo que ocurre constantemente en las obras: la mano tiene que llegar y quedar igual de pareja.",
+   "setup": [
+    "Siéntate frente al centro del teclado, codos sueltos, antebrazos a la altura de las teclas.",
+    "Dedos curvos; mira la digitación impresa de las dos mitades del primer compás antes de tocar.",
+    "En el cambio de posición de la mitad del compás, el brazo lleva la mano sin brusquedad y la muñeca queda blanda."
+   ],
+   "steps": [
+    "Toca cada mitad del primer compás por separado y con cada mano sola, lento, hasta conocer la digitación.",
+    "Practica el paso de la primera a la segunda mitad: las dos notas alrededor del cambio, en bucle, sin hueco.",
+    "Metrónomo a ♩ = 60: ejercicio completo con cada mano sola.",
+    "Junta las manos a ♩ = 60, escuchando que el cambio de posición no produzca ni retraso ni acento.",
+    "Variantes: ritmo con puntillo y staccato ligero; una pasada piano.",
+    "Sube de 4 en 4 cuando dos pasadas salgan limpias; objetivo ♩ = 84–92."
+   ],
+   "mistakes": [
+    "Retraso o golpe en el cambio de posición: graba y escucha esa nota; si se nota, practica solo el cambio en bucle.",
+    "El 4 suena débil en la segunda mitad: acentúalo unas pasadas y vuelve a igualar.",
+    "Muñeca rígida para preparar el salto: si notas tensión, sacude la mano y baja el tempo."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 84–92 con manos juntas y el cambio de posición de cada compás no se oye.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 84–92."
+  },
+  {
+   "no": 27,
+   "what": "Lleva impreso (1-2-3-4-5) y la indicación de que prepara los dedos 4 y 5 para el trino que aparece más adelante. En 4/4 y semicorcheas, la primera mitad del compás es una figura de cinco dedos (derecha 3-4-2-3-1-2-3-4, izquierda 3-2-4-3-5-4-3-2) y la segunda alterna el 5 y el 4 (derecha 5-4…5-4-3-2).",
+   "why": "Fortalece y suelta la pareja 4-5 para trinos y adornos en el lado externo de la mano, y para mantener firme la melodía aguda.",
+   "setup": [
+    "Siéntate frente al centro, codos sueltos y muñeca a la altura de los nudillos.",
+    "Dedos curvos; la punta del 5 firme, sin hundir la última falange.",
+    "Fíjate en que la digitación empieza con el 3, no con el pulgar: lee el primer compás con calma.",
+    "En la alternancia 5-4, la muñeca sigue alineada con el antebrazo, sin girar hacia el meñique."
+   ],
+   "steps": [
+    "Toca el primer compás con cada mano sola, lento y sin metrónomo, hasta que la digitación salga sola.",
+    "Aísla la alternancia 5-4: tócala en bucle a ♩ = 50, igualando las dos notas y levantando cada dedo desde el nudillo.",
+    "Metrónomo a ♩ = 50: ejercicio completo con cada mano sola.",
+    "Junta las manos a ♩ = 50, escuchando que el 4 y el 5 suenen igual de claros que los otros dedos.",
+    "Variantes: ritmo con puntillo y una pasada en staccato ligero; luego otra todo piano.",
+    "Sube de 4 en 4 cuando dos pasadas salgan limpias y sin cansancio en el antebrazo; objetivo ♩ = 80."
+   ],
+   "mistakes": [
+    "El antebrazo se cansa o duele en la alternancia 4-5: para, sacude la mano y vuelve más piano y más lento; la fuerza llega con el tiempo, no forzando.",
+    "El 4 arrastra al 5 (se mueven juntos): practica la alternancia aislada aún más lenta, apoyando el 5 mientras levantas el 4.",
+    "Empezar con el pulgar por costumbre: mira la digitación impresa antes de cada pasada en las primeras sesiones."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 80 con manos juntas y la alternancia 4-5 suena pareja y sin tensión.",
+   "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80."
+  },
+  {
+   "no": 31,
+   "what": "Lleva impreso (1-2-3-4-5, y extensiones): en 3/4 y semicorcheas, el primer compás de la derecha alterna cada dedo con el 5 (1-5-4-5-3-5-2-5-1-5-1-5) y la izquierda hace un patrón con extensiones (5-1-2-1-3…). Más adelante la figura cambia de dibujo varias veces y termina en un acorde.",
+   "why": "Combina igualdad de los cinco dedos con aperturas de la mano; prepara figuras de acompañamiento abiertas y melodías que exigen alcanzar teclas lejanas sin perder el legato.",
+   "setup": [
+    "Siéntate frente al centro, codos sueltos y hombros relajados.",
+    "Dedos curvos; en la derecha el 5 funciona como pivote, firme pero sin presión.",
+    "Las extensiones se hacen soltando la mano y cerrándola enseguida, nunca manteniéndola estirada."
+   ],
+   "steps": [
+    "Lee la página entera y localiza los cambios de dibujo; marca con lápiz dónde empieza cada uno.",
+    "Toca el primer dibujo con cada mano sola, lento, hasta que la digitación salga sin mirar; haz lo mismo con cada dibujo nuevo.",
+    "Metrónomo a ♩ = 60: cada dibujo con cada mano sola, cuidando que las aperturas no produzcan huecos.",
+    "Junta las manos a ♩ = 60 por dibujos y después enlázalos.",
+    "Escucha la nota pivote del 5: debe quedar al mismo volumen que las demás.",
+    "Sube de 4 en 4 cuando cada dibujo salga limpio; objetivo ♩ = 84–92."
+   ],
+   "mistakes": [
+    "Mano estirada todo el tiempo, con dolor entre dedos: relaja después de cada apertura y baja el tempo.",
+    "El 5 repetido suena más fuerte: grábate y equilibra; piensa en tocarlo con la punta, no con el brazo.",
+    "Tropezar en los cambios de dibujo: practica los dos compases alrededor de cada cambio en bucle."
+   ],
+   "ready": "Tocas la página completa a ♩ = 84–92 con manos juntas, sin tropezar en los cambios de dibujo y sin tensión en las aperturas.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 84–92."
+  },
+  {
+   "no": 32,
+   "what": "Paso del pulgar bajo el dedo 2: en 6/8, el primer compás se repite cuatro veces, como indica la partitura, alternando 1-2-1-2 para que el pulgar pase bajo el 2; después la figura sube y baja por el teclado con el pulgar pasando continuamente. Hanon imprime ♩. = 40 a 72.",
+   "why": "El paso del pulgar es la base de escalas y arpegios: si el pulgar pasa a tiempo y sin mover el codo, consigues un legato sin pedal en cualquier línea que recorra el teclado.",
+   "setup": [
+    "Siéntate un poco más atrás de lo normal para que los codos puedan moverse lateralmente con libertad.",
+    "Mano curva y relajada; el pulgar cuelga suelto bajo la palma, listo para deslizarse.",
+    "Digitación impresa: 1-2-1-2 en el compás que se repite; el pulgar se mueve hacia su tecla mientras toca el 2.",
+    "El codo acompaña muy poco y la muñeca no se tuerce ni se levanta al pasar el pulgar."
+   ],
+   "steps": [
+    "Sin tocar, mueve el pulgar bajo la palma de un lado a otro con la mano quieta, diez veces, para sentir que el movimiento sale de su base.",
+    "Toca el compás inicial con cada mano sola, lento, repitiéndolo las cuatro veces que pide Hanon; anticipa el pulgar sobre su tecla antes de necesitarlo.",
+    "Metrónomo a ♩ = 60 (la semicorchea o la corchea según te resulte cómodo, con pulso estable): ejercicio completo con cada mano sola.",
+    "Escucha el legato: entre el 2 y el pulgar no debe haber ni hueco ni acento.",
+    "Junta las manos a ♩ = 60 y escucha que los pulgares de las dos manos caigan juntos.",
+    "Variante: toca una pasada en staccato muy ligero para comprobar que el pulgar llega antes de tiempo; luego vuelve al legato.",
+    "Sube de 4 en 4 cuando dos pasadas salgan parejas; objetivo ♩ = 92."
+   ],
+   "mistakes": [
+    "Acento en cada nota del pulgar: graba y escucha; si el pulgar golpea, tócalo más ligero y piensa en deslizarlo, no en dejarlo caer.",
+    "El codo se abre o la muñeca gira para dejar pasar el pulgar: hazlo delante de un espejo o mirando la mano; el pulgar debe moverse solo.",
+    "Pulgar que llega tarde y deja un hueco: prepáralo antes sobre su tecla, en cuanto suelta la anterior."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 92 con manos juntas y no se oye dónde pasa el pulgar.",
+   "tempo": "Pulso en negra con puntillo (6/8). Empieza en ♩. = 40. Objetivo: ♩. = 60–66 (Hanon imprime ♩. = 40 a 72)."
+  },
+  {
+   "no": 33,
+   "what": "Paso del pulgar bajo el dedo 3: en 6/8, el primer compás se repite cuatro veces, como indica la partitura, con la digitación 1-2-3-1-3-2 en la derecha y 1-3-2-1 en la izquierda; luego la figura recorre el teclado con el pulgar pasando bajo el 3. Hanon imprime ♩. = 40 a 72.",
+   "why": "El paso del pulgar bajo el 3 es el que más se usa en escalas; dominarlo te da escalas y líneas melódicas largas y ligadas sin depender del pedal.",
+   "setup": [
+    "Siéntate con espacio para que los codos se muevan un poco hacia los lados.",
+    "Mano curva; el pulgar suelto bajo la palma, sin apretarlo contra el 2.",
+    "Digitación impresa: 1-2-3-1-3-2 (derecha). El pulgar viaja hacia su tecla mientras tocan el 2 y el 3."
+   ],
+   "steps": [
+    "Sin sonido, practica el gesto: dedo 3 apoyado y pulgar que se desliza bajo él hasta la tecla siguiente, diez veces.",
+    "Toca el compás inicial con cada mano sola, lento, repitiéndolo las cuatro veces indicadas.",
+    "Metrónomo a ♩ = 60: ejercicio completo con cada mano sola, con pulso estable.",
+    "Escucha que la nota del pulgar no suene más fuerte ni llegue tarde respecto al 3.",
+    "Junta las manos a ♩ = 60, primero en tramos de dos compases.",
+    "Variante: una pasada en staccato ligero y otra piano con legato muy cuidado.",
+    "Sube de 4 en 4 cuando dos pasadas salgan parejas; objetivo ♩ = 92."
+   ],
+   "mistakes": [
+    "Torcer la muñeca hacia el pulgar al pasarlo: mira la mano; la muñeca se mantiene alineada y el pulgar hace el movimiento.",
+    "Golpe del pulgar: tócalo con el borde y más ligero, y escúchalo en una grabación.",
+    "Levantar la mano para hacer sitio al pulgar: deja la mano a la misma altura y mantén el 3 apoyado hasta que el pulgar llegue."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 92 con manos juntas y una línea ligada sin acentos en el pulgar.",
+   "tempo": "Pulso en negra con puntillo (6/8). Empieza en ♩. = 40. Objetivo: ♩. = 60–66 (Hanon imprime ♩. = 40 a 72)."
+  },
+  {
+   "no": 34,
+   "what": "Paso del pulgar bajo el dedo 4: en 2/4, el primer compás se repite diez veces, como indica la partitura, con la digitación 1-2-3-4-1-4-3-2 en la derecha y 1-4-3-2-1-2-3-4 en la izquierda; después la figura sube y baja por el teclado. Hanon imprime ♩ = 60 a 108.",
+   "why": "El paso bajo el 4 aparece en escalas que empiezan en tecla negra y en arpegios; te da libertad para recorrer el teclado sin cortes en las frases.",
+   "setup": [
+    "Siéntate con espacio para que el codo acompañe un poco el desplazamiento lateral.",
+    "Mano curva y muñeca blanda; el pulgar tiene que recorrer más distancia que en el n.º 33, así que necesita estar muy suelto.",
+    "Digitación impresa: 1-2-3-4-1-4-3-2 (derecha). Prepara el pulgar mientras tocan el 3 y el 4."
+   ],
+   "steps": [
+    "Sin sonido, practica el gesto del pulgar pasando bajo el 4 apoyado, diez veces, sin mover el codo bruscamente.",
+    "Toca el compás inicial con cada mano sola, lento, repitiéndolo las diez veces indicadas.",
+    "Metrónomo a ♩ = 60: ejercicio completo con cada mano sola.",
+    "Escucha la unión entre el 4 y el pulgar: ni hueco ni acento.",
+    "Junta las manos a ♩ = 60 en tramos cortos y luego completo.",
+    "Variantes: ritmo con puntillo y una pasada piano.",
+    "Sube de 4 en 4 cuando dos pasadas salgan parejas; objetivo ♩ = 92 (el 108 impreso no hace falta)."
+   ],
+   "mistakes": [
+    "La mano entera salta para dejar pasar al pulgar: practica el gesto más lento, con el 4 apoyado hasta que el pulgar llega.",
+    "Muñeca torcida hacia fuera tras el paso: obsérvala; vuelve a alinearla en cuanto toca el pulgar.",
+    "Tensión entre pulgar e índice por la distancia: relaja la mano después de cada paso y no fuerces la apertura."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 92 con manos juntas y el paso bajo el 4 es tan liso como bajo el 3.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92."
+  },
+  {
+   "no": 38,
+   "what": "Ejercicio preparatorio para el estudio de las escalas: en 2/4 y semicorcheas, cada compás es un fragmento de escala de ocho notas que sube un grado por compás; la digitación impresa es 1-2-3-1-2-3-4-5 en la derecha y 5-4-3-2-1-3-2-1 en la izquierda, con el pulgar pasando bajo el 3. Termina en una nota larga.",
+   "why": "Es el paso intermedio entre el paso del pulgar aislado y las escalas completas: aprendes a tocar una escala ligada y pareja, que aparece en casi todo el repertorio.",
+   "setup": [
+    "Siéntate frente al centro, con espacio para que los codos se muevan con la mano.",
+    "Mano curva; el pulgar suelto bajo la palma, preparado para pasar.",
+    "Digitación impresa: derecha 1-2-3-1-2-3-4-5 al subir; izquierda 5-4-3-2-1-3-2-1, donde el 3 cruza por encima del pulgar."
+   ],
+   "steps": [
+    "Toca el primer compás con cada mano sola, lento, cuidando que el paso del pulgar (derecha) y el cruce del 3 (izquierda) no se oigan.",
+    "Metrónomo a ♩ = 60: ejercicio completo con cada mano sola.",
+    "Escucha que la escala suene como una línea continua, sin acento en el pulgar ni hueco en el cruce.",
+    "Junta las manos a ♩ = 60. Fíjate en que los pasos de pulgar de las dos manos no coinciden: tócalo despacio hasta que esa diferencia te resulte natural.",
+    "Variantes: crescendo al subir y diminuendo al bajar, y una pasada en staccato ligero.",
+    "Sube de 4 en 4 cuando salga limpio dos veces; objetivo ♩ = 92."
+   ],
+   "mistakes": [
+    "Acento en el pulgar: grábate; si lo oyes, tócalo más ligero y prepáralo antes.",
+    "El codo izquierdo se abre al cruzar el 3 sobre el pulgar: haz el cruce más cerca de las teclas, con la mano casi plana sobre ellas.",
+    "Desorden al juntar manos porque los pasos no coinciden: practica solo los dos primeros compases juntos, muy lento, hasta que encajen."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 92 con manos juntas como una escala ligada, sin acentos en los pasos de pulgar.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92."
+  },
+  {
+   "no": 41,
+   "what": "Arpegios sobre las tríadas en las 24 tonalidades: en 3/4, cada tonalidad (Do mayor, La menor, Fa mayor…) es un arpegio de tríada que sube varias octavas y baja, cerrado con una nota final. En Do mayor la digitación impresa es 1-2-3-1… en la derecha y 5-4-2-1… en la izquierda. Hanon imprime ♩ = 60 a 108.",
+   "why": "Los arpegios te dan el paso del pulgar a distancia y la apertura de la mano; aparecen en acompañamientos, cadencias y pasajes brillantes de tus obras.",
+   "setup": [
+    "Siéntate un poco más atrás para que los brazos puedan recorrer varias octavas sin chocar con el cuerpo.",
+    "Mano abierta pero curva; el pulgar suelto y preparado para pasar bajo el 3 (o el 4, según la digitación impresa de cada tonalidad).",
+    "El brazo guía la mano lateralmente con un movimiento continuo; la muñeca acompaña sin sacudidas."
+   ],
+   "steps": [
+    "Elige una o dos tonalidades por sesión (empieza por Do mayor y La menor) y lee su digitación impresa.",
+    "Toca una octava del arpegio con cada mano sola, lento, cuidando el paso del pulgar.",
+    "Metrónomo a ♩ = 50: el arpegio completo con cada mano sola.",
+    "Escucha que el paso del pulgar no produzca hueco ni acento y que el arpegio suene como un arco.",
+    "Junta las manos a ♩ = 50 cuando cada mano por separado salga limpia.",
+    "Haz una pasada con crescendo al subir y diminuendo al bajar.",
+    "Sube de 4 en 4 cuando salga limpio dos veces; objetivo ♩ = 80. Añade nuevas tonalidades poco a poco."
+   ],
+   "mistakes": [
+    "Saltos o cortes al pasar el pulgar: practica solo el paso (las dos o tres notas alrededor) en bucle lento.",
+    "Mano demasiado estirada en todo el arpegio: abre lo justo para alcanzar y relaja en cuanto tocas.",
+    "Codo pegado al cuerpo que frena el desplazamiento: deja que el brazo se mueva lateralmente con la mano."
+   ],
+   "ready": "Tocas los arpegios de las tonalidades del plan a ♩ = 80 con manos juntas, ligados y sin acentos en el pulgar.",
+   "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80."
+  },
+  {
+   "no": 42,
+   "what": "Extensión de los dedos en arpegios de séptima disminuida: cada fragmento empieza con un compás que se repite cuatro veces, como indica la partitura (derecha 1-2-3-4-5-4-3-2, izquierda 5-4-3-2-1), y sigue con el arpegio por varias octavas. Hanon imprime ♩ = 60 a 120.",
+   "why": "La séptima disminuida reparte la mano en intervalos iguales de tercera menor y obliga a abrirla de forma pareja; prepara arpegios y acordes abiertos del repertorio romántico.",
+   "setup": [
+    "Siéntate con espacio para recorrer varias octavas con los brazos.",
+    "Mano abierta de forma uniforme sobre las cuatro notas del acorde, dedos curvos.",
+    "El brazo lleva la mano lateralmente; el pulgar pasa sin que la muñeca se tuerza."
+   ],
+   "steps": [
+    "Toca el acorde de séptima disminuida de cada fragmento como bloque para sentir la apertura de la mano.",
+    "Toca el compás que se repite, con cada mano sola, las cuatro veces indicadas, lento.",
+    "Metrónomo a ♩ = 50: el fragmento completo con cada mano sola.",
+    "Escucha que las cuatro notas del acorde suenen iguales y que el paso a la octava siguiente sea ligado.",
+    "Junta las manos a ♩ = 50.",
+    "Sube de 4 en 4 cuando salga limpio dos veces; objetivo ♩ = 80."
+   ],
+   "mistakes": [
+    "Dolor o tirantez por la apertura: abre lo justo, relaja después de cada grupo y acorta la sesión si aparece molestia.",
+    "Hueco al pasar a la octava siguiente: practica el enlace entre el último dedo y el pulgar en bucle.",
+    "Notas de distinto volumen porque el 4 o el 5 se quedan cortos: practica el acorde en bloque y luego quebrado."
+   ],
+   "ready": "Tocas los fragmentos a ♩ = 80 con manos juntas, ligados y sin tensión en la apertura.",
+   "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80."
+  },
+  {
+   "no": 44,
+   "what": "Primer ejercicio de la Parte III: notas repetidas en grupos de tres, en 4/4, con la digitación 3-2-1 en cada grupo (también en la izquierda). Hanon pide levantar los dedos alto y con precisión, sin levantar la mano ni la muñeca, y pasar al resto del ejercicio cuando los cuatro primeros compases estén bien aprendidos. Imprime ♩ = 60 a 120.",
+   "why": "Cambiar de dedo en la nota repetida da notas repetidas claras y rápidas sin cansarte; las encontrarás en acompañamientos, melodías con notas repetidas y pasajes de estilo clásico.",
+   "setup": [
+    "Siéntate frente al centro, muñeca a la altura de los nudillos y antebrazo relajado.",
+    "Dedos curvos; los tres dedos 3-2-1 se preparan sobre la misma tecla, uno tras otro.",
+    "Cada dedo toca y se retira hacia la palma, dejando la tecla libre para el siguiente; la mano y la muñeca no suben."
+   ],
+   "steps": [
+    "Toca un solo grupo 3-2-1 sobre una tecla con cada mano, muy lento, sintiendo cómo cada dedo deja la tecla al siguiente.",
+    "Aprende los cuatro primeros compases con cada mano sola, como pide Hanon, antes de seguir.",
+    "Metrónomo a ♩ = 60: los cuatro primeros compases con manos separadas y luego juntas.",
+    "Escucha que las tres notas de cada grupo suenen iguales; la del pulgar no debe salir más fuerte.",
+    "Continúa con el resto del ejercicio a ♩ = 60.",
+    "Variante: toca alguna pasada piano y ligera, desde la superficie de la tecla.",
+    "Sube de 4 en 4 cuando dos pasadas salgan parejas; objetivo ♩ = 88."
+   ],
+   "mistakes": [
+    "La muñeca rebota en cada grupo: mírala; si sube, toca más lento y deja que solo los dedos trabajen.",
+    "La tecla no vuelve a subir y la nota siguiente no suena: retira cada dedo hacia la palma en cuanto toca, sin quedarte apoyado.",
+    "El pulgar golpea más fuerte: graba y equilibra tocando el pulgar más ligero."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 88 con manos juntas, con los tres sonidos de cada grupo iguales y la muñeca quieta.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88."
+  },
+  {
+   "no": 45,
+   "what": "Notas repetidas en grupos de dos con los cinco dedos: cada nota se toca dos veces con dos dedos distintos y ligada en parejas; la partitura indica acentuar la primera de cada pareja y ofrece varias digitaciones. Hanon pide estudiar la primera digitación hasta dominarla, practicar igual cada una de las siguientes y luego tocar el ejercicio entero sin parar. Imprime ♩ = 60 a 108.",
+   "why": "Trabaja el cambio de dedo con todas las combinaciones posibles y la articulación en parejas (fuerte-débil), que da forma a muchas frases del repertorio.",
+   "setup": [
+    "Siéntate frente al centro, muñeca a la altura de los nudillos, antebrazo suelto.",
+    "Dedos curvos; prepara el segundo dedo de cada pareja muy cerca de la tecla.",
+    "La primera nota de la pareja se apoya con un poco de peso y la segunda sale más ligera, con la muñeca subiendo suavemente al final."
+   ],
+   "steps": [
+    "Elige la primera digitación y toca un par de compases con cada mano sola, lento.",
+    "Practica el gesto de la pareja: primera con acento y peso, segunda ligera y soltando.",
+    "Metrónomo a ♩ = 60: el ejercicio completo con la primera digitación, manos separadas y luego juntas.",
+    "Escucha que la repetición sea clara y que el acento caiga siempre en la primera de la pareja.",
+    "En sesiones siguientes, añade una nueva digitación cada vez, como pide Hanon.",
+    "Sube de 4 en 4 cuando dos pasadas salgan limpias; objetivo ♩ = 88."
+   ],
+   "mistakes": [
+    "La segunda nota de la pareja no suena porque la tecla no ha subido: deja que la tecla vuelva antes de tocarla de nuevo, retirando el primer dedo.",
+    "Acento fuera de lugar o parejo en todas las notas: exagera la diferencia fuerte-débil a tempo lento.",
+    "Mezclar digitaciones: estudia una sola por sesión hasta dominarla."
+   ],
+   "ready": "Tocas el ejercicio a ♩ = 88 con manos juntas en la digitación que estés trabajando, con repeticiones claras y el acento en su sitio.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 88."
+  },
+  {
+   "no": 48,
+   "what": "Ejercicio de muñeca: terceras y sextas destacadas (staccato), en 4/4 y semicorcheas, con las terceras digitadas 2-4 al principio. Hanon pide levantar bien la muñeca después de cada golpe, mantener los brazos perfectamente quietos, muñeca flexible y dedos firmes sin rigidez, y practicar los cuatro primeros compases hasta lograr un movimiento de muñeca fácil antes de seguir. Imprime ♩ = 40 a 84.",
+   "why": "Desarrolla el staccato de muñeca para dobles notas y acordes; es la preparación directa de las octavas y de los acordes repetidos que aparecen en las obras.",
+   "setup": [
+    "Siéntate a una altura que deje la muñeca un poco por encima de las teclas y los brazos colgando sueltos de los hombros.",
+    "Dedos firmes en la forma del intervalo (2-4 para las terceras), sin rigidez.",
+    "El movimiento es de la muñeca, como al sacudir agua de la mano: sube después de cada golpe y vuelve a caer, mientras el brazo queda quieto."
+   ],
+   "steps": [
+    "Sin tocar, haz el gesto de muñeca sobre la tapa del piano: caer, rebotar y subir, diez veces.",
+    "Toca una sola tercera repetida con cada mano, lento, cuidando que suba la muñeca y no el brazo.",
+    "Practica los cuatro primeros compases a ♩ = 60, manos separadas, hasta que el movimiento salga fácil, como pide Hanon.",
+    "Junta las manos y escucha que las dos notas de cada intervalo suenen juntas y cortas.",
+    "Continúa con el resto del ejercicio, incluidas las sextas, a ♩ = 60.",
+    "Si notas cansancio en el antebrazo, baja el tempo o para unos segundos; el cansancio indica rigidez.",
+    "Sube de 4 en 4 cuando salga suelto dos veces seguidas; objetivo ♩ = 92."
+   ],
+   "mistakes": [
+    "El brazo entero sube y baja: obsérvate en un espejo; si se mueve el codo, vuelve al gesto sin teclas y empieza más lento.",
+    "Las dos notas del intervalo no suenan juntas: deja los dedos ya formados antes de caer y toca más piano.",
+    "Rigidez y cansancio rápido: para, sacude la mano y retoma más lento y piano."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 92 con manos juntas, intervalos cortos y juntos, y la muñeca suelta sin cansancio.",
+   "tempo": "Empieza en ♩ = 60. Objetivo: ♩ = 92."
+  },
+  {
+   "no": 50,
+   "what": "Terceras ligadas, en 4/4 y semicorcheas; la digitación impresa de la derecha es 1-3, 2-4, 3-5, 2-4, 1-3. Hanon recomienda estudiarlo con cuidado porque las terceras ocupan un lugar muy importante en la música difícil, y pide que todas las notas suenen iguales y muy claras. Imprime M.M. 40 a 84.",
+   "why": "Las terceras ligadas te dan control de dos voces en una misma mano, algo que aparece en melodías a dos voces, acompañamientos y pasajes de dobles notas.",
+   "setup": [
+    "Siéntate frente al centro con la muñeca un poco elevada y el antebrazo suelto.",
+    "Mano en posición de cinco dedos; las dos notas de cada tercera se tocan con dedos firmes y curvos.",
+    "Para el legato, mantén una de las notas hasta que la siguiente tercera suene; la mano se balancea muy poco hacia el lado al que va."
+   ],
+   "steps": [
+    "Toca solo las terceras de la digitación impresa (1-3, 2-4, 3-5) como bloques, lento, con cada mano sola.",
+    "Practica el enlace entre dos terceras, en bucle, escuchando que no haya hueco.",
+    "Metrónomo a ♩ = 40: el ejercicio completo con cada mano sola.",
+    "Escucha que las dos notas de cada tercera suenen exactamente juntas y con el mismo volumen.",
+    "Junta las manos a ♩ = 40.",
+    "Variante: toca solo la voz superior ligada mientras la inferior suena más piano, y luego al revés.",
+    "Sube de 4 en 4 cuando salga parejo dos veces; objetivo ♩ = 72."
+   ],
+   "mistakes": [
+    "Las dos notas de la tercera no caen juntas: deja los dos dedos preparados antes y toca más lento.",
+    "Corte entre terceras: graba y escucha; si hay hueco, practica el enlace en bucle manteniendo una nota hasta que suene la siguiente.",
+    "Tensión en la mano por apretar las dos notas: toca más piano y suelta la tecla una vez suena."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 72 con manos juntas, terceras simultáneas, parejas y ligadas.",
+   "tempo": "Empieza en ♩ = 40. Objetivo: ♩ = 72."
+  },
+  {
+   "no": 51,
+   "what": "Ejercicio preparatorio para las escalas en octavas, en 4/4: octavas repetidas que avanzan por el teclado. Hanon pide muñecas muy flexibles, dedos que toman la octava firmes pero sin rigidez y los dedos libres ligeramente curvados; repetir lentamente las tres primeras líneas hasta lograr un buen movimiento de muñeca y después acelerar, y si las muñecas se cansan, tocar más lento hasta que pase la fatiga y luego volver al tempo. Remite a las indicaciones del n.º 48 e imprime M.M. 40 a 84.",
+   "why": "Construye la octava con muñeca suelta, la base de las octavas en melodía y en pasajes fuertes de tus obras, sin cansancio ni rigidez.",
+   "setup": [
+    "Siéntate a una altura que deje la muñeca un poco por encima de las teclas; brazos sueltos.",
+    "Mano en forma de octava (1-5), firme pero no rígida; los dedos que no tocan, ligeramente curvos, sin tensarlos.",
+    "El movimiento es de muñeca, como en el n.º 48: cae, rebota y sube, mientras el brazo se queda tranquilo."
+   ],
+   "steps": [
+    "Sin tocar, repasa el gesto de muñeca del n.º 48 sobre la tapa del piano.",
+    "Toca una octava repetida con cada mano, lento, cuidando que suba la muñeca y no el codo.",
+    "Practica las tres primeras líneas a ♩ = 50, manos separadas y luego juntas, hasta que el movimiento salga fácil, como pide Hanon.",
+    "Escucha que las dos notas de la octava suenen juntas y que la de arriba (derecha) tenga un poco más de presencia.",
+    "Continúa con el resto del ejercicio sin interrupción.",
+    "Si las muñecas se cansan, toca más lento hasta que pase y luego vuelve a subir, como indica Hanon.",
+    "Sube de 4 en 4 cuando salga suelto dos veces seguidas; objetivo ♩ = 80."
+   ],
+   "mistakes": [
+    "Tocar las octavas con el brazo entero: obsérvate en un espejo; si el codo sube y baja, vuelve al gesto de muñeca lento.",
+    "Mano rígida que se cansa en pocos compases: relaja los dedos que no tocan y toca más piano.",
+    "Notas falsas por mirar solo una nota de la octava: fíjate en el pulgar (derecha) o en el 5 (izquierda) como guía."
+   ],
+   "ready": "Tocas el ejercicio completo a ♩ = 80 con manos juntas, sin interrupción y sin cansancio en las muñecas.",
+   "tempo": "Empieza en ♩ = 50. Objetivo: ♩ = 80."
+  },
+  {
+   "no": 53,
+   "what": "Escalas en octavas en las 24 tonalidades, empezando por Do mayor y La menor, en 4/4 y semicorcheas por varias octavas. Hanon pide practicar primero cada escala hasta tocarla con facilidad y luego las 24 sin interrupción; insiste en que el movimiento de muñeca es el único modo de tocar octavas sin rigidez, con flexibilidad, viveza y energía, y remite a los n.º 48 y 51. Imprime M.M. 40 a 84.",
+   "why": "Une el staccato de muñeca y las escalas: te prepara para pasajes en octavas de las obras, con sonido lleno y sin cansarte.",
+   "setup": [
+    "Siéntate un poco más atrás para que los brazos recorran varias octavas con libertad.",
+    "Mano en forma de octava, firme sin rigidez; la partitura indica algunas notas con el 4 (en general las teclas negras) en lugar del 5.",
+    "Muñeca flexible como en los n.º 48 y 51; el brazo lleva la mano lateralmente sin rigidez."
+   ],
+   "steps": [
+    "Elige una o dos escalas por sesión, empezando por Do mayor y La menor, y lee la digitación impresa.",
+    "Toca la escala con cada mano sola, lento, solo con el pulgar (derecha) o el 5 (izquierda) para aprender el camino; luego añade la otra nota de la octava.",
+    "Metrónomo a ♩ = 40: escala en octavas con cada mano sola, movimiento de muñeca en cada nota.",
+    "Escucha que no haya cortes bruscos ni golpes al cambiar entre teclas blancas y negras.",
+    "Junta las manos a ♩ = 40.",
+    "Si notas cansancio, baja el tempo o para unos segundos, como en el n.º 51.",
+    "Sube de 4 en 4 cuando salga suelta dos veces; objetivo ♩ = 72. Añade tonalidades poco a poco."
+   ],
+   "mistakes": [
+    "Octavas con el brazo rígido: vuelve al gesto de muñeca del n.º 48 y toca más piano.",
+    "Notas falsas al cambiar de dirección o en teclas negras: practica el cambio aislado, mirando el pulgar como guía.",
+    "Querer tocar las 24 de golpe: domina una o dos tonalidades por sesión antes de encadenarlas, como pide Hanon."
+   ],
+   "ready": "Tocas las escalas en octavas de las tonalidades del plan a ♩ = 72 con manos juntas, sin rigidez ni cansancio.",
+   "tempo": "Empieza en ♩ = 40. Objetivo: ♩ = 72."
+  }
+ ]
+}

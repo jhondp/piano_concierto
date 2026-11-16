@@ -111,7 +111,7 @@ Decisiones detrás de la elección de ejercicios:
 - Los Hanon de escalas y arpegios se tocan **en la tonalidad de la obra** (la tabla lo indica, por ejemplo «Hanon 38 en Do mayor»).
 - Ediciones usadas: Hanon *The Virtuoso Pianist* (el PDF dice portugués, pero el texto es la edición inglesa; 60 ejercicios) y Czerny *Erster Lehrmeister* Op. 599, edición Peters n.º 2402 (100 ejercicios). Las páginas de las tablas son las del PDF.
 
-Para practicar cada ejercicio, mira la sección 5. Las tablas siguen el orden de la ruta.
+Para practicar cada ejercicio, mira la sección 5. El sitio tiene una versión más detallada de cada ejercicio y de cada sección de obra (desplegable «Cómo estudiarlo» en cada sesión), escrita después de revisar las partituras. Las tablas siguen el orden de la ruta.
 
 ### 04 · A Flower Is Not a Flower
 
@@ -269,12 +269,12 @@ Yoshihisa Hirano (arr. «DH») · Re menor (sección central en Sol menor) · 2/
 | Sesión | Sección (compases) | Foco técnico | Calentamiento | Técnica | Estudio Czerny |
 |---|---|---|---|---|---|
 | 1 | Lamentoso: melodía sola (1–12) | escalas rápidas | Hanon 1 | Hanon 38 en Re menor (sección central en Sol menor) | nº 22 (pág. 12) |
-| 2 | Lamentoso: respuesta en acordes (13–32) | notas repetidas | Hanon 2 | Hanon 44 | nº 29 (pág. 15) |
-| 3 | Tema en Sol menor (33–50) | octavas | Hanon 3 | Hanon 51 | nº 31 (pág. 16) |
+| 2 | Lamentoso: respuesta en acordes (13–33) | notas repetidas | Hanon 2 | Hanon 44 | nº 29 (pág. 15) |
+| 3 | Tema en Sol menor (34–50) | octavas | Hanon 3 | Hanon 51 | nº 31 (pág. 16) |
 | 4 | Desarrollo y cadencia (51–72) | trinos y adornos | Hanon 4 | Hanon 27 | nº 30 (pág. 16) |
 | 5 | Agitato: acordes repetidos (73–95) | polirritmia 2 contra 3 | Hanon 5 | Hanon 21 | nº 18 (pág. 10) |
 | 6 | Agitato: movimiento perpetuo (96–115) | arpegios amplios en la izquierda | Hanon 6 | Hanon 41 en Re menor (sección central en Sol menor) | nº 34 (pág. 18) |
-| 7 | Clímax y final (116–132) | acordes plaqué | Hanon 7 | Hanon 48 | nº 25 (pág. 13) |
+| 7 | Clímax y final (116–131) | acordes plaqué | Hanon 7 | Hanon 48 | nº 25 (pág. 13) |
 | 8 | Obra completa (todo) | rotación de muñeca | Hanon 8 | Hanon 53 en Re menor (sección central en Sol menor) | nº 28 (pág. 14) |
 
 ### 11 · Again
@@ -395,7 +395,7 @@ Tempo general de Hanon para esta parte: **♩ = 60 → 108** en semicorcheas. Re
 - **Cómo:** abre la mano sin forzar. Si una extensión tensa la mano, cierra la mano después de cada extensión para soltarla.
 
 **Hanon 32, 33 y 34 — paso del pulgar bajo los dedos 2, 3 y 4**
-- **Tempo:** empieza en ♩ = 60, objetivo ♩ = 92.
+- **Tempo:** el 32 y el 33 están en 6/8: pulso en negra con puntillo, empieza en ♩. = 40 y apunta a ♩. = 60–66 (Hanon imprime 40 a 72). El 34 está en 2/4: empieza en ♩ = 60 y apunta a ♩ = 92.
 - **Cómo:** el pulgar se mueve **por debajo de la mano antes de que lo necesites**, no en el último momento. El codo y la muñeca van acompañando hacia el lado, sin girarse bruscamente. Escucha que no haya un hueco ni un acento en la nota del pulgar.
 
 **Hanon 38 — preparación para las escalas (en la tonalidad de la obra)**
@@ -436,16 +436,16 @@ Hanon no da un solo tempo para esta parte. Estas son recomendaciones para este p
 
 ### Czerny Op. 599 — estudios
 
-El catálogo no guarda la indicación de tempo impresa en cada estudio. Lee la que trae tu partitura (Moderato, Allegro, etc.) y usa estos rangos como guía:
+La edición Peters no imprime metrónomo ni indicación de tempo en los n.º 1 a 35, así que estos rangos son una guía:
 
 La clasificación sigue la figura más rápida según el catálogo; si tu partitura muestra otra, usa la fila que corresponda.
 
 | Si el estudio va en… | Tempo inicial | Tempo objetivo |
 |---|---|---|
 | Blancas y negras (n.º 1 a 11) | ♩ = 60 | ♩ = 96–108 |
-| Corcheas (n.º 12, 14, 15, 19, 20, 25, 28) | ♩ = 60 | ♩ = 96–108 |
-| Semicorcheas (n.º 16, 17, 18, 22) | ♩ = 50 | ♩ = 80–92 |
-| Compás de 3/4 tipo vals (n.º 21, 30, 31) | ♩ = 72 | ♩ = 120–132 |
+| Corcheas (n.º 12, 14, 15, 17, 19, 20, 25, 28, 30) | ♩ = 60 | ♩ = 96–108 |
+| Semicorcheas (n.º 16, 18, 22) | ♩ = 50 | ♩ = 80–92 |
+| Compás de 3/4 tipo vals (n.º 21, 31) | ♩ = 72 | ♩ = 120–132 |
 | Compás de 6/8 (n.º 24, 29, 34) | ♩. = 40 (pulso en negra con puntillo) | ♩. = 60–66 |
 | Acordes repetidos (n.º 35) | ♩ = 60 | ♩ = 100 |
 
@@ -523,7 +523,7 @@ En el sitio, cada sesión sugiere hasta tres estrategias según el foco técnico
 | Progreso | Se guarda en el `localStorage` del navegador: queda solo en ese dispositivo |
 | Diseño | Estilo app de Apple, elegante y adaptado al teléfono (barra de pestañas abajo en pantallas chicas), fuente Poppins, paleta #333333, #3C6E71, #FFFFFF, #D9D9D9 y #284B63, sin barras de color al costado de los recuadros |
 | Inicio | Título «Piano concierto», sinopsis tipo nota de prensa (reemplazó a «De qué se trata»), objetivos, teclado de 16 teclas (una por obra) como portada, repertorio, ruta y cuenta regresiva |
-| Página de cada obra | Mapa de secciones, teoría, acordes, sesiones con casillas para marcar, cómo practicar cada ejercicio con su tempo (los mismos textos de la sección 5, en `data/exercise-guide.json`) y estrategias de práctica |
+| Página de cada obra | Mapa de secciones, teoría, acordes, sesiones con casillas para marcar y estrategias de práctica. Cada bloque de la sesión (calentamiento, técnica, estudio, obra y teoría) tiene un desplegable «Cómo estudiarlo» con el paso a paso para estudiar solo: qué es, para qué sirve, cómo se aplica a la obra, preparación, pasos, errores comunes, tempo y cuándo está listo. La parte de la obra nombra los compases difíciles de esa sección y cuándo pasar a la siguiente sesión |
 | Teoría | Currículo de 25 lecciones en 3 niveles, de lo más fácil a lo más difícil (nivel conservatorio intermedio), con audio y preguntas |
 | Entrenar | Un menú de botones donde cada ejercicio tiene su propia página: Notas, Intervalos, Acordes, Lectura a primera vista, Ritmo y Guías. Al salir de un ejercicio, su sonido se detiene |
 | Lectura a primera vista | Fragmentos aleatorios por nivel de dificultad, **solo de obras de dominio público** (Mozart, Debussy, Bach, Chopin), porque el sitio es público. Se descartaron fragmentos ilegibles o con grupos irregulares |

@@ -70,36 +70,57 @@ function practiceHtml(s, sec) {
   </div>`;
 }
 const G = window.DATA.guide || { groups: {} };
-function exercisesHtml(s) {
-  const items = [
-    s.warmup && ["Calentamiento", `Hanon ${s.warmup.no}`, s.warmup.guide, null],
-    s.hanon && ["Técnica", `Hanon ${s.hanon.no}${s.hanon.inKey ? " en " + s.hanon.inKey : ""}`, s.hanon.guide, null],
-    s.czerny && ["Estudio", `Czerny nº ${s.czerny.no}`, s.czerny.guide, (G.czernyNotes || {})[s.czerny.no]],
-  ].filter(x => x && G.groups[x[2]]);
-  if (!items.length) return "";
-  return `<div class="practice"><h4>Cómo practicar los ejercicios</h4>
-    ${items.map(([kind, what, gid, note]) => { const g = G.groups[gid], steps = g.steps === "routine" ? G.routine : g.steps;
-      return `<details class="tech"><summary><span class="tn">${esc(kind)}: ${esc(what)}</span><span class="tf">${esc(g.tempo)}</span></summary>
-        ${note ? `<p><b>En qué fijarte:</b> ${esc(note)}</p>` : ""}<ol>${steps.map(t => `<li>${esc(t)}</li>`).join("")}</ol></details>`; }).join("")}
-    <details class="tech"><summary><span class="tn">Cómo subir el tempo</span><span class="tf">Vale para todos los ejercicios</span></summary>
-      <ol>${(G.method || []).map(t => `<li>${esc(t)}</li>`).join("")}</ol></details>
-  </div>`;
+const HD = window.DATA.hanonDetail || {}, CD = window.DATA.czernyDetail || {};
+const li = xs => (xs || []).map(t => `<li>${esc(t)}</li>`).join("");
+const block = (title, body) => body ? `<h5>${title}</h5>${body}` : "";
+// Exercise guide: the detailed entry when there is one, else the shorter group guide.
+function exerciseHow(d, gid, extra) {
+  const g = G.groups[gid] || {}, steps = g.steps === "routine" ? G.routine : g.steps;
+  if (!d) return `${extra}${block("Tempo", g.tempo && `<p>${esc(g.tempo)}</p>`)}${block("Paso a paso", steps && `<ol>${li(steps)}</ol>`)}`;
+  return `<p>${esc(d.what)}</p>${block("Para qué sirve", `<p>${esc(d.why)}</p>`)}${extra}
+    ${block("Antes de empezar", `<ul>${li(d.setup)}</ul>`)}${block("Paso a paso", `<ol>${li(d.steps)}</ol>`)}
+    ${block("Errores comunes", `<ul>${li(d.mistakes)}</ul>`)}${block("Tempo", `<p>${esc(d.tempo)}</p>`)}
+    ${block("Está listo cuando", `<p>${esc(d.ready)}</p>`)}`;
 }
-$("sessions").innerHTML = p.sessions.map((s, i) => {
+function pieceHow(st, sec) {
+  if (!st) return `<ul>${li(sec ? sec.focus : ["Une todas las secciones sin parar.", "Graba una pasada y anota qué mejorar."])}</ul>${sec && sec.tip ? `<p>${esc(sec.tip)}</p>` : ""}`;
+  return `<p><b>Objetivo:</b> ${esc(st.goal)}</p>${block("Paso a paso", `<ol>${li(st.steps)}</ol>`)}
+    ${block("Pasajes difíciles", (st.hard || []).length && `<ul>${li(st.hard)}</ul>`)}
+    ${block("Pasas a la siguiente sesión cuando", `<p>${esc(st.check)}</p>`)}
+    <p class="muted">Abajo tienes técnicas para los compases que se resistan.</p>`;
+}
+function theoryHow(name) {
+  const t = (p.theory || []).find(x => x.concept === name);
+  return `${t ? `<p>${esc(t.explanation)}</p>${block("En tu partitura", `<p>${esc(t.inScore)}</p>`)}` : ""}
+    ${block("Paso a paso", `<ol>${li(["Lee la explicación y di con tus palabras qué significa.", "Busca en la partitura los compases indicados y márcalos con lápiz.", "Tócalos lento y escucha qué efecto produce ese recurso.", "Toca el mismo pasaje sin él, o cambiándolo, y compara cómo suena.", "Escribe en una frase cómo cambia tu forma de tocar ese pasaje."])}</ol>`)}`;
+}
+const intro = (() => {
+  const days = Math.max(1, Math.round(p.plan.learnWeeks * 7 / p.sessions.length));
+  return `<details class="tech how-intro"><summary><span class="tn">Cómo usar estas sesiones</span><span class="tf">Cada sesión dura unos ${days} días</span></summary>
+    <ol>${li([`Tienes ${p.plan.learnWeeks} semanas para esta obra y ${p.sessions.length} sesiones: repite cada sesión unos ${days} días, todos los días, hasta cumplir lo que dice «Pasas a la siguiente sesión cuando».`,
+      "Sigue el orden de los bloques: calentamiento, técnica, estudio, obra y teoría. Los ejercicios preparan la técnica que la obra pide ese día.",
+      "Toca «Cómo estudiarlo» debajo de cada bloque para ver el paso a paso. Marca el círculo cuando termines el bloque del día.",
+      "Usa siempre metrónomo en los ejercicios y en los pasajes difíciles."])}</ol>
+    ${block("Cómo subir el tempo", `<ol>${li(G.method)}</ol>`)}</details>`;
+})();
+$("sessions").innerHTML = intro + p.sessions.map((s, i) => {
   const sec = p.sections[i];
+  const link = `<p><b>Cómo se aplica a la obra:</b> hoy el foco técnico es ${esc(NEED_ES[s.need] || s.need)}. Este ejercicio prepara esa técnica para «${esc(s.section)}». Al pasar a la obra, busca ahí ese mismo movimiento y tócalo con la misma soltura.</p>`;
   const tasks = [
-    s.warmup && ["Calentamiento", `Hanon ${s.warmup.no}`, s.warmup.title, "5 min"],
-    s.hanon && ["Técnica", `Hanon ${s.hanon.no}${s.hanon.inKey ? " en " + s.hanon.inKey : ""}`, s.hanon.skill || s.hanon.title, "8 min"],
-    s.czerny && ["Estudio", `Czerny Op. 599 nº ${s.czerny.no}`, `${s.czerny.skill} · ${s.czerny.key}, pág. ${s.czerny.page}`, "10 min"],
-    ["Obra", `${s.section} (c. ${s.bars})`, sec ? (sec.focus || [])[0] : "Toca la obra completa.", "18 min"],
-    s.theory && ["Teoría", s.theory, "Búscalo en la partitura (ver Teoría de esta obra).", "4 min"],
+    s.warmup && ["Calentamiento", `Hanon ${s.warmup.no}`, s.warmup.title, "5 min", exerciseHow(HD[s.warmup.no], s.warmup.guide, "")],
+    s.hanon && ["Técnica", `Hanon ${s.hanon.no}${s.hanon.inKey ? " en " + s.hanon.inKey : ""}`, s.hanon.skill || s.hanon.title, "8 min",
+      exerciseHow(HD[s.hanon.no], s.hanon.guide, (s.hanon.inKey ? `<p><b>Hoy en ${esc(s.hanon.inKey)}:</b> tócalo en la tonalidad de la obra, con la digitación de esa escala.</p>` : "") + link)],
+    s.czerny && ["Estudio", `Czerny Op. 599 nº ${s.czerny.no}`, `${s.czerny.skill} · ${s.czerny.key}, pág. ${s.czerny.page}`, "10 min", exerciseHow(CD[s.czerny.no], s.czerny.guide, link)],
+    ["Obra", `${s.section} (c. ${s.bars})`, sec ? (sec.focus || [])[0] : "Toca la obra completa.", "18 min", pieceHow(sec ? sec.study : p.wholeStudy, sec)],
+    s.theory && ["Teoría", s.theory, "Búscalo en la partitura (ver Teoría de esta obra).", "4 min", theoryHow(s.theory)],
   ].filter(Boolean);
   return `<article class="session"><header><h3>Sesión ${s.n}: ${esc(s.section)}</h3><span class="eyebrow">Foco técnico: ${esc(NEED_ES[s.need] || s.need)}</span></header>
-    <div class="list">${tasks.map(([kind, what, detail, t], k) => {
+    <div class="list">${tasks.map(([kind, what, detail, t, how], k) => {
       const key = `${i}-${k}`;
       return `<div class="task"><input type="checkbox" id="t${key}" data-k="${key}" ${checks[key] ? "checked" : ""}><span class="kind">${kind}</span>
-        <label for="t${key}">${esc(what)}<small>${esc(detail)}</small></label><span class="mono">${t}</span></div>`;
-    }).join("")}</div>${exercisesHtml(s)}${practiceHtml(s, sec)}</article>`;
+        <label for="t${key}">${esc(what)}<small>${esc(detail)}</small></label><span class="mono">${t}</span></div>
+        <details class="how"><summary>Cómo estudiarlo</summary><div class="how-body">${how}</div></details>`;
+    }).join("")}</div>${practiceHtml(s, sec)}</article>`;
 }).join("");
 $("sessions").onchange = e => { const k = e.target.dataset.k; if (k) { checks[k] = e.target.checked; store.set("pc-ses-" + p.id, checks); } };
 

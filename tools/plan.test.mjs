@@ -117,7 +117,7 @@ test("every session exercise has a practice guide with tempo and steps", async (
   const guide = read("exercise-guide.json");
   const real = readdirSync(new URL("../data/", import.meta.url)).filter(f => /^pieces-/.test(f)).flatMap(read);
   const H = read("hanon.json").exercises, C = read("czerny.json").exercises;
-  assert.equal(guideId(guide, "hanon", 33), "h-thumb");
+  assert.equal(guideId(guide, "hanon", 34), "h-thumb");
   assert.equal(guideId(guide, "hanon", 57), "h-part3"); // not in any group -> part fallback
   assert.equal(guideId(guide, "czerny", 99), "c-default");
   for (const p of real) for (const s of buildSessions(p, H, C, 0)) {
@@ -126,5 +126,23 @@ test("every session exercise has a practice guide with tempo and steps", async (
       assert.ok(g && g.tempo && g.steps.length, `${p.id} ${kind} ${no} has no guide`);
     }
     assert.ok(guide.czernyNotes[s.czerny.no], `czerny ${s.czerny.no} has no note`);
+  }
+});
+
+test("every session part has a detailed study guide", async () => {
+  const { readFileSync, readdirSync } = await import("node:fs");
+  const read = f => JSON.parse(readFileSync(new URL("../data/" + f, import.meta.url), "utf8"));
+  const H = read("hanon.json").exercises, C = read("czerny.json").exercises;
+  const hd = new Set(read("hanon-detail.json").exercises.filter(e => e.what && e.steps.length >= 5 && e.tempo).map(e => e.no));
+  const cd = new Set(read("czerny-detail.json").exercises.filter(e => e.what && e.steps.length >= 5 && e.tempo).map(e => e.no));
+  const ok = s => s && s.goal && s.steps.length >= 6 && s.check;
+  const real = readdirSync(new URL("../data/", import.meta.url)).filter(f => /^pieces-/.test(f)).flatMap(read);
+  for (const p of real) {
+    assert.ok(ok(p.wholeStudy), `${p.id} has no wholeStudy`);
+    p.sections.forEach((s, i) => assert.ok(ok(s.study), `${p.id} section ${i} has no study`));
+    for (const s of buildSessions(p, H, C, 0)) {
+      assert.ok(hd.has(s.warmup.no) && hd.has(s.hanon.no), `${p.id} Hanon ${s.warmup.no}/${s.hanon.no} has no detail`);
+      assert.ok(cd.has(s.czerny.no), `${p.id} Czerny ${s.czerny.no} has no detail`);
+    }
   }
 });
