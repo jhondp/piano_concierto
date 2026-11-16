@@ -24,7 +24,7 @@ Progress (learned sections, finished lessons, ticked session tasks) is stored in
 | `data/hanon-detail.json`, `data/czerny-detail.json` | Detailed "how to study it" guide for each Hanon and Czerny exercise used in a session (what, why, setup, steps, common mistakes, tempo, when it is ready) |
 | `data/exercise-guide.json` | Shorter fallback guide per exercise group and tempo method, used when an exercise has no detailed entry (keep in sync with `DECISIONES.md` section 5) |
 
-After editing any data or asset, regenerate `assets/data.js` and the `?v=` version stamps on the pages (so phones skip stale caches):
+After editing any data or asset, regenerate `assets/data.js`, the `?v=` version stamps on the pages (so phones skip stale caches) and the generated parts of `DECISIONES.md` (route, sessions and exercise guides):
 
 ```sh
 node tools/build-data.mjs

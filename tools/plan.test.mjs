@@ -146,3 +146,12 @@ test("every session part has a detailed study guide", async () => {
     }
   }
 });
+
+test("DECISIONES.md generated blocks are replaced in place and missing blocks fail", async () => {
+  const { fill } = await import("./decisions.mjs");
+  const md = "a\n<!-- generated:x -->\nold\n<!-- /generated:x -->\nb";
+  const once = fill(md, "x", "new");
+  assert.equal(once, "a\n<!-- generated:x -->\nnew\n<!-- /generated:x -->\nb");
+  assert.equal(fill(once, "x", "new"), once);
+  assert.throws(() => fill(md, "y", "z"), /generated:y/);
+});
