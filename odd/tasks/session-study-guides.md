@@ -9,13 +9,13 @@ Branch: feat/study-site (pushed to main as before) · Delivery: ask-on-risk · T
 - Assumption: content in neutral Spanish (tú), like the rest of the site. Each session shows roughly how many days it lasts (learn weeks × 7 ÷ sessions).
 
 ## Tasks
-- T1 [S1,S2] Hanon detail for every Hanon used in sessions (1–20, 21, 22, 23, 27, 31, 32, 33, 34, 38, 41, 42, 44, 45, 48, 50, 51, 53) → data/hanon-detail.json — delegated (parallel unit, reads Hanon PDF) — done
-- T2 [S1,S2] Czerny detail for nº 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 28, 29, 30, 31, 34, 35 → data/czerny-detail.json — delegated (parallel unit, reads Czerny PDF) — done
-- T3 [S2,S3] Section `study` + piece `wholeStudy` for pieces 01–04 → data/pieces-A.json — delegated (parallel unit, reads scores) — done
-- T4 [S2,S3] same for 05–08 → data/pieces-B.json — delegated — done
-- T5 [S2,S3] same for 09–12 → data/pieces-C.json — delegated — done
-- T6 [S2,S3] same for 13–16 → data/pieces-D.json — delegated — done
-- T7 [S1,S2] UI: "Cómo estudiarlo" disclosure under every task row, theory steps, days per session; build merge; coverage test — inline (parent) — done
+- T1 [S1,S2] Hanon detail for every Hanon used in sessions (1–20, 21, 22, 23, 27, 31, 32, 33, 34, 38, 41, 42, 44, 45, 48, 50, 51, 53) → data/hanon-detail.json — delegated (parallel unit, reads Hanon PDF) — done, 96e8936
+- T2 [S1,S2] Czerny detail for nº 1, 2, 3, 5, 6, 8, 9, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 28, 29, 30, 31, 34, 35 → data/czerny-detail.json — delegated (parallel unit, reads Czerny PDF) — done, 96e8936
+- T3 [S2,S3] Section `study` + piece `wholeStudy` for pieces 01–04 → data/pieces-A.json — delegated (parallel unit, reads scores) — done, 96e8936
+- T4 [S2,S3] same for 05–08 → data/pieces-B.json — delegated — done, 96e8936
+- T5 [S2,S3] same for 09–12 → data/pieces-C.json — delegated — done, 96e8936
+- T6 [S2,S3] same for 13–16 → data/pieces-D.json — delegated — done, 96e8936
+- T7 [S1,S2] UI: "Cómo estudiarlo" disclosure under every task row, theory steps, days per session; build merge; coverage test — inline (parent) — done, 96e8936
 
 ## Log
 - L1 (2026-11-15) "quiero más detalle sobre cómo aplicar la técnica. Estoy en el repertorio, en a flower is not a flower y en la sesión uno en la parte de hanon 21 que dice técnica o hanon1 o caerny, ahí quiero la explicación y en general una buena descripción en cada una de las sesiones en cada parte del estudio que me indique como estudiarlo ya que soy autodidacta.. aplica eso a todas las piezas y todas las sesiones"
