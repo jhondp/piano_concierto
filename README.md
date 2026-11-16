@@ -2,6 +2,8 @@
 
 Static study site for a 16-piece solo piano recital planned for **1 December 2027**: concert overview, repertoire, learning roadmap, per-piece section maps, theory, and study sessions with Hanon and Czerny Op. 599 exercises.
 
+Decisions, learning route, study sessions and how to practise each Hanon and Czerny exercise (with tempos): [`DECISIONES.md`](DECISIONES.md) (Spanish).
+
 ## View it
 
 Open `index.html` in a browser. No build step or server is needed. To serve it locally instead:
